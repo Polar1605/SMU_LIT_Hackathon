@@ -17,7 +17,8 @@
     "typecheck": "tsc --noEmit",
     "inspect": "tsx scripts/inspect-corpus.ts",
     "publish-assets": "tsx scripts/publish-assets.ts",
-    "prebuild": "tsx scripts/publish-assets.ts"
+    "prebuild": "tsx scripts/publish-assets.ts",
+    "exports": "tsx scripts/export-originals.ts"
   },
   "dependencies": {
     "@napi-rs/canvas": "^1.0.8",
