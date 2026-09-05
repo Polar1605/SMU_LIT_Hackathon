@@ -28,11 +28,15 @@ const ESCALATING_FIELDS: Record<string, { severity: "high" | "medium"; subject: 
   terminationForCause: { severity: "medium", subject: "your right to end this contract for breach" },
 };
 
+// "one-off" is deliberately absent: a single fee is not an annual
+// commitment, and counting it — even at x1 — would misrepresent a one-time
+// payment as a recurring yearly cost. Found live: a real RMB50 million
+// one-off cooperation fee in a CUAD contract was inflating "committed a
+// year" by fifty million until this was excluded.
 const ANNUAL_MULTIPLIER: Record<string, number> = {
   monthly: 12,
   quarterly: 4,
   annually: 1,
-  "one-off": 1,
 };
 
 /**

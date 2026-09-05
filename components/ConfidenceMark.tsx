@@ -1,27 +1,23 @@
 import type { Confidence } from "@/lib/types";
-import { CONFIDENCE_LABEL, CONFIDENCE_VAR } from "@/lib/display";
-
-const BG: Record<Confidence, string> = {
-  FOUND: "var(--found-bg)",
-  INFERRED: "var(--inferred-bg)",
-  UNCERTAIN: "var(--uncertain-bg)",
-  NOT_FOUND: "var(--silent-bg)",
-};
+import { CONFIDENCE_LABEL, CONFIDENCE_VAR, CONFIDENCE_WASH } from "@/lib/display";
 
 /**
- * The status pill, always visible and never behind a hover.
- *
- * A filled dot alongside the word, so the state survives greyscale and
- * colour-blindness — the word carries the meaning and the colour only
- * reinforces it.
+ * The status pill, always visible and never behind a hover. Matches the
+ * design's exact pill spec: 999px radius, Mono 500 at 9.5px, uppercase,
+ * 0.1em letter-spacing, a 6px dot carrying the same color as the text so the
+ * state survives greyscale and colour-blindness.
  */
 export function ConfidenceMark({ level, size = "normal" }: { level: Confidence; size?: "normal" | "small" }) {
   return (
     <span
-      className={`inline-flex shrink-0 items-center gap-1.5 rounded-full font-semibold uppercase tracking-wide ${
-        size === "small" ? "px-1.5 py-px text-[10px]" : "px-2 py-0.5 text-[10.5px]"
-      }`}
-      style={{ color: CONFIDENCE_VAR[level], background: BG[level] }}
+      className="ui inline-flex shrink-0 items-center gap-1.5 rounded-full uppercase"
+      style={{
+        padding: size === "small" ? "2px 8px" : "2px 9px",
+        fontSize: "9.5px",
+        letterSpacing: "0.1em",
+        color: CONFIDENCE_VAR[level],
+        background: CONFIDENCE_WASH[level],
+      }}
     >
       <span
         aria-hidden

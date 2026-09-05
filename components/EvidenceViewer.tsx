@@ -148,27 +148,27 @@ export function EvidenceViewer({
       aria-modal="true"
       aria-label={`Evidence for ${citation.clauseId}`}
       className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto p-4 sm:p-8"
-      style={{ background: "rgba(22, 38, 43, 0.55)" }}
+      style={{ background: "rgba(18, 30, 45, 0.5)" }}
       onClick={(event) => {
         if (event.target === event.currentTarget) onClose();
       }}
     >
-      <div className="sheet w-full max-w-4xl">
+      <div style={{ width: "100%", maxWidth: "56rem", background: "var(--card)", border: "1px solid var(--rule)", borderRadius: "3px", boxShadow: "var(--shadow-modal)" }}>
         <header
-          className="flex flex-wrap items-start justify-between gap-3 border-b px-5 py-3.5"
-          style={{ borderColor: "var(--rule)" }}
+          className="flex flex-wrap items-start justify-between gap-3"
+          style={{ borderBottom: "1px solid var(--rule)", padding: "14px 20px" }}
         >
           <div className="min-w-0">
-            <h2 className="text-[1.05rem]">{citation.docTitle}</h2>
-            <p className="ref mt-0.5" style={{ color: "var(--ink-faint)" }}>
+            <h2 style={{ margin: 0, fontSize: "1.2rem", letterSpacing: "-0.008em" }}>{citation.docTitle}</h2>
+            <p className="ref" style={{ margin: "2px 0 0", color: "var(--muted-strong)" }}>
               {citationRef(citation)}
             </p>
           </div>
           <button
             type="button"
             onClick={onClose}
-            className="border px-2.5 py-1 text-sm"
-            style={{ borderColor: "var(--rule-strong)" }}
+            className="btn"
+            style={{ fontSize: "0.82rem" }}
           >
             Close
           </button>
@@ -176,16 +176,16 @@ export function EvidenceViewer({
 
         <div className="px-5 py-4">
           <blockquote
-            className="mb-4 border-l-2 pl-3 text-[0.92rem] leading-relaxed"
-            style={{ borderColor: "var(--found)", fontFamily: "var(--font-newsreader)" }}
+            className="mb-4 pl-3 text-[0.92rem] leading-relaxed"
+            style={{ borderLeft: "2px solid var(--found)", fontFamily: "var(--font-newsreader)" }}
           >
             {citation.quotedText}
           </blockquote>
 
           {status === "error" && (
             <p
-              className="border-l-4 px-3 py-2 text-[0.88rem]"
-              style={{ borderColor: "var(--alert)", background: "var(--alert-wash)" }}
+              className="px-3 py-2 text-[0.88rem]"
+              style={{ borderLeft: "4px solid var(--accent-blue)", background: "var(--conflict-bg)" }}
             >
               {message}
             </p>
@@ -195,7 +195,7 @@ export function EvidenceViewer({
             <>
               {otherPages.length > 1 && (
                 <div className="mb-3 flex items-center gap-2">
-                  <span className="text-[0.85rem]" style={{ color: "var(--ink-soft)" }}>
+                  <span className="text-[0.85rem]" style={{ color: "var(--muted)" }}>
                     This clause runs across two pages:
                   </span>
                   {otherPages.map((n) => (
@@ -203,10 +203,11 @@ export function EvidenceViewer({
                       key={n}
                       type="button"
                       onClick={() => setPage(n)}
-                      className="ref border px-2 py-0.5"
+                      className="ref"
                       style={{
-                        borderColor: n === page ? "var(--ink)" : "var(--rule)",
-                        background: n === page ? "var(--sheet-sunk)" : "transparent",
+                        border: `1px solid ${n === page ? "var(--ink)" : "var(--rule)"}`,
+                        padding: "2px 8px",
+                        background: n === page ? "var(--wash-alt)" : "transparent",
                       }}
                     >
                       page {n}
@@ -216,8 +217,8 @@ export function EvidenceViewer({
               )}
 
               <div
-                className="relative mx-auto w-fit border"
-                style={{ borderColor: "var(--rule-strong)", background: "#fff" }}
+                className="relative mx-auto w-fit"
+                style={{ border: "1px solid var(--input-border)", background: "#fff" }}
               >
                 <canvas ref={canvasRef} className="block" />
                 <div ref={layerRef} className="pointer-events-none absolute left-0 top-0">
@@ -236,7 +237,7 @@ export function EvidenceViewer({
                   ))}
                 </div>
                 {status === "loading" && (
-                  <p className="px-6 py-10 text-center text-sm" style={{ color: "var(--ink-soft)" }}>
+                  <p className="px-6 py-10 text-center text-sm" style={{ color: "var(--muted)" }}>
                     Rendering page {page}…
                   </p>
                 )}
@@ -244,14 +245,14 @@ export function EvidenceViewer({
             </>
           ) : (
             <>
-              <p className="mb-3 text-[0.85rem]" style={{ color: "var(--ink-soft)" }}>
+              <p className="mb-3 text-[0.85rem]" style={{ color: "var(--muted)" }}>
                 This is a word-processor file. It has no fixed pagination, so there is no page number to
                 cite and none is shown — the passage is highlighted in its surrounding text instead.
               </p>
               {slim && (
                 <div
-                  className="max-h-[26rem] overflow-y-auto border p-4 text-[0.88rem] leading-relaxed"
-                  style={{ borderColor: "var(--rule)", background: "#fff" }}
+                  className="max-h-[26rem] overflow-y-auto p-4 text-[0.88rem] leading-relaxed"
+                  style={{ border: "1px solid var(--rule)", background: "#fff" }}
                 >
                   <Context text={slim.fullText} start={citation.charStart} end={citation.charEnd} />
                 </div>
@@ -259,7 +260,7 @@ export function EvidenceViewer({
             </>
           )}
 
-          <p className="mt-4 text-[0.82rem]" style={{ color: "var(--ink-soft)" }}>
+          <p className="mt-4 text-[0.82rem]" style={{ color: "var(--muted)" }}>
             {matchNote(citation)}
           </p>
         </div>
@@ -277,7 +278,7 @@ function Context({ text, start, end }: { text: string; start: number; end: numbe
     <p className="whitespace-pre-wrap">
       {from > 0 && "… "}
       {text.slice(from, start)}
-      <mark style={{ background: "rgba(31, 93, 76, 0.18)", borderBottom: "2px solid var(--found)" }}>
+      <mark style={{ background: "rgba(26, 122, 176, 0.18)", borderBottom: "2px solid var(--found)" }}>
         {text.slice(start, end)}
       </mark>
       {text.slice(end, to)}

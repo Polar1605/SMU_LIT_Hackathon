@@ -15,7 +15,11 @@ import { ConflictBanner } from "@/components/panels";
 import { NextDeadlineCard } from "@/components/NextDeadlineCard";
 
 const LEVELS: Confidence[] = ["FOUND", "INFERRED", "UNCERTAIN", "NOT_FOUND"];
-const ANNUAL_MULTIPLIER: Record<string, number> = { monthly: 12, quarterly: 4, annually: 1, "one-off": 1 };
+// "one-off" and "on-invoice" are deliberately absent: a one-time fee is not an
+// annual commitment (counting it, even at x1, would misrepresent a single
+// payment as a recurring yearly cost), and an invoice-triggered amount has no
+// fixed figure to annualise in the first place.
+const ANNUAL_MULTIPLIER: Record<string, number> = { monthly: 12, quarterly: 4, annually: 1 };
 
 function leadStatement(results: Results, leadDays: number | null): string {
   if (results.conflicts.length > 0) {

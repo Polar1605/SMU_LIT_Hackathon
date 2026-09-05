@@ -34,26 +34,200 @@ interface WorkspaceProps {
   onSelectDocId?: (docId: string) => void;
 }
 
+const AZ = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+
+/** Earliest still-upcoming obligation for this contract, or null if it has none. */
+function soonestDeadline(docId: string, calendar: CalendarEvent[]): string | null {
+  const own = calendar.filter((e) => e.docId === docId && e.actionDeadline !== null && (e.daysUntilDeadline ?? -1) >= 0);
+  if (own.length === 0) return null;
+  return own.reduce((min, e) => (e.actionDeadline! < min ? e.actionDeadline! : min), own[0].actionDeadline!);
+}
+
 export function Workspace({ contracts, calendar = [], selectedDocId, onSelectDocId }: WorkspaceProps) {
-  void calendar; // consumed by the search/ordering logic added on top of this file
   const [internalId, setInternalId] = useState(contracts[0]?.docId ?? "");
   const selectedId = selectedDocId ?? internalId;
   const setSelectedId = onSelectDocId ?? setInternalId;
   const [evidence, setEvidence] = useState<{ citation: Citation; contract: ContractResult } | null>(null);
+
+  const [docQuery, setDocQuery] = useState("");
+  const [docLetter, setDocLetter] = useState<string | null>(null);
+  const [docSuggestOpen, setDocSuggestOpen] = useState(false);
+  const [highlightIndex, setHighlightIndex] = useState(-1);
 
   const selected = contracts.find((c) => c.docId === selectedId) ?? contracts[0];
   if (!selected) return null;
 
   const show = (citation: Citation) => setEvidence({ citation, contract: selected });
 
+  const soonestByDoc = new Map(contracts.map((c) => [c.docId, soonestDeadline(c.docId, calendar)]));
+  const query = docQuery.trim().toLowerCase();
+
+  // Default: the five contracts with the soonest upcoming obligation, soonest
+  // first; contracts with none sort last, alphabetically. A search query or a
+  // letter filter replaces this with the full (unlimited) matching set —
+  // each cancels the other, per the design's own interaction rules.
+  const byDefaultOrder = [...contracts].sort((a, b) => {
+    const da = soonestByDoc.get(a.docId);
+    const db = soonestByDoc.get(b.docId);
+    if (da && db) return da < db ? -1 : da > db ? 1 : 0;
+    if (da) return -1;
+    if (db) return 1;
+    return a.title.localeCompare(b.title);
+  });
+
+  const filtered = query
+    ? byDefaultOrder.filter((c) => c.title.toLowerCase().includes(query))
+    : docLetter
+      ? byDefaultOrder.filter((c) => c.title.toUpperCase().startsWith(docLetter))
+      : null;
+
+  const shownContracts = filtered ?? byDefaultOrder.slice(0, 5);
+  const filterActive = query.length > 0 || docLetter !== null;
+
+  const listNote = query
+    ? `${filtered!.length} match${filtered!.length === 1 ? "" : "es"} for "${docQuery.trim()}"`
+    : docLetter
+      ? `Starting with ${docLetter}`
+      : "Five soonest by obligation date";
+
+  const suggestions = query
+    ? byDefaultOrder.filter((c) => c.title.toLowerCase().includes(query)).slice(0, 6)
+    : [];
+
+  const lettersPresent = new Set(contracts.map((c) => c.title[0]?.toUpperCase()).filter(Boolean));
+
+  function clearFilter(): void {
+    setDocQuery("");
+    setDocLetter(null);
+    setDocSuggestOpen(false);
+  }
+
+  function pick(docId: string, title: string): void {
+    setSelectedId(docId);
+    setDocQuery(title);
+    setDocSuggestOpen(false);
+    setHighlightIndex(-1);
+  }
+
+  function onSearchKeyDown(e: React.KeyboardEvent<HTMLInputElement>): void {
+    if (!docSuggestOpen || suggestions.length === 0) {
+      if (e.key === "Escape") setDocSuggestOpen(false);
+      return;
+    }
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setHighlightIndex((i) => (i + 1) % suggestions.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setHighlightIndex((i) => (i <= 0 ? suggestions.length - 1 : i - 1));
+    } else if (e.key === "Enter") {
+      const target = suggestions[highlightIndex] ?? suggestions[0];
+      if (target) {
+        e.preventDefault();
+        pick(target.docId, target.title);
+      }
+    } else if (e.key === "Escape") {
+      setDocSuggestOpen(false);
+      setHighlightIndex(-1);
+    }
+  }
+
   return (
     <div className="flex flex-col gap-6 lg:flex-row">
       <nav aria-label="Contracts" className="lg:w-60 lg:shrink-0">
         <h2 className="mb-2.5 text-[1.1rem]">Contracts</h2>
+
+        <div className="relative mb-2.5">
+          <input
+            type="search"
+            value={docQuery}
+            onChange={(e) => {
+              setDocQuery(e.target.value);
+              setDocLetter(null);
+              setDocSuggestOpen(true);
+              setHighlightIndex(-1);
+            }}
+            onFocus={() => query.length > 0 && setDocSuggestOpen(true)}
+            onKeyDown={onSearchKeyDown}
+            placeholder="Search by contract name"
+            aria-label="Search contracts by name"
+            className="w-full"
+            style={{ border: "1px solid var(--input-border)", borderRadius: "3px", background: "var(--card)", padding: "9px 11px", fontSize: "0.85rem", color: "var(--ink)" }}
+          />
+          {docSuggestOpen && query.length > 0 && (
+            <div role="listbox" className="absolute left-0 right-0 z-25" style={{ top: "calc(100% + 2px)", background: "var(--card)", border: "1px solid var(--input-border)", boxShadow: "var(--shadow-float-sm)" }}>
+              {suggestions.length === 0 ? (
+                <p style={{ margin: 0, padding: "10px 11px", fontSize: "0.82rem", color: "var(--muted)" }}>No contract by that name.</p>
+              ) : (
+                suggestions.map((c, i) => (
+                  <button
+                    key={c.docId}
+                    type="button"
+                    role="option"
+                    aria-selected={i === highlightIndex}
+                    onClick={() => pick(c.docId, c.title)}
+                    className="row-hover block w-full border-0 bg-transparent text-left"
+                    style={{ padding: "9px 11px", borderBottom: "1px solid var(--wash-alt)", background: i === highlightIndex ? "var(--wash-alt)" : undefined }}
+                  >
+                    <span style={{ display: "block", fontFamily: "var(--font-newsreader)", fontSize: "0.98rem", lineHeight: 1.25 }}>{c.title}</span>
+                    <span className="ui" style={{ display: "block", marginTop: "2px", fontSize: "0.62rem", letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--muted-strong)" }}>
+                      {c.format}
+                    </span>
+                  </button>
+                ))
+              )}
+            </div>
+          )}
+        </div>
+
+        <div role="group" aria-label="Jump to letter" className="mb-3 grid" style={{ gridTemplateColumns: "repeat(13, minmax(0, 1fr))", gap: "1px" }}>
+          {AZ.map((letter) => {
+            const has = lettersPresent.has(letter);
+            const active = docLetter === letter;
+            return (
+              <button
+                key={letter}
+                type="button"
+                disabled={!has}
+                onClick={() => {
+                  if (!has) return;
+                  setDocLetter(active ? null : letter);
+                  setDocQuery("");
+                  setDocSuggestOpen(false);
+                }}
+                className="ref row-hover"
+                style={{
+                  border: 0,
+                  borderRadius: "2px",
+                  padding: "3px 0",
+                  color: active ? "#fbfcfe" : has ? "var(--accent-blue)" : "var(--disabled)",
+                  background: active ? "var(--header)" : "transparent",
+                  fontWeight: has ? 600 : 400,
+                  cursor: has ? "pointer" : "default",
+                }}
+              >
+                {letter}
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="mb-2 flex items-baseline justify-between gap-2">
+          <p className="ui" style={{ margin: 0, fontSize: "0.62rem", fontWeight: 500, letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--muted-strong)" }}>
+            {listNote}
+          </p>
+          {filterActive && (
+            <button type="button" onClick={clearFilter} className="cite ref" style={{ color: "var(--accent-blue)" }}>
+              Clear
+            </button>
+          )}
+        </div>
+
         <ul className="card divide-y overflow-hidden" style={{ borderColor: "var(--border)" }}>
-          {contracts.map((contract) => {
+          {shownContracts.map((contract) => {
             const active = contract.docId === selected.docId;
             const unsettled = contract.fields.filter((f) => f.confidence === "UNCERTAIN").length;
+            const soonest = soonestByDoc.get(contract.docId);
             return (
               <li key={contract.docId}>
                 <button
@@ -84,12 +258,16 @@ export function Workspace({ contracts, calendar = [], selectedDocId, onSelectDoc
                         {unsettled} unsettled
                       </span>
                     )}
+                    {soonest && <span style={{ color: "var(--accent-blue)" }}>next {formatDate(soonest)}</span>}
                   </span>
                 </button>
               </li>
             );
           })}
         </ul>
+        {shownContracts.length === 0 && (
+          <p style={{ margin: "10px 0 0", fontSize: "0.83rem", color: "var(--muted)" }}>No contract matches that filter.</p>
+        )}
       </nav>
 
       <section aria-label={`${selected.title} details`} className="min-w-0 flex-1">

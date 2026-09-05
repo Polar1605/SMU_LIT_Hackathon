@@ -50,7 +50,16 @@ export function DeadlinesTab({ results, onOpenContract }: { results: Results; on
   ];
 
   const selectedEvents = selectedDate ? (byDate.get(selectedDate) ?? []) : [];
-  const upcoming = [...dated].sort((a, b) => (a.actionDeadline! < b.actionDeadline! ? -1 : 1));
+  // Forward-looking only, matching every other "what's coming up" list in the
+  // app (Summary's Act-by, Calendar's Next-90-days). The underlying calendar
+  // data deliberately keeps past term-end events too (lib/deadlines.ts: "a
+  // term having already ended is still worth knowing"), which is correct for
+  // the Contracts tab's per-document detail — but a real portfolio of decades-
+  // old contracts (every CUAD filing predates 2026) would otherwise flood this
+  // list with expired terms and bury anything actually actionable under them.
+  const upcoming = dated
+    .filter((e) => (e.daysUntilDeadline ?? -1) >= 0)
+    .sort((a, b) => (a.actionDeadline! < b.actionDeadline! ? -1 : 1));
 
   return (
     <div style={{ display: "flex", flexWrap: "wrap", gap: "44px", alignItems: "flex-start" }}>
