@@ -22,6 +22,7 @@ import { buildCalendar } from "../lib/deadlines.ts";
 import { detectExclusivityConflicts } from "../lib/conflicts.ts";
 import { buildEscalations } from "../lib/escalate.ts";
 import { classifyRefusal, type CorpusKnowledge } from "../lib/refusal.ts";
+import { publishViewerAssets } from "./publish-assets.ts";
 import { verifyQuote } from "../lib/verify.ts";
 import type { RawExtraction, RawQuote } from "../lib/schema.ts";
 import {
@@ -352,46 +353,8 @@ export async function run(opts: StageOpts): Promise<Results> {
     unavailable.push({ stage: "refusals", reason: "No data/questions.json, so no refusal examples are shown." });
   }
 
-  // The viewer fetches source documents over HTTP, so they have to be served.
-  const publicDir = path.resolve(import.meta.dirname, "..", "public");
-  const publicCorpus = path.join(publicDir, "corpus");
-  const publicParsed = path.join(publicDir, "parsed");
-  await mkdir(publicCorpus, { recursive: true });
-  await mkdir(publicParsed, { recursive: true });
-
-  for (const contract of contracts) {
-    await copyFile(
-      path.join(opts.corpusDir, contract.fileName),
-      path.join(publicCorpus, contract.fileName),
-    ).catch(() => {
-      unavailable.push({
-        stage: "viewer",
-        reason: `${contract.fileName} could not be copied for the evidence viewer, so its clauses cannot be shown in context.`,
-      });
-    });
-
-    // An unpaginated document has no page to render, so the viewer shows the
-    // cited span in its surrounding text instead. Only the text is published —
-    // the full parsed record carries per-word geometry the browser never needs.
-    if (!contract.paginated) {
-      const doc = JSON.parse(
-        await readFile(path.join(parsedDir, `${contract.docId}.json`), "utf8"),
-      ) as ParsedDoc;
-      await writeFile(
-        path.join(publicParsed, `${contract.docId}.json`),
-        JSON.stringify({ fullText: doc.fullText, html: doc.html ?? null }),
-      );
-    }
-  }
-
-  // pdfjs runs its parser in a worker, which has to be served from our origin.
-  const workerSource = createRequire(import.meta.url).resolve("pdfjs-dist/build/pdf.worker.min.mjs");
-  await copyFile(workerSource, path.join(publicDir, "pdf.worker.min.mjs")).catch(() => {
-    unavailable.push({
-      stage: "viewer",
-      reason: "The pdfjs worker could not be published, so PDF pages cannot be rendered in the browser.",
-    });
-  });
+  const published = await publishViewerAssets(opts.corpusDir, opts.dataDir);
+  unavailable.push(...published.unavailable);
 
   const results: Results = {
     generatedAt: new Date().toISOString(),

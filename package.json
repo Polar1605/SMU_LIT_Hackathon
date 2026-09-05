@@ -15,7 +15,9 @@
     "pipeline": "tsx scripts/pipeline.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "inspect": "tsx scripts/inspect-corpus.ts"
+    "inspect": "tsx scripts/inspect-corpus.ts",
+    "publish-assets": "tsx scripts/publish-assets.ts",
+    "prebuild": "tsx scripts/publish-assets.ts"
   },
   "dependencies": {
     "@napi-rs/canvas": "^1.0.8",
