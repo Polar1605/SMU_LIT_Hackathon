@@ -2,12 +2,12 @@
 
 /**
  * App chrome and routing: header, disclaimer, the seven-tab bar, the
- * add-document menu, and which portfolio is currently showing.
+ * add-document control, and which portfolio is currently showing.
  *
  * Every tab is its own file under components/tabs/ — this component only
  * owns state that genuinely crosses tab boundaries (which contract is
- * selected, which tab is active) and the upload machinery, which is
- * unchanged from before this redesign: per-document requests to
+ * selected, which tab is active) and the upload machinery. Files are staged
+ * in a browser-only queue, then submitted as a group through per-document requests to
  * /api/ingest and /api/extract, assembled client-side with the exact
  * lib/assemble.ts functions the CLI uses, held only in this browser tab.
  * No database, no server-side session — see lib/client-pipeline.ts.
@@ -15,7 +15,6 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Results } from "@/lib/types";
-import { formatDate } from "@/lib/display";
 import { runUploadPipeline, type DocumentProgress, type UploadedDocument } from "@/lib/client-pipeline";
 import { PortfolioSourceContext } from "@/lib/portfolio-source";
 import { collectUncertainties } from "@/lib/uncertainties";
@@ -49,21 +48,10 @@ const TAB_LABEL: Record<Tab, string> = {
   limits: "Limits",
 };
 
-interface UploadSource {
-  key: "library" | "files";
-  label: string;
-  hint: string;
+interface QueuedDocument {
+  id: string;
+  file: File;
 }
-
-// Photos and Scan a document were dropped deliberately: Files is the only
-// real, working upload path, and this project's rule is never to present an
-// option that doesn't do what it says. Scanned-document handling itself is
-// unaffected — a scanned PDF uploaded via Files still goes through the same
-// OCR path as any other, unchanged.
-const UPLOAD_SOURCES: UploadSource[] = [
-  { key: "library", label: "Document library", hint: "Contracts already in your matter folder" },
-  { key: "files", label: "Files", hint: "PDF or DOCX from this device" },
-];
 
 export function Dashboard({ cuadResults }: { cuadResults: Results }) {
   const [results, setResults] = useState<Results>(cuadResults);
@@ -73,33 +61,14 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
   const [activeTab, setActiveTab] = useState<Tab>("summary");
   const [docId, setDocId] = useState<string | null>(null);
 
-  const [uploadOpen, setUploadOpen] = useState(false);
   const [phase, setPhase] = useState<"idle" | "processing" | "error">("idle");
   const [progress, setProgress] = useState<DocumentProgress[]>([]);
   const [uploadError, setUploadError] = useState<string | null>(null);
+  const [queuedDocuments, setQueuedDocuments] = useState<QueuedDocument[]>([]);
 
   const filesInputRef = useRef<HTMLInputElement>(null);
-  const menuRef = useRef<HTMLDivElement>(null);
 
-  // Outside-click and Escape dismissal — the prototype explicitly lacked both
-  // (its own README calls this out as something to add for real).
-  useEffect(() => {
-    if (!uploadOpen) return;
-    const onDocClick = (event: MouseEvent) => {
-      if (menuRef.current && !menuRef.current.contains(event.target as Node)) setUploadOpen(false);
-    };
-    const onKey = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setUploadOpen(false);
-    };
-    document.addEventListener("mousedown", onDocClick);
-    document.addEventListener("keydown", onKey);
-    return () => {
-      document.removeEventListener("mousedown", onDocClick);
-      document.removeEventListener("keydown", onKey);
-    };
-  }, [uploadOpen]);
-
-  const hasUnsavedWork = phase === "processing" || source === "uploaded";
+  const hasUnsavedWork = phase === "processing" || source === "uploaded" || queuedDocuments.length > 0;
   useEffect(() => {
     if (!hasUnsavedWork) return;
     const onBeforeUnload = (event: BeforeUnloadEvent) => {
@@ -128,6 +97,7 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
       setSource("uploaded");
       setActiveTab("summary");
       setDocId(null);
+      setQueuedDocuments([]);
       setPhase("idle");
     } catch (error) {
       setUploadError(error instanceof Error ? error.message : String(error));
@@ -135,7 +105,7 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
     }
   }
 
-  async function handleFileInput(fileList: FileList | null): Promise<void> {
+  function handleFileInput(fileList: FileList | null): void {
     if (!fileList || fileList.length === 0) return;
     const valid = Array.from(fileList).filter((f) => /\.(pdf|docx)$/i.test(f.name));
     if (valid.length === 0) {
@@ -143,7 +113,21 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
       setPhase("error");
       return;
     }
-    await processFiles(valid);
+    setQueuedDocuments((current) => [
+      ...current,
+      ...valid.map((file) => ({ id: `${crypto.randomUUID()}-${file.name}`, file })),
+    ]);
+    setUploadError(null);
+    setPhase("idle");
+  }
+
+  function removeQueuedDocument(id: string): void {
+    setQueuedDocuments((current) => current.filter((document) => document.id !== id));
+  }
+
+  function submitQueuedDocuments(): void {
+    if (queuedDocuments.length === 0 || phase === "processing") return;
+    void processFiles(queuedDocuments.map((document) => document.file));
   }
 
   function resetToSample(): void {
@@ -155,6 +139,7 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
     }
     setResults(cuadResults);
     setUploadedDocs(new Map());
+    setQueuedDocuments([]);
     setSource("cuad");
     setPhase("idle");
     setActiveTab("summary");
@@ -166,7 +151,6 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
     setDocId(id);
   }
 
-  const fields = useMemo(() => results.contracts.flatMap((c) => c.fields), [results]);
   const uncertainties = useMemo(() => collectUncertainties(results.contracts), [results]);
   const datedCount = useMemo(
     () => results.calendar.filter((e) => e.actionDeadline !== null).length,
@@ -192,11 +176,8 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
     [uploadedDocs],
   );
 
-  function pickSource(key: UploadSource["key"]): void {
-    setUploadOpen(false);
-    if (key === "files") filesInputRef.current?.click();
-    // "library" has no persistent matter folder behind it in this build —
-    // see the empty state rendered below rather than pretending one exists.
+  function openFilePicker(): void {
+    filesInputRef.current?.click();
   }
 
   return (
@@ -207,7 +188,11 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
         accept=".pdf,.docx"
         multiple
         className="hidden"
-        onChange={(e) => void handleFileInput(e.target.files)}
+        onChange={(e) => {
+          handleFileInput(e.target.files);
+          // Allow choosing the same file again after removing it from the queue.
+          e.currentTarget.value = "";
+        }}
       />
 
       <header style={{ background: "var(--header)", color: "#fbfcfe" }}>
@@ -219,9 +204,6 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
           </h1>
           <p className="m-0 italic" style={{ fontSize: "0.95rem", color: "var(--header-muted)" }}>
             Contract Liability &amp; Agreement Risk Assistant
-          </p>
-          <p className="ref m-0 ml-auto" style={{ color: "var(--header-muted)" }}>
-            {results.contracts.length} contracts · {fields.length} fields · read {formatDate(results.asOf)}
           </p>
         </div>
       </header>
@@ -270,15 +252,14 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
             );
           })}
 
-          <div ref={menuRef} className="relative ml-auto self-center py-2">
+          <div className="ml-auto self-center py-2">
             <button
               type="button"
-              onClick={() => setUploadOpen((v) => !v)}
-              aria-haspopup="true"
-              aria-expanded={uploadOpen}
+              onClick={openFilePicker}
+              disabled={phase === "processing"}
               className="ui inline-flex items-center gap-2 uppercase"
               style={{
-                cursor: "pointer",
+                cursor: phase === "processing" ? "wait" : "pointer",
                 background: "var(--header)",
                 color: "#fbfcfe",
                 border: "1px solid var(--header)",
@@ -293,54 +274,6 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
               </span>
               {phase === "processing" ? "Processing…" : "Add document"}
             </button>
-
-            {uploadOpen && (
-              <div
-                role="menu"
-                className="absolute right-0 z-40"
-                style={{
-                  top: "calc(100% + 2px)",
-                  width: "20rem",
-                  background: "var(--card)",
-                  border: "1px solid var(--rule)",
-                  boxShadow: "var(--shadow-float)",
-                }}
-              >
-                <p
-                  className="ui m-0 uppercase"
-                  style={{
-                    padding: "12px 16px 10px",
-                    borderBottom: "1px solid var(--rule)",
-                    fontSize: "0.63rem",
-                    letterSpacing: "0.14em",
-                    color: "var(--muted-strong)",
-                  }}
-                >
-                  Add a document from
-                </p>
-                {UPLOAD_SOURCES.map((src) => (
-                  <button
-                    key={src.key}
-                    type="button"
-                    role="menuitem"
-                    onClick={() => pickSource(src.key)}
-                    className="row-hover block w-full border-0 bg-transparent text-left"
-                    style={{ padding: "12px 16px", borderBottom: "1px solid var(--wash-alt)" }}
-                  >
-                    <span className="block" style={{ fontSize: "0.9rem", lineHeight: 1.3, color: "var(--ink)" }}>
-                      {src.label}
-                    </span>
-                    <span className="mt-0.5 block" style={{ fontSize: "0.78rem", color: "var(--muted)" }}>
-                      {src.hint}
-                    </span>
-                  </button>
-                ))}
-                <p className="m-0" style={{ padding: "11px 16px 13px", fontSize: "0.75rem", lineHeight: 1.45, color: "var(--muted)" }}>
-                  PDF or DOCX. Scanned pages inside a PDF are read with OCR and every field keeps its page
-                  reference.
-                </p>
-              </div>
-            )}
           </div>
         </div>
       </nav>
@@ -369,6 +302,41 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
           >
             <p style={{ fontSize: "0.88rem" }}>Upload could not be processed: {uploadError}</p>
           </div>
+        )}
+
+        {queuedDocuments.length > 0 && phase !== "processing" && (
+          <section className="card mb-5 px-4 py-3.5" aria-label="Documents ready to submit">
+            <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
+              <div>
+                <h2 style={{ fontSize: "0.98rem" }}>Ready to analyse</h2>
+                <p className="mt-1" style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
+                  Add more files if needed. Nothing is processed until you submit this group.
+                </p>
+              </div>
+              <button type="button" className="btn" onClick={submitQueuedDocuments}>
+                Submit {queuedDocuments.length} document{queuedDocuments.length === 1 ? "" : "s"}
+              </button>
+            </div>
+            <ul className="divide-y" style={{ borderColor: "var(--wash-alt)" }}>
+              {queuedDocuments.map((document) => (
+                <li key={document.id} className="flex items-center gap-3 py-2" style={{ fontSize: "0.85rem" }}>
+                  <span className="min-w-0 flex-1 truncate">{document.file.name}</span>
+                  <span className="shrink-0" style={{ color: "var(--muted)", fontSize: "0.76rem" }}>
+                    {(document.file.size / 1024 / 1024).toFixed(1)} MB
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => removeQueuedDocument(document.id)}
+                    className="cite ref shrink-0"
+                    style={{ color: "var(--accent-blue)" }}
+                    aria-label={`Remove ${document.file.name} from the submission`}
+                  >
+                    Remove
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
 
         {phase === "processing" && (

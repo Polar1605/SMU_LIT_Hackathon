@@ -21,16 +21,6 @@ const LEVELS: Confidence[] = ["FOUND", "INFERRED", "UNCERTAIN", "NOT_FOUND"];
 // fixed figure to annualise in the first place.
 const ANNUAL_MULTIPLIER: Record<string, number> = { monthly: 12, quarterly: 4, annually: 1 };
 
-function leadStatement(results: Results, leadDays: number | null): string {
-  if (results.conflicts.length > 0) {
-    return `${results.conflicts[0].explanation.split(".")[0]}.`;
-  }
-  if (leadDays !== null) {
-    return `A renewal notice falls due in ${leadDays} day${leadDays === 1 ? "" : "s"}, the nearest thing in this portfolio that needs action.`;
-  }
-  return `Nothing in this portfolio requires action in the near term.`;
-}
-
 function annualCommitment(results: Results): string {
   const byCurrency = new Map<string, number>();
   let anyPriced = false;
@@ -64,23 +54,10 @@ export function SummaryTab({ results, onOpenContract }: { results: Results; onOp
 
   return (
     <div>
-      <p
-        style={{
-          margin: "8px 0 0",
-          maxWidth: "36ch",
-          fontFamily: "var(--font-newsreader)",
-          fontWeight: 300,
-          fontSize: "clamp(1.6rem, 3.2vw, 2.3rem)",
-          lineHeight: 1.2,
-          letterSpacing: "-0.015em",
-        }}
-      >
-        {leadStatement(results, leadDays)}
-      </p>
       <p style={{ margin: "18px 0 0", maxWidth: "64ch", fontSize: "0.95rem", lineHeight: 1.65, color: "var(--muted)" }}>
-        {results.escalations.length > 0
-          ? `Everything else in these ${results.contracts.length} contracts is either settled or dated. ${results.escalations.length} question${results.escalations.length === 1 ? "" : "s"} cannot be answered from the documents alone — see Escalations, with the evidence already assembled.`
-          : `Everything in these ${results.contracts.length} contracts is either settled or dated — nothing has reached CLARA's competence boundary.`}
+        {results.conflicts.length > 0
+          ? `${results.conflicts.length} cross-contract conflict${results.conflicts.length === 1 ? " was" : "s were"} identified from the documents.`
+          : `No cross-contract conflicts were identified in these ${results.contracts.length} contracts.`}
       </p>
 
       <dl
@@ -97,7 +74,7 @@ export function SummaryTab({ results, onOpenContract }: { results: Results; onOp
       >
         <Stat label="Next action" labelColor="var(--accent-blue)" value={leadDays === null ? "—" : String(leadDays)} unit={leadDays === null ? "no deadline" : "days"} />
         <Stat label="Committed a year" value={annualCommitment(results)} unit="" />
-        <Stat label="For a lawyer" value={String(results.escalations.length)} unit={results.escalations.length === 1 ? "question" : "questions"} />
+        <Stat label="Cross-contract conflicts" value={String(results.conflicts.length)} unit={results.conflicts.length === 1 ? "conflict" : "conflicts"} />
         <Stat label="Read from source" value={String(readFromSource)} unit={`of ${fields.length} fields`} />
       </dl>
 

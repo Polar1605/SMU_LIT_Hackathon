@@ -127,7 +127,9 @@ export async function runUploadPipeline(opts: RunUploadPipelineOptions): Promise
     contracts,
     asOf: opts.asOf,
     windowDays: opts.windowDays,
-    model: "gpt-5.5-2026-04-23",
+    // Keep in step with DEFAULT_MODEL in lib/llm.ts; not imported from there
+    // because that module pulls in node:crypto/fs and this runs in the browser.
+    model: "gpt-5",
   });
 
   const failed = progress.filter((p) => p.status === "failed");

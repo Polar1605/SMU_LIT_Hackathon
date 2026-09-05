@@ -99,7 +99,7 @@ export function EvidenceViewer({
       // directly, with no server round trip, exactly as it does for the
       // static corpora except reading from memory instead of a URL.
       const doc = uploaded
-        ? await pdfjs.getDocument({ data: new Uint8Array(uploaded.bytes) }).promise
+        ? await pdfjs.getDocument({ data: new Uint8Array(uploaded.bytes.slice(0)) }).promise
         : await pdfjs.getDocument({ url: `/corpus/${contract.fileName}` }).promise;
       const pdfPage = await doc.getPage(page);
 

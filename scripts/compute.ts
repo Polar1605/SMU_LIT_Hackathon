@@ -18,6 +18,7 @@ import { parseArgs } from "node:util";
 import path from "node:path";
 
 import { assembleContract, assembleResults } from "../lib/assemble.ts";
+import { DEFAULT_MODEL } from "../lib/llm.ts";
 import { publishViewerAssets } from "./publish-assets.ts";
 import type { RawExtraction } from "../lib/schema.ts";
 import type { ContractResult, ParsedDoc, Results, StageOpts } from "../lib/types.ts";
@@ -65,7 +66,7 @@ export async function run(opts: StageOpts): Promise<Results> {
     contracts,
     asOf: opts.asOf,
     windowDays: opts.windowDays,
-    model: process.env.AITHENA_MODEL ?? "gpt-5.5-2026-04-23",
+    model: process.env.AITHENA_MODEL ?? DEFAULT_MODEL,
     questions,
   });
 
