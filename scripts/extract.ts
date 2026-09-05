@@ -38,7 +38,8 @@ import type { ParsedDoc, StageOpts } from "../lib/types.ts";
 /** Well clear of a 500k TPM tier at ~15k tokens a contract, and of 500 RPM. */
 export const DEFAULT_CONCURRENCY = 8;
 
-const SYSTEM_PROMPT = `You extract contractual terms from a single agreement and return them as structured data.
+/** Exported so the upload API route sends the model the identical prompt the CLI uses. */
+export const SYSTEM_PROMPT = `You extract contractual terms from a single agreement and return them as structured data.
 
 HOW YOUR QUOTES ARE USED
 Every quote you return is programmatically searched for in the exact document text you were given. If a quote cannot be located, the entire field is discarded and reported to the user as unverifiable — your answer is thrown away, not corrected. So copy spans character-for-character from the text supplied below. Do not tidy spacing, do not straighten quotation marks, do not fix apparent typos, and do not join text that the document separates. If the document text contains obvious character-recognition errors because it came from a scan, quote the errors exactly as they appear; that is what the document says as far as anyone can tell, and it is recorded honestly downstream.
@@ -80,7 +81,8 @@ Name the grantee and grantor as the LEGAL ENTITIES they are, resolving defined t
 
 Make no claim that does not come from this document. No statutes, no market practice, no view on enforceability.`;
 
-function userPrompt(doc: ParsedDoc): string {
+/** Exported so the upload API route builds the identical prompt the CLI uses. */
+export function userPrompt(doc: ParsedDoc): string {
   const provenance = doc.ocrPages.length
     ? `This text came from optical character recognition of a scanned document (pages ${doc.ocrPages.join(", ")}). It may contain recognition errors. Quote them exactly as they appear.`
     : doc.paginated

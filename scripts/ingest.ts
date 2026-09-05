@@ -229,7 +229,8 @@ function titleFromFileName(fileName: string): string {
     .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-async function ingestPdf(filePath: string, fileName: string): Promise<ParsedDoc> {
+/** Exported so the upload API route can ingest a single file without a directory scan. */
+export async function ingestPdf(filePath: string, fileName: string): Promise<ParsedDoc> {
   const doc = await openPdf(filePath);
   const docId = path.basename(fileName, path.extname(fileName));
   const title = (await doc.getTitle()) ?? titleFromFileName(fileName);
@@ -311,7 +312,8 @@ function docxTitle(text: string): string | null {
   return first;
 }
 
-async function ingestDocx(filePath: string, fileName: string): Promise<ParsedDoc> {
+/** Exported so the upload API route can ingest a single file without a directory scan. */
+export async function ingestDocx(filePath: string, fileName: string): Promise<ParsedDoc> {
   const buffer = await readFile(filePath);
   const [raw, html] = await Promise.all([
     mammoth.extractRawText({ buffer }),
@@ -353,7 +355,8 @@ async function ingestDocx(filePath: string, fileName: string): Promise<ParsedDoc
 /* ------------------------------------------------------------------ */
 
 /** Guards the invariant the rest of the pipeline assumes. */
-function assertOffsets(doc: ParsedDoc): void {
+/** Exported so the upload API route enforces the same invariant on untrusted input. */
+export function assertOffsets(doc: ParsedDoc): void {
   for (const page of doc.pages) {
     if (doc.fullText.slice(page.charStart, page.charEnd).length !== page.charEnd - page.charStart) {
       throw new Error(`${doc.docId}: page ${page.pageNum} range falls outside fullText`);

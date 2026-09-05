@@ -16,7 +16,6 @@
  */
 
 import { copyFile, mkdir, readdir, readFile, writeFile } from "node:fs/promises";
-import { createRequire } from "node:module";
 import { parseArgs } from "node:util";
 import path from "node:path";
 
@@ -74,8 +73,19 @@ export async function publishViewerAssets(corpusDir: string, dataDir: string): P
   }
 
   // pdfjs runs its parser in a worker, which must be served from our origin.
+  // Not createRequire(...).resolve(...): both webpack and Turbopack statically
+  // rewrite require.resolve(...) calls into a bundler-internal module id, even
+  // for a dynamically created require — see lib/pdf.ts for where that broke a
+  // route at runtime. This script only ever runs under tsx today, so it was
+  // never actually broken, but it is the identical fragile pattern.
   try {
-    const workerSource = createRequire(import.meta.url).resolve("pdfjs-dist/build/pdf.worker.min.mjs");
+    const workerSource = path.join(
+      process.cwd(),
+      "node_modules",
+      "pdfjs-dist",
+      "build",
+      "pdf.worker.min.mjs",
+    );
     await copyFile(workerSource, path.join(publicDir, "pdf.worker.min.mjs"));
   } catch {
     unavailable.push({

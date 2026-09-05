@@ -12,7 +12,6 @@
 
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import { createRequire } from "node:module";
 import { createCanvas, type Canvas } from "@napi-rs/canvas";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -36,9 +35,18 @@ export interface PdfPageText {
 }
 
 export function standardFontDir(): string {
-  const require = createRequire(import.meta.url);
-  const entry = require.resolve("pdfjs-dist/package.json");
-  const dir = path.join(path.dirname(entry), "standard_fonts").replaceAll("\\", "/");
+  // Deliberately not createRequire(import.meta.url).resolve(...): both webpack
+  // and Turbopack statically pattern-match `require.resolve(...)` in source
+  // code and rewrite the call into a bundler-internal numeric module id, even
+  // when the `require` is a dynamically created one they have no business
+  // touching. That numeric id then flows into path.dirname() and throws —
+  // reproduced identically under both bundlers, never under plain Node/tsx.
+  // pdfjs-dist is external (next.config.ts), so its real node_modules folder
+  // ships beside the server code; process.cwd() is the sanctioned way to find
+  // it precisely because externalizing a package is what makes that reliable.
+  const dir = path
+    .join(process.cwd(), "node_modules", "pdfjs-dist", "standard_fonts")
+    .replaceAll("\\", "/");
   return `${dir}/`;
 }
 
