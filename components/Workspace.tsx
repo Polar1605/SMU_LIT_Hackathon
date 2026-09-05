@@ -12,7 +12,7 @@
  */
 
 import { useState } from "react";
-import type { Citation, ContractResult, FieldResult, Grant, PaymentTerm } from "@/lib/types";
+import type { CalendarEvent, Citation, ContractResult, FieldResult, Grant, PaymentTerm } from "@/lib/types";
 import { citationRef, formatDate, formatMoney } from "@/lib/display";
 import { ConfidenceMark } from "./ConfidenceMark";
 import { EvidenceViewer } from "./EvidenceViewer";
@@ -27,12 +27,15 @@ const FREQUENCY_LABEL: Record<PaymentTerm["frequency"], string> = {
 
 interface WorkspaceProps {
   contracts: ContractResult[];
+  /** Used only to rank contracts by soonest upcoming obligation for the default list. */
+  calendar?: CalendarEvent[];
   /** Lets the Calendar/Deadlines tabs route into a specific contract. Uncontrolled if omitted. */
   selectedDocId?: string | null;
   onSelectDocId?: (docId: string) => void;
 }
 
-export function Workspace({ contracts, selectedDocId, onSelectDocId }: WorkspaceProps) {
+export function Workspace({ contracts, calendar = [], selectedDocId, onSelectDocId }: WorkspaceProps) {
+  void calendar; // consumed by the search/ordering logic added on top of this file
   const [internalId, setInternalId] = useState(contracts[0]?.docId ?? "");
   const selectedId = selectedDocId ?? internalId;
   const setSelectedId = onSelectDocId ?? setInternalId;

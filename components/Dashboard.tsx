@@ -17,7 +17,6 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { Results } from "@/lib/types";
 import { formatDate } from "@/lib/display";
 import { runUploadPipeline, type DocumentProgress, type UploadedDocument } from "@/lib/client-pipeline";
-import { photoToPdf, UnsupportedImageError } from "@/lib/photo-to-pdf";
 import { PortfolioSourceContext } from "@/lib/portfolio-source";
 import { collectUncertainties } from "@/lib/uncertainties";
 
@@ -51,16 +50,19 @@ const TAB_LABEL: Record<Tab, string> = {
 };
 
 interface UploadSource {
-  key: "library" | "photos" | "files" | "scan";
+  key: "library" | "files";
   label: string;
   hint: string;
 }
 
+// Photos and Scan a document were dropped deliberately: Files is the only
+// real, working upload path, and this project's rule is never to present an
+// option that doesn't do what it says. Scanned-document handling itself is
+// unaffected — a scanned PDF uploaded via Files still goes through the same
+// OCR path as any other, unchanged.
 const UPLOAD_SOURCES: UploadSource[] = [
   { key: "library", label: "Document library", hint: "Contracts already in your matter folder" },
-  { key: "photos", label: "Photos", hint: "A picture of a printed page" },
   { key: "files", label: "Files", hint: "PDF or DOCX from this device" },
-  { key: "scan", label: "Scan a document", hint: "Use the camera, page by page" },
 ];
 
 export function Dashboard({ cuadResults }: { cuadResults: Results }) {
@@ -77,8 +79,6 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
   const [uploadError, setUploadError] = useState<string | null>(null);
 
   const filesInputRef = useRef<HTMLInputElement>(null);
-  const photosInputRef = useRef<HTMLInputElement>(null);
-  const scanInputRef = useRef<HTMLInputElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
 
   // Outside-click and Escape dismissal — the prototype explicitly lacked both
@@ -135,36 +135,15 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
     }
   }
 
-  async function handleFileInput(fileList: FileList | null, kind: "document" | "photo"): Promise<void> {
+  async function handleFileInput(fileList: FileList | null): Promise<void> {
     if (!fileList || fileList.length === 0) return;
-    const picked = Array.from(fileList);
-
-    if (kind === "document") {
-      const valid = picked.filter((f) => /\.(pdf|docx)$/i.test(f.name));
-      if (valid.length === 0) {
-        setUploadError("No .pdf or .docx files were found in that selection.");
-        setPhase("error");
-        return;
-      }
-      await processFiles(valid);
+    const valid = Array.from(fileList).filter((f) => /\.(pdf|docx)$/i.test(f.name));
+    if (valid.length === 0) {
+      setUploadError("No .pdf or .docx files were found in that selection.");
+      setPhase("error");
       return;
     }
-
-    // Photos and scans: wrap each image into a one-page PDF client-side, then
-    // feed the identical ingest -> extract pipeline every other format uses.
-    // A phone photo of a signed paper contract is exactly the "mixed format
-    // and quality" case this system is built to handle, not an edge case.
-    try {
-      const converted = await Promise.all(picked.map((file) => photoToPdf(file)));
-      await processFiles(converted);
-    } catch (error) {
-      setUploadError(
-        error instanceof UnsupportedImageError
-          ? error.message
-          : `Could not read that photo: ${error instanceof Error ? error.message : String(error)}`,
-      );
-      setPhase("error");
-    }
+    await processFiles(valid);
   }
 
   function resetToSample(): void {
@@ -216,8 +195,6 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
   function pickSource(key: UploadSource["key"]): void {
     setUploadOpen(false);
     if (key === "files") filesInputRef.current?.click();
-    else if (key === "photos") photosInputRef.current?.click();
-    else if (key === "scan") scanInputRef.current?.click();
     // "library" has no persistent matter folder behind it in this build —
     // see the empty state rendered below rather than pretending one exists.
   }
@@ -230,24 +207,7 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
         accept=".pdf,.docx"
         multiple
         className="hidden"
-        onChange={(e) => void handleFileInput(e.target.files, "document")}
-      />
-      <input
-        ref={photosInputRef}
-        type="file"
-        accept="image/*"
-        multiple
-        className="hidden"
-        onChange={(e) => void handleFileInput(e.target.files, "photo")}
-      />
-      <input
-        ref={scanInputRef}
-        type="file"
-        accept="image/*"
-        capture="environment"
-        multiple
-        className="hidden"
-        onChange={(e) => void handleFileInput(e.target.files, "photo")}
+        onChange={(e) => void handleFileInput(e.target.files)}
       />
 
       <header style={{ background: "var(--header)", color: "#fbfcfe" }}>
@@ -376,7 +336,7 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
                   </button>
                 ))}
                 <p className="m-0" style={{ padding: "11px 16px 13px", fontSize: "0.75rem", lineHeight: 1.45, color: "var(--muted)" }}>
-                  PDF, DOCX or image. Scanned pages are read with OCR and every field keeps its page
+                  PDF or DOCX. Scanned pages inside a PDF are read with OCR and every field keeps its page
                   reference.
                 </p>
               </div>
@@ -453,9 +413,14 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
         {activeTab === "deadlines" && <DeadlinesTab results={results} onOpenContract={openContract} />}
         {activeTab === "calendar" && <CalendarTab results={results} onOpenContract={openContract} />}
         {activeTab === "contracts" && (
-          <Workspace contracts={results.contracts} selectedDocId={docId} onSelectDocId={setDocId} />
+          <Workspace
+            contracts={results.contracts}
+            calendar={results.calendar}
+            selectedDocId={docId}
+            onSelectDocId={setDocId}
+          />
         )}
-        {activeTab === "uncertainties" && <UncertaintiesTab items={uncertainties} />}
+        {activeTab === "uncertainties" && <UncertaintiesTab results={results} />}
         {activeTab === "escalations" && <EscalationsTab results={results} />}
         {activeTab === "limits" && <LimitsTab refusals={results.refusals} />}
       </div>

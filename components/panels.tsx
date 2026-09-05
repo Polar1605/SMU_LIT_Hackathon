@@ -10,6 +10,18 @@ import type { EscalationBrief, ExclusivityConflict, RefusedQuestion } from "@/li
 import { citationRef } from "@/lib/display";
 import { ConfidenceMark } from "./ConfidenceMark";
 
+/**
+ * A punchy one-line heading computed from the actual conflict, not a fixed
+ * string — this used to hardcode "Singapore is promised to two
+ * distributors" unconditionally, which was correct only for the one
+ * synthetic-corpus conflict it was written against and wrong for any other
+ * conflict a real portfolio (CUAD, or an upload) might surface.
+ */
+function conflictHeading(conflict: ExclusivityConflict): string {
+  const scope = conflict.overlapTerritories[0] ?? conflict.grants[0].territoryLabel;
+  return `${scope} is promised to two parties`;
+}
+
 export function ConflictBanner({ conflicts }: { conflicts: ExclusivityConflict[] }) {
   if (conflicts.length === 0) return null;
 
@@ -18,23 +30,32 @@ export function ConflictBanner({ conflicts }: { conflicts: ExclusivityConflict[]
       {conflicts.map((conflict) => (
         <div
           key={conflict.id}
-          className="card overflow-hidden"
-          style={{ borderColor: "var(--alert)", boxShadow: "var(--shadow-raised)" }}
+          style={{
+            overflow: "hidden",
+            background: "var(--card)",
+            border: "1px solid var(--accent-blue)",
+            borderRadius: "3px",
+            boxShadow: "var(--shadow-modal)",
+          }}
         >
           <div
-            className="flex flex-wrap items-center gap-x-3 gap-y-1 px-4 py-2"
-            style={{ background: "var(--alert)", color: "#fff" }}
+            className="flex flex-wrap items-center gap-x-3.5 gap-y-1"
+            style={{ padding: "12px 20px", background: "var(--accent-blue)", color: "#fbfcfe" }}
           >
-            <span className="ui text-[0.72rem] uppercase tracking-wider">Conflict across contracts</span>
-            <h2 className="text-[1rem]">Singapore is promised to two distributors</h2>
+            <span className="ui" style={{ fontSize: "0.68rem", textTransform: "uppercase", letterSpacing: "0.12em", opacity: 0.85 }}>
+              Conflict across contracts
+            </span>
+            <h2 style={{ margin: 0, fontSize: "1.18rem" }}>{conflictHeading(conflict)}</h2>
             <span className="ml-auto">
               <ConfidenceMark level={conflict.confidence} size="small" />
             </span>
           </div>
-          <div className="px-4 py-3" style={{ background: "var(--alert-bg)" }}>
-            <p className="max-w-[88ch] text-[0.88rem] leading-relaxed">{conflict.explanation}</p>
+          <div style={{ padding: "18px 20px", background: "var(--conflict-bg)" }}>
+            <p style={{ margin: 0, maxWidth: "84ch", fontFamily: "var(--font-newsreader)", fontSize: "1.02rem", lineHeight: 1.6 }}>
+              {conflict.explanation}
+            </p>
             {conflict.confidence !== "FOUND" && (
-              <p className="mt-2 max-w-[88ch] text-[0.8rem]" style={{ color: "var(--ink-soft)" }}>
+              <p style={{ margin: "8px 0 0", maxWidth: "88ch", fontSize: "0.8rem", color: "var(--muted)" }}>
                 Reported as {conflict.confidence.toLowerCase().replace("_", " ")} because a conflict is never
                 more certain than the grants it rests on. The brief below sets out what is established and
                 what is not.
@@ -50,32 +71,34 @@ export function ConflictBanner({ conflicts }: { conflicts: ExclusivityConflict[]
 /* ------------------------------------------------------------------ */
 
 export function EscalationBriefCard({ brief }: { brief: EscalationBrief }) {
-  const tone = brief.severity === "high" ? "var(--alert)" : "var(--uncertain)";
+  const tone = brief.severity === "high" ? "var(--accent-blue)" : "var(--uncertain)";
+  const badgeColor = brief.severity === "high" ? "#fff" : "var(--uncertain)";
+  const badgeBg = brief.severity === "high" ? "var(--accent-indigo)" : "var(--uncertain-bg)";
 
   return (
-    <article className="card mb-3 overflow-hidden">
+    <article style={{ marginBottom: "12px", overflow: "hidden", background: "var(--card)", border: "1px solid var(--rule)", borderRadius: "3px" }}>
       <header
-        className="card-head flex flex-wrap items-center gap-x-2.5 gap-y-1 border-l-4 px-4 py-2.5"
-        style={{ borderLeftColor: tone }}
+        className="flex flex-wrap items-center gap-x-2.5 gap-y-1"
+        style={{ padding: "12px 20px", borderBottom: "1px solid var(--rule)", background: "var(--wash)", borderLeft: `4px solid ${tone}` }}
       >
-        <h3 className="text-[0.98rem]">Worth a lawyer&rsquo;s hour</h3>
+        <h3 style={{ margin: 0, fontSize: "1.14rem" }}>Worth a lawyer&rsquo;s hour</h3>
         <span
-          className="ui rounded-full px-2 py-px text-[10px] uppercase tracking-wide"
-          style={{ color: tone, background: brief.severity === "high" ? "var(--alert-bg)" : "var(--uncertain-bg)" }}
+          className="ui"
+          style={{ borderRadius: "999px", padding: "2px 9px", fontSize: "9.5px", textTransform: "uppercase", letterSpacing: "0.1em", color: badgeColor, background: badgeBg }}
         >
           {brief.severity}
         </span>
       </header>
 
-      <div className="px-4 py-3.5">
-        <p className="serif mb-4 text-[0.95rem] leading-relaxed">{brief.issue}</p>
+      <div style={{ padding: "20px" }}>
+        <p style={{ margin: "0 0 22px", fontFamily: "var(--font-newsreader)", fontSize: "1.08rem", lineHeight: 1.6 }}>{brief.issue}</p>
 
         <BriefSection title="What is established">
-          <ul className="space-y-1.5">
+          <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: "6px" }}>
             {brief.established.map((item, i) => (
-              <li key={i} className="text-[0.85rem]">
+              <li key={i} style={{ fontSize: "0.85rem" }}>
                 {item.statement}{" "}
-                <span className="ref" style={{ color: "var(--ink-faint)" }}>
+                <span className="ref" style={{ color: "var(--muted-strong)" }}>
                   {citationRef(item.citation)}
                 </span>
               </li>
@@ -84,9 +107,9 @@ export function EscalationBriefCard({ brief }: { brief: EscalationBrief }) {
         </BriefSection>
 
         <BriefSection title="What is unresolved">
-          <ul className="space-y-1.5">
+          <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: "6px" }}>
             {brief.unresolved.map((item, i) => (
-              <li key={i} className="text-[0.85rem]" style={{ color: "var(--ink-soft)" }}>
+              <li key={i} style={{ fontSize: "0.85rem", color: "var(--muted)" }}>
                 {item}
               </li>
             ))}
@@ -94,23 +117,21 @@ export function EscalationBriefCard({ brief }: { brief: EscalationBrief }) {
         </BriefSection>
 
         <BriefSection title="The question to ask">
-          <p className="serif text-[0.92rem] italic">{brief.question}</p>
+          <p style={{ margin: 0, fontFamily: "var(--font-newsreader)", fontStyle: "italic", fontSize: "1.1rem", lineHeight: 1.55 }}>{brief.question}</p>
         </BriefSection>
 
-        <BriefSection title="What is at stake">
-          <p className="text-[0.85rem]" style={{ color: "var(--ink-soft)" }}>
-            {brief.exposure}
-          </p>
+        <BriefSection title="What is at stake" last>
+          <p style={{ margin: 0, fontSize: "0.85rem", color: "var(--muted)" }}>{brief.exposure}</p>
         </BriefSection>
       </div>
     </article>
   );
 }
 
-function BriefSection({ title, children }: { title: string; children: React.ReactNode }) {
+function BriefSection({ title, children, last }: { title: string; children: React.ReactNode; last?: boolean }) {
   return (
-    <div className="mb-3.5 last:mb-0">
-      <h4 className="ui mb-1 text-[0.7rem] uppercase tracking-wider" style={{ color: "var(--ink-faint)" }}>
+    <div style={{ marginBottom: last ? 0 : "14px" }}>
+      <h4 className="ui" style={{ margin: "0 0 8px", fontSize: "0.66rem", textTransform: "uppercase", letterSpacing: "0.12em", color: "var(--muted-strong)" }}>
         {title}
       </h4>
       {children}
@@ -124,24 +145,26 @@ export function RefusalPanel({ refusals }: { refusals: RefusedQuestion[] }) {
   if (refusals.length === 0) return null;
 
   return (
-    <section aria-labelledby="refusals-heading" className="mt-7">
-      <h2 id="refusals-heading" className="mb-1 text-[1.1rem]">
-        Questions AITHENA will not answer
+    <section aria-labelledby="refusals-heading" style={{ marginTop: "28px" }}>
+      <h2 id="refusals-heading" style={{ margin: "0 0 4px", fontSize: "1.34rem", letterSpacing: "-0.008em" }}>
+        Questions CLARA will not answer
       </h2>
-      <p className="mb-3 max-w-[70ch] text-[0.85rem]" style={{ color: "var(--ink-soft)" }}>
+      <p style={{ margin: "0 0 12px", maxWidth: "70ch", fontSize: "0.85rem", color: "var(--muted)" }}>
         These were put to the system and declined. A partial answer to either would be worse than none.
       </p>
 
-      <ul className="space-y-3">
+      <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
         {refusals.map((refusal) => (
-          <li key={refusal.id} className="card overflow-hidden">
-            <div className="card-head px-4 py-2.5">
-              <p className="serif text-[0.92rem] italic">&ldquo;{refusal.question}&rdquo;</p>
+          <li key={refusal.id} style={{ overflow: "hidden", background: "var(--card)", border: "1px solid var(--rule)", borderRadius: "3px" }}>
+            <div style={{ padding: "14px 20px", borderBottom: "1px solid var(--rule)", background: "var(--wash)" }}>
+              <p style={{ margin: 0, fontFamily: "var(--font-newsreader)", fontStyle: "italic", fontSize: "1.1rem", lineHeight: 1.55 }}>
+                &ldquo;{refusal.question}&rdquo;
+              </p>
             </div>
-            <div className="px-4 py-3">
-              <p className="text-[0.85rem] leading-relaxed">{refusal.reason}</p>
-              <p className="mt-2 text-[0.85rem]" style={{ color: "var(--ink-soft)" }}>
-                <span className="ui text-[0.78rem] uppercase tracking-wide" style={{ color: "var(--ink-faint)" }}>
+            <div style={{ padding: "16px 20px" }}>
+              <p style={{ margin: 0, fontSize: "0.85rem", lineHeight: 1.55 }}>{refusal.reason}</p>
+              <p style={{ margin: "8px 0 0", fontSize: "0.85rem", color: "var(--muted)" }}>
+                <span className="ui" style={{ fontSize: "0.7rem", textTransform: "uppercase", letterSpacing: "0.09em", color: "var(--muted-strong)" }}>
                   What to do instead
                 </span>
                 <br />

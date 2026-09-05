@@ -65,10 +65,10 @@ export const CONFIDENCE_VAR: Record<Confidence, string> = {
 };
 
 export const CONFIDENCE_WASH: Record<Confidence, string> = {
-  FOUND: "var(--found-wash)",
-  INFERRED: "var(--inferred-wash)",
-  UNCERTAIN: "var(--uncertain-wash)",
-  NOT_FOUND: "var(--silent-wash)",
+  FOUND: "var(--found-bg)",
+  INFERRED: "var(--inferred-bg)",
+  UNCERTAIN: "var(--uncertain-bg)",
+  NOT_FOUND: "var(--silent-bg)",
 };
 
 /**
