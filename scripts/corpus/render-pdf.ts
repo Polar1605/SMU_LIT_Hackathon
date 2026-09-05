@@ -13,6 +13,7 @@
  */
 
 import { PDFDocument, StandardFonts, type PDFFont, type PDFPage, rgb } from "pdf-lib";
+import { stampFixedMetadata } from "./scan.ts";
 
 export interface Clause {
   /** "3.1", or "Parties" for an unnumbered block. */
@@ -162,6 +163,7 @@ class Layout {
 export async function renderPdf(spec: DocSpec): Promise<Uint8Array> {
   const pdf = await PDFDocument.create();
   pdf.setTitle(spec.title);
+  stampFixedMetadata(pdf);
   const fonts = await loadFonts(pdf, spec.font);
   const layout = new Layout(pdf, fonts);
 

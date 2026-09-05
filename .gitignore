@@ -8,3 +8,5 @@ next-env.d.ts
 .DS_Store
 public/corpus/
 data/build/
+eng.traineddata
+*.traineddata

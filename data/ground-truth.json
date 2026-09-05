@@ -1,6 +1,6 @@
 {
   "asOf": "2026-09-05",
-  "generatedAt": "2026-09-05T05:08:10.276Z",
+  "generatedAt": "2026-09-05T05:18:46.636Z",
   "contracts": [
     {
       "docId": "saas-subscription",
@@ -685,9 +685,9 @@
           "value": "S$75,000",
           "absent": false,
           "ambiguous": false,
-          "expectedConfidence": "FOUND",
+          "expectedConfidence": "UNCERTAIN",
           "clauseId": "10",
-          "note": null,
+          "note": "The document says S$75,000 and that remains the truth of the document. But OCR reads this span as \"$$75,000.\" at word confidence 20, against 96 for the surrounding prose — the scan degrades precisely the characters that carry the meaning. A reader of THIS scan cannot honestly assert the figure, so UNCERTAIN is the calibrated answer and FOUND would be a confident error. Observed after ingest and recorded here rather than quietly tolerated: the value is unchanged, only the confidence a well-calibrated system should report.",
           "isDate": false
         },
         "exclusivity": {

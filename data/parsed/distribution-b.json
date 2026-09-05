@@ -1,0 +1,5587 @@
+{
+  "docId": "distribution-b",
+  "fileName": "distribution-b.pdf",
+  "title": "Distribution Agreement",
+  "format": "pdf",
+  "paginated": true,
+  "ocrPages": [],
+  "fullText": "DISTRIBUTION AGREEMENT\nBetween Kestrel Instruments Limited and Lionbridge Distribution Pte Ltd\nPARTIES\nThis Distribution Agreement is made between Kestrel Instruments Limited, a company\nincorporated in England and Wales (company number 09182773) whose registered office is at 14\nWellington Court, Reading RG1 8DB, United Kingdom (the “Supplier”), and Lionbridge\nDistribution Pte Ltd (UEN 202033445D), whose registered office is at 25 Tai Seng Avenue,\nSingapore 534104 (the “Distributor”).\n1 Definitions\n“Products” means the Supplier’s benchtop analytical instruments and dedicated consumables\nwithin Product Category X, as listed in the Schedule.\n“Territory” means Singapore.\n2.1 Term\nThis Agreement starts on 8 May 2026 and runs for twenty-four (24) months, ending on 8 May\n2028 unless it is terminated earlier under clause 11.\n2.3 Renewal\nAt the end of the Term this Agreement renews automatically for further periods of twelve (12)\nmonths each, unless either party gives the other written notice not less than ninety (90) days\nbefore the end of the then-current period that it does not wish the Agreement to renew.\n3.1 Appointment\nThe Supplier appoints the Distributor as its sole distributor of the Products in the Territory.\nThe Supplier will not appoint any other distributor, reseller or agent for the Products in the\nTerritory during the Term. The Supplier reserves the right to continue to supply the Products\ndirectly to end customers in the Territory, and any such direct sales shall not be a breach of this\nclause.\n6.2 Annual licence fee\nThe Distributor shall pay an annual licence fee of S$10,000 on 1 January in each year of the\nTerm, in consideration of the trade mark licence granted under clause 6.1.\n10.1 Limitation of liability\nExcept for liability which cannot lawfully be excluded, neither party’s total liability under this\nAgreement shall exceed S$250,000 in aggregate.\n11.1 Termination for convenience\nThe Supplier may terminate this Agreement by giving three (3) months’ written notice. The\nDistributor may terminate this Agreement by giving six (6) months’ written notice.\n11.2 Termination for cause\nEither party may terminate this Agreement by written notice if the other party is in material breach\nof it and has not put the breach right within fourteen (14) days of being asked in writing to do so.\nDistribution Agreement · page 1 of 2\n\nSCHEDULE — PRODUCTS AND TERRITORY\nProduct category: Product Category X — benchtop analytical instruments and dedicated\nconsumables (KI-400 series spectrophotometers, KI-650 series chromatography modules, and\nassociated calibration standards, sample cells and reagent cartridges).\nTerritory: Singapore.\nMinimum annual purchase commitment: S$180,000 per year of the Term.\nGOVERNING LAW AND JURISDICTION\nThis Agreement is governed by the laws of Singapore. The parties submit to the exclusive\njurisdiction of the courts of Singapore in respect of any dispute arising out of or in connection with\nit.\nDistribution Agreement · page 2 of 2",
+  "pages": [
+    {
+      "pageNum": 1,
+      "charStart": 0,
+      "charEnd": 2364,
+      "width": 595.28,
+      "height": 841.89,
+      "ocr": false,
+      "words": [
+        {
+          "text": "DISTRIBUTION",
+          "charStart": 0,
+          "charEnd": 12,
+          "bbox": {
+            "x": 64,
+            "y": 64,
+            "w": 105.21381818181817,
+            "h": 14
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "AGREEMENT",
+          "charStart": 13,
+          "charEnd": 22,
+          "bbox": {
+            "x": 177.98163636363637,
+            "y": 64,
+            "w": 78.91036363636363,
+            "h": 14
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Between",
+          "charStart": 23,
+          "charEnd": 30,
+          "bbox": {
+            "x": 64,
+            "y": 88.20000000000005,
+            "w": 31.453661971830982,
+            "h": 10
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Kestrel",
+          "charStart": 31,
+          "charEnd": 38,
+          "bbox": {
+            "x": 99.94704225352112,
+            "y": 88.20000000000005,
+            "w": 31.453661971830996,
+            "h": 10
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Instruments",
+          "charStart": 39,
+          "charEnd": 50,
+          "bbox": {
+            "x": 135.89408450704224,
+            "y": 88.20000000000005,
+            "w": 49.42718309859154,
+            "h": 10
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Limited",
+          "charStart": 51,
+          "charEnd": 58,
+          "bbox": {
+            "x": 189.81464788732393,
+            "y": 88.20000000000005,
+            "w": 31.453661971830996,
+            "h": 10
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 59,
+          "charEnd": 62,
+          "bbox": {
+            "x": 225.76169014084505,
+            "y": 88.20000000000005,
+            "w": 13.480140845070423,
+            "h": 10
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Lionbridge",
+          "charStart": 63,
+          "charEnd": 73,
+          "bbox": {
+            "x": 243.73521126760562,
+            "y": 88.20000000000005,
+            "w": 44.93380281690139,
+            "h": 10
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Distribution",
+          "charStart": 74,
+          "charEnd": 86,
+          "bbox": {
+            "x": 293.1623943661972,
+            "y": 88.20000000000005,
+            "w": 53.92056338028169,
+            "h": 10
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Pte",
+          "charStart": 87,
+          "charEnd": 90,
+          "bbox": {
+            "x": 351.576338028169,
+            "y": 88.20000000000005,
+            "w": 13.480140845070423,
+            "h": 10
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Ltd",
+          "charStart": 91,
+          "charEnd": 94,
+          "bbox": {
+            "x": 369.54985915492955,
+            "y": 88.20000000000005,
+            "w": 13.480140845070423,
+            "h": 10
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "PARTIES",
+          "charStart": 95,
+          "charEnd": 102,
+          "bbox": {
+            "x": 64,
+            "y": 112.40000000000009,
+            "w": 45.507000000000005,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "This",
+          "charStart": 103,
+          "charEnd": 107,
+          "bbox": {
+            "x": 78,
+            "y": 129.10000000000014,
+            "w": 19.470585365853665,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Distribution",
+          "charStart": 108,
+          "charEnd": 120,
+          "bbox": {
+            "x": 102.33823170731708,
+            "y": 129.10000000000014,
+            "w": 58.41175609756098,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 121,
+          "charEnd": 130,
+          "bbox": {
+            "x": 165.6176341463415,
+            "y": 129.10000000000014,
+            "w": 43.80881707317073,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 131,
+          "charEnd": 133,
+          "bbox": {
+            "x": 214.29409756097567,
+            "y": 129.10000000000014,
+            "w": 9.735292682926826,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "made",
+          "charStart": 134,
+          "charEnd": 138,
+          "bbox": {
+            "x": 228.8970365853659,
+            "y": 129.10000000000014,
+            "w": 19.47058536585368,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "between",
+          "charStart": 139,
+          "charEnd": 146,
+          "bbox": {
+            "x": 253.23526829268297,
+            "y": 129.10000000000014,
+            "w": 34.073524390243904,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Kestrel",
+          "charStart": 147,
+          "charEnd": 154,
+          "bbox": {
+            "x": 292.17643902439033,
+            "y": 129.10000000000014,
+            "w": 34.073524390243904,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Instruments",
+          "charStart": 155,
+          "charEnd": 166,
+          "bbox": {
+            "x": 331.11760975609764,
+            "y": 129.10000000000014,
+            "w": 53.544109756097555,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Limited,",
+          "charStart": 167,
+          "charEnd": 175,
+          "bbox": {
+            "x": 389.52936585365865,
+            "y": 129.10000000000014,
+            "w": 38.9411707317073,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "a",
+          "charStart": 176,
+          "charEnd": 177,
+          "bbox": {
+            "x": 433.3381829268294,
+            "y": 129.10000000000014,
+            "w": 4.867646341463399,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "company",
+          "charStart": 178,
+          "charEnd": 185,
+          "bbox": {
+            "x": 443.07347560975626,
+            "y": 129.10000000000014,
+            "w": 34.073524390243904,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "incorporated",
+          "charStart": 186,
+          "charEnd": 198,
+          "bbox": {
+            "x": 78,
+            "y": 143.80000000000018,
+            "w": 58.918695652173966,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 199,
+          "charEnd": 201,
+          "bbox": {
+            "x": 141.82858695652178,
+            "y": 143.80000000000018,
+            "w": 9.819782608695647,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "England",
+          "charStart": 202,
+          "charEnd": 209,
+          "bbox": {
+            "x": 156.5582608695653,
+            "y": 143.80000000000018,
+            "w": 34.369239130434806,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 210,
+          "charEnd": 213,
+          "bbox": {
+            "x": 195.83739130434793,
+            "y": 143.80000000000018,
+            "w": 14.729673913043484,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Wales",
+          "charStart": 214,
+          "charEnd": 219,
+          "bbox": {
+            "x": 215.47695652173923,
+            "y": 143.80000000000018,
+            "w": 24.54945652173916,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "(company",
+          "charStart": 220,
+          "charEnd": 228,
+          "bbox": {
+            "x": 244.9363043478262,
+            "y": 143.80000000000018,
+            "w": 39.279130434782644,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "number",
+          "charStart": 229,
+          "charEnd": 235,
+          "bbox": {
+            "x": 289.12532608695665,
+            "y": 143.80000000000018,
+            "w": 29.45934782608697,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "09182773)",
+          "charStart": 236,
+          "charEnd": 245,
+          "bbox": {
+            "x": 323.4945652173915,
+            "y": 143.80000000000018,
+            "w": 44.18902173913045,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "whose",
+          "charStart": 246,
+          "charEnd": 251,
+          "bbox": {
+            "x": 372.5934782608698,
+            "y": 143.80000000000018,
+            "w": 24.54945652173916,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "registered",
+          "charStart": 252,
+          "charEnd": 262,
+          "bbox": {
+            "x": 402.05282608695677,
+            "y": 143.80000000000018,
+            "w": 49.09891304347832,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "office",
+          "charStart": 263,
+          "charEnd": 269,
+          "bbox": {
+            "x": 456.0616304347829,
+            "y": 143.80000000000018,
+            "w": 29.45934782608697,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 270,
+          "charEnd": 272,
+          "bbox": {
+            "x": 490.4308695652177,
+            "y": 143.80000000000018,
+            "w": 9.819782608695675,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "at",
+          "charStart": 273,
+          "charEnd": 275,
+          "bbox": {
+            "x": 505.16054347826116,
+            "y": 143.80000000000018,
+            "w": 9.819782608695618,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "14",
+          "charStart": 276,
+          "charEnd": 278,
+          "bbox": {
+            "x": 519.8902173913048,
+            "y": 143.80000000000018,
+            "w": 9.819782608695618,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Wellington",
+          "charStart": 279,
+          "charEnd": 289,
+          "bbox": {
+            "x": 78,
+            "y": 158.50000000000023,
+            "w": 48.67774390243906,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Court,",
+          "charStart": 290,
+          "charEnd": 296,
+          "bbox": {
+            "x": 131.54551829268297,
+            "y": 158.50000000000023,
+            "w": 29.206646341463454,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Reading",
+          "charStart": 297,
+          "charEnd": 304,
+          "bbox": {
+            "x": 165.6199390243903,
+            "y": 158.50000000000023,
+            "w": 34.074420731707335,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "RG1",
+          "charStart": 305,
+          "charEnd": 308,
+          "bbox": {
+            "x": 204.56213414634158,
+            "y": 158.50000000000023,
+            "w": 14.603323170731727,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "8DB,",
+          "charStart": 309,
+          "charEnd": 313,
+          "bbox": {
+            "x": 224.0332317073172,
+            "y": 158.50000000000023,
+            "w": 19.471097560975636,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "United",
+          "charStart": 314,
+          "charEnd": 320,
+          "bbox": {
+            "x": 248.37210365853676,
+            "y": 158.50000000000023,
+            "w": 29.206646341463426,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Kingdom",
+          "charStart": 321,
+          "charEnd": 328,
+          "bbox": {
+            "x": 282.4465243902441,
+            "y": 158.50000000000023,
+            "w": 34.074420731707335,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "(the",
+          "charStart": 329,
+          "charEnd": 333,
+          "bbox": {
+            "x": 321.38871951219534,
+            "y": 158.50000000000023,
+            "w": 19.471097560975636,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "“Supplier”),",
+          "charStart": 334,
+          "charEnd": 346,
+          "bbox": {
+            "x": 345.7275914634149,
+            "y": 158.50000000000023,
+            "w": 58.41329268292691,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 347,
+          "charEnd": 350,
+          "bbox": {
+            "x": 409.00865853658564,
+            "y": 158.50000000000023,
+            "w": 14.603323170731699,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Lionbridge",
+          "charStart": 351,
+          "charEnd": 361,
+          "bbox": {
+            "x": 428.4797560975613,
+            "y": 158.50000000000023,
+            "w": 48.67774390243909,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Distribution",
+          "charStart": 362,
+          "charEnd": 374,
+          "bbox": {
+            "x": 78,
+            "y": 173.20000000000027,
+            "w": 57.37868181818183,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Pte",
+          "charStart": 375,
+          "charEnd": 378,
+          "bbox": {
+            "x": 140.16023863636366,
+            "y": 173.20000000000027,
+            "w": 14.34467045454545,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Ltd",
+          "charStart": 379,
+          "charEnd": 382,
+          "bbox": {
+            "x": 159.2864659090909,
+            "y": 173.20000000000027,
+            "w": 14.34467045454545,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "(UEN",
+          "charStart": 383,
+          "charEnd": 387,
+          "bbox": {
+            "x": 178.4126931818182,
+            "y": 173.20000000000027,
+            "w": 19.126227272727277,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "202033445D),",
+          "charStart": 388,
+          "charEnd": 400,
+          "bbox": {
+            "x": 202.3204772727273,
+            "y": 173.20000000000027,
+            "w": 57.37868181818183,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "whose",
+          "charStart": 401,
+          "charEnd": 406,
+          "bbox": {
+            "x": 264.4807159090909,
+            "y": 173.20000000000027,
+            "w": 23.907784090909104,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "registered",
+          "charStart": 407,
+          "charEnd": 417,
+          "bbox": {
+            "x": 293.1700568181818,
+            "y": 173.20000000000027,
+            "w": 47.81556818181821,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "office",
+          "charStart": 418,
+          "charEnd": 424,
+          "bbox": {
+            "x": 345.7671818181818,
+            "y": 173.20000000000027,
+            "w": 28.6893409090909,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 425,
+          "charEnd": 427,
+          "bbox": {
+            "x": 379.2380795454546,
+            "y": 173.20000000000027,
+            "w": 9.563113636363653,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "at",
+          "charStart": 428,
+          "charEnd": 430,
+          "bbox": {
+            "x": 393.58275000000003,
+            "y": 173.20000000000027,
+            "w": 9.563113636363653,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "25",
+          "charStart": 431,
+          "charEnd": 433,
+          "bbox": {
+            "x": 407.9274204545455,
+            "y": 173.20000000000027,
+            "w": 9.563113636363653,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Tai",
+          "charStart": 434,
+          "charEnd": 437,
+          "bbox": {
+            "x": 422.27209090909093,
+            "y": 173.20000000000027,
+            "w": 14.34467045454545,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Seng",
+          "charStart": 438,
+          "charEnd": 442,
+          "bbox": {
+            "x": 441.39831818181824,
+            "y": 173.20000000000027,
+            "w": 19.12622727272725,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Avenue,",
+          "charStart": 443,
+          "charEnd": 450,
+          "bbox": {
+            "x": 465.30610227272734,
+            "y": 173.20000000000027,
+            "w": 33.4708977272727,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Singapore",
+          "charStart": 451,
+          "charEnd": 460,
+          "bbox": {
+            "x": 78,
+            "y": 187.90000000000032,
+            "w": 41.59021621621622,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "534104",
+          "charStart": 461,
+          "charEnd": 467,
+          "bbox": {
+            "x": 124.21135135135134,
+            "y": 187.90000000000032,
+            "w": 27.726810810810804,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "(the",
+          "charStart": 468,
+          "charEnd": 472,
+          "bbox": {
+            "x": 156.5592972972973,
+            "y": 187.90000000000032,
+            "w": 18.484540540540536,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "“Distributor”).",
+          "charStart": 473,
+          "charEnd": 488,
+          "bbox": {
+            "x": 179.66497297297298,
+            "y": 187.90000000000032,
+            "w": 69.31702702702702,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "1",
+          "charStart": 489,
+          "charEnd": 490,
+          "bbox": {
+            "x": 64,
+            "y": 211.60000000000036,
+            "w": 4.846961538461542,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Definitions",
+          "charStart": 491,
+          "charEnd": 502,
+          "bbox": {
+            "x": 73.69392307692307,
+            "y": 211.60000000000036,
+            "w": 53.31657692307691,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "“Products”",
+          "charStart": 503,
+          "charEnd": 513,
+          "bbox": {
+            "x": 78,
+            "y": 228.3000000000004,
+            "w": 48.65393258426968,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "means",
+          "charStart": 514,
+          "charEnd": 519,
+          "bbox": {
+            "x": 131.51932584269667,
+            "y": 228.3000000000004,
+            "w": 24.32696629213484,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 520,
+          "charEnd": 523,
+          "bbox": {
+            "x": 160.71168539325848,
+            "y": 228.3000000000004,
+            "w": 14.596179775280916,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Supplier’s",
+          "charStart": 524,
+          "charEnd": 534,
+          "bbox": {
+            "x": 180.17325842696636,
+            "y": 228.3000000000004,
+            "w": 48.65393258426968,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "benchtop",
+          "charStart": 535,
+          "charEnd": 543,
+          "bbox": {
+            "x": 233.69258426966303,
+            "y": 228.3000000000004,
+            "w": 38.92314606741576,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "analytical",
+          "charStart": 544,
+          "charEnd": 554,
+          "bbox": {
+            "x": 277.4811235955058,
+            "y": 228.3000000000004,
+            "w": 48.65393258426968,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "instruments",
+          "charStart": 555,
+          "charEnd": 566,
+          "bbox": {
+            "x": 331.0004494382024,
+            "y": 228.3000000000004,
+            "w": 53.519325842696674,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 567,
+          "charEnd": 570,
+          "bbox": {
+            "x": 389.38516853932606,
+            "y": 228.3000000000004,
+            "w": 14.596179775280916,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "dedicated",
+          "charStart": 571,
+          "charEnd": 580,
+          "bbox": {
+            "x": 408.8467415730339,
+            "y": 228.3000000000004,
+            "w": 43.78853932584275,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "consumables",
+          "charStart": 581,
+          "charEnd": 592,
+          "bbox": {
+            "x": 457.5006741573036,
+            "y": 228.3000000000004,
+            "w": 53.519325842696674,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "within",
+          "charStart": 593,
+          "charEnd": 599,
+          "bbox": {
+            "x": 78,
+            "y": 243.00000000000045,
+            "w": 27.616584905660375,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Product",
+          "charStart": 600,
+          "charEnd": 607,
+          "bbox": {
+            "x": 110.21934905660376,
+            "y": 243.00000000000045,
+            "w": 32.21934905660376,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Category",
+          "charStart": 608,
+          "charEnd": 616,
+          "bbox": {
+            "x": 147.04146226415094,
+            "y": 243.00000000000045,
+            "w": 36.82211320754715,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "X,",
+          "charStart": 617,
+          "charEnd": 619,
+          "bbox": {
+            "x": 188.4663396226415,
+            "y": 243.00000000000045,
+            "w": 9.205528301886801,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "as",
+          "charStart": 620,
+          "charEnd": 622,
+          "bbox": {
+            "x": 202.27463207547166,
+            "y": 243.00000000000045,
+            "w": 9.205528301886801,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "listed",
+          "charStart": 623,
+          "charEnd": 629,
+          "bbox": {
+            "x": 216.08292452830185,
+            "y": 243.00000000000045,
+            "w": 27.616584905660375,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 630,
+          "charEnd": 632,
+          "bbox": {
+            "x": 248.3022735849056,
+            "y": 243.00000000000045,
+            "w": 9.205528301886773,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 633,
+          "charEnd": 636,
+          "bbox": {
+            "x": 262.1105660377358,
+            "y": 243.00000000000045,
+            "w": 13.808292452830187,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Schedule.",
+          "charStart": 637,
+          "charEnd": 646,
+          "bbox": {
+            "x": 280.52162264150934,
+            "y": 243.00000000000045,
+            "w": 41.42487735849056,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "“Territory”",
+          "charStart": 647,
+          "charEnd": 658,
+          "bbox": {
+            "x": 78,
+            "y": 262.7000000000005,
+            "w": 52.72162499999999,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "means",
+          "charStart": 659,
+          "charEnd": 664,
+          "bbox": {
+            "x": 135.5145,
+            "y": 262.7000000000005,
+            "w": 23.96437499999999,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Singapore.",
+          "charStart": 665,
+          "charEnd": 675,
+          "bbox": {
+            "x": 164.27175,
+            "y": 262.7000000000005,
+            "w": 47.92874999999998,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "2.1",
+          "charStart": 676,
+          "charEnd": 679,
+          "bbox": {
+            "x": 64,
+            "y": 286.40000000000055,
+            "w": 16.194937499999995,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Term",
+          "charStart": 680,
+          "charEnd": 684,
+          "bbox": {
+            "x": 85.59325,
+            "y": 286.40000000000055,
+            "w": 21.593249999999998,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "This",
+          "charStart": 685,
+          "charEnd": 689,
+          "bbox": {
+            "x": 78,
+            "y": 303.1000000000006,
+            "w": 19.383235955056193,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 690,
+          "charEnd": 699,
+          "bbox": {
+            "x": 102.22904494382024,
+            "y": 303.1000000000006,
+            "w": 43.612280898876435,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "starts",
+          "charStart": 700,
+          "charEnd": 706,
+          "bbox": {
+            "x": 150.68713483146072,
+            "y": 303.1000000000006,
+            "w": 29.07485393258429,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "on",
+          "charStart": 707,
+          "charEnd": 709,
+          "bbox": {
+            "x": 184.60779775280906,
+            "y": 303.1000000000006,
+            "w": 9.691617977528097,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "8",
+          "charStart": 710,
+          "charEnd": 711,
+          "bbox": {
+            "x": 199.14522471910118,
+            "y": 303.1000000000006,
+            "w": 4.845808988764048,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "May",
+          "charStart": 712,
+          "charEnd": 715,
+          "bbox": {
+            "x": 208.83684269662928,
+            "y": 303.1000000000006,
+            "w": 14.537426966292145,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "2026",
+          "charStart": 716,
+          "charEnd": 720,
+          "bbox": {
+            "x": 228.2200786516855,
+            "y": 303.1000000000006,
+            "w": 19.383235955056193,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 721,
+          "charEnd": 724,
+          "bbox": {
+            "x": 252.4491235955057,
+            "y": 303.1000000000006,
+            "w": 14.537426966292145,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "runs",
+          "charStart": 725,
+          "charEnd": 729,
+          "bbox": {
+            "x": 271.83235955056193,
+            "y": 303.1000000000006,
+            "w": 19.383235955056193,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "for",
+          "charStart": 730,
+          "charEnd": 733,
+          "bbox": {
+            "x": 296.06140449438215,
+            "y": 303.1000000000006,
+            "w": 14.537426966292117,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "twenty-four",
+          "charStart": 734,
+          "charEnd": 745,
+          "bbox": {
+            "x": 315.44464044943834,
+            "y": 303.1000000000006,
+            "w": 53.30389887640456,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "(24)",
+          "charStart": 746,
+          "charEnd": 750,
+          "bbox": {
+            "x": 373.5943483146069,
+            "y": 303.1000000000006,
+            "w": 19.383235955056193,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "months,",
+          "charStart": 751,
+          "charEnd": 758,
+          "bbox": {
+            "x": 397.8233932584272,
+            "y": 303.1000000000006,
+            "w": 33.92066292134831,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "ending",
+          "charStart": 759,
+          "charEnd": 765,
+          "bbox": {
+            "x": 436.5898651685396,
+            "y": 303.1000000000006,
+            "w": 29.07485393258429,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "on",
+          "charStart": 766,
+          "charEnd": 768,
+          "bbox": {
+            "x": 470.5105280898879,
+            "y": 303.1000000000006,
+            "w": 9.691617977528097,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "8",
+          "charStart": 769,
+          "charEnd": 770,
+          "bbox": {
+            "x": 485.04795505618006,
+            "y": 303.1000000000006,
+            "w": 4.84580898876402,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "May",
+          "charStart": 771,
+          "charEnd": 774,
+          "bbox": {
+            "x": 494.7395730337081,
+            "y": 303.1000000000006,
+            "w": 14.537426966292117,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "2028",
+          "charStart": 775,
+          "charEnd": 779,
+          "bbox": {
+            "x": 78,
+            "y": 317.80000000000064,
+            "w": 18.146377358490554,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "unless",
+          "charStart": 780,
+          "charEnd": 786,
+          "bbox": {
+            "x": 100.68297169811319,
+            "y": 317.80000000000064,
+            "w": 27.21956603773583,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 787,
+          "charEnd": 789,
+          "bbox": {
+            "x": 132.43913207547166,
+            "y": 317.80000000000064,
+            "w": 9.073188679245277,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 790,
+          "charEnd": 792,
+          "bbox": {
+            "x": 146.04891509433958,
+            "y": 317.80000000000064,
+            "w": 9.073188679245277,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "terminated",
+          "charStart": 793,
+          "charEnd": 803,
+          "bbox": {
+            "x": 159.65869811320752,
+            "y": 317.80000000000064,
+            "w": 45.36594339622641,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "earlier",
+          "charStart": 804,
+          "charEnd": 811,
+          "bbox": {
+            "x": 209.56123584905654,
+            "y": 317.80000000000064,
+            "w": 31.75616037735847,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "under",
+          "charStart": 812,
+          "charEnd": 817,
+          "bbox": {
+            "x": 245.85399056603768,
+            "y": 317.80000000000064,
+            "w": 22.682971698113192,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "clause",
+          "charStart": 818,
+          "charEnd": 824,
+          "bbox": {
+            "x": 273.0735566037735,
+            "y": 317.80000000000064,
+            "w": 27.21956603773583,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "11.",
+          "charStart": 825,
+          "charEnd": 828,
+          "bbox": {
+            "x": 304.829716981132,
+            "y": 317.80000000000064,
+            "w": 13.609783018867915,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "2.3",
+          "charStart": 829,
+          "charEnd": 832,
+          "bbox": {
+            "x": 64,
+            "y": 341.5000000000006,
+            "w": 16.39431818181818,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Renewal",
+          "charStart": 833,
+          "charEnd": 840,
+          "bbox": {
+            "x": 85.85909090909091,
+            "y": 341.5000000000006,
+            "w": 38.253409090909074,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "At",
+          "charStart": 841,
+          "charEnd": 843,
+          "bbox": {
+            "x": 78,
+            "y": 358.2000000000006,
+            "w": 9.261903225806464,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 844,
+          "charEnd": 847,
+          "bbox": {
+            "x": 91.89285483870968,
+            "y": 358.2000000000006,
+            "w": 13.892854838709681,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "end",
+          "charStart": 848,
+          "charEnd": 851,
+          "bbox": {
+            "x": 110.4166612903226,
+            "y": 358.2000000000006,
+            "w": 13.892854838709681,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 852,
+          "charEnd": 854,
+          "bbox": {
+            "x": 128.94046774193552,
+            "y": 358.2000000000006,
+            "w": 9.261903225806464,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 855,
+          "charEnd": 858,
+          "bbox": {
+            "x": 142.8333225806452,
+            "y": 358.2000000000006,
+            "w": 13.892854838709695,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Term",
+          "charStart": 859,
+          "charEnd": 863,
+          "bbox": {
+            "x": 161.35712903225811,
+            "y": 358.2000000000006,
+            "w": 18.523806451612927,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "this",
+          "charStart": 864,
+          "charEnd": 868,
+          "bbox": {
+            "x": 184.51188709677427,
+            "y": 358.2000000000006,
+            "w": 18.523806451612927,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 869,
+          "charEnd": 878,
+          "bbox": {
+            "x": 207.6666451612904,
+            "y": 358.2000000000006,
+            "w": 41.67856451612906,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "renews",
+          "charStart": 879,
+          "charEnd": 885,
+          "bbox": {
+            "x": 253.9761612903227,
+            "y": 358.2000000000006,
+            "w": 27.78570967741939,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "automatically",
+          "charStart": 886,
+          "charEnd": 899,
+          "bbox": {
+            "x": 286.3928225806453,
+            "y": 358.2000000000006,
+            "w": 60.202370967741956,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "for",
+          "charStart": 900,
+          "charEnd": 903,
+          "bbox": {
+            "x": 351.2261451612905,
+            "y": 358.2000000000006,
+            "w": 13.892854838709695,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "further",
+          "charStart": 904,
+          "charEnd": 911,
+          "bbox": {
+            "x": 369.7499516129034,
+            "y": 358.2000000000006,
+            "w": 32.41666129032262,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "periods",
+          "charStart": 912,
+          "charEnd": 919,
+          "bbox": {
+            "x": 406.7975645161292,
+            "y": 358.2000000000006,
+            "w": 32.41666129032262,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 920,
+          "charEnd": 922,
+          "bbox": {
+            "x": 443.845177419355,
+            "y": 358.2000000000006,
+            "w": 9.261903225806464,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "twelve",
+          "charStart": 923,
+          "charEnd": 929,
+          "bbox": {
+            "x": 457.7380322580648,
+            "y": 358.2000000000006,
+            "w": 27.78570967741939,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "(12)",
+          "charStart": 930,
+          "charEnd": 934,
+          "bbox": {
+            "x": 490.15469354838734,
+            "y": 358.2000000000006,
+            "w": 18.523806451612927,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "months",
+          "charStart": 935,
+          "charEnd": 941,
+          "bbox": {
+            "x": 78,
+            "y": 372.9000000000006,
+            "w": 27.342670212765967,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "each,",
+          "charStart": 942,
+          "charEnd": 947,
+          "bbox": {
+            "x": 109.89978191489364,
+            "y": 372.9000000000006,
+            "w": 22.785558510638296,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "unless",
+          "charStart": 948,
+          "charEnd": 954,
+          "bbox": {
+            "x": 137.2424521276596,
+            "y": 372.9000000000006,
+            "w": 27.342670212765967,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "either",
+          "charStart": 955,
+          "charEnd": 961,
+          "bbox": {
+            "x": 169.14223404255324,
+            "y": 372.9000000000006,
+            "w": 27.342670212765967,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "party",
+          "charStart": 962,
+          "charEnd": 967,
+          "bbox": {
+            "x": 201.0420159574469,
+            "y": 372.9000000000006,
+            "w": 22.78555851063831,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "gives",
+          "charStart": 968,
+          "charEnd": 973,
+          "bbox": {
+            "x": 228.38468617021283,
+            "y": 372.9000000000006,
+            "w": 22.78555851063831,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 974,
+          "charEnd": 977,
+          "bbox": {
+            "x": 255.72735638297883,
+            "y": 372.9000000000006,
+            "w": 13.67133510638297,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "other",
+          "charStart": 978,
+          "charEnd": 983,
+          "bbox": {
+            "x": 273.9558031914895,
+            "y": 372.9000000000006,
+            "w": 22.78555851063834,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "written",
+          "charStart": 984,
+          "charEnd": 991,
+          "bbox": {
+            "x": 301.29847340425545,
+            "y": 372.9000000000006,
+            "w": 31.89978191489365,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "notice",
+          "charStart": 992,
+          "charEnd": 998,
+          "bbox": {
+            "x": 337.75536702127675,
+            "y": 372.9000000000006,
+            "w": 27.342670212765995,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "not",
+          "charStart": 999,
+          "charEnd": 1002,
+          "bbox": {
+            "x": 369.65514893617035,
+            "y": 372.9000000000006,
+            "w": 13.67133510638297,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "less",
+          "charStart": 1003,
+          "charEnd": 1007,
+          "bbox": {
+            "x": 387.88359574468103,
+            "y": 372.9000000000006,
+            "w": 18.228446808510625,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "than",
+          "charStart": 1008,
+          "charEnd": 1012,
+          "bbox": {
+            "x": 410.6691542553193,
+            "y": 372.9000000000006,
+            "w": 18.228446808510625,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "ninety",
+          "charStart": 1013,
+          "charEnd": 1019,
+          "bbox": {
+            "x": 433.45471276595765,
+            "y": 372.9000000000006,
+            "w": 27.342670212765995,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "(90)",
+          "charStart": 1020,
+          "charEnd": 1024,
+          "bbox": {
+            "x": 465.35449468085125,
+            "y": 372.9000000000006,
+            "w": 18.228446808510625,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "days",
+          "charStart": 1025,
+          "charEnd": 1029,
+          "bbox": {
+            "x": 488.1400531914895,
+            "y": 372.9000000000006,
+            "w": 18.228446808510625,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "before",
+          "charStart": 1030,
+          "charEnd": 1036,
+          "bbox": {
+            "x": 78,
+            "y": 387.6000000000006,
+            "w": 27.733758620689656,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1037,
+          "charEnd": 1040,
+          "bbox": {
+            "x": 110.35605172413793,
+            "y": 387.6000000000006,
+            "w": 13.866879310344828,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "end",
+          "charStart": 1041,
+          "charEnd": 1044,
+          "bbox": {
+            "x": 128.84522413793104,
+            "y": 387.6000000000006,
+            "w": 13.866879310344842,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1045,
+          "charEnd": 1047,
+          "bbox": {
+            "x": 147.33439655172413,
+            "y": 387.6000000000006,
+            "w": 9.244586206896543,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1048,
+          "charEnd": 1051,
+          "bbox": {
+            "x": 161.201275862069,
+            "y": 387.6000000000006,
+            "w": 13.866879310344842,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "then-current",
+          "charStart": 1052,
+          "charEnd": 1064,
+          "bbox": {
+            "x": 179.69044827586208,
+            "y": 387.6000000000006,
+            "w": 55.46751724137931,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "period",
+          "charStart": 1065,
+          "charEnd": 1071,
+          "bbox": {
+            "x": 239.78025862068966,
+            "y": 387.6000000000006,
+            "w": 27.733758620689684,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "that",
+          "charStart": 1072,
+          "charEnd": 1076,
+          "bbox": {
+            "x": 272.1363103448276,
+            "y": 387.6000000000006,
+            "w": 18.489172413793085,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 1077,
+          "charEnd": 1079,
+          "bbox": {
+            "x": 295.24777586206903,
+            "y": 387.6000000000006,
+            "w": 9.244586206896543,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "does",
+          "charStart": 1080,
+          "charEnd": 1084,
+          "bbox": {
+            "x": 309.1146551724138,
+            "y": 387.6000000000006,
+            "w": 18.489172413793085,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "not",
+          "charStart": 1085,
+          "charEnd": 1088,
+          "bbox": {
+            "x": 332.2261206896552,
+            "y": 387.6000000000006,
+            "w": 13.866879310344814,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "wish",
+          "charStart": 1089,
+          "charEnd": 1093,
+          "bbox": {
+            "x": 350.7152931034483,
+            "y": 387.6000000000006,
+            "w": 18.489172413793085,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1094,
+          "charEnd": 1097,
+          "bbox": {
+            "x": 373.8267586206897,
+            "y": 387.6000000000006,
+            "w": 13.866879310344814,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 1098,
+          "charEnd": 1107,
+          "bbox": {
+            "x": 392.3159310344828,
+            "y": 387.6000000000006,
+            "w": 41.6006379310345,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 1108,
+          "charEnd": 1110,
+          "bbox": {
+            "x": 438.53886206896556,
+            "y": 387.6000000000006,
+            "w": 9.244586206896543,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "renew.",
+          "charStart": 1111,
+          "charEnd": 1117,
+          "bbox": {
+            "x": 452.40574137931037,
+            "y": 387.6000000000006,
+            "w": 27.733758620689684,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "3.1",
+          "charStart": 1118,
+          "charEnd": 1121,
+          "bbox": {
+            "x": 64,
+            "y": 411.3000000000006,
+            "w": 16.451399999999992,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Appointment",
+          "charStart": 1122,
+          "charEnd": 1133,
+          "bbox": {
+            "x": 85.9352,
+            "y": 411.3000000000006,
+            "w": 60.32179999999998,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "The",
+          "charStart": 1134,
+          "charEnd": 1137,
+          "bbox": {
+            "x": 78,
+            "y": 428.00000000000057,
+            "w": 13.139478947368417,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Supplier",
+          "charStart": 1138,
+          "charEnd": 1146,
+          "bbox": {
+            "x": 95.51930526315789,
+            "y": 428.00000000000057,
+            "w": 35.03861052631578,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "appoints",
+          "charStart": 1147,
+          "charEnd": 1155,
+          "bbox": {
+            "x": 134.93774210526317,
+            "y": 428.00000000000057,
+            "w": 35.03861052631578,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1156,
+          "charEnd": 1159,
+          "bbox": {
+            "x": 174.35617894736845,
+            "y": 428.00000000000057,
+            "w": 13.139478947368417,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Distributor",
+          "charStart": 1160,
+          "charEnd": 1171,
+          "bbox": {
+            "x": 191.87548421052634,
+            "y": 428.00000000000057,
+            "w": 48.178089473684224,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "as",
+          "charStart": 1172,
+          "charEnd": 1174,
+          "bbox": {
+            "x": 244.43340000000003,
+            "y": 428.00000000000057,
+            "w": 8.759652631578945,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "its",
+          "charStart": 1175,
+          "charEnd": 1178,
+          "bbox": {
+            "x": 257.5728789473685,
+            "y": 428.00000000000057,
+            "w": 13.139478947368445,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "sole",
+          "charStart": 1179,
+          "charEnd": 1183,
+          "bbox": {
+            "x": 275.09218421052634,
+            "y": 428.00000000000057,
+            "w": 17.51930526315789,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "distributor",
+          "charStart": 1184,
+          "charEnd": 1195,
+          "bbox": {
+            "x": 296.9913157894737,
+            "y": 428.00000000000057,
+            "w": 48.178089473684224,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1196,
+          "charEnd": 1198,
+          "bbox": {
+            "x": 349.5492315789474,
+            "y": 428.00000000000057,
+            "w": 8.759652631578945,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1199,
+          "charEnd": 1202,
+          "bbox": {
+            "x": 362.68871052631584,
+            "y": 428.00000000000057,
+            "w": 13.139478947368445,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Products",
+          "charStart": 1203,
+          "charEnd": 1211,
+          "bbox": {
+            "x": 380.20801578947373,
+            "y": 428.00000000000057,
+            "w": 35.03861052631578,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 1212,
+          "charEnd": 1214,
+          "bbox": {
+            "x": 419.626452631579,
+            "y": 428.00000000000057,
+            "w": 8.759652631578945,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1215,
+          "charEnd": 1218,
+          "bbox": {
+            "x": 432.76593157894746,
+            "y": 428.00000000000057,
+            "w": 13.139478947368445,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Territory.",
+          "charStart": 1219,
+          "charEnd": 1229,
+          "bbox": {
+            "x": 450.2852368421053,
+            "y": 428.00000000000057,
+            "w": 43.79826315789472,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "The",
+          "charStart": 1230,
+          "charEnd": 1233,
+          "bbox": {
+            "x": 78,
+            "y": 447.7000000000006,
+            "w": 13.242734042553195,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Supplier",
+          "charStart": 1234,
+          "charEnd": 1242,
+          "bbox": {
+            "x": 95.65697872340426,
+            "y": 447.7000000000006,
+            "w": 35.313957446808516,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "will",
+          "charStart": 1243,
+          "charEnd": 1247,
+          "bbox": {
+            "x": 135.38518085106386,
+            "y": 447.7000000000006,
+            "w": 17.65697872340428,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "not",
+          "charStart": 1248,
+          "charEnd": 1251,
+          "bbox": {
+            "x": 157.45640425531917,
+            "y": 447.7000000000006,
+            "w": 13.242734042553195,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "appoint",
+          "charStart": 1252,
+          "charEnd": 1259,
+          "bbox": {
+            "x": 175.11338297872345,
+            "y": 447.7000000000006,
+            "w": 30.899712765957474,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "any",
+          "charStart": 1260,
+          "charEnd": 1263,
+          "bbox": {
+            "x": 210.42734042553198,
+            "y": 447.7000000000006,
+            "w": 13.242734042553195,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "other",
+          "charStart": 1264,
+          "charEnd": 1269,
+          "bbox": {
+            "x": 228.08431914893623,
+            "y": 447.7000000000006,
+            "w": 22.071223404255335,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "distributor,",
+          "charStart": 1270,
+          "charEnd": 1282,
+          "bbox": {
+            "x": 254.56978723404265,
+            "y": 447.7000000000006,
+            "w": 52.97093617021281,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "reseller",
+          "charStart": 1283,
+          "charEnd": 1291,
+          "bbox": {
+            "x": 311.9549680851065,
+            "y": 447.7000000000006,
+            "w": 35.3139574468085,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "or",
+          "charStart": 1292,
+          "charEnd": 1294,
+          "bbox": {
+            "x": 351.6831702127661,
+            "y": 447.7000000000006,
+            "w": 8.828489361702111,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "agent",
+          "charStart": 1295,
+          "charEnd": 1300,
+          "bbox": {
+            "x": 364.92590425531927,
+            "y": 447.7000000000006,
+            "w": 22.071223404255306,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "for",
+          "charStart": 1301,
+          "charEnd": 1304,
+          "bbox": {
+            "x": 391.41137234042566,
+            "y": 447.7000000000006,
+            "w": 13.242734042553195,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1305,
+          "charEnd": 1308,
+          "bbox": {
+            "x": 409.06835106382994,
+            "y": 447.7000000000006,
+            "w": 13.242734042553195,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Products",
+          "charStart": 1309,
+          "charEnd": 1317,
+          "bbox": {
+            "x": 426.7253297872342,
+            "y": 447.7000000000006,
+            "w": 35.3139574468085,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 1318,
+          "charEnd": 1320,
+          "bbox": {
+            "x": 466.4535319148938,
+            "y": 447.7000000000006,
+            "w": 8.828489361702111,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1321,
+          "charEnd": 1324,
+          "bbox": {
+            "x": 479.696265957447,
+            "y": 447.7000000000006,
+            "w": 13.242734042553195,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Territory",
+          "charStart": 1325,
+          "charEnd": 1334,
+          "bbox": {
+            "x": 78,
+            "y": 462.4000000000006,
+            "w": 41.283290322580655,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "during",
+          "charStart": 1335,
+          "charEnd": 1341,
+          "bbox": {
+            "x": 123.87032258064517,
+            "y": 462.4000000000006,
+            "w": 27.522193548387094,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1342,
+          "charEnd": 1345,
+          "bbox": {
+            "x": 155.97954838709677,
+            "y": 462.4000000000006,
+            "w": 13.761096774193561,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Term.",
+          "charStart": 1346,
+          "charEnd": 1351,
+          "bbox": {
+            "x": 174.32767741935487,
+            "y": 462.4000000000006,
+            "w": 22.935161290322583,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "The",
+          "charStart": 1352,
+          "charEnd": 1355,
+          "bbox": {
+            "x": 201.84987096774194,
+            "y": 462.4000000000006,
+            "w": 13.761096774193561,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Supplier",
+          "charStart": 1356,
+          "charEnd": 1364,
+          "bbox": {
+            "x": 220.198,
+            "y": 462.4000000000006,
+            "w": 36.696258064516115,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "reserves",
+          "charStart": 1365,
+          "charEnd": 1373,
+          "bbox": {
+            "x": 261.48129032258066,
+            "y": 462.4000000000006,
+            "w": 36.696258064516144,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1374,
+          "charEnd": 1377,
+          "bbox": {
+            "x": 302.76458064516135,
+            "y": 462.4000000000006,
+            "w": 13.761096774193561,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "right",
+          "charStart": 1378,
+          "charEnd": 1383,
+          "bbox": {
+            "x": 321.1127096774194,
+            "y": 462.4000000000006,
+            "w": 22.935161290322583,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 1384,
+          "charEnd": 1386,
+          "bbox": {
+            "x": 348.63490322580645,
+            "y": 462.4000000000006,
+            "w": 9.174064516129022,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "continue",
+          "charStart": 1387,
+          "charEnd": 1395,
+          "bbox": {
+            "x": 362.396,
+            "y": 462.4000000000006,
+            "w": 36.696258064516144,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 1396,
+          "charEnd": 1398,
+          "bbox": {
+            "x": 403.6792903225807,
+            "y": 462.4000000000006,
+            "w": 9.174064516129022,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "supply",
+          "charStart": 1399,
+          "charEnd": 1405,
+          "bbox": {
+            "x": 417.44038709677426,
+            "y": 462.4000000000006,
+            "w": 27.522193548387122,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1406,
+          "charEnd": 1409,
+          "bbox": {
+            "x": 449.5496129032258,
+            "y": 462.4000000000006,
+            "w": 13.761096774193561,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Products",
+          "charStart": 1410,
+          "charEnd": 1418,
+          "bbox": {
+            "x": 467.8977419354839,
+            "y": 462.4000000000006,
+            "w": 36.696258064516144,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "directly",
+          "charStart": 1419,
+          "charEnd": 1427,
+          "bbox": {
+            "x": 78,
+            "y": 477.10000000000053,
+            "w": 35.79333333333335,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 1428,
+          "charEnd": 1430,
+          "bbox": {
+            "x": 118.26750000000001,
+            "y": 477.10000000000053,
+            "w": 8.948333333333338,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "end",
+          "charStart": 1431,
+          "charEnd": 1434,
+          "bbox": {
+            "x": 131.69000000000003,
+            "y": 477.10000000000053,
+            "w": 13.422500000000014,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "customers",
+          "charStart": 1435,
+          "charEnd": 1444,
+          "bbox": {
+            "x": 149.5866666666667,
+            "y": 477.10000000000053,
+            "w": 40.26750000000001,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 1445,
+          "charEnd": 1447,
+          "bbox": {
+            "x": 194.32833333333338,
+            "y": 477.10000000000053,
+            "w": 8.948333333333323,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1448,
+          "charEnd": 1451,
+          "bbox": {
+            "x": 207.75083333333336,
+            "y": 477.10000000000053,
+            "w": 13.422500000000014,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Territory,",
+          "charStart": 1452,
+          "charEnd": 1462,
+          "bbox": {
+            "x": 225.64750000000006,
+            "y": 477.10000000000053,
+            "w": 44.7416666666667,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 1463,
+          "charEnd": 1466,
+          "bbox": {
+            "x": 274.86333333333346,
+            "y": 477.10000000000053,
+            "w": 13.422500000000014,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "any",
+          "charStart": 1467,
+          "charEnd": 1470,
+          "bbox": {
+            "x": 292.7600000000001,
+            "y": 477.10000000000053,
+            "w": 13.422500000000014,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "such",
+          "charStart": 1471,
+          "charEnd": 1475,
+          "bbox": {
+            "x": 310.65666666666675,
+            "y": 477.10000000000053,
+            "w": 17.896666666666647,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "direct",
+          "charStart": 1476,
+          "charEnd": 1482,
+          "bbox": {
+            "x": 333.02750000000015,
+            "y": 477.10000000000053,
+            "w": 26.845000000000027,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "sales",
+          "charStart": 1483,
+          "charEnd": 1488,
+          "bbox": {
+            "x": 364.34666666666675,
+            "y": 477.10000000000053,
+            "w": 22.370833333333337,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "shall",
+          "charStart": 1489,
+          "charEnd": 1494,
+          "bbox": {
+            "x": 391.1916666666668,
+            "y": 477.10000000000053,
+            "w": 22.370833333333337,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "not",
+          "charStart": 1495,
+          "charEnd": 1498,
+          "bbox": {
+            "x": 418.0366666666668,
+            "y": 477.10000000000053,
+            "w": 13.422500000000014,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "be",
+          "charStart": 1499,
+          "charEnd": 1501,
+          "bbox": {
+            "x": 435.9333333333335,
+            "y": 477.10000000000053,
+            "w": 8.948333333333323,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "a",
+          "charStart": 1502,
+          "charEnd": 1503,
+          "bbox": {
+            "x": 449.35583333333346,
+            "y": 477.10000000000053,
+            "w": 4.47416666666669,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "breach",
+          "charStart": 1504,
+          "charEnd": 1510,
+          "bbox": {
+            "x": 458.30416666666684,
+            "y": 477.10000000000053,
+            "w": 26.845000000000027,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1511,
+          "charEnd": 1513,
+          "bbox": {
+            "x": 489.62333333333345,
+            "y": 477.10000000000053,
+            "w": 8.948333333333323,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "this",
+          "charStart": 1514,
+          "charEnd": 1518,
+          "bbox": {
+            "x": 503.04583333333346,
+            "y": 477.10000000000053,
+            "w": 17.896666666666647,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "clause.",
+          "charStart": 1519,
+          "charEnd": 1526,
+          "bbox": {
+            "x": 78,
+            "y": 491.8000000000005,
+            "w": 33.26400000000001,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "6.2",
+          "charStart": 1527,
+          "charEnd": 1530,
+          "bbox": {
+            "x": 64,
+            "y": 515.5000000000005,
+            "w": 14.961068181818177,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Annual",
+          "charStart": 1531,
+          "charEnd": 1537,
+          "bbox": {
+            "x": 83.9480909090909,
+            "y": 515.5000000000005,
+            "w": 29.922136363636355,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "licence",
+          "charStart": 1538,
+          "charEnd": 1545,
+          "bbox": {
+            "x": 118.85724999999998,
+            "y": 515.5000000000005,
+            "w": 34.909159090909085,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "fee",
+          "charStart": 1546,
+          "charEnd": 1549,
+          "bbox": {
+            "x": 158.75343181818175,
+            "y": 515.5000000000005,
+            "w": 14.961068181818177,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "The",
+          "charStart": 1550,
+          "charEnd": 1553,
+          "bbox": {
+            "x": 78,
+            "y": 532.2000000000005,
+            "w": 13.950391304347832,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Distributor",
+          "charStart": 1554,
+          "charEnd": 1565,
+          "bbox": {
+            "x": 96.60052173913044,
+            "y": 532.2000000000005,
+            "w": 51.1514347826087,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "shall",
+          "charStart": 1566,
+          "charEnd": 1571,
+          "bbox": {
+            "x": 152.40208695652177,
+            "y": 532.2000000000005,
+            "w": 23.250652173913068,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "pay",
+          "charStart": 1572,
+          "charEnd": 1575,
+          "bbox": {
+            "x": 180.3028695652174,
+            "y": 532.2000000000005,
+            "w": 13.950391304347818,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "an",
+          "charStart": 1576,
+          "charEnd": 1578,
+          "bbox": {
+            "x": 198.90339130434788,
+            "y": 532.2000000000005,
+            "w": 9.300260869565221,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "annual",
+          "charStart": 1579,
+          "charEnd": 1585,
+          "bbox": {
+            "x": 212.85378260869572,
+            "y": 532.2000000000005,
+            "w": 27.900782608695664,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "licence",
+          "charStart": 1586,
+          "charEnd": 1593,
+          "bbox": {
+            "x": 245.40469565217398,
+            "y": 532.2000000000005,
+            "w": 32.55091304347826,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "fee",
+          "charStart": 1594,
+          "charEnd": 1597,
+          "bbox": {
+            "x": 282.6057391304348,
+            "y": 532.2000000000005,
+            "w": 13.950391304347818,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1598,
+          "charEnd": 1600,
+          "bbox": {
+            "x": 301.2062608695653,
+            "y": 532.2000000000005,
+            "w": 9.30026086956525,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "S$10,000",
+          "charStart": 1601,
+          "charEnd": 1609,
+          "bbox": {
+            "x": 315.15665217391313,
+            "y": 532.2000000000005,
+            "w": 37.201043478260885,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "on",
+          "charStart": 1610,
+          "charEnd": 1612,
+          "bbox": {
+            "x": 357.00782608695664,
+            "y": 532.2000000000005,
+            "w": 9.300260869565193,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "1",
+          "charStart": 1613,
+          "charEnd": 1614,
+          "bbox": {
+            "x": 370.95821739130446,
+            "y": 532.2000000000005,
+            "w": 4.650130434782625,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "January",
+          "charStart": 1615,
+          "charEnd": 1622,
+          "bbox": {
+            "x": 380.2584782608697,
+            "y": 532.2000000000005,
+            "w": 32.55091304347826,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 1623,
+          "charEnd": 1625,
+          "bbox": {
+            "x": 417.4595217391306,
+            "y": 532.2000000000005,
+            "w": 9.300260869565193,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "each",
+          "charStart": 1626,
+          "charEnd": 1630,
+          "bbox": {
+            "x": 431.4099130434784,
+            "y": 532.2000000000005,
+            "w": 18.600521739130443,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "year",
+          "charStart": 1631,
+          "charEnd": 1635,
+          "bbox": {
+            "x": 454.6605652173914,
+            "y": 532.2000000000005,
+            "w": 18.600521739130443,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1636,
+          "charEnd": 1638,
+          "bbox": {
+            "x": 477.91121739130455,
+            "y": 532.2000000000005,
+            "w": 9.300260869565193,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1639,
+          "charEnd": 1642,
+          "bbox": {
+            "x": 491.86160869565236,
+            "y": 532.2000000000005,
+            "w": 13.950391304347818,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Term,",
+          "charStart": 1643,
+          "charEnd": 1648,
+          "bbox": {
+            "x": 78,
+            "y": 546.9000000000005,
+            "w": 23.225574324324327,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 1649,
+          "charEnd": 1651,
+          "bbox": {
+            "x": 105.87068918918919,
+            "y": 546.9000000000005,
+            "w": 9.290229729729731,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "consideration",
+          "charStart": 1652,
+          "charEnd": 1665,
+          "bbox": {
+            "x": 119.80603378378379,
+            "y": 546.9000000000005,
+            "w": 60.38649324324325,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1666,
+          "charEnd": 1668,
+          "bbox": {
+            "x": 184.8376418918919,
+            "y": 546.9000000000005,
+            "w": 9.290229729729731,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1669,
+          "charEnd": 1672,
+          "bbox": {
+            "x": 198.7729864864865,
+            "y": 546.9000000000005,
+            "w": 13.935344594594596,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "trade",
+          "charStart": 1673,
+          "charEnd": 1678,
+          "bbox": {
+            "x": 217.35344594594596,
+            "y": 546.9000000000005,
+            "w": 23.225574324324327,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "mark",
+          "charStart": 1679,
+          "charEnd": 1683,
+          "bbox": {
+            "x": 245.22413513513516,
+            "y": 546.9000000000005,
+            "w": 18.580459459459462,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "licence",
+          "charStart": 1684,
+          "charEnd": 1691,
+          "bbox": {
+            "x": 268.4497094594595,
+            "y": 546.9000000000005,
+            "w": 32.51580405405406,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "granted",
+          "charStart": 1692,
+          "charEnd": 1699,
+          "bbox": {
+            "x": 305.61062837837846,
+            "y": 546.9000000000005,
+            "w": 32.51580405405406,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "under",
+          "charStart": 1700,
+          "charEnd": 1705,
+          "bbox": {
+            "x": 342.77154729729733,
+            "y": 546.9000000000005,
+            "w": 23.225574324324327,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "clause",
+          "charStart": 1706,
+          "charEnd": 1712,
+          "bbox": {
+            "x": 370.6422364864865,
+            "y": 546.9000000000005,
+            "w": 27.870689189189193,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "6.1.",
+          "charStart": 1713,
+          "charEnd": 1717,
+          "bbox": {
+            "x": 403.1580405405406,
+            "y": 546.9000000000005,
+            "w": 18.580459459459462,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "10.1",
+          "charStart": 1718,
+          "charEnd": 1722,
+          "bbox": {
+            "x": 64,
+            "y": 570.6000000000005,
+            "w": 17.921999999999997,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Limitation",
+          "charStart": 1723,
+          "charEnd": 1733,
+          "bbox": {
+            "x": 86.40249999999999,
+            "y": 570.6000000000005,
+            "w": 44.80499999999999,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1734,
+          "charEnd": 1736,
+          "bbox": {
+            "x": 135.688,
+            "y": 570.6000000000005,
+            "w": 8.960999999999984,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "liability",
+          "charStart": 1737,
+          "charEnd": 1746,
+          "bbox": {
+            "x": 149.12949999999998,
+            "y": 570.6000000000005,
+            "w": 40.32449999999997,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Except",
+          "charStart": 1747,
+          "charEnd": 1753,
+          "bbox": {
+            "x": 78,
+            "y": 587.3000000000004,
+            "w": 25.75992857142859,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "for",
+          "charStart": 1754,
+          "charEnd": 1757,
+          "bbox": {
+            "x": 108.05325000000002,
+            "y": 587.3000000000004,
+            "w": 12.879964285714294,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "liability",
+          "charStart": 1758,
+          "charEnd": 1767,
+          "bbox": {
+            "x": 125.22653571428575,
+            "y": 587.3000000000004,
+            "w": 38.63989285714288,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "which",
+          "charStart": 1768,
+          "charEnd": 1773,
+          "bbox": {
+            "x": 168.15975000000003,
+            "y": 587.3000000000004,
+            "w": 21.466607142857157,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "cannot",
+          "charStart": 1774,
+          "charEnd": 1780,
+          "bbox": {
+            "x": 193.91967857142862,
+            "y": 587.3000000000004,
+            "w": 25.75992857142859,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "lawfully",
+          "charStart": 1781,
+          "charEnd": 1789,
+          "bbox": {
+            "x": 223.97292857142864,
+            "y": 587.3000000000004,
+            "w": 34.34657142857142,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "be",
+          "charStart": 1790,
+          "charEnd": 1792,
+          "bbox": {
+            "x": 262.6128214285715,
+            "y": 587.3000000000004,
+            "w": 8.586642857142863,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "excluded,",
+          "charStart": 1793,
+          "charEnd": 1802,
+          "bbox": {
+            "x": 275.4927857142858,
+            "y": 587.3000000000004,
+            "w": 38.639892857142854,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "neither",
+          "charStart": 1803,
+          "charEnd": 1810,
+          "bbox": {
+            "x": 318.42600000000016,
+            "y": 587.3000000000004,
+            "w": 30.053250000000048,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "party’s",
+          "charStart": 1811,
+          "charEnd": 1818,
+          "bbox": {
+            "x": 352.77257142857155,
+            "y": 587.3000000000004,
+            "w": 30.05324999999999,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "total",
+          "charStart": 1819,
+          "charEnd": 1824,
+          "bbox": {
+            "x": 387.119142857143,
+            "y": 587.3000000000004,
+            "w": 21.46660714285713,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "liability",
+          "charStart": 1825,
+          "charEnd": 1834,
+          "bbox": {
+            "x": 412.87907142857165,
+            "y": 587.3000000000004,
+            "w": 38.639892857142854,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "under",
+          "charStart": 1835,
+          "charEnd": 1840,
+          "bbox": {
+            "x": 455.8122857142859,
+            "y": 587.3000000000004,
+            "w": 21.46660714285713,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "this",
+          "charStart": 1841,
+          "charEnd": 1845,
+          "bbox": {
+            "x": 481.5722142857145,
+            "y": 587.3000000000004,
+            "w": 17.173285714285726,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 1846,
+          "charEnd": 1855,
+          "bbox": {
+            "x": 78,
+            "y": 602.0000000000005,
+            "w": 45.10731521739129,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "shall",
+          "charStart": 1856,
+          "charEnd": 1861,
+          "bbox": {
+            "x": 128.11923913043478,
+            "y": 602.0000000000005,
+            "w": 25.05961956521739,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "exceed",
+          "charStart": 1862,
+          "charEnd": 1868,
+          "bbox": {
+            "x": 158.19078260869563,
+            "y": 602.0000000000005,
+            "w": 30.07154347826085,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "S$250,000",
+          "charStart": 1869,
+          "charEnd": 1878,
+          "bbox": {
+            "x": 193.27424999999994,
+            "y": 602.0000000000005,
+            "w": 45.10731521739129,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 1879,
+          "charEnd": 1881,
+          "bbox": {
+            "x": 243.39348913043474,
+            "y": 602.0000000000005,
+            "w": 10.02384782608695,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "aggregate.",
+          "charStart": 1882,
+          "charEnd": 1892,
+          "bbox": {
+            "x": 258.42926086956516,
+            "y": 602.0000000000005,
+            "w": 50.11923913043478,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "11.1",
+          "charStart": 1893,
+          "charEnd": 1897,
+          "bbox": {
+            "x": 64,
+            "y": 625.7000000000004,
+            "w": 20.860874999999993,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Termination",
+          "charStart": 1898,
+          "charEnd": 1909,
+          "bbox": {
+            "x": 90.07609375,
+            "y": 625.7000000000004,
+            "w": 57.36740624999997,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "for",
+          "charStart": 1910,
+          "charEnd": 1913,
+          "bbox": {
+            "x": 152.65871875,
+            "y": 625.7000000000004,
+            "w": 15.645656250000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "convenience",
+          "charStart": 1914,
+          "charEnd": 1925,
+          "bbox": {
+            "x": 173.51959374999998,
+            "y": 625.7000000000004,
+            "w": 57.36740624999999,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "The",
+          "charStart": 1926,
+          "charEnd": 1929,
+          "bbox": {
+            "x": 78,
+            "y": 642.4000000000004,
+            "w": 14.08403932584271,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Supplier",
+          "charStart": 1930,
+          "charEnd": 1938,
+          "bbox": {
+            "x": 96.77871910112361,
+            "y": 642.4000000000004,
+            "w": 37.557438202247226,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "may",
+          "charStart": 1939,
+          "charEnd": 1942,
+          "bbox": {
+            "x": 139.03083707865173,
+            "y": 642.4000000000004,
+            "w": 14.084039325842696,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "terminate",
+          "charStart": 1943,
+          "charEnd": 1952,
+          "bbox": {
+            "x": 157.8095561797753,
+            "y": 642.4000000000004,
+            "w": 42.252117977528115,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "this",
+          "charStart": 1953,
+          "charEnd": 1957,
+          "bbox": {
+            "x": 204.75635393258432,
+            "y": 642.4000000000004,
+            "w": 18.778719101123613,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 1958,
+          "charEnd": 1967,
+          "bbox": {
+            "x": 228.22975280898885,
+            "y": 642.4000000000004,
+            "w": 42.252117977528144,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 1968,
+          "charEnd": 1970,
+          "bbox": {
+            "x": 275.17655056179785,
+            "y": 642.4000000000004,
+            "w": 9.389359550561778,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "giving",
+          "charStart": 1971,
+          "charEnd": 1977,
+          "bbox": {
+            "x": 289.26058988764055,
+            "y": 642.4000000000004,
+            "w": 28.16807865168539,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "three",
+          "charStart": 1978,
+          "charEnd": 1983,
+          "bbox": {
+            "x": 322.1233483146069,
+            "y": 642.4000000000004,
+            "w": 23.47339887640453,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "(3)",
+          "charStart": 1984,
+          "charEnd": 1987,
+          "bbox": {
+            "x": 350.29142696629225,
+            "y": 642.4000000000004,
+            "w": 14.084039325842696,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "months’",
+          "charStart": 1988,
+          "charEnd": 1995,
+          "bbox": {
+            "x": 369.07014606741586,
+            "y": 642.4000000000004,
+            "w": 32.86275842696631,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "written",
+          "charStart": 1996,
+          "charEnd": 2003,
+          "bbox": {
+            "x": 406.62758426966315,
+            "y": 642.4000000000004,
+            "w": 32.86275842696631,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "notice.",
+          "charStart": 2004,
+          "charEnd": 2011,
+          "bbox": {
+            "x": 444.1850224719103,
+            "y": 642.4000000000004,
+            "w": 32.86275842696631,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "The",
+          "charStart": 2012,
+          "charEnd": 2015,
+          "bbox": {
+            "x": 481.74246067415754,
+            "y": 642.4000000000004,
+            "w": 14.084039325842696,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Distributor",
+          "charStart": 2016,
+          "charEnd": 2027,
+          "bbox": {
+            "x": 78,
+            "y": 657.1000000000004,
+            "w": 50.17489024390244,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "may",
+          "charStart": 2028,
+          "charEnd": 2031,
+          "bbox": {
+            "x": 132.73624390243904,
+            "y": 657.1000000000004,
+            "w": 13.684060975609754,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "terminate",
+          "charStart": 2032,
+          "charEnd": 2041,
+          "bbox": {
+            "x": 150.98165853658537,
+            "y": 657.1000000000004,
+            "w": 41.05218292682929,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "this",
+          "charStart": 2042,
+          "charEnd": 2046,
+          "bbox": {
+            "x": 196.59519512195124,
+            "y": 657.1000000000004,
+            "w": 18.245414634146357,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 2047,
+          "charEnd": 2056,
+          "bbox": {
+            "x": 219.40196341463417,
+            "y": 657.1000000000004,
+            "w": 41.05218292682929,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 2057,
+          "charEnd": 2059,
+          "bbox": {
+            "x": 265.01550000000003,
+            "y": 657.1000000000004,
+            "w": 9.12270731707315,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "giving",
+          "charStart": 2060,
+          "charEnd": 2066,
+          "bbox": {
+            "x": 278.69956097560976,
+            "y": 657.1000000000004,
+            "w": 27.368121951219507,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "six",
+          "charStart": 2067,
+          "charEnd": 2070,
+          "bbox": {
+            "x": 310.62903658536584,
+            "y": 657.1000000000004,
+            "w": 13.684060975609782,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "(6)",
+          "charStart": 2071,
+          "charEnd": 2074,
+          "bbox": {
+            "x": 328.87445121951225,
+            "y": 657.1000000000004,
+            "w": 13.684060975609782,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "months’",
+          "charStart": 2075,
+          "charEnd": 2082,
+          "bbox": {
+            "x": 347.1198658536586,
+            "y": 657.1000000000004,
+            "w": 31.929475609756082,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "written",
+          "charStart": 2083,
+          "charEnd": 2090,
+          "bbox": {
+            "x": 383.61069512195127,
+            "y": 657.1000000000004,
+            "w": 31.929475609756082,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "notice.",
+          "charStart": 2091,
+          "charEnd": 2098,
+          "bbox": {
+            "x": 420.101524390244,
+            "y": 657.1000000000004,
+            "w": 31.929475609756082,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "11.2",
+          "charStart": 2099,
+          "charEnd": 2103,
+          "bbox": {
+            "x": 64,
+            "y": 680.8000000000004,
+            "w": 20.468538461538458,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Termination",
+          "charStart": 2104,
+          "charEnd": 2115,
+          "bbox": {
+            "x": 89.58567307692307,
+            "y": 680.8000000000004,
+            "w": 56.28848076923076,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "for",
+          "charStart": 2116,
+          "charEnd": 2119,
+          "bbox": {
+            "x": 150.99128846153846,
+            "y": 680.8000000000004,
+            "w": 15.351403846153858,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "cause",
+          "charStart": 2120,
+          "charEnd": 2125,
+          "bbox": {
+            "x": 171.4598269230769,
+            "y": 680.8000000000004,
+            "w": 25.585673076923058,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Either",
+          "charStart": 2126,
+          "charEnd": 2132,
+          "bbox": {
+            "x": 78,
+            "y": 697.5000000000005,
+            "w": 27.06543000000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "party",
+          "charStart": 2133,
+          "charEnd": 2138,
+          "bbox": {
+            "x": 109.57633500000001,
+            "y": 697.5000000000005,
+            "w": 22.554525000000027,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "may",
+          "charStart": 2139,
+          "charEnd": 2142,
+          "bbox": {
+            "x": 136.64176500000002,
+            "y": 697.5000000000005,
+            "w": 13.532714999999996,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "terminate",
+          "charStart": 2143,
+          "charEnd": 2152,
+          "bbox": {
+            "x": 154.68538500000005,
+            "y": 697.5000000000005,
+            "w": 40.59814500000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "this",
+          "charStart": 2153,
+          "charEnd": 2157,
+          "bbox": {
+            "x": 199.79443500000008,
+            "y": 697.5000000000005,
+            "w": 18.043620000000004,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 2158,
+          "charEnd": 2167,
+          "bbox": {
+            "x": 222.3489600000001,
+            "y": 697.5000000000005,
+            "w": 40.598145000000045,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 2168,
+          "charEnd": 2170,
+          "bbox": {
+            "x": 267.4580100000001,
+            "y": 697.5000000000005,
+            "w": 9.021810000000016,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "written",
+          "charStart": 2171,
+          "charEnd": 2178,
+          "bbox": {
+            "x": 280.9907250000001,
+            "y": 697.5000000000005,
+            "w": 31.57633500000003,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "notice",
+          "charStart": 2179,
+          "charEnd": 2185,
+          "bbox": {
+            "x": 317.0779650000001,
+            "y": 697.5000000000005,
+            "w": 27.065429999999992,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "if",
+          "charStart": 2186,
+          "charEnd": 2188,
+          "bbox": {
+            "x": 348.65430000000015,
+            "y": 697.5000000000005,
+            "w": 9.021810000000016,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2189,
+          "charEnd": 2192,
+          "bbox": {
+            "x": 362.1870150000002,
+            "y": 697.5000000000005,
+            "w": 13.532714999999996,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "other",
+          "charStart": 2193,
+          "charEnd": 2198,
+          "bbox": {
+            "x": 380.2306350000002,
+            "y": 697.5000000000005,
+            "w": 22.554525000000012,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "party",
+          "charStart": 2199,
+          "charEnd": 2204,
+          "bbox": {
+            "x": 407.29606500000017,
+            "y": 697.5000000000005,
+            "w": 22.554525000000012,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 2205,
+          "charEnd": 2207,
+          "bbox": {
+            "x": 434.3614950000002,
+            "y": 697.5000000000005,
+            "w": 9.021810000000016,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 2208,
+          "charEnd": 2210,
+          "bbox": {
+            "x": 447.89421000000016,
+            "y": 697.5000000000005,
+            "w": 9.021810000000016,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "material",
+          "charStart": 2211,
+          "charEnd": 2219,
+          "bbox": {
+            "x": 461.4269250000002,
+            "y": 697.5000000000005,
+            "w": 36.08724000000001,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "breach",
+          "charStart": 2220,
+          "charEnd": 2226,
+          "bbox": {
+            "x": 502.02507000000026,
+            "y": 697.5000000000005,
+            "w": 27.065429999999992,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2227,
+          "charEnd": 2229,
+          "bbox": {
+            "x": 78,
+            "y": 712.2000000000004,
+            "w": 8.894760000000005,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 2230,
+          "charEnd": 2232,
+          "bbox": {
+            "x": 91.34214,
+            "y": 712.2000000000004,
+            "w": 8.894760000000005,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 2233,
+          "charEnd": 2236,
+          "bbox": {
+            "x": 104.68428,
+            "y": 712.2000000000004,
+            "w": 13.34214,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "has",
+          "charStart": 2237,
+          "charEnd": 2240,
+          "bbox": {
+            "x": 122.47380000000001,
+            "y": 712.2000000000004,
+            "w": 13.34214,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "not",
+          "charStart": 2241,
+          "charEnd": 2244,
+          "bbox": {
+            "x": 140.26332000000002,
+            "y": 712.2000000000004,
+            "w": 13.34214,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "put",
+          "charStart": 2245,
+          "charEnd": 2248,
+          "bbox": {
+            "x": 158.05284000000003,
+            "y": 712.2000000000004,
+            "w": 13.34214,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2249,
+          "charEnd": 2252,
+          "bbox": {
+            "x": 175.84236000000004,
+            "y": 712.2000000000004,
+            "w": 13.34214,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "breach",
+          "charStart": 2253,
+          "charEnd": 2259,
+          "bbox": {
+            "x": 193.63188000000002,
+            "y": 712.2000000000004,
+            "w": 26.68428,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "right",
+          "charStart": 2260,
+          "charEnd": 2265,
+          "bbox": {
+            "x": 224.76354000000003,
+            "y": 712.2000000000004,
+            "w": 22.23690000000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "within",
+          "charStart": 2266,
+          "charEnd": 2272,
+          "bbox": {
+            "x": 251.44782000000006,
+            "y": 712.2000000000004,
+            "w": 26.68428000000003,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "fourteen",
+          "charStart": 2273,
+          "charEnd": 2281,
+          "bbox": {
+            "x": 282.5794800000001,
+            "y": 712.2000000000004,
+            "w": 35.57904000000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "(14)",
+          "charStart": 2282,
+          "charEnd": 2286,
+          "bbox": {
+            "x": 322.60590000000013,
+            "y": 712.2000000000004,
+            "w": 17.789519999999982,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "days",
+          "charStart": 2287,
+          "charEnd": 2291,
+          "bbox": {
+            "x": 344.8428000000001,
+            "y": 712.2000000000004,
+            "w": 17.789519999999982,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2292,
+          "charEnd": 2294,
+          "bbox": {
+            "x": 367.0797000000001,
+            "y": 712.2000000000004,
+            "w": 8.89476000000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "being",
+          "charStart": 2295,
+          "charEnd": 2300,
+          "bbox": {
+            "x": 380.42184000000015,
+            "y": 712.2000000000004,
+            "w": 22.23689999999999,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "asked",
+          "charStart": 2301,
+          "charEnd": 2306,
+          "bbox": {
+            "x": 407.10612000000015,
+            "y": 712.2000000000004,
+            "w": 22.23689999999999,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 2307,
+          "charEnd": 2309,
+          "bbox": {
+            "x": 433.79040000000015,
+            "y": 712.2000000000004,
+            "w": 8.89476000000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "writing",
+          "charStart": 2310,
+          "charEnd": 2317,
+          "bbox": {
+            "x": 447.1325400000002,
+            "y": 712.2000000000004,
+            "w": 31.13166000000001,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 2318,
+          "charEnd": 2320,
+          "bbox": {
+            "x": 482.7115800000002,
+            "y": 712.2000000000004,
+            "w": 8.89476000000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "do",
+          "charStart": 2321,
+          "charEnd": 2323,
+          "bbox": {
+            "x": 496.05372000000017,
+            "y": 712.2000000000004,
+            "w": 8.89476000000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "so.",
+          "charStart": 2324,
+          "charEnd": 2327,
+          "bbox": {
+            "x": 509.3958600000002,
+            "y": 712.2000000000004,
+            "w": 13.342139999999972,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Distribution",
+          "charStart": 2328,
+          "charEnd": 2340,
+          "bbox": {
+            "x": 64,
+            "y": 791.89,
+            "w": 44.170666666666676,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 2341,
+          "charEnd": 2350,
+          "bbox": {
+            "x": 111.85155555555556,
+            "y": 791.89,
+            "w": 33.128000000000014,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "·",
+          "charStart": 2351,
+          "charEnd": 2352,
+          "bbox": {
+            "x": 148.66044444444447,
+            "y": 791.89,
+            "w": 3.6808888888888873,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "page",
+          "charStart": 2353,
+          "charEnd": 2357,
+          "bbox": {
+            "x": 156.02222222222224,
+            "y": 791.89,
+            "w": 14.72355555555555,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "1",
+          "charStart": 2358,
+          "charEnd": 2359,
+          "bbox": {
+            "x": 174.42666666666668,
+            "y": 791.89,
+            "w": 3.6808888888888873,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2360,
+          "charEnd": 2362,
+          "bbox": {
+            "x": 181.78844444444445,
+            "y": 791.89,
+            "w": 7.361777777777775,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "2",
+          "charStart": 2363,
+          "charEnd": 2364,
+          "bbox": {
+            "x": 192.83111111111114,
+            "y": 791.89,
+            "w": 3.6808888888888873,
+            "h": 8
+          },
+          "ocrConfidence": null
+        }
+      ]
+    },
+    {
+      "pageNum": 2,
+      "charStart": 2366,
+      "charEnd": 2999,
+      "width": 595.28,
+      "height": 841.89,
+      "ocr": false,
+      "words": [
+        {
+          "text": "SCHEDULE",
+          "charStart": 2366,
+          "charEnd": 2374,
+          "bbox": {
+            "x": 64,
+            "y": 64,
+            "w": 53.879636363636365,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "—",
+          "charStart": 2375,
+          "charEnd": 2376,
+          "bbox": {
+            "x": 124.61459090909091,
+            "y": 64,
+            "w": 6.734954545454542,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "PRODUCTS",
+          "charStart": 2377,
+          "charEnd": 2385,
+          "bbox": {
+            "x": 138.08450000000002,
+            "y": 64,
+            "w": 53.879636363636365,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "AND",
+          "charStart": 2386,
+          "charEnd": 2389,
+          "bbox": {
+            "x": 198.69909090909093,
+            "y": 64,
+            "w": 20.204863636363626,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "TERRITORY",
+          "charStart": 2390,
+          "charEnd": 2399,
+          "bbox": {
+            "x": 225.63890909090912,
+            "y": 64,
+            "w": 60.61459090909091,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Product",
+          "charStart": 2400,
+          "charEnd": 2407,
+          "bbox": {
+            "x": 78,
+            "y": 80.70000000000005,
+            "w": 34.09262500000003,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "category:",
+          "charStart": 2408,
+          "charEnd": 2417,
+          "bbox": {
+            "x": 116.96300000000002,
+            "y": 80.70000000000005,
+            "w": 43.83337500000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Product",
+          "charStart": 2418,
+          "charEnd": 2425,
+          "bbox": {
+            "x": 165.66675000000004,
+            "y": 80.70000000000005,
+            "w": 34.09262500000003,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Category",
+          "charStart": 2426,
+          "charEnd": 2434,
+          "bbox": {
+            "x": 204.62975000000006,
+            "y": 80.70000000000005,
+            "w": 38.96300000000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "X",
+          "charStart": 2435,
+          "charEnd": 2436,
+          "bbox": {
+            "x": 248.46312500000008,
+            "y": 80.70000000000005,
+            "w": 4.870374999999996,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "—",
+          "charStart": 2437,
+          "charEnd": 2438,
+          "bbox": {
+            "x": 258.2038750000001,
+            "y": 80.70000000000005,
+            "w": 4.870375000000024,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "benchtop",
+          "charStart": 2439,
+          "charEnd": 2447,
+          "bbox": {
+            "x": 267.9446250000001,
+            "y": 80.70000000000005,
+            "w": 38.96300000000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "analytical",
+          "charStart": 2448,
+          "charEnd": 2458,
+          "bbox": {
+            "x": 311.77800000000013,
+            "y": 80.70000000000005,
+            "w": 48.703750000000014,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "instruments",
+          "charStart": 2459,
+          "charEnd": 2470,
+          "bbox": {
+            "x": 365.3521250000001,
+            "y": 80.70000000000005,
+            "w": 53.57412500000004,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 2471,
+          "charEnd": 2474,
+          "bbox": {
+            "x": 423.7966250000002,
+            "y": 80.70000000000005,
+            "w": 14.611125000000015,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "dedicated",
+          "charStart": 2475,
+          "charEnd": 2484,
+          "bbox": {
+            "x": 443.27812500000016,
+            "y": 80.70000000000005,
+            "w": 43.833375000000046,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "consumables",
+          "charStart": 2485,
+          "charEnd": 2496,
+          "bbox": {
+            "x": 78,
+            "y": 95.40000000000009,
+            "w": 54.78243750000007,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "(KI-400",
+          "charStart": 2497,
+          "charEnd": 2504,
+          "bbox": {
+            "x": 137.76265909090915,
+            "y": 95.40000000000009,
+            "w": 34.86155113636369,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "series",
+          "charStart": 2505,
+          "charEnd": 2511,
+          "bbox": {
+            "x": 177.60443181818192,
+            "y": 95.40000000000009,
+            "w": 29.881329545454577,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "spectrophotometers,",
+          "charStart": 2512,
+          "charEnd": 2531,
+          "bbox": {
+            "x": 212.46598295454558,
+            "y": 95.40000000000009,
+            "w": 94.62421022727287,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "KI-650",
+          "charStart": 2532,
+          "charEnd": 2538,
+          "bbox": {
+            "x": 312.07041477272753,
+            "y": 95.40000000000009,
+            "w": 29.88132954545455,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "series",
+          "charStart": 2539,
+          "charEnd": 2545,
+          "bbox": {
+            "x": 346.93196590909116,
+            "y": 95.40000000000009,
+            "w": 29.88132954545455,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "chromatography",
+          "charStart": 2546,
+          "charEnd": 2560,
+          "bbox": {
+            "x": 381.79351704545485,
+            "y": 95.40000000000009,
+            "w": 69.72310227272732,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "modules,",
+          "charStart": 2561,
+          "charEnd": 2569,
+          "bbox": {
+            "x": 456.49684090909136,
+            "y": 95.40000000000009,
+            "w": 39.84177272727277,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 2570,
+          "charEnd": 2573,
+          "bbox": {
+            "x": 501.31883522727315,
+            "y": 95.40000000000009,
+            "w": 14.940664772727303,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "associated",
+          "charStart": 2574,
+          "charEnd": 2584,
+          "bbox": {
+            "x": 78,
+            "y": 110.10000000000014,
+            "w": 46.19260563380283,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "calibration",
+          "charStart": 2585,
+          "charEnd": 2596,
+          "bbox": {
+            "x": 128.81186619718312,
+            "y": 110.10000000000014,
+            "w": 50.81186619718312,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "standards,",
+          "charStart": 2597,
+          "charEnd": 2607,
+          "bbox": {
+            "x": 184.24299295774648,
+            "y": 110.10000000000014,
+            "w": 46.19260563380283,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "sample",
+          "charStart": 2608,
+          "charEnd": 2614,
+          "bbox": {
+            "x": 235.05485915492957,
+            "y": 110.10000000000014,
+            "w": 27.71556338028168,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "cells",
+          "charStart": 2615,
+          "charEnd": 2620,
+          "bbox": {
+            "x": 267.3896830985916,
+            "y": 110.10000000000014,
+            "w": 23.096302816901414,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 2621,
+          "charEnd": 2624,
+          "bbox": {
+            "x": 295.10524647887326,
+            "y": 110.10000000000014,
+            "w": 13.857781690140826,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "reagent",
+          "charStart": 2625,
+          "charEnd": 2632,
+          "bbox": {
+            "x": 313.58228873239443,
+            "y": 110.10000000000014,
+            "w": 32.334823943661945,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "cartridges).",
+          "charStart": 2633,
+          "charEnd": 2645,
+          "bbox": {
+            "x": 350.5363732394366,
+            "y": 110.10000000000014,
+            "w": 55.43112676056336,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Territory:",
+          "charStart": 2646,
+          "charEnd": 2656,
+          "bbox": {
+            "x": 78,
+            "y": 129.80000000000018,
+            "w": 45.56999999999999,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Singapore.",
+          "charStart": 2657,
+          "charEnd": 2667,
+          "bbox": {
+            "x": 128.12699999999998,
+            "y": 129.80000000000018,
+            "w": 45.56999999999999,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Minimum",
+          "charStart": 2668,
+          "charEnd": 2675,
+          "bbox": {
+            "x": 78,
+            "y": 149.50000000000023,
+            "w": 35.60581343283582,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "annual",
+          "charStart": 2676,
+          "charEnd": 2682,
+          "bbox": {
+            "x": 118.69235820895523,
+            "y": 149.50000000000023,
+            "w": 30.519268656716406,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "purchase",
+          "charStart": 2683,
+          "charEnd": 2691,
+          "bbox": {
+            "x": 154.29817164179104,
+            "y": 149.50000000000023,
+            "w": 40.69235820895523,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "commitment:",
+          "charStart": 2692,
+          "charEnd": 2703,
+          "bbox": {
+            "x": 200.07707462686568,
+            "y": 149.50000000000023,
+            "w": 55.9519925373134,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "S$180,000",
+          "charStart": 2704,
+          "charEnd": 2713,
+          "bbox": {
+            "x": 261.1156119402985,
+            "y": 149.50000000000023,
+            "w": 45.77890298507464,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "per",
+          "charStart": 2714,
+          "charEnd": 2717,
+          "bbox": {
+            "x": 311.98105970149254,
+            "y": 149.50000000000023,
+            "w": 15.259634328358231,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "year",
+          "charStart": 2718,
+          "charEnd": 2722,
+          "bbox": {
+            "x": 332.3272388059701,
+            "y": 149.50000000000023,
+            "w": 20.346179104477585,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2723,
+          "charEnd": 2725,
+          "bbox": {
+            "x": 357.7599626865672,
+            "y": 149.50000000000023,
+            "w": 10.173089552238821,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2726,
+          "charEnd": 2729,
+          "bbox": {
+            "x": 373.01959701492535,
+            "y": 149.50000000000023,
+            "w": 15.259634328358231,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Term.",
+          "charStart": 2730,
+          "charEnd": 2735,
+          "bbox": {
+            "x": 393.36577611940294,
+            "y": 149.50000000000023,
+            "w": 25.432723880596996,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "GOVERNING",
+          "charStart": 2736,
+          "charEnd": 2745,
+          "bbox": {
+            "x": 64,
+            "y": 173.20000000000027,
+            "w": 58.101750000000024,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "LAW",
+          "charStart": 2746,
+          "charEnd": 2749,
+          "bbox": {
+            "x": 128.55750000000003,
+            "y": 173.20000000000027,
+            "w": 19.367250000000013,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "AND",
+          "charStart": 2750,
+          "charEnd": 2753,
+          "bbox": {
+            "x": 154.38050000000004,
+            "y": 173.20000000000027,
+            "w": 19.367250000000013,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "JURISDICTION",
+          "charStart": 2754,
+          "charEnd": 2766,
+          "bbox": {
+            "x": 180.20350000000005,
+            "y": 173.20000000000027,
+            "w": 77.46900000000002,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "This",
+          "charStart": 2767,
+          "charEnd": 2771,
+          "bbox": {
+            "x": 78,
+            "y": 189.90000000000032,
+            "w": 18.940090909090912,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 2772,
+          "charEnd": 2781,
+          "bbox": {
+            "x": 101.67511363636365,
+            "y": 189.90000000000032,
+            "w": 42.61520454545456,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 2782,
+          "charEnd": 2784,
+          "bbox": {
+            "x": 149.02534090909091,
+            "y": 189.90000000000032,
+            "w": 9.47004545454547,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "governed",
+          "charStart": 2785,
+          "charEnd": 2793,
+          "bbox": {
+            "x": 163.23040909090912,
+            "y": 189.90000000000032,
+            "w": 37.880181818181825,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 2794,
+          "charEnd": 2796,
+          "bbox": {
+            "x": 205.84561363636368,
+            "y": 189.90000000000032,
+            "w": 9.47004545454547,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2797,
+          "charEnd": 2800,
+          "bbox": {
+            "x": 220.05068181818186,
+            "y": 189.90000000000032,
+            "w": 14.205068181818177,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "laws",
+          "charStart": 2801,
+          "charEnd": 2805,
+          "bbox": {
+            "x": 238.99077272727277,
+            "y": 189.90000000000032,
+            "w": 18.94009090909094,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2806,
+          "charEnd": 2808,
+          "bbox": {
+            "x": 262.66588636363645,
+            "y": 189.90000000000032,
+            "w": 9.47004545454547,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Singapore.",
+          "charStart": 2809,
+          "charEnd": 2819,
+          "bbox": {
+            "x": 276.8709545454546,
+            "y": 189.90000000000032,
+            "w": 47.350227272727295,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "The",
+          "charStart": 2820,
+          "charEnd": 2823,
+          "bbox": {
+            "x": 328.9562045454546,
+            "y": 189.90000000000032,
+            "w": 14.205068181818206,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "parties",
+          "charStart": 2824,
+          "charEnd": 2831,
+          "bbox": {
+            "x": 347.8962954545455,
+            "y": 189.90000000000032,
+            "w": 33.14515909090909,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "submit",
+          "charStart": 2832,
+          "charEnd": 2838,
+          "bbox": {
+            "x": 385.7764772727274,
+            "y": 189.90000000000032,
+            "w": 28.410136363636354,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 2839,
+          "charEnd": 2841,
+          "bbox": {
+            "x": 418.9216363636365,
+            "y": 189.90000000000032,
+            "w": 9.47004545454547,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2842,
+          "charEnd": 2845,
+          "bbox": {
+            "x": 433.12670454545463,
+            "y": 189.90000000000032,
+            "w": 14.205068181818206,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "exclusive",
+          "charStart": 2846,
+          "charEnd": 2855,
+          "bbox": {
+            "x": 452.06679545454557,
+            "y": 189.90000000000032,
+            "w": 42.61520454545456,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "jurisdiction",
+          "charStart": 2856,
+          "charEnd": 2868,
+          "bbox": {
+            "x": 78,
+            "y": 204.60000000000036,
+            "w": 53.0744117647059,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2869,
+          "charEnd": 2871,
+          "bbox": {
+            "x": 135.49727941176474,
+            "y": 204.60000000000036,
+            "w": 8.845735294117645,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2872,
+          "charEnd": 2875,
+          "bbox": {
+            "x": 148.76588235294122,
+            "y": 204.60000000000036,
+            "w": 13.268602941176482,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "courts",
+          "charStart": 2876,
+          "charEnd": 2882,
+          "bbox": {
+            "x": 166.4573529411765,
+            "y": 204.60000000000036,
+            "w": 26.537205882352964,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2883,
+          "charEnd": 2885,
+          "bbox": {
+            "x": 197.41742647058828,
+            "y": 204.60000000000036,
+            "w": 8.845735294117645,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Singapore",
+          "charStart": 2886,
+          "charEnd": 2895,
+          "bbox": {
+            "x": 210.68602941176476,
+            "y": 204.60000000000036,
+            "w": 39.805808823529446,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 2896,
+          "charEnd": 2898,
+          "bbox": {
+            "x": 254.91470588235305,
+            "y": 204.60000000000036,
+            "w": 8.845735294117645,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "respect",
+          "charStart": 2899,
+          "charEnd": 2906,
+          "bbox": {
+            "x": 268.1833088235295,
+            "y": 204.60000000000036,
+            "w": 30.960073529411773,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2907,
+          "charEnd": 2909,
+          "bbox": {
+            "x": 303.5662500000001,
+            "y": 204.60000000000036,
+            "w": 8.845735294117674,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "any",
+          "charStart": 2910,
+          "charEnd": 2913,
+          "bbox": {
+            "x": 316.83485294117656,
+            "y": 204.60000000000036,
+            "w": 13.268602941176482,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "dispute",
+          "charStart": 2914,
+          "charEnd": 2921,
+          "bbox": {
+            "x": 334.5263235294119,
+            "y": 204.60000000000036,
+            "w": 30.960073529411773,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "arising",
+          "charStart": 2922,
+          "charEnd": 2929,
+          "bbox": {
+            "x": 369.9092647058825,
+            "y": 204.60000000000036,
+            "w": 30.960073529411773,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "out",
+          "charStart": 2930,
+          "charEnd": 2933,
+          "bbox": {
+            "x": 405.2922058823531,
+            "y": 204.60000000000036,
+            "w": 13.268602941176482,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2934,
+          "charEnd": 2936,
+          "bbox": {
+            "x": 422.98367647058836,
+            "y": 204.60000000000036,
+            "w": 8.845735294117674,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "or",
+          "charStart": 2937,
+          "charEnd": 2939,
+          "bbox": {
+            "x": 436.2522794117649,
+            "y": 204.60000000000036,
+            "w": 8.845735294117674,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 2940,
+          "charEnd": 2942,
+          "bbox": {
+            "x": 449.5208823529414,
+            "y": 204.60000000000036,
+            "w": 8.845735294117674,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "connection",
+          "charStart": 2943,
+          "charEnd": 2953,
+          "bbox": {
+            "x": 462.7894852941178,
+            "y": 204.60000000000036,
+            "w": 44.228676470588255,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "with",
+          "charStart": 2954,
+          "charEnd": 2958,
+          "bbox": {
+            "x": 511.44102941176493,
+            "y": 204.60000000000036,
+            "w": 17.691470588235347,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "it.",
+          "charStart": 2959,
+          "charEnd": 2962,
+          "bbox": {
+            "x": 78,
+            "y": 219.3000000000004,
+            "w": 8.168999999999997,
+            "h": 10.5
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Distribution",
+          "charStart": 2963,
+          "charEnd": 2975,
+          "bbox": {
+            "x": 64,
+            "y": 791.89,
+            "w": 44.170666666666676,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 2976,
+          "charEnd": 2985,
+          "bbox": {
+            "x": 111.85155555555556,
+            "y": 791.89,
+            "w": 33.128000000000014,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "·",
+          "charStart": 2986,
+          "charEnd": 2987,
+          "bbox": {
+            "x": 148.66044444444447,
+            "y": 791.89,
+            "w": 3.6808888888888873,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "page",
+          "charStart": 2988,
+          "charEnd": 2992,
+          "bbox": {
+            "x": 156.02222222222224,
+            "y": 791.89,
+            "w": 14.72355555555555,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "2",
+          "charStart": 2993,
+          "charEnd": 2994,
+          "bbox": {
+            "x": 174.42666666666668,
+            "y": 791.89,
+            "w": 3.6808888888888873,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2995,
+          "charEnd": 2997,
+          "bbox": {
+            "x": 181.78844444444445,
+            "y": 791.89,
+            "w": 7.361777777777775,
+            "h": 8
+          },
+          "ocrConfidence": null
+        },
+        {
+          "text": "2",
+          "charStart": 2998,
+          "charEnd": 2999,
+          "bbox": {
+            "x": 192.83111111111114,
+            "y": 791.89,
+            "w": 3.6808888888888873,
+            "h": 8
+          },
+          "ocrConfidence": null
+        }
+      ]
+    }
+  ]
+}

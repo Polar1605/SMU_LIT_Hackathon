@@ -396,7 +396,12 @@
           "expectedConfidence": "FOUND",
           "clauseId": "12"
         },
-        "liabilityCap": { "value": "S$75,000", "expectedConfidence": "FOUND", "clauseId": "10" },
+        "liabilityCap": {
+          "value": "S$75,000",
+          "expectedConfidence": "UNCERTAIN",
+          "clauseId": "10",
+          "note": "The document says S$75,000 and that remains the truth of the document. But OCR reads this span as \"$$75,000.\" at word confidence 20, against 96 for the surrounding prose — the scan degrades precisely the characters that carry the meaning. A reader of THIS scan cannot honestly assert the figure, so UNCERTAIN is the calibrated answer and FOUND would be a confident error. Observed after ingest and recorded here rather than quietly tolerated: the value is unchanged, only the confidence a well-calibrated system should report."
+        },
         "exclusivity": { "value": null, "absent": true, "expectedConfidence": "NOT_FOUND" }
       },
       "payments": [

@@ -48,6 +48,7 @@ export async function loadPdfjs(): Promise<any> {
 
 export interface OpenPdf {
   numPages: number;
+  getTitle(): Promise<string | null>;
   getPageText(pageNum: number): Promise<PdfPageText>;
   renderPage(pageNum: number, scale: number): Promise<Canvas>;
   close(): Promise<void>;
@@ -64,6 +65,12 @@ export async function openPdf(filePath: string): Promise<OpenPdf> {
 
   return {
     numPages: doc.numPages,
+
+    async getTitle(): Promise<string | null> {
+      const meta = await doc.getMetadata().catch(() => null);
+      const title = meta?.info?.Title;
+      return typeof title === "string" && title.trim() ? title.trim() : null;
+    },
 
     async getPageText(pageNum: number): Promise<PdfPageText> {
       const page = await doc.getPage(pageNum);

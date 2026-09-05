@@ -1,0 +1,3900 @@
+{
+  "docId": "mutual-nda",
+  "fileName": "mutual-nda.docx",
+  "title": "Mutual Nda",
+  "format": "docx",
+  "paginated": false,
+  "ocrPages": [],
+  "fullText": "Mutual Non-Disclosure Agreement\n\nPARTIES\n\nThis Mutual Non-Disclosure Agreement is made between Meridian Retail Pte Ltd (UEN 201812345K) of 8 Cross Street, Singapore 048424, and Vantage Logistics Pte Ltd (UEN 201599887G) of 5 Toh Guan Road East, Singapore 608831. Each party may disclose Confidential Information to the other, and each is referred to as the Discloser when it discloses and the Recipient when it receives.\n\n1. Effective date\n\nThis Agreement takes effect on 6 August 2026 (the Effective Date).\n\n2. Confidential Information\n\nConfidential Information means information disclosed by the Discloser to the Recipient which is identified as confidential at the time of disclosure, or which the Recipient ought reasonably to understand to be confidential given its nature or the circumstances of its disclosure. It includes commercial terms, pricing, customer lists, operational data, and technical and business plans.\n\n3. Obligations of the Recipient\n\nThe Recipient shall: (a) keep the Confidential Information secret and secure; (b) use it only for the purpose of evaluating and, if the parties so decide, performing a logistics services arrangement between them; and (c) disclose it only to those of its officers, employees and professional advisers who need to know it for that purpose and who are bound by obligations of confidentiality no less protective than those in this Agreement.\n\nThe Recipient shall apply at least the same degree of care to the Confidential Information as it applies to its own confidential information of a similar nature, and in any event no less than a reasonable degree of care.\n\n4. Exceptions\n\nThe obligations in clause 3 do not apply to information which: (a) is or becomes public through no breach of this Agreement; (b) the Recipient already lawfully held free of any confidentiality obligation before disclosure; (c) the Recipient develops independently without reference to the Confidential Information; or (d) the Recipient is required to disclose by law, by a court, or by a regulator, provided that it gives the Discloser such advance notice as is lawful and practicable.\n\n5. Return and destruction\n\nOn written request from the Discloser, the Recipient shall return or destroy all Confidential Information in its possession and shall confirm in writing that it has done so, save that the Recipient may retain one copy to the extent required by law or by its internal record-keeping policies.\n\n6. Term and termination\n\nThis Agreement continues for a period of twenty-four (24) months from the Effective Date. Either party may terminate it at any time by giving the other thirty (30) days written notice.\n\nThe obligations of confidentiality in clause 3 survive termination and continue for a further period of three (3) years in respect of Confidential Information disclosed before termination.\n\n7. No licence and no obligation to proceed\n\nNothing in this Agreement grants the Recipient any right in the Confidential Information other than the limited right to use it for the purpose stated in clause 3. Neither party is obliged by this Agreement to enter into any further agreement with the other, or to proceed with any transaction.\n\n8. General\n\nThis Agreement is governed by the laws of Singapore, and the parties submit to the jurisdiction of the Singapore courts. It may be varied only in writing signed by both parties. It sets out the whole agreement between the parties in relation to the confidentiality of information disclosed between them.",
+  "pages": [
+    {
+      "pageNum": 1,
+      "charStart": 0,
+      "charEnd": 3498,
+      "width": 0,
+      "height": 0,
+      "ocr": false,
+      "words": [
+        {
+          "text": "Mutual",
+          "charStart": 0,
+          "charEnd": 6,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Non-Disclosure",
+          "charStart": 7,
+          "charEnd": 21,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 22,
+          "charEnd": 31,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "PARTIES",
+          "charStart": 33,
+          "charEnd": 40,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "This",
+          "charStart": 42,
+          "charEnd": 46,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Mutual",
+          "charStart": 47,
+          "charEnd": 53,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Non-Disclosure",
+          "charStart": 54,
+          "charEnd": 68,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 69,
+          "charEnd": 78,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 79,
+          "charEnd": 81,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "made",
+          "charStart": 82,
+          "charEnd": 86,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "between",
+          "charStart": 87,
+          "charEnd": 94,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Meridian",
+          "charStart": 95,
+          "charEnd": 103,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Retail",
+          "charStart": 104,
+          "charEnd": 110,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Pte",
+          "charStart": 111,
+          "charEnd": 114,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Ltd",
+          "charStart": 115,
+          "charEnd": 118,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(UEN",
+          "charStart": 119,
+          "charEnd": 123,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "201812345K)",
+          "charStart": 124,
+          "charEnd": 135,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 136,
+          "charEnd": 138,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "8",
+          "charStart": 139,
+          "charEnd": 140,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Cross",
+          "charStart": 141,
+          "charEnd": 146,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Street,",
+          "charStart": 147,
+          "charEnd": 154,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Singapore",
+          "charStart": 155,
+          "charEnd": 164,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "048424,",
+          "charStart": 165,
+          "charEnd": 172,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 173,
+          "charEnd": 176,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Vantage",
+          "charStart": 177,
+          "charEnd": 184,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Logistics",
+          "charStart": 185,
+          "charEnd": 194,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Pte",
+          "charStart": 195,
+          "charEnd": 198,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Ltd",
+          "charStart": 199,
+          "charEnd": 202,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(UEN",
+          "charStart": 203,
+          "charEnd": 207,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "201599887G)",
+          "charStart": 208,
+          "charEnd": 219,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 220,
+          "charEnd": 222,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "5",
+          "charStart": 223,
+          "charEnd": 224,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Toh",
+          "charStart": 225,
+          "charEnd": 228,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Guan",
+          "charStart": 229,
+          "charEnd": 233,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Road",
+          "charStart": 234,
+          "charEnd": 238,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "East,",
+          "charStart": 239,
+          "charEnd": 244,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Singapore",
+          "charStart": 245,
+          "charEnd": 254,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "608831.",
+          "charStart": 255,
+          "charEnd": 262,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Each",
+          "charStart": 263,
+          "charEnd": 267,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "party",
+          "charStart": 268,
+          "charEnd": 273,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "may",
+          "charStart": 274,
+          "charEnd": 277,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "disclose",
+          "charStart": 278,
+          "charEnd": 286,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Confidential",
+          "charStart": 287,
+          "charEnd": 299,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Information",
+          "charStart": 300,
+          "charEnd": 311,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 312,
+          "charEnd": 314,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 315,
+          "charEnd": 318,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "other,",
+          "charStart": 319,
+          "charEnd": 325,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 326,
+          "charEnd": 329,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "each",
+          "charStart": 330,
+          "charEnd": 334,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 335,
+          "charEnd": 337,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "referred",
+          "charStart": 338,
+          "charEnd": 346,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 347,
+          "charEnd": 349,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "as",
+          "charStart": 350,
+          "charEnd": 352,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 353,
+          "charEnd": 356,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Discloser",
+          "charStart": 357,
+          "charEnd": 366,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "when",
+          "charStart": 367,
+          "charEnd": 371,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 372,
+          "charEnd": 374,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "discloses",
+          "charStart": 375,
+          "charEnd": 384,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 385,
+          "charEnd": 388,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 389,
+          "charEnd": 392,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 393,
+          "charEnd": 402,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "when",
+          "charStart": 403,
+          "charEnd": 407,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 408,
+          "charEnd": 410,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "receives.",
+          "charStart": 411,
+          "charEnd": 420,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "1.",
+          "charStart": 422,
+          "charEnd": 424,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Effective",
+          "charStart": 425,
+          "charEnd": 434,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "date",
+          "charStart": 435,
+          "charEnd": 439,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "This",
+          "charStart": 441,
+          "charEnd": 445,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 446,
+          "charEnd": 455,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "takes",
+          "charStart": 456,
+          "charEnd": 461,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "effect",
+          "charStart": 462,
+          "charEnd": 468,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "on",
+          "charStart": 469,
+          "charEnd": 471,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "6",
+          "charStart": 472,
+          "charEnd": 473,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "August",
+          "charStart": 474,
+          "charEnd": 480,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "2026",
+          "charStart": 481,
+          "charEnd": 485,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(the",
+          "charStart": 486,
+          "charEnd": 490,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Effective",
+          "charStart": 491,
+          "charEnd": 500,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Date).",
+          "charStart": 501,
+          "charEnd": 507,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "2.",
+          "charStart": 509,
+          "charEnd": 511,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Confidential",
+          "charStart": 512,
+          "charEnd": 524,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Information",
+          "charStart": 525,
+          "charEnd": 536,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Confidential",
+          "charStart": 538,
+          "charEnd": 550,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Information",
+          "charStart": 551,
+          "charEnd": 562,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "means",
+          "charStart": 563,
+          "charEnd": 568,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "information",
+          "charStart": 569,
+          "charEnd": 580,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "disclosed",
+          "charStart": 581,
+          "charEnd": 590,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 591,
+          "charEnd": 593,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 594,
+          "charEnd": 597,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Discloser",
+          "charStart": 598,
+          "charEnd": 607,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 608,
+          "charEnd": 610,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 611,
+          "charEnd": 614,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 615,
+          "charEnd": 624,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "which",
+          "charStart": 625,
+          "charEnd": 630,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 631,
+          "charEnd": 633,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "identified",
+          "charStart": 634,
+          "charEnd": 644,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "as",
+          "charStart": 645,
+          "charEnd": 647,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "confidential",
+          "charStart": 648,
+          "charEnd": 660,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "at",
+          "charStart": 661,
+          "charEnd": 663,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 664,
+          "charEnd": 667,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "time",
+          "charStart": 668,
+          "charEnd": 672,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 673,
+          "charEnd": 675,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "disclosure,",
+          "charStart": 676,
+          "charEnd": 687,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "or",
+          "charStart": 688,
+          "charEnd": 690,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "which",
+          "charStart": 691,
+          "charEnd": 696,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 697,
+          "charEnd": 700,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 701,
+          "charEnd": 710,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "ought",
+          "charStart": 711,
+          "charEnd": 716,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "reasonably",
+          "charStart": 717,
+          "charEnd": 727,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 728,
+          "charEnd": 730,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "understand",
+          "charStart": 731,
+          "charEnd": 741,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 742,
+          "charEnd": 744,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "be",
+          "charStart": 745,
+          "charEnd": 747,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "confidential",
+          "charStart": 748,
+          "charEnd": 760,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "given",
+          "charStart": 761,
+          "charEnd": 766,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "its",
+          "charStart": 767,
+          "charEnd": 770,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "nature",
+          "charStart": 771,
+          "charEnd": 777,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "or",
+          "charStart": 778,
+          "charEnd": 780,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 781,
+          "charEnd": 784,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "circumstances",
+          "charStart": 785,
+          "charEnd": 798,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 799,
+          "charEnd": 801,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "its",
+          "charStart": 802,
+          "charEnd": 805,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "disclosure.",
+          "charStart": 806,
+          "charEnd": 817,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "It",
+          "charStart": 818,
+          "charEnd": 820,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "includes",
+          "charStart": 821,
+          "charEnd": 829,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "commercial",
+          "charStart": 830,
+          "charEnd": 840,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "terms,",
+          "charStart": 841,
+          "charEnd": 847,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "pricing,",
+          "charStart": 848,
+          "charEnd": 856,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "customer",
+          "charStart": 857,
+          "charEnd": 865,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "lists,",
+          "charStart": 866,
+          "charEnd": 872,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "operational",
+          "charStart": 873,
+          "charEnd": 884,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "data,",
+          "charStart": 885,
+          "charEnd": 890,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 891,
+          "charEnd": 894,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "technical",
+          "charStart": 895,
+          "charEnd": 904,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 905,
+          "charEnd": 908,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "business",
+          "charStart": 909,
+          "charEnd": 917,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "plans.",
+          "charStart": 918,
+          "charEnd": 924,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "3.",
+          "charStart": 926,
+          "charEnd": 928,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Obligations",
+          "charStart": 929,
+          "charEnd": 940,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 941,
+          "charEnd": 943,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 944,
+          "charEnd": 947,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 948,
+          "charEnd": 957,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "The",
+          "charStart": 959,
+          "charEnd": 962,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 963,
+          "charEnd": 972,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "shall:",
+          "charStart": 973,
+          "charEnd": 979,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(a)",
+          "charStart": 980,
+          "charEnd": 983,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "keep",
+          "charStart": 984,
+          "charEnd": 988,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 989,
+          "charEnd": 992,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Confidential",
+          "charStart": 993,
+          "charEnd": 1005,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Information",
+          "charStart": 1006,
+          "charEnd": 1017,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "secret",
+          "charStart": 1018,
+          "charEnd": 1024,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 1025,
+          "charEnd": 1028,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "secure;",
+          "charStart": 1029,
+          "charEnd": 1036,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(b)",
+          "charStart": 1037,
+          "charEnd": 1040,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "use",
+          "charStart": 1041,
+          "charEnd": 1044,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 1045,
+          "charEnd": 1047,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "only",
+          "charStart": 1048,
+          "charEnd": 1052,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "for",
+          "charStart": 1053,
+          "charEnd": 1056,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1057,
+          "charEnd": 1060,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "purpose",
+          "charStart": 1061,
+          "charEnd": 1068,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1069,
+          "charEnd": 1071,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "evaluating",
+          "charStart": 1072,
+          "charEnd": 1082,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and,",
+          "charStart": 1083,
+          "charEnd": 1087,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "if",
+          "charStart": 1088,
+          "charEnd": 1090,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1091,
+          "charEnd": 1094,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "parties",
+          "charStart": 1095,
+          "charEnd": 1102,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "so",
+          "charStart": 1103,
+          "charEnd": 1105,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "decide,",
+          "charStart": 1106,
+          "charEnd": 1113,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "performing",
+          "charStart": 1114,
+          "charEnd": 1124,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "a",
+          "charStart": 1125,
+          "charEnd": 1126,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "logistics",
+          "charStart": 1127,
+          "charEnd": 1136,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "services",
+          "charStart": 1137,
+          "charEnd": 1145,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "arrangement",
+          "charStart": 1146,
+          "charEnd": 1157,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "between",
+          "charStart": 1158,
+          "charEnd": 1165,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "them;",
+          "charStart": 1166,
+          "charEnd": 1171,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 1172,
+          "charEnd": 1175,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(c)",
+          "charStart": 1176,
+          "charEnd": 1179,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "disclose",
+          "charStart": 1180,
+          "charEnd": 1188,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 1189,
+          "charEnd": 1191,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "only",
+          "charStart": 1192,
+          "charEnd": 1196,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 1197,
+          "charEnd": 1199,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "those",
+          "charStart": 1200,
+          "charEnd": 1205,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1206,
+          "charEnd": 1208,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "its",
+          "charStart": 1209,
+          "charEnd": 1212,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "officers,",
+          "charStart": 1213,
+          "charEnd": 1222,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "employees",
+          "charStart": 1223,
+          "charEnd": 1232,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 1233,
+          "charEnd": 1236,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "professional",
+          "charStart": 1237,
+          "charEnd": 1249,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "advisers",
+          "charStart": 1250,
+          "charEnd": 1258,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "who",
+          "charStart": 1259,
+          "charEnd": 1262,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "need",
+          "charStart": 1263,
+          "charEnd": 1267,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 1268,
+          "charEnd": 1270,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "know",
+          "charStart": 1271,
+          "charEnd": 1275,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 1276,
+          "charEnd": 1278,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "for",
+          "charStart": 1279,
+          "charEnd": 1282,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "that",
+          "charStart": 1283,
+          "charEnd": 1287,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "purpose",
+          "charStart": 1288,
+          "charEnd": 1295,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 1296,
+          "charEnd": 1299,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "who",
+          "charStart": 1300,
+          "charEnd": 1303,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "are",
+          "charStart": 1304,
+          "charEnd": 1307,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "bound",
+          "charStart": 1308,
+          "charEnd": 1313,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 1314,
+          "charEnd": 1316,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "obligations",
+          "charStart": 1317,
+          "charEnd": 1328,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1329,
+          "charEnd": 1331,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "confidentiality",
+          "charStart": 1332,
+          "charEnd": 1347,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "no",
+          "charStart": 1348,
+          "charEnd": 1350,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "less",
+          "charStart": 1351,
+          "charEnd": 1355,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "protective",
+          "charStart": 1356,
+          "charEnd": 1366,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "than",
+          "charStart": 1367,
+          "charEnd": 1371,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "those",
+          "charStart": 1372,
+          "charEnd": 1377,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 1378,
+          "charEnd": 1380,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "this",
+          "charStart": 1381,
+          "charEnd": 1385,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement.",
+          "charStart": 1386,
+          "charEnd": 1396,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "The",
+          "charStart": 1398,
+          "charEnd": 1401,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 1402,
+          "charEnd": 1411,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "shall",
+          "charStart": 1412,
+          "charEnd": 1417,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "apply",
+          "charStart": 1418,
+          "charEnd": 1423,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "at",
+          "charStart": 1424,
+          "charEnd": 1426,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "least",
+          "charStart": 1427,
+          "charEnd": 1432,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1433,
+          "charEnd": 1436,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "same",
+          "charStart": 1437,
+          "charEnd": 1441,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "degree",
+          "charStart": 1442,
+          "charEnd": 1448,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1449,
+          "charEnd": 1451,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "care",
+          "charStart": 1452,
+          "charEnd": 1456,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 1457,
+          "charEnd": 1459,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1460,
+          "charEnd": 1463,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Confidential",
+          "charStart": 1464,
+          "charEnd": 1476,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Information",
+          "charStart": 1477,
+          "charEnd": 1488,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "as",
+          "charStart": 1489,
+          "charEnd": 1491,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 1492,
+          "charEnd": 1494,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "applies",
+          "charStart": 1495,
+          "charEnd": 1502,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 1503,
+          "charEnd": 1505,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "its",
+          "charStart": 1506,
+          "charEnd": 1509,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "own",
+          "charStart": 1510,
+          "charEnd": 1513,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "confidential",
+          "charStart": 1514,
+          "charEnd": 1526,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "information",
+          "charStart": 1527,
+          "charEnd": 1538,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1539,
+          "charEnd": 1541,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "a",
+          "charStart": 1542,
+          "charEnd": 1543,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "similar",
+          "charStart": 1544,
+          "charEnd": 1551,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "nature,",
+          "charStart": 1552,
+          "charEnd": 1559,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 1560,
+          "charEnd": 1563,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 1564,
+          "charEnd": 1566,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "any",
+          "charStart": 1567,
+          "charEnd": 1570,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "event",
+          "charStart": 1571,
+          "charEnd": 1576,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "no",
+          "charStart": 1577,
+          "charEnd": 1579,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "less",
+          "charStart": 1580,
+          "charEnd": 1584,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "than",
+          "charStart": 1585,
+          "charEnd": 1589,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "a",
+          "charStart": 1590,
+          "charEnd": 1591,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "reasonable",
+          "charStart": 1592,
+          "charEnd": 1602,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "degree",
+          "charStart": 1603,
+          "charEnd": 1609,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1610,
+          "charEnd": 1612,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "care.",
+          "charStart": 1613,
+          "charEnd": 1618,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "4.",
+          "charStart": 1620,
+          "charEnd": 1622,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Exceptions",
+          "charStart": 1623,
+          "charEnd": 1633,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "The",
+          "charStart": 1635,
+          "charEnd": 1638,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "obligations",
+          "charStart": 1639,
+          "charEnd": 1650,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 1651,
+          "charEnd": 1653,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "clause",
+          "charStart": 1654,
+          "charEnd": 1660,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "3",
+          "charStart": 1661,
+          "charEnd": 1662,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "do",
+          "charStart": 1663,
+          "charEnd": 1665,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "not",
+          "charStart": 1666,
+          "charEnd": 1669,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "apply",
+          "charStart": 1670,
+          "charEnd": 1675,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 1676,
+          "charEnd": 1678,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "information",
+          "charStart": 1679,
+          "charEnd": 1690,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "which:",
+          "charStart": 1691,
+          "charEnd": 1697,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(a)",
+          "charStart": 1698,
+          "charEnd": 1701,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 1702,
+          "charEnd": 1704,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "or",
+          "charStart": 1705,
+          "charEnd": 1707,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "becomes",
+          "charStart": 1708,
+          "charEnd": 1715,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "public",
+          "charStart": 1716,
+          "charEnd": 1722,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "through",
+          "charStart": 1723,
+          "charEnd": 1730,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "no",
+          "charStart": 1731,
+          "charEnd": 1733,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "breach",
+          "charStart": 1734,
+          "charEnd": 1740,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1741,
+          "charEnd": 1743,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "this",
+          "charStart": 1744,
+          "charEnd": 1748,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement;",
+          "charStart": 1749,
+          "charEnd": 1759,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(b)",
+          "charStart": 1760,
+          "charEnd": 1763,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1764,
+          "charEnd": 1767,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 1768,
+          "charEnd": 1777,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "already",
+          "charStart": 1778,
+          "charEnd": 1785,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "lawfully",
+          "charStart": 1786,
+          "charEnd": 1794,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "held",
+          "charStart": 1795,
+          "charEnd": 1799,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "free",
+          "charStart": 1800,
+          "charEnd": 1804,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 1805,
+          "charEnd": 1807,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "any",
+          "charStart": 1808,
+          "charEnd": 1811,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "confidentiality",
+          "charStart": 1812,
+          "charEnd": 1827,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "obligation",
+          "charStart": 1828,
+          "charEnd": 1838,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "before",
+          "charStart": 1839,
+          "charEnd": 1845,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "disclosure;",
+          "charStart": 1846,
+          "charEnd": 1857,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(c)",
+          "charStart": 1858,
+          "charEnd": 1861,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1862,
+          "charEnd": 1865,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 1866,
+          "charEnd": 1875,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "develops",
+          "charStart": 1876,
+          "charEnd": 1884,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "independently",
+          "charStart": 1885,
+          "charEnd": 1898,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "without",
+          "charStart": 1899,
+          "charEnd": 1906,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "reference",
+          "charStart": 1907,
+          "charEnd": 1916,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 1917,
+          "charEnd": 1919,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1920,
+          "charEnd": 1923,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Confidential",
+          "charStart": 1924,
+          "charEnd": 1936,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Information;",
+          "charStart": 1937,
+          "charEnd": 1949,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "or",
+          "charStart": 1950,
+          "charEnd": 1952,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(d)",
+          "charStart": 1953,
+          "charEnd": 1956,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 1957,
+          "charEnd": 1960,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 1961,
+          "charEnd": 1970,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 1971,
+          "charEnd": 1973,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "required",
+          "charStart": 1974,
+          "charEnd": 1982,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 1983,
+          "charEnd": 1985,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "disclose",
+          "charStart": 1986,
+          "charEnd": 1994,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 1995,
+          "charEnd": 1997,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "law,",
+          "charStart": 1998,
+          "charEnd": 2002,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 2003,
+          "charEnd": 2005,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "a",
+          "charStart": 2006,
+          "charEnd": 2007,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "court,",
+          "charStart": 2008,
+          "charEnd": 2014,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "or",
+          "charStart": 2015,
+          "charEnd": 2017,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 2018,
+          "charEnd": 2020,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "a",
+          "charStart": 2021,
+          "charEnd": 2022,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "regulator,",
+          "charStart": 2023,
+          "charEnd": 2033,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "provided",
+          "charStart": 2034,
+          "charEnd": 2042,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "that",
+          "charStart": 2043,
+          "charEnd": 2047,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 2048,
+          "charEnd": 2050,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "gives",
+          "charStart": 2051,
+          "charEnd": 2056,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2057,
+          "charEnd": 2060,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Discloser",
+          "charStart": 2061,
+          "charEnd": 2070,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "such",
+          "charStart": 2071,
+          "charEnd": 2075,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "advance",
+          "charStart": 2076,
+          "charEnd": 2083,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "notice",
+          "charStart": 2084,
+          "charEnd": 2090,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "as",
+          "charStart": 2091,
+          "charEnd": 2093,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 2094,
+          "charEnd": 2096,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "lawful",
+          "charStart": 2097,
+          "charEnd": 2103,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 2104,
+          "charEnd": 2107,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "practicable.",
+          "charStart": 2108,
+          "charEnd": 2120,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "5.",
+          "charStart": 2122,
+          "charEnd": 2124,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Return",
+          "charStart": 2125,
+          "charEnd": 2131,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 2132,
+          "charEnd": 2135,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "destruction",
+          "charStart": 2136,
+          "charEnd": 2147,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "On",
+          "charStart": 2149,
+          "charEnd": 2151,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "written",
+          "charStart": 2152,
+          "charEnd": 2159,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "request",
+          "charStart": 2160,
+          "charEnd": 2167,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "from",
+          "charStart": 2168,
+          "charEnd": 2172,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2173,
+          "charEnd": 2176,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Discloser,",
+          "charStart": 2177,
+          "charEnd": 2187,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2188,
+          "charEnd": 2191,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 2192,
+          "charEnd": 2201,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "shall",
+          "charStart": 2202,
+          "charEnd": 2207,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "return",
+          "charStart": 2208,
+          "charEnd": 2214,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "or",
+          "charStart": 2215,
+          "charEnd": 2217,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "destroy",
+          "charStart": 2218,
+          "charEnd": 2225,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "all",
+          "charStart": 2226,
+          "charEnd": 2229,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Confidential",
+          "charStart": 2230,
+          "charEnd": 2242,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Information",
+          "charStart": 2243,
+          "charEnd": 2254,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 2255,
+          "charEnd": 2257,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "its",
+          "charStart": 2258,
+          "charEnd": 2261,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "possession",
+          "charStart": 2262,
+          "charEnd": 2272,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 2273,
+          "charEnd": 2276,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "shall",
+          "charStart": 2277,
+          "charEnd": 2282,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "confirm",
+          "charStart": 2283,
+          "charEnd": 2290,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 2291,
+          "charEnd": 2293,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "writing",
+          "charStart": 2294,
+          "charEnd": 2301,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "that",
+          "charStart": 2302,
+          "charEnd": 2306,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 2307,
+          "charEnd": 2309,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "has",
+          "charStart": 2310,
+          "charEnd": 2313,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "done",
+          "charStart": 2314,
+          "charEnd": 2318,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "so,",
+          "charStart": 2319,
+          "charEnd": 2322,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "save",
+          "charStart": 2323,
+          "charEnd": 2327,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "that",
+          "charStart": 2328,
+          "charEnd": 2332,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2333,
+          "charEnd": 2336,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 2337,
+          "charEnd": 2346,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "may",
+          "charStart": 2347,
+          "charEnd": 2350,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "retain",
+          "charStart": 2351,
+          "charEnd": 2357,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "one",
+          "charStart": 2358,
+          "charEnd": 2361,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "copy",
+          "charStart": 2362,
+          "charEnd": 2366,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 2367,
+          "charEnd": 2369,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2370,
+          "charEnd": 2373,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "extent",
+          "charStart": 2374,
+          "charEnd": 2380,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "required",
+          "charStart": 2381,
+          "charEnd": 2389,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 2390,
+          "charEnd": 2392,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "law",
+          "charStart": 2393,
+          "charEnd": 2396,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "or",
+          "charStart": 2397,
+          "charEnd": 2399,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 2400,
+          "charEnd": 2402,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "its",
+          "charStart": 2403,
+          "charEnd": 2406,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "internal",
+          "charStart": 2407,
+          "charEnd": 2415,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "record-keeping",
+          "charStart": 2416,
+          "charEnd": 2430,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "policies.",
+          "charStart": 2431,
+          "charEnd": 2440,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "6.",
+          "charStart": 2442,
+          "charEnd": 2444,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Term",
+          "charStart": 2445,
+          "charEnd": 2449,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 2450,
+          "charEnd": 2453,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "termination",
+          "charStart": 2454,
+          "charEnd": 2465,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "This",
+          "charStart": 2467,
+          "charEnd": 2471,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 2472,
+          "charEnd": 2481,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "continues",
+          "charStart": 2482,
+          "charEnd": 2491,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "for",
+          "charStart": 2492,
+          "charEnd": 2495,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "a",
+          "charStart": 2496,
+          "charEnd": 2497,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "period",
+          "charStart": 2498,
+          "charEnd": 2504,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2505,
+          "charEnd": 2507,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "twenty-four",
+          "charStart": 2508,
+          "charEnd": 2519,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(24)",
+          "charStart": 2520,
+          "charEnd": 2524,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "months",
+          "charStart": 2525,
+          "charEnd": 2531,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "from",
+          "charStart": 2532,
+          "charEnd": 2536,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2537,
+          "charEnd": 2540,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Effective",
+          "charStart": 2541,
+          "charEnd": 2550,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Date.",
+          "charStart": 2551,
+          "charEnd": 2556,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Either",
+          "charStart": 2557,
+          "charEnd": 2563,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "party",
+          "charStart": 2564,
+          "charEnd": 2569,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "may",
+          "charStart": 2570,
+          "charEnd": 2573,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "terminate",
+          "charStart": 2574,
+          "charEnd": 2583,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 2584,
+          "charEnd": 2586,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "at",
+          "charStart": 2587,
+          "charEnd": 2589,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "any",
+          "charStart": 2590,
+          "charEnd": 2593,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "time",
+          "charStart": 2594,
+          "charEnd": 2598,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 2599,
+          "charEnd": 2601,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "giving",
+          "charStart": 2602,
+          "charEnd": 2608,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2609,
+          "charEnd": 2612,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "other",
+          "charStart": 2613,
+          "charEnd": 2618,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "thirty",
+          "charStart": 2619,
+          "charEnd": 2625,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(30)",
+          "charStart": 2626,
+          "charEnd": 2630,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "days",
+          "charStart": 2631,
+          "charEnd": 2635,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "written",
+          "charStart": 2636,
+          "charEnd": 2643,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "notice.",
+          "charStart": 2644,
+          "charEnd": 2651,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "The",
+          "charStart": 2653,
+          "charEnd": 2656,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "obligations",
+          "charStart": 2657,
+          "charEnd": 2668,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2669,
+          "charEnd": 2671,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "confidentiality",
+          "charStart": 2672,
+          "charEnd": 2687,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 2688,
+          "charEnd": 2690,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "clause",
+          "charStart": 2691,
+          "charEnd": 2697,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "3",
+          "charStart": 2698,
+          "charEnd": 2699,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "survive",
+          "charStart": 2700,
+          "charEnd": 2707,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "termination",
+          "charStart": 2708,
+          "charEnd": 2719,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 2720,
+          "charEnd": 2723,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "continue",
+          "charStart": 2724,
+          "charEnd": 2732,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "for",
+          "charStart": 2733,
+          "charEnd": 2736,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "a",
+          "charStart": 2737,
+          "charEnd": 2738,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "further",
+          "charStart": 2739,
+          "charEnd": 2746,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "period",
+          "charStart": 2747,
+          "charEnd": 2753,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2754,
+          "charEnd": 2756,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "three",
+          "charStart": 2757,
+          "charEnd": 2762,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "(3)",
+          "charStart": 2763,
+          "charEnd": 2766,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "years",
+          "charStart": 2767,
+          "charEnd": 2772,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 2773,
+          "charEnd": 2775,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "respect",
+          "charStart": 2776,
+          "charEnd": 2783,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 2784,
+          "charEnd": 2786,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Confidential",
+          "charStart": 2787,
+          "charEnd": 2799,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Information",
+          "charStart": 2800,
+          "charEnd": 2811,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "disclosed",
+          "charStart": 2812,
+          "charEnd": 2821,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "before",
+          "charStart": 2822,
+          "charEnd": 2828,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "termination.",
+          "charStart": 2829,
+          "charEnd": 2841,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "7.",
+          "charStart": 2843,
+          "charEnd": 2845,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "No",
+          "charStart": 2846,
+          "charEnd": 2848,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "licence",
+          "charStart": 2849,
+          "charEnd": 2856,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 2857,
+          "charEnd": 2860,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "no",
+          "charStart": 2861,
+          "charEnd": 2863,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "obligation",
+          "charStart": 2864,
+          "charEnd": 2874,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 2875,
+          "charEnd": 2877,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "proceed",
+          "charStart": 2878,
+          "charEnd": 2885,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Nothing",
+          "charStart": 2887,
+          "charEnd": 2894,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 2895,
+          "charEnd": 2897,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "this",
+          "charStart": 2898,
+          "charEnd": 2902,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 2903,
+          "charEnd": 2912,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "grants",
+          "charStart": 2913,
+          "charEnd": 2919,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2920,
+          "charEnd": 2923,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Recipient",
+          "charStart": 2924,
+          "charEnd": 2933,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "any",
+          "charStart": 2934,
+          "charEnd": 2937,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "right",
+          "charStart": 2938,
+          "charEnd": 2943,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 2944,
+          "charEnd": 2946,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2947,
+          "charEnd": 2950,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Confidential",
+          "charStart": 2951,
+          "charEnd": 2963,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Information",
+          "charStart": 2964,
+          "charEnd": 2975,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "other",
+          "charStart": 2976,
+          "charEnd": 2981,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "than",
+          "charStart": 2982,
+          "charEnd": 2986,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 2987,
+          "charEnd": 2990,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "limited",
+          "charStart": 2991,
+          "charEnd": 2998,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "right",
+          "charStart": 2999,
+          "charEnd": 3004,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 3005,
+          "charEnd": 3007,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "use",
+          "charStart": 3008,
+          "charEnd": 3011,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "it",
+          "charStart": 3012,
+          "charEnd": 3014,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "for",
+          "charStart": 3015,
+          "charEnd": 3018,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 3019,
+          "charEnd": 3022,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "purpose",
+          "charStart": 3023,
+          "charEnd": 3030,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "stated",
+          "charStart": 3031,
+          "charEnd": 3037,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 3038,
+          "charEnd": 3040,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "clause",
+          "charStart": 3041,
+          "charEnd": 3047,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "3.",
+          "charStart": 3048,
+          "charEnd": 3050,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Neither",
+          "charStart": 3051,
+          "charEnd": 3058,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "party",
+          "charStart": 3059,
+          "charEnd": 3064,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 3065,
+          "charEnd": 3067,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "obliged",
+          "charStart": 3068,
+          "charEnd": 3075,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 3076,
+          "charEnd": 3078,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "this",
+          "charStart": 3079,
+          "charEnd": 3083,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 3084,
+          "charEnd": 3093,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 3094,
+          "charEnd": 3096,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "enter",
+          "charStart": 3097,
+          "charEnd": 3102,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "into",
+          "charStart": 3103,
+          "charEnd": 3107,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "any",
+          "charStart": 3108,
+          "charEnd": 3111,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "further",
+          "charStart": 3112,
+          "charEnd": 3119,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "agreement",
+          "charStart": 3120,
+          "charEnd": 3129,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "with",
+          "charStart": 3130,
+          "charEnd": 3134,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 3135,
+          "charEnd": 3138,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "other,",
+          "charStart": 3139,
+          "charEnd": 3145,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "or",
+          "charStart": 3146,
+          "charEnd": 3148,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 3149,
+          "charEnd": 3151,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "proceed",
+          "charStart": 3152,
+          "charEnd": 3159,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "with",
+          "charStart": 3160,
+          "charEnd": 3164,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "any",
+          "charStart": 3165,
+          "charEnd": 3168,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "transaction.",
+          "charStart": 3169,
+          "charEnd": 3181,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "8.",
+          "charStart": 3183,
+          "charEnd": 3185,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "General",
+          "charStart": 3186,
+          "charEnd": 3193,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "This",
+          "charStart": 3195,
+          "charEnd": 3199,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Agreement",
+          "charStart": 3200,
+          "charEnd": 3209,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "is",
+          "charStart": 3210,
+          "charEnd": 3212,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "governed",
+          "charStart": 3213,
+          "charEnd": 3221,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 3222,
+          "charEnd": 3224,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 3225,
+          "charEnd": 3228,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "laws",
+          "charStart": 3229,
+          "charEnd": 3233,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 3234,
+          "charEnd": 3236,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Singapore,",
+          "charStart": 3237,
+          "charEnd": 3247,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "and",
+          "charStart": 3248,
+          "charEnd": 3251,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 3252,
+          "charEnd": 3255,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "parties",
+          "charStart": 3256,
+          "charEnd": 3263,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "submit",
+          "charStart": 3264,
+          "charEnd": 3270,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 3271,
+          "charEnd": 3273,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 3274,
+          "charEnd": 3277,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "jurisdiction",
+          "charStart": 3278,
+          "charEnd": 3290,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 3291,
+          "charEnd": 3293,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 3294,
+          "charEnd": 3297,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "Singapore",
+          "charStart": 3298,
+          "charEnd": 3307,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "courts.",
+          "charStart": 3308,
+          "charEnd": 3315,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "It",
+          "charStart": 3316,
+          "charEnd": 3318,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "may",
+          "charStart": 3319,
+          "charEnd": 3322,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "be",
+          "charStart": 3323,
+          "charEnd": 3325,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "varied",
+          "charStart": 3326,
+          "charEnd": 3332,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "only",
+          "charStart": 3333,
+          "charEnd": 3337,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 3338,
+          "charEnd": 3340,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "writing",
+          "charStart": 3341,
+          "charEnd": 3348,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "signed",
+          "charStart": 3349,
+          "charEnd": 3355,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "by",
+          "charStart": 3356,
+          "charEnd": 3358,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "both",
+          "charStart": 3359,
+          "charEnd": 3363,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "parties.",
+          "charStart": 3364,
+          "charEnd": 3372,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "It",
+          "charStart": 3373,
+          "charEnd": 3375,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "sets",
+          "charStart": 3376,
+          "charEnd": 3380,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "out",
+          "charStart": 3381,
+          "charEnd": 3384,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 3385,
+          "charEnd": 3388,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "whole",
+          "charStart": 3389,
+          "charEnd": 3394,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "agreement",
+          "charStart": 3395,
+          "charEnd": 3404,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "between",
+          "charStart": 3405,
+          "charEnd": 3412,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 3413,
+          "charEnd": 3416,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "parties",
+          "charStart": 3417,
+          "charEnd": 3424,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "in",
+          "charStart": 3425,
+          "charEnd": 3427,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "relation",
+          "charStart": 3428,
+          "charEnd": 3436,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "to",
+          "charStart": 3437,
+          "charEnd": 3439,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "the",
+          "charStart": 3440,
+          "charEnd": 3443,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "confidentiality",
+          "charStart": 3444,
+          "charEnd": 3459,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "of",
+          "charStart": 3460,
+          "charEnd": 3462,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "information",
+          "charStart": 3463,
+          "charEnd": 3474,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "disclosed",
+          "charStart": 3475,
+          "charEnd": 3484,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "between",
+          "charStart": 3485,
+          "charEnd": 3492,
+          "bbox": null,
+          "ocrConfidence": null
+        },
+        {
+          "text": "them.",
+          "charStart": 3493,
+          "charEnd": 3498,
+          "bbox": null,
+          "ocrConfidence": null
+        }
+      ]
+    }
+  ],
+  "html": "<h1>Mutual Non-Disclosure Agreement</h1><h2>PARTIES</h2><p>This Mutual Non-Disclosure Agreement is made between Meridian Retail Pte Ltd (UEN 201812345K) of 8 Cross Street, Singapore 048424, and Vantage Logistics Pte Ltd (UEN 201599887G) of 5 Toh Guan Road East, Singapore 608831. Each party may disclose Confidential Information to the other, and each is referred to as the Discloser when it discloses and the Recipient when it receives.</p><h2>1. Effective date</h2><p>This Agreement takes effect on 6 August 2026 (the Effective Date).</p><h2>2. Confidential Information</h2><p>Confidential Information means information disclosed by the Discloser to the Recipient which is identified as confidential at the time of disclosure, or which the Recipient ought reasonably to understand to be confidential given its nature or the circumstances of its disclosure. It includes commercial terms, pricing, customer lists, operational data, and technical and business plans.</p><h2>3. Obligations of the Recipient</h2><p>The Recipient shall: (a) keep the Confidential Information secret and secure; (b) use it only for the purpose of evaluating and, if the parties so decide, performing a logistics services arrangement between them; and (c) disclose it only to those of its officers, employees and professional advisers who need to know it for that purpose and who are bound by obligations of confidentiality no less protective than those in this Agreement.</p><p>The Recipient shall apply at least the same degree of care to the Confidential Information as it applies to its own confidential information of a similar nature, and in any event no less than a reasonable degree of care.</p><h2>4. Exceptions</h2><p>The obligations in clause 3 do not apply to information which: (a) is or becomes public through no breach of this Agreement; (b) the Recipient already lawfully held free of any confidentiality obligation before disclosure; (c) the Recipient develops independently without reference to the Confidential Information; or (d) the Recipient is required to disclose by law, by a court, or by a regulator, provided that it gives the Discloser such advance notice as is lawful and practicable.</p><h2>5. Return and destruction</h2><p>On written request from the Discloser, the Recipient shall return or destroy all Confidential Information in its possession and shall confirm in writing that it has done so, save that the Recipient may retain one copy to the extent required by law or by its internal record-keeping policies.</p><h2>6. Term and termination</h2><p>This Agreement continues for a period of twenty-four (24) months from the Effective Date. Either party may terminate it at any time by giving the other thirty (30) days written notice.</p><p>The obligations of confidentiality in clause 3 survive termination and continue for a further period of three (3) years in respect of Confidential Information disclosed before termination.</p><h2>7. No licence and no obligation to proceed</h2><p>Nothing in this Agreement grants the Recipient any right in the Confidential Information other than the limited right to use it for the purpose stated in clause 3. Neither party is obliged by this Agreement to enter into any further agreement with the other, or to proceed with any transaction.</p><h2>8. General</h2><p>This Agreement is governed by the laws of Singapore, and the parties submit to the jurisdiction of the Singapore courts. It may be varied only in writing signed by both parties. It sets out the whole agreement between the parties in relation to the confidentiality of information disclosed between them.</p>"
+}
