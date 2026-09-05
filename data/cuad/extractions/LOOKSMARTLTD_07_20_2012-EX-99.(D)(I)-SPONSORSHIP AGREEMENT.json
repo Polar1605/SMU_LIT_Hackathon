@@ -1,0 +1,277 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "PEEK Investments LLC is the Purchaser; Platinum Partners Value Arbitrage Fund L.P. and Snowy August Fund I LP are Sponsors.",
+      "quotes": [
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "THIS SPONSORSHIP AGREEMENT (\" Agreement \") is entered into and effective as of the date first written above (\" Effective Date \") by\nand among PEEK Investments LLC, a Delaware limited liability company (\" Purchaser \"), and each other party hereto identified on the signature\npage(s) hereto (each, a \" Sponsor \")."
+        },
+        {
+          "clauseId": "Signature Page",
+          "text": "PURCHASER:\nPEEK Investments LLC"
+        },
+        {
+          "clauseId": "Signature Page",
+          "text": "SPONSOR(S):\nPlatinum Partners Value Arbitrage Fund L.P."
+        },
+        {
+          "clauseId": "Signature Page",
+          "text": "Snowy August Fund I LP"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2012-07-16",
+      "quotes": [
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "THIS SPONSORSHIP AGREEMENT (\" Agreement \") is entered into and effective as of the date first written above (\" Effective Date \") by"
+        },
+        {
+          "clauseId": "Signature Page",
+          "text": "IN WITNESS WHEREOF, this Agreement is executed and effective as of the Effective Date."
+        },
+        {
+          "clauseId": "Signature Page",
+          "text": "Date: July 16, 2012 By: /s/ Michael Onghai"
+        },
+        {
+          "clauseId": "Signature Page",
+          "text": "Date: July 16, 2012 By: /s/ Mark Nordlicht"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The preamble refers to the “date first written above,” but the extracted text does not show a separate date above the preamble; July 16, 2012 is taken from the execution date lines on the signature page."
+      ]
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "Event-based: first of 30 days after the Effective Date if the Offer has not commenced, expiration of the Offer if not consummated, or expiration of the Interim Period if consummated; Sections 7-24 survive indefinitely.",
+      "quotes": [
+        {
+          "clauseId": "11. Termination",
+          "text": "11. Termination. This Agreement shall automatically terminate at and as of (the first to occur of): (a) 12:00 midnight, New York City time,\non the 30th day after the Effective Date (if Purchaser has not commenced the Offer, with the unanimous consent of the Sponsors, by then); (b) the\nexpiration of the Offer (if the Offer is not consummated pursuant to the terms of the Offer), subject to any extension or subsequent offering period;\nand (c) the expiration of the Interim Period (if the Offer is consummated pursuant to the terms of the Offer), in any case, unless sooner terminated\nby unanimous written consent of the Participating Sponsors;"
+        },
+        {
+          "clauseId": "11. Termination",
+          "text": "Notwithstanding the foregoing, each Section hereof (other than Sections 1 through 6 (inclusive) hereof) shall\nsurvive indefinitely following the termination of this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 11 makes the term depend on Offer commencement/expiration and Interim Period events that are not dated in the document, so no single duration can be stated; it also provides indefinite survival for Sections 7-24."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "No single fixed end date; if the no-commencement limb applies, the 30th day after the 2012-07-16 Effective Date is 2012-08-15.",
+      "quotes": [
+        {
+          "clauseId": "11. Termination",
+          "text": "11. Termination. This Agreement shall automatically terminate at and as of (the first to occur of): (a) 12:00 midnight, New York City time,\non the 30th day after the Effective Date (if Purchaser has not commenced the Offer, with the unanimous consent of the Sponsors, by then); (b) the\nexpiration of the Offer (if the Offer is not consummated pursuant to the terms of the Offer), subject to any extension or subsequent offering period;\nand (c) the expiration of the Interim Period (if the Offer is consummated pursuant to the terms of the Offer), in any case, unless sooner terminated\nby unanimous written consent of the Participating Sponsors;"
+        },
+        {
+          "clauseId": "Signature Page",
+          "text": "Date: July 16, 2012 By: /s/ Michael Onghai"
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": [
+        "Clause 11 provides alternative event-based end points, including Offer expiration or Interim Period expiration, that are not dated, so 2012-08-15 is only the conditional no-commencement end date.",
+        "The Effective Date is defined by reference to the “date first written above,” but the extracted text does not show a separate date above the preamble; the 2012-07-16 date comes from the signature date lines."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Agreement may be sooner terminated by unanimous written consent of the Participating Sponsors; no notice period stated.",
+      "quotes": [
+        {
+          "clauseId": "11. Termination",
+          "text": "in any case, unless sooner terminated\nby unanimous written consent of the Participating Sponsors;"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "A Participating Sponsor may terminate a Defaulting Sponsor's participation in the Offer for failure to satisfy funding requirements or other failure to comply with the Equity Commitment Letter or this Agreement; no insolvency trigger stated.",
+      "quotes": [
+        {
+          "clauseId": "3. Defaulting and Participating Sponsors",
+          "text": "Each Sponsor that has complied with the Equity Commitment Letter and this Agreement\n(\" Participating Sponsor \") may terminate the participation in the Offer of any Sponsor that has not satisfied the funding requirements\ncontemplated by the Equity Commitment Letter or otherwise failed to comply with the Equity Commitment Letter and this Agreement (\" Defaulting\nSponsor \");"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "Each Sponsor must comply with its Equity Commitment Letter to contribute capital to Purchaser for the possible equity investment; fixed amount and currency are not stated in this Agreement.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Contribution obligation is under the Equity Commitment Letters and enforceable only if the non-defaulting Sponsors unanimously determine Offer conditions have been satisfied or waive unsatisfied conditions; this agreement does not date that event.",
+      "quotes": [
+        {
+          "clauseId": "RECITALS",
+          "text": "WHEREAS, as requested by Purchaser for purposes of the Offer, each Sponsor has provided to Purchaser, and Purchaser has accepted\nfrom such Sponsor, a commitment letter providing for a possible equity investment in Purchaser by such Sponsor (each, an \" Equity Commitment\nLetter \" and, with respect to any Sponsor(s), the Equity Commitment Letter(s) of such Sponsor(s)), which evidences the commitment of and by\nsuch Sponsor to contribute capital to Purchaser in amounts and proportions and upon the terms and subject to the conditions and otherwise as\ncontemplated by such Equity Commitment Letter (each, a \" Commitment \" and, with respect to any Sponsor(s), the Commitment of such Sponsor\n(s));"
+        },
+        {
+          "clauseId": "2. Equity Commitments",
+          "text": "Each Sponsor represents and warrants to each other Party that such Sponsor is bound by and has complied with,\nand agrees that such Sponsor shall continue to be bound by and comply with, the Equity Commitment Letter"
+        },
+        {
+          "clauseId": "2. Equity Commitments",
+          "text": "each other Sponsor (other than any Defaulting Sponsor) shall be entitled to enforce, or direct the enforcement of, such Equity Commitment\nLetter in accordance with this Agreement if and only if the Sponsors (other than any Defaulting Sponsor) have determined by unanimous written\nconsent that the conditions of the Offer have been satisfied or to waive all such conditions remaining unsatisfied."
+        }
+      ],
+      "ambiguities": [
+        "The Equity Commitment Letters are referenced but not included, and the contribution amounts, proportions, terms and conditions are not stated in this document.",
+        "Section 2 conditions enforcement on unanimous written consent regarding satisfaction or waiver of Offer conditions, an event not dated in the agreement."
+      ]
+    },
+    {
+      "description": "To the extent it has available funds, Purchaser must promptly pay or reimburse Transaction Costs incurred by or on behalf of Purchaser first, then Sponsors pro rata.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due only to the extent Purchaser has available funds and when Transaction Costs are incurred; no due date or amount is fixed.",
+      "quotes": [
+        {
+          "clauseId": "9. Expenses",
+          "text": "9. Expenses. To the extent Purchaser has available funds, Purchaser shall promptly pay or reimburse, as applicable, all Transaction Costs\nincurred by or on behalf of Purchaser or the Sponsors in connection with the Offer as follows: (a) first, all such Transaction Costs reasonably\nincurred by or on behalf of Purchaser, including, without limitation, in connection with the formation or organization of Purchaser; and (b) second,\nall such Transaction Costs reasonably incurred by or on behalf of the Sponsors in connection with the Offer, which shall be paid or reimbursed pro\nrata (based on the Commitments or Units of such Sponsors, as applicable)."
+        }
+      ],
+      "ambiguities": [
+        "Section 9 does not state the amount of Transaction Costs or when they will be incurred, and payment depends on Purchaser having available funds."
+      ]
+    },
+    {
+      "description": "If Purchaser lacks available funds and no other express provision applies, each Sponsor is responsible for its own fees, expenses and other costs.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies to fees, expenses and other costs incurred by or on behalf of that Sponsor when Purchaser does not have available funds.",
+      "quotes": [
+        {
+          "clauseId": "9. Expenses",
+          "text": "Except as otherwise expressly provided hereby and to the extent\nPurchaser does not have available funds, each Sponsor shall be responsible for any and all fees, expenses, and other costs incurred by or on\nbehalf of such Sponsor."
+        }
+      ],
+      "ambiguities": [
+        "The agreement does not state fixed amounts or dates for Sponsors' own fees, expenses and costs."
+      ]
+    },
+    {
+      "description": "If Purchaser receives a termination or similar fee, the net amount remaining after adequate Transaction Cost provisions must be promptly distributed or paid to non-defaulting Sponsors or designees pro rata.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due only if Purchaser receives a termination or similar fee; amount depends on the fee received and Transaction Cost provisions.",
+      "quotes": [
+        {
+          "clauseId": "8. Termination Fee",
+          "text": "8. Termination Fee. An amount equal to any termination or similar fee received by Purchaser, including, without limitation, any such fee\npaid by the Company or any affiliate, associate, or related party of the Company pursuant to a merger agreement or otherwise, or portion thereof\nremaining after making or confirming adequate provisions for the payment or reimbursement of Transaction Costs, shall be promptly distributed or\notherwise paid to the Sponsors (other than any Defaulting Sponsor) or their designees, in any case, pro rata (based on the Commitments or Units\nof such Sponsors, as applicable)."
+        }
+      ],
+      "ambiguities": [
+        "The agreement does not state any fixed termination fee amount or receipt date, and the distributable amount depends on Transaction Cost provisions."
+      ]
+    },
+    {
+      "description": "If a Participating Sponsor enforces remedies against a Defaulting Sponsor, the Defaulting Sponsor must pay enforcement costs with specific performance or pay out-of-pocket damages; multiple Defaulting Sponsors share damages pro rata by Commitments.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if there is a Defaulting Sponsor and a Participating Sponsor elects the relevant remedy; amounts depend on enforcement costs, out-of-pocket damages and Commitments.",
+      "quotes": [
+        {
+          "clauseId": "14. Remedies",
+          "text": "Each Participating Sponsor shall be entitled, in their discretion, to either (a) specific\nperformance of this Agreement and the Equity Commitment Letters, together with any costs of enforcement incurred by such Participating\nSponsor in seeking to enforce such remedy against any Defaulting Sponsor or (b) payment by the Defaulting Sponsor in an amount equal to the\nout-of-pocket damages incurred by such Participating Sponsor."
+        },
+        {
+          "clauseId": "14. Remedies",
+          "text": "If more than one Defaulting Sponsor is responsible for any damages, each such\nDefaulting Sponsor's liability for such damages shall be determined pro rata (based on the Commitments of such Defaulting Sponsors)."
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on the remedy elected and on enforcement costs or out-of-pocket damages actually incurred; Commitments used for pro rata allocation are not stated in this document."
+      ]
+    },
+    {
+      "description": "Each Sponsor must indemnify, defend and hold harmless the other Sponsors and listed related persons for losses and expenses arising out of material breach or inaccuracy of its representations, warranties or covenants.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if a material breach or inaccuracy causes covered losses, liabilities, damages, claims or expenses; no fixed amount or due date is stated.",
+      "quotes": [
+        {
+          "clauseId": "15. Indemnification",
+          "text": "15. Indemnification. To the fullest extent permitted by law, each Sponsor shall indemnify, defend and hold harmless each other Sponsor\nand any of its affiliates or any direct or indirect partner, member, shareholder, employee, director, officer or agent of such Sponsor or any of its\naffiliates from and against any and all losses, liabilities, damages, claims, judgments, awards, settlements, demands, offsets, and expenses\n(including interest, penalties, court costs, arbitration costs and fees, witness fees and reasonable fees and expenses of outside attorneys,\ninvestigators, expert witnesses, accountants and other professionals) arising out of or relating to any material breach or inaccuracy of the\nrepresentations, warranties or covenants of such Sponsor contained herein."
+        }
+      ],
+      "ambiguities": [
+        "The indemnity amount depends on covered losses and expenses arising from a material breach or inaccuracy; no fixed amount or payment date is stated."
+      ]
+    }
+  ],
+  "grants": []
+}

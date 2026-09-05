@@ -1,0 +1,695 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Beijing Baidu Netcom Science and Technology Co., Ltd. (Party A); China Online Housing (Hong Kong) Co., Ltd. (Party B); Beijing Yisheng Leju Information Services Co., Ltd. (Party C; jointly and severally liable for Party B’s obligations).",
+      "quotes": [
+        {
+          "clauseId": "Party A:",
+          "text": "Party A: Beijing Baidu Netcom Science and Technology Co., Ltd."
+        },
+        {
+          "clauseId": "Party B:",
+          "text": "Party B: China Online Housing (Hong Kong) Co., Ltd."
+        },
+        {
+          "clauseId": "Party C:",
+          "text": "Party C: Beijing Yisheng Leju Information Services Co., Ltd."
+        },
+        {
+          "clauseId": "In this Agreement",
+          "text": "In this Agreement, Party A, Party B and Party C individually a “Party”, collectively the “Parties”."
+        },
+        {
+          "clauseId": "5.10",
+          "text": "Party C will be severally and jointly liable for any and all obligations of Party B under this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2010-04-29",
+      "quotes": [
+        {
+          "clauseId": "3.1 Term",
+          "text": "This Agreement will be effective as of the date of its execution"
+        },
+        {
+          "clauseId": "14.6",
+          "text": "This Agreement is dated April 29, 2010."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "4 years from channel upload for the Cooperation",
+      "quotes": [
+        {
+          "clauseId": "3.1 Term",
+          "text": "term of the Cooperation will be four years from the date on"
+        },
+        {
+          "clauseId": "3.1 Term",
+          "text": "which the channel is uploaded."
+        },
+        {
+          "clauseId": "3.1 Term",
+          "text": "The channel is expected to be uploaded on August 1, 2010."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 3.1 states the Cooperation term runs from the date the channel is uploaded, but clause 3.1(b) says only that upload was expected on August 1, 2010 and the document does not state the actual upload date.",
+        "Clause 3.3 says the phases are “subject to the actual date of the upload of the channel,” which makes the fixed phase dates dependent on an unstated actual upload date."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2014-07-31",
+      "quotes": [
+        {
+          "clauseId": "3.3 Phases of Cooperation (subject to the actual date of the upload of the channel)",
+          "text": "Phase IV will commence on August 1, 2013 and end on July 31, 2014."
+        },
+        {
+          "clauseId": "3.1 Term",
+          "text": "The channel is expected to be uploaded on August 1, 2010."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 3.3 gives July 31, 2014 as the end of Phase IV, but its heading says the phases are “subject to the actual date of the upload of the channel”; the actual upload date is not stated.",
+        "Clause 10.1 refers to “the 4 anniversary of the date hereof,” which points to the agreement date rather than the upload-based Cooperation term and does not align with the July 31, 2014 phase end."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "No automatic renewal; continuation requires a further agreement, with Party B having a preferential right if all conditions are equal.",
+      "quotes": [
+        {
+          "clauseId": "3.2 Extension",
+          "text": "Upon expiration of this Agreement, with all conditions being equal"
+        },
+        {
+          "clauseId": "3.2 Extension",
+          "text": "Party B has the preferential right to continue Cooperation with Party"
+        },
+        {
+          "clauseId": "3.2 Extension",
+          "text": "If both Party A and Party B continue their Cooperation"
+        },
+        {
+          "clauseId": "3.2 Extension",
+          "text": "effect no less than one month prior to the expiration of this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Party B may terminate without stated cause by written notice to Party A within three months before the 4th anniversary of the agreement date; termination is effective when Party A receives the notice.",
+      "quotes": [
+        {
+          "clauseId": "10.1 Special Provisions",
+          "text": "within three months prior to the 4 anniversary of the date hereof"
+        },
+        {
+          "clauseId": "10.1 Special Provisions",
+          "text": "may elect to continue performing or terminate this Agreement."
+        },
+        {
+          "clauseId": "10.1 Special Provisions",
+          "text": "If Party B elects to terminate"
+        },
+        {
+          "clauseId": "10.1 Special Provisions",
+          "text": "this Agreement will terminate upon receipt of such written notice by Party A."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "For uncured breach, the non-breaching Party may terminate after written notice and a 10 business day cure period. Termination is also available for bankruptcy/liquidation/dissolution, Article XI circumstances, and force majeure continuing more than 30 days.",
+      "quotes": [
+        {
+          "clauseId": "9.1",
+          "text": "the breaching Party will cease its breach of this Agreement"
+        },
+        {
+          "clauseId": "9.1",
+          "text": "within ten business days."
+        },
+        {
+          "clauseId": "9.1",
+          "text": "the non-breaching Party may terminate this Agreement with"
+        },
+        {
+          "clauseId": "9.1",
+          "text": "immediate effect upon written notice to the breaching Party"
+        },
+        {
+          "clauseId": "10.2",
+          "text": "The non-breaching Party terminates this Agreement pursuant to Article IX;"
+        },
+        {
+          "clauseId": "10.2",
+          "text": "Any of the Parties terminates this Agreement pursuant to Article XI;"
+        },
+        {
+          "clauseId": "10.2",
+          "text": "Any of the Parties declares bankruptcy or is in the process of liquidation or dissolution;"
+        },
+        {
+          "clauseId": "10.2",
+          "text": "Any force majeure event continues for more than 30 days"
+        },
+        {
+          "clauseId": "10.3",
+          "text": "any Party may terminate this Agreement"
+        },
+        {
+          "clauseId": "10.3",
+          "text": "with immediate effect upon notice to the other Party in writing."
+        },
+        {
+          "clauseId": "11.2",
+          "text": "If such merger or division could make it impossible to perform"
+        },
+        {
+          "clauseId": "11.2",
+          "text": "may terminate this Agreement with a prior written notice to"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 9.1 expresses the cure period in “ten business days,” but the Agreement does not define business days or identify a holiday calendar."
+      ]
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Exclusive arrangement in favor of Party B and its affiliates: Party A grants Party B exclusive rights to construct, maintain and operate the Cooperation Channel, and Party B/affiliates are the exclusive cooperator and provider for Party A’s real estate and home furnishing channel; Party A may not enter identical or similar cooperation with Party B competitors for that channel’s real estate and home furnishing information, products and data.",
+      "quotes": [
+        {
+          "clauseId": "4.1 Formation of the Cooperation Channel",
+          "text": "Party A grants all-round exclusive rights to Party B to construct, maintain and operate the"
+        },
+        {
+          "clauseId": "4.1 Formation of the Cooperation Channel",
+          "text": "Cooperation channel."
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "Party B and its affiliates will be the exclusive cooperator of Party A’s real estate and home furnishing"
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "cooperation channel."
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "Party B and its affiliates will be the exclusive provider of real estate and home furnishing information, products and data in"
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "Party A’s real estate and home furnishing channel."
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "Party A may not make any identical or similar cooperation regarding the real estate and home"
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "furnishing information, products and data in its real estate and home furnishing channel with any competitor of Party B."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Article VII extends exclusivity to “Party B and its affiliates,” but the affiliates are not identified by legal name.",
+        "The exclusivity lasts “During the term of this Agreement”; the term end is affected by the unstated actual channel upload date under clauses 3.1 and 3.3."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "First cooperation-fee installment: Party B or its designated entity must pay RMB50 million to Party A; Party C is jointly and severally liable for Party B’s obligations.",
+      "amountMinor": 5000000000,
+      "currency": "CNY",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due within 15 business days after the agreement date, April 29, 2010; the Agreement does not define the business-day calendar.",
+      "quotes": [
+        {
+          "clauseId": "1. Cooperation Fee",
+          "text": "The cooperation fee under this Agreement will be RMB200 million"
+        },
+        {
+          "clauseId": "1. Cooperation Fee",
+          "text": "Within 15 business days after the date hereof, Party B will pay RMB50 million to Party A."
+        },
+        {
+          "clauseId": "2. Payment of Cooperation Fee",
+          "text": "payable by Party B or its designated entity"
+        },
+        {
+          "clauseId": "2. Payment of Cooperation Fee",
+          "text": "which payment could be in foreign currency at equivalent amount."
+        },
+        {
+          "clauseId": "14.6",
+          "text": "This Agreement is dated April 29, 2010."
+        },
+        {
+          "clauseId": "5.10",
+          "text": "Party C will be severally and jointly liable for any and all obligations of Party B under this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "The due date is expressed in business days, but the Agreement does not define business days or identify a holiday calendar.",
+        "Clause 2 permits payment “in foreign currency at equivalent amount,” so CNY is the stated reference currency but not necessarily the settlement currency."
+      ]
+    },
+    {
+      "description": "Second cooperation-fee installment: Party B or its designated entity must pay RMB50 million to Party A after the first cooperation period; Party C is jointly and severally liable for Party B’s obligations.",
+      "amountMinor": 5000000000,
+      "currency": "CNY",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due within 15 business days after the end of the first cooperation period; Phase I is listed as ending July 31, 2011, but phases are subject to the actual upload date and the business-day calendar is not defined.",
+      "quotes": [
+        {
+          "clauseId": "1. Cooperation Fee",
+          "text": "Within 15 business days after the end of the first cooperation period, Party B will pay another RMB50 million to Party A."
+        },
+        {
+          "clauseId": "3.3 Phases of Cooperation (subject to the actual date of the upload of the channel)",
+          "text": "Phase I will commence on August 1, 2010 and end on July 31, 2011."
+        },
+        {
+          "clauseId": "2. Payment of Cooperation Fee",
+          "text": "payable by Party B or its designated entity"
+        },
+        {
+          "clauseId": "2. Payment of Cooperation Fee",
+          "text": "which payment could be in foreign currency at equivalent amount."
+        },
+        {
+          "clauseId": "5.10",
+          "text": "Party C will be severally and jointly liable for any and all obligations of Party B under this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "The due date is expressed in business days, but the Agreement does not define business days or identify a holiday calendar.",
+        "Clause 3.3 says the cooperation phases are subject to the actual upload date, but the actual upload date is not stated.",
+        "Clause 2 permits payment “in foreign currency at equivalent amount,” so CNY is the stated reference currency but not necessarily the settlement currency."
+      ]
+    },
+    {
+      "description": "Third cooperation-fee installment: Party B or its designated entity must pay RMB50 million to Party A after the second cooperation period; Party C is jointly and severally liable for Party B’s obligations.",
+      "amountMinor": 5000000000,
+      "currency": "CNY",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due within 15 business days after the end of the second cooperation period; Phase II is listed as ending July 31, 2012, but phases are subject to the actual upload date and the business-day calendar is not defined.",
+      "quotes": [
+        {
+          "clauseId": "1. Cooperation Fee",
+          "text": "Within 15 business days after the end of the second cooperation period, Party B will pay another RMB50 million to Party A."
+        },
+        {
+          "clauseId": "3.3 Phases of Cooperation (subject to the actual date of the upload of the channel)",
+          "text": "Phase II will commence on August 1, 2011 and end on July 31, 2012."
+        },
+        {
+          "clauseId": "2. Payment of Cooperation Fee",
+          "text": "payable by Party B or its designated entity"
+        },
+        {
+          "clauseId": "2. Payment of Cooperation Fee",
+          "text": "which payment could be in foreign currency at equivalent amount."
+        },
+        {
+          "clauseId": "5.10",
+          "text": "Party C will be severally and jointly liable for any and all obligations of Party B under this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "The due date is expressed in business days, but the Agreement does not define business days or identify a holiday calendar.",
+        "Clause 3.3 says the cooperation phases are subject to the actual upload date, but the actual upload date is not stated.",
+        "Clause 2 permits payment “in foreign currency at equivalent amount,” so CNY is the stated reference currency but not necessarily the settlement currency."
+      ]
+    },
+    {
+      "description": "Fourth cooperation-fee installment: Party B or its designated entity must pay the remaining RMB50 million to Party A after the third cooperation period; Party C is jointly and severally liable for Party B’s obligations.",
+      "amountMinor": 5000000000,
+      "currency": "CNY",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due within 15 business days after the end of the third cooperation period; Phase III is listed as ending July 31, 2013, but phases are subject to the actual upload date and the business-day calendar is not defined.",
+      "quotes": [
+        {
+          "clauseId": "1. Cooperation Fee",
+          "text": "Within 15 business days after the end of the third cooperation period, Party B will pay the remaining RMB50 million to Party"
+        },
+        {
+          "clauseId": "1. Cooperation Fee",
+          "text": "A."
+        },
+        {
+          "clauseId": "3.3 Phases of Cooperation (subject to the actual date of the upload of the channel)",
+          "text": "Phase III will commence on August 1, 2012 and end on July 31, 2013."
+        },
+        {
+          "clauseId": "2. Payment of Cooperation Fee",
+          "text": "payable by Party B or its designated entity"
+        },
+        {
+          "clauseId": "2. Payment of Cooperation Fee",
+          "text": "which payment could be in foreign currency at equivalent amount."
+        },
+        {
+          "clauseId": "5.10",
+          "text": "Party C will be severally and jointly liable for any and all obligations of Party B under this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "The due date is expressed in business days, but the Agreement does not define business days or identify a holiday calendar.",
+        "Clause 3.3 says the cooperation phases are subject to the actual upload date, but the actual upload date is not stated.",
+        "Clause 2 permits payment “in foreign currency at equivalent amount,” so CNY is the stated reference currency but not necessarily the settlement currency."
+      ]
+    },
+    {
+      "description": "Party A must provide non-cash Baidu network promotion resources valued at RMB10 million for each cooperation period to Party B.",
+      "amountMinor": 1000000000,
+      "currency": "CNY",
+      "frequency": "annually",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Resources are to be provided for each cooperation period from its commencement through a separate account; exact deployment and promotion details are not fully fixed in the Agreement.",
+      "quotes": [
+        {
+          "clauseId": "4.3 Promotion of the Cooperation Channel",
+          "text": "Party A undertakes to provide to Party B Baidu network promotion resources equal to"
+        },
+        {
+          "clauseId": "4.3 Promotion of the Cooperation Channel",
+          "text": "RMB10 million for each cooperation period from its commencement."
+        },
+        {
+          "clauseId": "4.3 Promotion of the Cooperation Channel",
+          "text": "Party A will provide such resources to Party B through a"
+        },
+        {
+          "clauseId": "4.3 Promotion of the Cooperation Channel",
+          "text": "separate account for promotion of the Cooperation Channel at the discretion of Party B."
+        },
+        {
+          "clauseId": "4.3 Promotion of the Cooperation Channel",
+          "text": "any remaining resources will be cancelled as of the commencement of the next"
+        },
+        {
+          "clauseId": "4.3 Promotion of the Cooperation Channel",
+          "text": "cooperation period."
+        }
+      ],
+      "ambiguities": [
+        "This is a promotional-resource obligation rather than a cash payment obligation.",
+        "Clause 4.3 states the resources are for each cooperation period from its commencement, while clause 3.3 makes cooperation periods subject to the actual upload date, which is not stated.",
+        "Clause 4.3 says details of effective promotion are subject to separate agreement of the Parties."
+      ]
+    },
+    {
+      "description": "Income from the Baidu search bar embedded into www.leju.com must be shared monthly between Party A or its affiliate and Party B.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount, allocation and payment details depend on income generated and a separate alliance agreement.",
+      "quotes": [
+        {
+          "clauseId": "5.9",
+          "text": "Party B will embed Baidu search bar into the homepage of www.leju.com"
+        },
+        {
+          "clauseId": "5.9",
+          "text": "any income thereof will be shared between Party A or any"
+        },
+        {
+          "clauseId": "5.9",
+          "text": "of its affiliates and Party B on monthly basis"
+        },
+        {
+          "clauseId": "5.9",
+          "text": "the details of which are subject to separate alliance agreement between Party B and Party A or any of"
+        },
+        {
+          "clauseId": "5.9",
+          "text": "its affiliates."
+        }
+      ],
+      "ambiguities": [
+        "Clause 5.9 does not state the amount or allocation of the income share.",
+        "Clause 5.9 makes the details subject to a separate alliance agreement that is not included."
+      ]
+    },
+    {
+      "description": "Upon early termination, unless termination is for Party B’s fault, Party A must return to Party B the channel cooperation fee paid by Party B net amounts for obligations already performed.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Refund depends on early termination, cause/fault, amounts paid, and valuation of obligations already performed.",
+      "quotes": [
+        {
+          "clauseId": "10.4 Post-Termination Matters",
+          "text": "upon early termination of this Agreement, Party A will return"
+        },
+        {
+          "clauseId": "10.4 Post-Termination Matters",
+          "text": "to Party B the channel cooperation fee paid by Party B net part of the payment for the obligations which have been performed"
+        },
+        {
+          "clauseId": "10.4 Post-Termination Matters",
+          "text": "If this Agreement is early terminated for any fault of Party B, Party B may not claim for any reason"
+        },
+        {
+          "clauseId": "10.4 Post-Termination Matters",
+          "text": "repayment of any channel cooperation fee paid to Party A."
+        }
+      ],
+      "ambiguities": [
+        "The refund amount is not fixed and depends on what has been paid and the value of obligations already performed.",
+        "No precise refund due date is stated.",
+        "The refund is unavailable if early termination is for Party B’s fault."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "China Online Housing (Hong Kong) Co., Ltd.",
+      "grantor": "Beijing Baidu Netcom Science and Technology Co., Ltd.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic territory stated; limited by scope to Party A’s Website / Cooperation channel",
+      "territoryCodes": [],
+      "productLabel": "Construction, maintenance and operation of the Cooperation channel / Baidu’s Real Estate and Home Furnishing Channel",
+      "productCodes": [
+        "BAIDU_LEJU_REHF_OPS"
+      ],
+      "start": "2010-04-29",
+      "end": "2014-07-31",
+      "quotes": [
+        {
+          "clauseId": "Party A:",
+          "text": "Party A: Beijing Baidu Netcom Science and Technology Co., Ltd."
+        },
+        {
+          "clauseId": "Party B:",
+          "text": "Party B: China Online Housing (Hong Kong) Co., Ltd."
+        },
+        {
+          "clauseId": "4.1 Formation of the Cooperation Channel",
+          "text": "During the term of this Agreement, Party B will use the Baidu’s Real Estate and Home Furnishing Channel as the jointly formed"
+        },
+        {
+          "clauseId": "4.1 Formation of the Cooperation Channel",
+          "text": "Party A grants all-round exclusive rights to Party B to construct, maintain and operate the"
+        },
+        {
+          "clauseId": "4.1 Formation of the Cooperation Channel",
+          "text": "Cooperation channel."
+        },
+        {
+          "clauseId": "3.1 Term",
+          "text": "This Agreement will be effective as of the date of its execution"
+        },
+        {
+          "clauseId": "14.6",
+          "text": "This Agreement is dated April 29, 2010."
+        },
+        {
+          "clauseId": "3.3 Phases of Cooperation (subject to the actual date of the upload of the channel)",
+          "text": "Phase IV will commence on August 1, 2013 and end on July 31, 2014."
+        }
+      ],
+      "ambiguities": [
+        "The Agreement states no geographic territory for this grant.",
+        "The end date follows the stated Phase IV end date, but clause 3.3 makes phases subject to the actual upload date, which is not stated."
+      ]
+    },
+    {
+      "grantee": "China Online Housing (Hong Kong) Co., Ltd.",
+      "grantor": "Beijing Baidu Netcom Science and Technology Co., Ltd.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic territory stated; limited by scope to Party A’s real estate and home furnishing cooperation channel",
+      "territoryCodes": [],
+      "productLabel": "Real estate and home furnishing cooperation channel; real estate and home furnishing information, products and data in Party A’s real estate and home furnishing channel",
+      "productCodes": [
+        "BAIDU_LEJU_REHF_INFO_PRODUCTS_DATA"
+      ],
+      "start": "2010-04-29",
+      "end": "2014-07-31",
+      "quotes": [
+        {
+          "clauseId": "Party A:",
+          "text": "Party A: Beijing Baidu Netcom Science and Technology Co., Ltd."
+        },
+        {
+          "clauseId": "Party B:",
+          "text": "Party B: China Online Housing (Hong Kong) Co., Ltd."
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "Party B and its affiliates will be the exclusive cooperator of Party A’s real estate and home furnishing"
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "cooperation channel."
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "Party B and its affiliates will be the exclusive provider of real estate and home furnishing information, products and data in"
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "Party A’s real estate and home furnishing channel."
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "Party A may not make any identical or similar cooperation regarding the real estate and home"
+        },
+        {
+          "clauseId": "ARTICLE VII",
+          "text": "furnishing information, products and data in its real estate and home furnishing channel with any competitor of Party B."
+        },
+        {
+          "clauseId": "14.6",
+          "text": "This Agreement is dated April 29, 2010."
+        },
+        {
+          "clauseId": "3.3 Phases of Cooperation (subject to the actual date of the upload of the channel)",
+          "text": "Phase IV will commence on August 1, 2013 and end on July 31, 2014."
+        }
+      ],
+      "ambiguities": [
+        "Article VII also grants the benefit to Party B’s “affiliates,” but the affiliates are not identified by legal name in the document.",
+        "The Agreement states no geographic territory for this grant.",
+        "The end date follows the stated Phase IV end date, but clause 3.3 makes phases subject to the actual upload date, which is not stated."
+      ]
+    },
+    {
+      "grantee": "China Online Housing (Hong Kong) Co., Ltd.",
+      "grantor": "Beijing Baidu Netcom Science and Technology Co., Ltd.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic territory stated; limited by scope to advertising on the Cooperation Channel",
+      "territoryCodes": [],
+      "productLabel": "Advertising operation of the Cooperation Channel",
+      "productCodes": [
+        "BAIDU_LEJU_REHF_ADVERTISING"
+      ],
+      "start": "2010-04-29",
+      "end": "2014-07-31",
+      "quotes": [
+        {
+          "clauseId": "Party A:",
+          "text": "Party A: Beijing Baidu Netcom Science and Technology Co., Ltd."
+        },
+        {
+          "clauseId": "Party B:",
+          "text": "Party B: China Online Housing (Hong Kong) Co., Ltd."
+        },
+        {
+          "clauseId": "4.2 Advertising on the Cooperation Channel",
+          "text": "the pricing, specifications and contents of the advertising on the Cooperation Channel is subject to sole"
+        },
+        {
+          "clauseId": "4.2 Advertising on the Cooperation Channel",
+          "text": "discretion of Party B."
+        },
+        {
+          "clauseId": "4.2 Advertising on the Cooperation Channel",
+          "text": "Party B has absolute and sole control, approval and discretion regarding the advertising operation of the"
+        },
+        {
+          "clauseId": "4.2 Advertising on the Cooperation Channel",
+          "text": "Cooperation Channel, may conduct and benefit from legal advertising operations at its sole discretion."
+        },
+        {
+          "clauseId": "4.2 Advertising on the Cooperation Channel",
+          "text": "Without prior consent of Party B and during the term of this Agreement, Party A may not release advertising or promotion"
+        },
+        {
+          "clauseId": "4.2 Advertising on the Cooperation Channel",
+          "text": "information, or any other information or linkage against law or industrial standards on the Cooperation Channel."
+        },
+        {
+          "clauseId": "14.6",
+          "text": "This Agreement is dated April 29, 2010."
+        },
+        {
+          "clauseId": "3.3 Phases of Cooperation (subject to the actual date of the upload of the channel)",
+          "text": "Phase IV will commence on August 1, 2013 and end on July 31, 2014."
+        }
+      ],
+      "ambiguities": [
+        "The Agreement states no geographic territory for this grant.",
+        "The end date follows the stated Phase IV end date, but clause 3.3 makes phases subject to the actual upload date, which is not stated."
+      ]
+    }
+  ]
+}

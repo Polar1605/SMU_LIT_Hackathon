@@ -1,0 +1,621 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Tom Watson (CONSULTANT); ADAMS GOLF, LTD. (ADAMS GOLF)",
+      "quotes": [
+        {
+          "clauseId": "ENDORSEMENT AGREEMENT",
+          "text": "This Agreement is entered into on January 13, 2005 between professional golfer, TOM WATSON , (hereinafter referred to\nas “ CONSULTANT ”) and ADAMS GOLF , LTD . (hereinafter referred to as “ ADAMS GOLF ”)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2004-09-01",
+      "quotes": [
+        {
+          "clauseId": "1. TERM OF CONTRACT",
+          "text": "The Term of this Agreement shall be for a period of [ * **** ] years and [*****] months commencing the 1st day of\nSeptember 2004 and terminating the [*****] day of [*****]."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "redacted: [ * **** ] years and [*****] months",
+      "quotes": [
+        {
+          "clauseId": "1. TERM OF CONTRACT",
+          "text": "The Term of this Agreement shall be for a period of [ * **** ] years and [*****] months commencing the 1st day of\nSeptember 2004 and terminating the [*****] day of [*****]."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 1 redacts the number of years and months, so the term length cannot be stated as a single unambiguous duration."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "redacted",
+      "quotes": [
+        {
+          "clauseId": "1. TERM OF CONTRACT",
+          "text": "The Term of this Agreement shall be for a period of [ * **** ] years and [*****] months commencing the 1st day of\nSeptember 2004 and terminating the [*****] day of [*****]."
+        },
+        {
+          "clauseId": "18. BASE COMPENSATION",
+          "text": "For the entire term of this Agreement, from September 1, 2004 through [*****] ADAMS GOLF shall pay CONSULTANT\na base compensation of [*****] dollars. The base compensation shall be paid [*****]."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 1 redacts the termination day and month, and clause 18 redacts the through date, so the term end cannot be converted to YYYY-MM-DD."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate for material breach on 15 days’ written notice if uncured; ADAMS GOLF also has specified termination rights for misconduct, failure/death preventing tour golf, and mandatory product unsuitability.",
+      "quotes": [
+        {
+          "clauseId": "7. CONSULTANT’S SATISFACTION OF MANDATORY PRODUCT",
+          "text": "It is particularly and expressly understood and agreed that if CONSULTANT shall find in his sincere best reasonable\njudgment that the MANDATORY PRODUCT so supplied is not suitable for his use in tournament competition, then he shall\npromptly notify ADAMS GOLF in writing of such fact and the reasons therefor. Thereafter, ADAMS GOLF shall have a\nperiod of thirty (30) days to either, at ADAMS GOLF’S sole discretion, supply CONSULTANT with MANDATORY\nPRODUCT that is acceptable to him or terminate the agreement."
+        },
+        {
+          "clauseId": "12. BEHAVIOR",
+          "text": "If the value of CONSULTANT’S ENDORSEMENT is materially reduced or impaired because\nCONSULTANT :\nA.committed or shall commit any public act that involves moral turpitude,\nB.commits or violates any material foreign, U.S., federal, or other applicable state or local law,\nC.commits any act which brings him into public disrepute, contempt, scandal or ridicule, or which insults or offends the\ncommunity,\nD.makes any statements in derogation, in any material respect, of ADAMS GOLF or any of its affiliates or any of their\nrespective PRODUCT or services and such statement is made to the general public or becomes a matter of public\nknowledge,\nthen at any time after the occurrence of such act, thing or statement, ADAMS GOLF shall have the right, in addition to its\nother legal and equitable remedies, to immediately terminate this Agreement, by giving written notice to CONSULTANT .\nADAMS GOLF must exercise its right of termination within ninety (90) days of its senior management becoming aware of\nthe conduct giving rise to the right of termination."
+        },
+        {
+          "clauseId": "22. FAILURE TO PLAY",
+          "text": "Notwithstanding any other paragraph of this Agreement, in the event that CONSULTANT dies or is unable to play tour golf\nat all, ADAMS GOLF may terminate this Agreement on thirty (30) days’ written notice. Upon such termination,\nCONSULTANT and/or C ONSULTANT’S estate shall be required to repay ADAMS GOLF for that period of the\nAgreement not performed by CONSULTANT . The repayment amount shall be calculated in the same way as repayment is\ncalculated under paragraph 8A."
+        },
+        {
+          "clauseId": "23. TERMINATION FOR CAUSE",
+          "text": "Notwithstanding any other paragraph of this Agreement, if either party commits any material breach of this Agreement, the\nother party may terminate for cause upon giving fifteen (15) days written notice of such cause and provided the breach is not\nrectified within such fifteen (15) day period. Upon such termination, CONSULTANT shall be required to repay ADAMS\nGOLF for that period of the Agreement not performed by CONSULTANT . The repayment amount shall be calculated in\nthe same way as repayment is calculated under paragraph 8A."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "ADAMS GOLF receives exclusive worldwide endorsement rights for PRODUCT; Tom Watson must not grant, endorse, sponsor, or advise other PRODUCT manufacturers or sellers and must exclusively play/use mandatory products, subject to redacted exceptions.",
+      "quotes": [
+        {
+          "clauseId": "3. CONSULTANT’S ENDORSEMENT",
+          "text": "CONSULTANT hereby gives and grants to ADAMS GOLF the exclusive right and license to use\nCONSULTANT’S ENDORSEMENT in connection with the manufacture, sale, distribution, advertising and promotion of\nPRODUCT in the CONTRACT TERRITORY."
+        },
+        {
+          "clauseId": "4. EXCLUSIVITY OF ENDORSEMENT",
+          "text": "During the term of this Agreement, unless otherwise authorized at the sole discretion of ADAMS GOLF in writing,\nCONSULTANT shall not:\nA.give the right to use or permit the use of CONSULTANT’S name, facsimile signature, nickname, voice or likeness to any\nother manufacturer or seller of PRODUCT ;\nB.sponsor or endorse PRODUCT made or sold by any other manufacturer or seller; or\nC.serve as a CONSULTANT or advisor of any other manufacturer or seller of PRODUCT ."
+        },
+        {
+          "clauseId": "4. EXCLUSIVITY OF ENDORSEMENT",
+          "text": "D.Notwithstanding paragraphs 4A, 4B and 4C above, CONSULTANT shall be entitled to endorse and play the [*****]."
+        },
+        {
+          "clauseId": "4. EXCLUSIVITY OF ENDORSEMENT",
+          "text": "E.Notwithstanding paragraphs 4A, 4B and 4C above, CONSULTANT shall not be required to wear ADAMS GOLF\n[*****] in [*****] ads."
+        },
+        {
+          "clauseId": "5. EXCLUSIVE USE OF PRODUCT",
+          "text": "During the term of this Agreement, CONSULTANT shall exclusively play/use the MANDATORY PRODUCT . (It is\nexpressly understood by the parties that CONSULTANT may play [ * **** ] clubs in the bag other than ADAMS GOLF clubs\nincluding, but not limited to, a putter by a manufacturer other than ADAMS GOLF but may not endorse those clubs and/or putter.)"
+        },
+        {
+          "clauseId": "6. CONSULTANT’S ENDORSEMENT OF NON-COMPETITIVE PRODUCT",
+          "text": "If CONSULTANT endorses or promotes a non-competitive product and in that endorsement or promotion CONSULTANT\nwears, plays, uses, holds or is in any way associated with a product that would constitute PRODUCT as defined under this\nAgreement, CONSULTANT shall use objectively reasonable best efforts to ensure that PRODUCT is an ADAMS GOLF\nPRODUCT and it shall not be altered or changed in appearance in the endorsement in any manner whatsoever without the\nexpress written consent of ADAMS GOLF . When endorsing a non-competitive product, under no circumstances shall\nCONSULTANT wear, play, use, hold or in any way be associated with an ADAMS GOLF competitor’s Product."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 4D and clause 4E contain redacted exceptions to the endorsement exclusivity restrictions.",
+        "Clause 2C redacts the specific MANDATORY PRODUCTS, and clause 5 redacts how many non-ADAMS GOLF clubs may be played.",
+        "Clause 1 redacts the term end, so the end date of the exclusivity obligations cannot be stated."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "ADAMS GOLF must pay CONSULTANT base compensation for the entire term; the amount and payment schedule are redacted.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "18. BASE COMPENSATION",
+          "text": "For the entire term of this Agreement, from September 1, 2004 through [*****] ADAMS GOLF shall pay CONSULTANT\na base compensation of [*****] dollars. The base compensation shall be paid [*****]."
+        }
+      ],
+      "ambiguities": [
+        "Clause 18 redacts the base compensation amount and the payment schedule."
+      ]
+    },
+    {
+      "description": "ADAMS GOLF must pay CONSULTANT a performance bonus if CONSULTANT wins a PGA Tour Major or the Champion’s Tour (SPGA) US Open, subject to the annual bonus cap.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Payable only if CONSULTANT wins a PGA Tour Major or the Champion’s Tour (SPGA) US Open.",
+      "quotes": [
+        {
+          "clauseId": "19. PERFORMANCE BONUSES AND TOTAL COMPENSATION LIMITATION",
+          "text": "1. If CONSULTANT wins a PGA Tour Major (consisting of the Masters, US Open, PGA and British Open) or the\nChampion’s Tour (SPGA) US Open, CONSULTANT shall receive a bonus of $ [*****]."
+        },
+        {
+          "clauseId": "19. PERFORMANCE BONUSES AND TOTAL COMPENSATION LIMITATION",
+          "text": "B.Notwithstanding paragraph A and its subparts above, the maximum total annual bonuses shall in no case exceed the\nfollowing schedule:\n1.2005 $ [*****]\n2.2006$ [*****]\n3.2007$ [*****]\n4.2008$ [*****]\n5.2009$ [*****]"
+        }
+      ],
+      "ambiguities": [
+        "Clauses 19A and 19B redact the bonus amount and annual cap, and no payment due date is stated."
+      ]
+    },
+    {
+      "description": "ADAMS GOLF must pay CONSULTANT a performance bonus if CONSULTANT wins a Champions/Seniors Tour (SPGA) major other than the US Open, subject to the annual bonus cap.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Payable only if CONSULTANT wins a Champions/Seniors Tour (SPGA) major other than the US Open.",
+      "quotes": [
+        {
+          "clauseId": "19. PERFORMANCE BONUSES AND TOTAL COMPENSATION LIMITATION",
+          "text": "2. If CONSULTANT wins a Champions/Seniors Tour (SPGA) major other than the US Open (which shall for the\npurposes of this agreement consist of the Senior PGA, Senior British, the Tradition and the Ford Seniors)\nCONSULTANT shall receive a bonus of $ [*****]."
+        },
+        {
+          "clauseId": "19. PERFORMANCE BONUSES AND TOTAL COMPENSATION LIMITATION",
+          "text": "B.Notwithstanding paragraph A and its subparts above, the maximum total annual bonuses shall in no case exceed the\nfollowing schedule:\n1.2005 $ [*****]\n2.2006$ [*****]\n3.2007$ [*****]\n4.2008$ [*****]\n5.2009$ [*****]"
+        }
+      ],
+      "ambiguities": [
+        "Clauses 19A and 19B redact the bonus amount and annual cap, and no payment due date is stated."
+      ]
+    },
+    {
+      "description": "ADAMS GOLF must pay CONSULTANT a year-end performance bonus if CONSULTANT finishes in the top redacted ranking on the official year-end money list of the Champion’s Tour (SPGA), subject to the annual bonus cap.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "annually",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Payable only if CONSULTANT finishes in the top [*****] on the official year end money list of the Champion’s Tour (SPGA).",
+      "quotes": [
+        {
+          "clauseId": "19. PERFORMANCE BONUSES AND TOTAL COMPENSATION LIMITATION",
+          "text": "3. If CONSULTANT finishes in the top [*****] on the official year end money list of the Champion’s Tour (SPGA),\nCONSULTANT shall also be entitled to a year end performance bonus according to the following schedule:\na.2005 $ [*****]\nb.2006$ [*****]\nc.2007$ [*****]\nd.2008$ [*****]\ne.2009$ [*****]"
+        },
+        {
+          "clauseId": "19. PERFORMANCE BONUSES AND TOTAL COMPENSATION LIMITATION",
+          "text": "B.Notwithstanding paragraph A and its subparts above, the maximum total annual bonuses shall in no case exceed the\nfollowing schedule:\n1.2005 $ [*****]\n2.2006$ [*****]\n3.2007$ [*****]\n4.2008$ [*****]\n5.2009$ [*****]"
+        }
+      ],
+      "ambiguities": [
+        "Clause 19A redacts the qualifying ranking and bonus amounts, clause 19B redacts the annual cap, and no payment due date is stated."
+      ]
+    },
+    {
+      "description": "ADAMS GOLF must reimburse CONSULTANT for reasonable travel expenses when making special appearances for ADAMS GOLF.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies when CONSULTANT makes special appearances for ADAMS GOLF under clause 11B and incurs reasonable travel expenses.",
+      "quotes": [
+        {
+          "clauseId": "11. PROMOTIONAL APPEARANCES",
+          "text": "B. During the term of this Agreement, CONSULTANT shall make himself available on not more than [ ***** ] days for\ntelevision and radio commercials, photo shoots, modeling and promotional appearances compatible with\nCONSULTANT’S own practice, play and personal time requirements. Said activities shall be directly related to the\npromotion of ADAMS GOLF PRODUCT . ADAMS GOLF shall reimburse CONSULTANT for reasonable travel\nexpenses for CONSULTANT when making special appearances for ADAMS GOLF pursuant to this paragraph but\nADAMS GOLF shall not pay CONSULTANT session fees, residual payments or the like for television appearances.\nTravel expenses shall include jet fuel or first-class round-trip airfare and lodging, meals and local transportation."
+        }
+      ],
+      "ambiguities": [
+        "Clause 11B states no fixed amount, reimbursement procedure, or payment due date."
+      ]
+    },
+    {
+      "description": "CONSULTANT must repay ADAMS GOLF an amount per event for each event below the redacted minimum annual tournament-play requirement.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "annually",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies if CONSULTANT achieves a satisfactory record of play in fewer than the redacted minimum SPGA and/or PGA tour events in a calendar year; payment is within one month after that calendar year, subject to the clause 19C insolvency exception.",
+      "quotes": [
+        {
+          "clauseId": "8. MINIMUM NUMBER OF TOURNAMENTS AND POTENTIAL REPAYMENT OF BASE COMPENSATION",
+          "text": "In each and every calendar year of this Agreement, CONSULTANT shall achieve a satisfactory record of play in a\nminimum of [ * **** ] professional golf association events on the SPGA and/or PGA tour (which shall include both the PGA and\nSPGA Tour Skins Games). If for any reason, CONSULTANT should achieve a satisfactory record of play in less than\n[*****] SPGA and/or PGA tour events in a calendar year, he shall repay ADAMS GOLF an amount per event for each\nevent under [*****] achieved in the given calendar year as follows:"
+        },
+        {
+          "clauseId": "8. MINIMUM NUMBER OF TOURNAMENTS AND POTENTIAL REPAYMENT OF BASE COMPENSATION",
+          "text": "The agreed upon repayment amount per event per calendar year:\n1. Year 1. $[*****]\n2. Year 2 $[*****]\n3. Year 3 $[*****]\n4. Year 4 $[*****]\n5. Year 5 $[*****]"
+        },
+        {
+          "clauseId": "8. MINIMUM NUMBER OF TOURNAMENTS AND POTENTIAL REPAYMENT OF BASE COMPENSATION",
+          "text": "B.Payment shall be made to ADAMS GOLF within one month following the end of the calendar year. For example, if in\nthe calendar year 2005 CONSULTANT achieves a satisfactory record of play in [*****] events, he shall repay\nADAMS GOLF [*****] dollars no later than January 31, 2006."
+        },
+        {
+          "clauseId": "19. PERFORMANCE BONUSES AND TOTAL COMPENSATION LIMITATION",
+          "text": "In the event of ADAMS GOLF’S insolvency or bankruptcy, it is expressly agreed to by the parties that CONSULTANT\nshall not be obligated to repay any money so long as CONSULTANT continues to fully perform his obligations under this\nAgreement."
+        }
+      ],
+      "ambiguities": [
+        "Clause 8A redacts the minimum event threshold and the repayment amounts.",
+        "The agreement commenced September 1, 2004 but was entered January 13, 2005, and clause 8B gives an example for calendar year 2005; the first possible repayment due date is therefore not stated unambiguously."
+      ]
+    },
+    {
+      "description": "If the agreement is terminated under clause 7 because mandatory product remains unacceptable, CONSULTANT’s compensation is prorated under the paragraph 8A repayment schedule.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies if ADAMS GOLF terminates after CONSULTANT notifies that supplied MANDATORY PRODUCT is unsuitable and ADAMS GOLF does not supply acceptable product within 30 days.",
+      "quotes": [
+        {
+          "clauseId": "7. CONSULTANT’S SATISFACTION OF MANDATORY PRODUCT",
+          "text": "It is agreed that if the contract is terminated pursuant to\nthis paragraph, the compensation due CONSULTANT shall be prorated from the date this Agreement is terminated.\nProration of compensation shall be determined on the same repayment schedule as provide in paragraph 8A below."
+        },
+        {
+          "clauseId": "8. MINIMUM NUMBER OF TOURNAMENTS AND POTENTIAL REPAYMENT OF BASE COMPENSATION",
+          "text": "The agreed upon repayment amount per event per calendar year:\n1. Year 1. $[*****]\n2. Year 2 $[*****]\n3. Year 3 $[*****]\n4. Year 4 $[*****]\n5. Year 5 $[*****]"
+        }
+      ],
+      "ambiguities": [
+        "Clause 7 states proration and refers to the paragraph 8A repayment schedule, but the paragraph 8A amounts are redacted and no due date is stated."
+      ]
+    },
+    {
+      "description": "If ADAMS GOLF terminates because CONSULTANT dies or is unable to play tour golf at all, CONSULTANT and/or CONSULTANT’s estate must repay ADAMS GOLF for the unperformed period.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies upon termination under clause 22 after CONSULTANT dies or is unable to play tour golf at all.",
+      "quotes": [
+        {
+          "clauseId": "22. FAILURE TO PLAY",
+          "text": "Notwithstanding any other paragraph of this Agreement, in the event that CONSULTANT dies or is unable to play tour golf\nat all, ADAMS GOLF may terminate this Agreement on thirty (30) days’ written notice. Upon such termination,\nCONSULTANT and/or C ONSULTANT’S estate shall be required to repay ADAMS GOLF for that period of the\nAgreement not performed by CONSULTANT . The repayment amount shall be calculated in the same way as repayment is\ncalculated under paragraph 8A."
+        },
+        {
+          "clauseId": "8. MINIMUM NUMBER OF TOURNAMENTS AND POTENTIAL REPAYMENT OF BASE COMPENSATION",
+          "text": "The agreed upon repayment amount per event per calendar year:\n1. Year 1. $[*****]\n2. Year 2 $[*****]\n3. Year 3 $[*****]\n4. Year 4 $[*****]\n5. Year 5 $[*****]"
+        }
+      ],
+      "ambiguities": [
+        "Clause 22 calculates the repayment by reference to paragraph 8A, whose amounts are redacted, and no due date is stated."
+      ]
+    },
+    {
+      "description": "Upon termination for material breach under clause 23, CONSULTANT must repay ADAMS GOLF for the unperformed period.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies upon termination for material breach under clause 23 after failure to cure within 15 days.",
+      "quotes": [
+        {
+          "clauseId": "23. TERMINATION FOR CAUSE",
+          "text": "Notwithstanding any other paragraph of this Agreement, if either party commits any material breach of this Agreement, the\nother party may terminate for cause upon giving fifteen (15) days written notice of such cause and provided the breach is not\nrectified within such fifteen (15) day period. Upon such termination, CONSULTANT shall be required to repay ADAMS\nGOLF for that period of the Agreement not performed by CONSULTANT . The repayment amount shall be calculated in\nthe same way as repayment is calculated under paragraph 8A."
+        },
+        {
+          "clauseId": "8. MINIMUM NUMBER OF TOURNAMENTS AND POTENTIAL REPAYMENT OF BASE COMPENSATION",
+          "text": "The agreed upon repayment amount per event per calendar year:\n1. Year 1. $[*****]\n2. Year 2 $[*****]\n3. Year 3 $[*****]\n4. Year 4 $[*****]\n5. Year 5 $[*****]"
+        }
+      ],
+      "ambiguities": [
+        "Clause 23 calculates the repayment by reference to paragraph 8A, whose amounts are redacted, and no due date is stated.",
+        "Clause 23 says either party may terminate for either party’s material breach but then states CONSULTANT must repay upon such termination, leaving the repayment consequence unclear if ADAMS GOLF is the breaching party."
+      ]
+    },
+    {
+      "description": "CONSULTANT is solely responsible for payments required to SAG, AFTRA, or any other organization with jurisdiction over CONSULTANT’s services.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies to any payments required by SAG, AFTRA, or other organizations having jurisdiction over CONSULTANT’s services.",
+      "quotes": [
+        {
+          "clauseId": "16. MEMBERSHIPS",
+          "text": "Any and all payments required to be made to SAG\nor AFTRA or any other organization having jurisdiction over CONSULTANT’S services hereunder, shall be the sole\nresponsibility of CONSULTANT ."
+        }
+      ],
+      "ambiguities": [
+        "Clause 16 states no amounts, frequency, or due dates for these third-party payments."
+      ]
+    },
+    {
+      "description": "ADAMS GOLF must pay all charges connected with delivery of mandatory products to CONSULTANT.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies when ADAMS GOLF delivers mandatory products to CONSULTANT.",
+      "quotes": [
+        {
+          "clauseId": "17. SUPPLY OF PRODUCT",
+          "text": "ADAMS GOLF shall pay all charges in connection with the delivery of\nMANDATORY PRODUCTS to CONSULTANT."
+        }
+      ],
+      "ambiguities": [
+        "Clause 17A states no fixed amount, frequency, or due date for delivery charges."
+      ]
+    },
+    {
+      "description": "CONSULTANT must indemnify ADAMS GOLF for liability, claims, damages, and expenses arising from CONSULTANT’s breach of any covenant or representation.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies if ADAMS GOLF becomes liable or is compelled to pay because of CONSULTANT’s breach of a covenant or representation.",
+      "quotes": [
+        {
+          "clauseId": "14. INDEMNITY",
+          "text": "CONSULTANT agrees to protect, indemnify and hold ADAMS GOLF harmless from any and all liability, claims, causes of\naction, suits, damages and expenses (including reasonable attorneys’ fees and expenses) for which it becomes liable or is\ncompelled to pay by reason of a breach of any covenant or representation by CONSULTANT in this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "Clause 14 states no cap, fixed amount, frequency, or payment due date."
+      ]
+    },
+    {
+      "description": "ADAMS GOLF must indemnify CONSULTANT for expenses, damages, claims, suits, actions, judgments, and costs connected with advertising material furnished by or on behalf of ADAMS GOLF.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies to claims and costs arising out of or connected with advertising material furnished by or on behalf of ADAMS GOLF.",
+      "quotes": [
+        {
+          "clauseId": "20. APPROVAL OF ADVERTISING",
+          "text": "ADAMS GOLF agrees to protect, indemnify and hold CONSULTANT harmless from and against any and all expenses,\ndamages, claims, suits, actions, judgments and costs whatsoever, arising out of, or in any way connected with, any advertising\nmaterial furnished by, or on behalf of, the company."
+        }
+      ],
+      "ambiguities": [
+        "Clause 20 states no cap, fixed amount, frequency, or payment due date."
+      ]
+    },
+    {
+      "description": "ADAMS GOLF must defend and indemnify CONSULTANT for liabilities, damages, costs, and expenses arising from claims involving alleged defects in ADAMS GOLF’S PRODUCT, subject to notice, authority, information, and consent conditions.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies to covered claims or actions for personal injury, death, or otherwise involving alleged defects in ADAMS GOLF’S PRODUCT, subject to the conditions in clause 21.",
+      "quotes": [
+        {
+          "clauseId": "21. INDEMNITY",
+          "text": "ADAMS GOLF agrees to defend, indemnify and hold harmless CONSULTANT from any and all liability, claims, causes of\naction, suits, damages and expenses (including reasonable attorneys’ fees and expenses) for which he becomes liable or is\ncompelled to pay by reason of or arising out of any claim or action for personal injury, death or otherwise involving alleged\ndefects in ADAMS GOLF’S PRODUCT , provided that ADAMS GOLF is promptly given notice in writing and is given\ncomplete authority and information required for the defense, and ADAMS GOLF shall pay all damages or costs awarded\ntherein against CONSULTANT and any other cost incurred by CONSULTANT in defense of any suit, but shall not be\nresponsible for any cost, expense or compromise incurred or made by CONSULTANT without ADAMS GOLF’S prior\nwritten consent."
+        }
+      ],
+      "ambiguities": [
+        "Clause 21 states no cap, fixed amount, frequency, or payment due date."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "ADAMS GOLF, LTD.",
+      "grantor": "Tom Watson",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "CONTRACT TERRITORY — the entire world",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "PRODUCT — all golf clubs including metal woods, drivers, fairway woods, irons, iron-woods, utility clubs, wedges, putters, bags, and headwear",
+      "productCodes": [
+        "GOLF_CLUBS",
+        "BAGS",
+        "HEADWEAR"
+      ],
+      "start": "2004-09-01",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "ENDORSEMENT AGREEMENT",
+          "text": "This Agreement is entered into on January 13, 2005 between professional golfer, TOM WATSON , (hereinafter referred to\nas “ CONSULTANT ”) and ADAMS GOLF , LTD . (hereinafter referred to as “ ADAMS GOLF ”)."
+        },
+        {
+          "clauseId": "1. TERM OF CONTRACT",
+          "text": "The Term of this Agreement shall be for a period of [ * **** ] years and [*****] months commencing the 1st day of\nSeptember 2004 and terminating the [*****] day of [*****]."
+        },
+        {
+          "clauseId": "2. DEFINITIONS",
+          "text": "B.“PRODUCT” shall mean all golf clubs including, but not limited to, metal woods, drivers, fairway woods, irons, iron-\nwoods, utility clubs, wedges, and putters, bags, and headwear."
+        },
+        {
+          "clauseId": "2. DEFINITIONS",
+          "text": "D. “CONTRACT TERRITORY” shall mean the entire world."
+        },
+        {
+          "clauseId": "3. CONSULTANT’S ENDORSEMENT",
+          "text": "CONSULTANT hereby gives and grants to ADAMS GOLF the exclusive right and license to use\nCONSULTANT’S ENDORSEMENT in connection with the manufacture, sale, distribution, advertising and promotion of\nPRODUCT in the CONTRACT TERRITORY."
+        }
+      ],
+      "ambiguities": [
+        "Clause 1 redacts the termination date, so the end of this grant cannot be stated."
+      ]
+    },
+    {
+      "grantee": "ADAMS GOLF, LTD.",
+      "grantor": "Tom Watson",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic limit stated for the clause 4 restriction",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "PRODUCT — all golf clubs including metal woods, drivers, fairway woods, irons, iron-woods, utility clubs, wedges, putters, bags, and headwear",
+      "productCodes": [
+        "GOLF_CLUBS",
+        "BAGS",
+        "HEADWEAR"
+      ],
+      "start": "2004-09-01",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "ENDORSEMENT AGREEMENT",
+          "text": "This Agreement is entered into on January 13, 2005 between professional golfer, TOM WATSON , (hereinafter referred to\nas “ CONSULTANT ”) and ADAMS GOLF , LTD . (hereinafter referred to as “ ADAMS GOLF ”)."
+        },
+        {
+          "clauseId": "1. TERM OF CONTRACT",
+          "text": "The Term of this Agreement shall be for a period of [ * **** ] years and [*****] months commencing the 1st day of\nSeptember 2004 and terminating the [*****] day of [*****]."
+        },
+        {
+          "clauseId": "2. DEFINITIONS",
+          "text": "B.“PRODUCT” shall mean all golf clubs including, but not limited to, metal woods, drivers, fairway woods, irons, iron-\nwoods, utility clubs, wedges, and putters, bags, and headwear."
+        },
+        {
+          "clauseId": "4. EXCLUSIVITY OF ENDORSEMENT",
+          "text": "During the term of this Agreement, unless otherwise authorized at the sole discretion of ADAMS GOLF in writing,\nCONSULTANT shall not:\nA.give the right to use or permit the use of CONSULTANT’S name, facsimile signature, nickname, voice or likeness to any\nother manufacturer or seller of PRODUCT ;\nB.sponsor or endorse PRODUCT made or sold by any other manufacturer or seller; or\nC.serve as a CONSULTANT or advisor of any other manufacturer or seller of PRODUCT ."
+        },
+        {
+          "clauseId": "4. EXCLUSIVITY OF ENDORSEMENT",
+          "text": "D.Notwithstanding paragraphs 4A, 4B and 4C above, CONSULTANT shall be entitled to endorse and play the [*****]."
+        },
+        {
+          "clauseId": "4. EXCLUSIVITY OF ENDORSEMENT",
+          "text": "E.Notwithstanding paragraphs 4A, 4B and 4C above, CONSULTANT shall not be required to wear ADAMS GOLF\n[*****] in [*****] ads."
+        }
+      ],
+      "ambiguities": [
+        "Clause 4 does not expressly state a geographic territory for the restriction; territoryCodes is treated as worldwide because no geographic limit is stated.",
+        "Clause 4D and clause 4E contain redacted exceptions to the restriction.",
+        "Clause 1 redacts the termination date, so the end of this restriction cannot be stated."
+      ]
+    },
+    {
+      "grantee": "ADAMS GOLF, LTD.",
+      "grantor": "Tom Watson",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "all Champions/Senior Professional Golf Association (SPGA) and Professional Golf Association (PGA) events at all times",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "MANDATORY PRODUCT — specific products redacted",
+      "productCodes": [
+        "MANDATORY_PRODUCTS_REDACTED"
+      ],
+      "start": "2004-09-01",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "ENDORSEMENT AGREEMENT",
+          "text": "This Agreement is entered into on January 13, 2005 between professional golfer, TOM WATSON , (hereinafter referred to\nas “ CONSULTANT ”) and ADAMS GOLF , LTD . (hereinafter referred to as “ ADAMS GOLF ”)."
+        },
+        {
+          "clauseId": "1. TERM OF CONTRACT",
+          "text": "The Term of this Agreement shall be for a period of [ * **** ] years and [*****] months commencing the 1st day of\nSeptember 2004 and terminating the [*****] day of [*****]."
+        },
+        {
+          "clauseId": "2. DEFINITIONS",
+          "text": "C.“MANDATORY PRODUCTS” shall mean the following ADAMS GOLF PRODUCTS that CONSULTANT must\nexclusively play/use in all Champions/Senior Professional Golf Association (SPGA) and Professional Golf Association\n(PGA) events at all times:"
+        },
+        {
+          "clauseId": "5. EXCLUSIVE USE OF PRODUCT",
+          "text": "During the term of this Agreement, CONSULTANT shall exclusively play/use the MANDATORY PRODUCT . (It is\nexpressly understood by the parties that CONSULTANT may play [ * **** ] clubs in the bag other than ADAMS GOLF clubs\nincluding, but not limited to, a putter by a manufacturer other than ADAMS GOLF but may not endorse those clubs and/or putter.)"
+        }
+      ],
+      "ambiguities": [
+        "Clause 2C redacts the specific MANDATORY PRODUCTS.",
+        "Clause 5 redacts how many non-ADAMS GOLF clubs CONSULTANT may play.",
+        "Clauses 2C and 5 define the scope by events and use rather than an express geographic territory; territoryCodes is treated as worldwide for overlap purposes.",
+        "Clause 1 redacts the termination date, so the end of this restriction cannot be stated."
+      ]
+    },
+    {
+      "grantee": "ADAMS GOLF, LTD.",
+      "grantor": "Tom Watson",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic limit stated for non-competitive product endorsement restriction",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "PRODUCT as associated with non-competitive product endorsements — all golf clubs including metal woods, drivers, fairway woods, irons, iron-woods, utility clubs, wedges, putters, bags, and headwear",
+      "productCodes": [
+        "GOLF_CLUBS",
+        "BAGS",
+        "HEADWEAR"
+      ],
+      "start": "2004-09-01",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "ENDORSEMENT AGREEMENT",
+          "text": "This Agreement is entered into on January 13, 2005 between professional golfer, TOM WATSON , (hereinafter referred to\nas “ CONSULTANT ”) and ADAMS GOLF , LTD . (hereinafter referred to as “ ADAMS GOLF ”)."
+        },
+        {
+          "clauseId": "1. TERM OF CONTRACT",
+          "text": "The Term of this Agreement shall be for a period of [ * **** ] years and [*****] months commencing the 1st day of\nSeptember 2004 and terminating the [*****] day of [*****]."
+        },
+        {
+          "clauseId": "2. DEFINITIONS",
+          "text": "B.“PRODUCT” shall mean all golf clubs including, but not limited to, metal woods, drivers, fairway woods, irons, iron-\nwoods, utility clubs, wedges, and putters, bags, and headwear."
+        },
+        {
+          "clauseId": "6. CONSULTANT’S ENDORSEMENT OF NON-COMPETITIVE PRODUCT",
+          "text": "If CONSULTANT endorses or promotes a non-competitive product and in that endorsement or promotion CONSULTANT\nwears, plays, uses, holds or is in any way associated with a product that would constitute PRODUCT as defined under this\nAgreement, CONSULTANT shall use objectively reasonable best efforts to ensure that PRODUCT is an ADAMS GOLF\nPRODUCT and it shall not be altered or changed in appearance in the endorsement in any manner whatsoever without the\nexpress written consent of ADAMS GOLF . When endorsing a non-competitive product, under no circumstances shall\nCONSULTANT wear, play, use, hold or in any way be associated with an ADAMS GOLF competitor’s Product."
+        }
+      ],
+      "ambiguities": [
+        "Clause 6 does not expressly state a geographic territory for this restriction; territoryCodes is treated as worldwide because no geographic limit is stated.",
+        "Clause 6 uses an objectively reasonable best efforts standard for ensuring the product is ADAMS GOLF PRODUCT, although the competitor-product prohibition is absolute.",
+        "Clause 1 redacts the termination date, so the end of this restriction cannot be stated."
+      ]
+    }
+  ]
+}

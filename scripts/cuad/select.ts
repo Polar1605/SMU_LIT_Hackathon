@@ -108,6 +108,8 @@ async function main(): Promise<void> {
       count: { type: "string", default: "10" },
       data: { type: "string", default: path.join(ROOT, "data", "cuad") },
       "min-coverage": { type: "string", default: "5" },
+      /** "smallest" keeps the run cheap; "spread" samples across document length. */
+      strategy: { type: "string", default: "smallest" },
     },
   });
 
@@ -172,7 +174,38 @@ async function main(): Promise<void> {
 
   console.log(`${eligible.length} have at least ${minCoverage} of our ${columns.length} fields answered`);
 
-  const chosen = eligible.slice(0, count);
+  // Anything already selected stays selected. Its extraction is cached, so
+  // keeping it is free, and the earlier numbers stay comparable.
+  let existing: CuadContract[] = [];
+  try {
+    existing = (JSON.parse(await readFile(path.join(dataDir, "selection.json"), "utf8")) as {
+      contracts: CuadContract[];
+    }).contracts;
+    console.log(`${existing.length} already selected and cached; keeping them`);
+  } catch {
+    // First run.
+  }
+  const already = new Set(existing.map((c) => c.filename));
+
+  const remaining = eligible.filter((c) => !already.has(c.filename));
+  const need = Math.max(0, count - existing.length);
+
+  let added: CuadContract[];
+  if (values.strategy === "spread") {
+    // Evenly spaced across the length-sorted list, so the sample stops being
+    // only short documents. Deterministic — no randomness to reproduce.
+    added = [];
+    for (let i = 0; i < need && remaining.length > 0; i += 1) {
+      const index = Math.min(remaining.length - 1, Math.round((i * (remaining.length - 1)) / Math.max(1, need - 1)));
+      const [picked] = remaining.splice(index, 1);
+      added.push(picked);
+    }
+  } else {
+    added = remaining.slice(0, need);
+  }
+
+  const chosen = [...existing, ...added].sort((a, b) => a.sizeBytes - b.sizeBytes);
+  console.log(`selecting ${added.length} more by "${values.strategy}" -> ${chosen.length} total`);
   if (chosen.length < count) {
     console.warn(`Only ${chosen.length} met the bar; continuing with those.`);
   }

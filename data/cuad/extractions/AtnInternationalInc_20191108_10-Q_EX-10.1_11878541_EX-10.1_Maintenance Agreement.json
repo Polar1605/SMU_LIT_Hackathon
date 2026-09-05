@@ -1,0 +1,328 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Commnet Wireless, LLC (Vendor) and AT&T Mobility LLC, on behalf of itself and its Affiliates (AT&T).",
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "This Network Build and Maintenance Agreement is entered into as of the 31 day of July, 2019 (the\n“Effective Date”) by and between Commnet Wireless, LLC, a Delaware limited liability company\n(hereinafter referred to as “Vendor”), and AT&T Mobility LLC, a Delaware limited liability company on\nbehalf of itself and its Affiliates (as such term is defined herein) (collectively and hereinafter referred to as\n“AT&T”), each of which may be referred to in the singular as a “Party” or in the plural as the “Parties.”"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2019-07-31",
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "This Network Build and Maintenance Agreement is entered into as of the 31 day of July, 2019 (the\n“Effective Date”) by and between Commnet Wireless, LLC, a Delaware limited liability company\n(hereinafter referred to as “Vendor”), and AT&T Mobility LLC, a Delaware limited liability company on\nbehalf of itself and its Affiliates (as such term is defined herein) (collectively and hereinafter referred to as\n“AT&T”), each of which may be referred to in the singular as a “Party” or in the plural as the “Parties.”"
+        },
+        {
+          "clauseId": "1.2 Term of Agreement",
+          "text": "1.2 Term of Agreement . The “Term” of this Agreement shall commence on the Effective Date and shall\ncontinue in full force and effect until the expiration or earlier termination of the last Addendum to expire or\nbe terminated, at which time this Agreement will expire, unless this Agreement is sooner terminated in\naccordance with the terms and provisions of this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "Until expiration or earlier termination of the last Addendum to expire or be terminated.",
+      "quotes": [
+        {
+          "clauseId": "1.2 Term of Agreement",
+          "text": "1.2 Term of Agreement . The “Term” of this Agreement shall commence on the Effective Date and shall\ncontinue in full force and effect until the expiration or earlier termination of the last Addendum to expire or\nbe terminated, at which time this Agreement will expire, unless this Agreement is sooner terminated in\naccordance with the terms and provisions of this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 1.2 makes the Term depend on the expiration or termination of the last Addendum, but the supplied text does not state the Build Addendum or Maintenance Addendum expiration dates or durations."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "Not fixed; expires when the last Addendum expires or is earlier terminated.",
+      "quotes": [
+        {
+          "clauseId": "1.2 Term of Agreement",
+          "text": "1.2 Term of Agreement . The “Term” of this Agreement shall commence on the Effective Date and shall\ncontinue in full force and effect until the expiration or earlier termination of the last Addendum to expire or\nbe terminated, at which time this Agreement will expire, unless this Agreement is sooner terminated in\naccordance with the terms and provisions of this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 1.2 states an event-based end date rather than a calendar date, and the supplied text does not include the Addendum expiry dates needed to determine a YYYY-MM-DD term end."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Neither Party may terminate for convenience.",
+      "quotes": [
+        {
+          "clauseId": "3.37(b) Termination for Convenience",
+          "text": "(b) Termination for Convenience – This Agreement, the Build Addendum and the Maintenance Addendum\nmay not be terminated by either Party at any time for its own convenience."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either Party may terminate for uncured curable breach after 30 days or other applicable cure period, incurable breach, or incurable material violation of Laws; either Party may terminate for bankruptcy; AT&T has additional rights for Vendor insolvency, financing/default events, Build Addendum Termination Events and Master License Agreement termination.",
+      "quotes": [
+        {
+          "clauseId": "3.37(c) Termination for Cause",
+          "text": "(i) If either Party breaches any provision of this Agreement (which for purposes of this Section 3.37(c) shall\nnot mean any breaches of the Build Addendum or Maintenance Addendum) and (i) if the breach is one\nthat by its nature could be cured, and such breach is not cured within thirty (30) days (or such other\napplicable cure period expressly provided herein and applicable to such breach) after the breaching Party\nreceives written notice, provided that if such breach is not reasonably susceptible of cure within such thirty\n(30) day period (or such other applicable cure period) and Vendor is diligently and continuously pursuing\na cure, the Parties shall cooperate in good faith to establish by mutual written agreement a reasonable\nextension of the applicable cure period, or (ii) if the breach is one that by its nature cannot be cured, or\n(iii) if the breach is a material violation of Laws that is not reasonably susceptible of cure, then, in addition\nto all other rights and remedies at law or"
+        },
+        {
+          "clauseId": "3.37(c) Termination for Cause",
+          "text": "in equity or otherwise, the non-breaching Party shall have the right upon written notice to immediately\nterminate this Agreement (which termination shall include the Build Addendum and Maintenance\nAddendum), and exercise all Termination Remedies set forth in the Build Addendum, except AT&T\ncannot terminate its obligation to pay Vendor all Structured Payments for Cell Sites that have achieved\nLocation Acceptance prior to the effective date of termination or any Maintenance Fees for Services\nperformed under the Maintenance Addendum prior to the effective date of such termination."
+        },
+        {
+          "clauseId": "3.37(c) Termination for Cause",
+          "text": "(ii) If Vendor becomes insolvent or generally fails to pay, or admits in writing its inability or refusal to pay,\ndebts as they become due, then AT&T shall have the right upon written notice to immediately terminate\nAT&T’s obligations under this Agreement or the Build Addendum or Maintenance Addendum, as\napplicable, and exercise all Termination Remedies set forth in the Build Addendum."
+        },
+        {
+          "clauseId": "3.37(d) Bankruptcy",
+          "text": "(d) Bankruptcy . In addition to all other termination rights set forth herein, this Agreement may be terminated by\neither Party or either Party may terminate its obligations hereunder, in each case in whole or in part (including\nterminating only specific addendums or specific Cell Sites), if the other Party files, or has filed against it, any\nvoluntary petition seeking liquidation, reorganization, arrangement or readjustment of its debts or for any other\nrelief under the United States Bankruptcy Code or under any other act or Law pertaining to insolvency or\ndebtor relief, whether state, federal or foreign, now or hereafter existing;"
+        },
+        {
+          "clauseId": "3.37(e) Termination Events",
+          "text": "(e) Termination Events . In addition to all other termination rights set forth herein, this Agreement may be\nterminated by AT&T or AT&T may terminate its obligations hereunder (including terminating only specific\naddendums or specific Cell Sites), upon the occurrence of (i) any Termination Event (as defined in the Build\nAddendum) applicable to one or more Cell Sites and upon such termination AT&T may exercise any or all of\nthe Termination Remedies (as defined in the Build Addendum) available to it pursuant to the Build Addendum\nwith respect to such impacted Cell Sites; or (ii) any termination (regardless of the reason therefor) of the\nMaster License Agreement resulting in AT&T’s inability to use the impacted Cell Site."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 3.37(c)(i) says the general breach termination right does not cover breaches of the Build Addendum or Maintenance Addendum; those addenda are not included in the supplied text.",
+        "Section 3.37(e) depends on “Termination Event” and “Termination Remedies” as defined in the Build Addendum, which is not included in the supplied text."
+      ]
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "No aggregate monetary liability cap is stated. The agreement excludes special, consequential, incidental and punitive damages between the Parties, except for indemnity/infringement obligations, confidentiality breaches, and Third Party Loss from violation of Law; Vendor’s infringement obligations are outside all liability limitations.",
+      "quotes": [
+        {
+          "clauseId": "3.21 Limitation of Damages",
+          "text": "3.21 Limitation of Damages . Notwithstanding anything contained in this Agreement to the contrary, neither\nParty shall be liable to the other Party for any special, consequential, incidental or punitive damages,\nhowever caused, based on any theory of liability except to the extent such damages are payable by such\nParty (a) pursuant to its indemnification obligations under Section 3.15 and infringement indemnification\nobligations under Section 3.17, (b) arising out of or resulting from such Party’s breach of its confidentiality\nobligations set forth in this Agreement (including Section 3.16, Section 3.48, Section 4.2 and Exhibit A\nattached hereto) or (c) in connection with a Third Party Loss arising out of or resulting from such Party’s\nviolation of applicable Law."
+        },
+        {
+          "clauseId": "3.17(f)",
+          "text": "(f) OTHER LIMITATIONS OF LIABILITY NOT APPLICABLE. NOTWITHSTANDING ANY\nOTHER PROVISION IN THIS AGREEMENT TO THE CONTRARY (AND WHETHER OR\nNOT SUCH A PROVISION CONTAINS LANGUAGE TO THE EFFECT THAT THE\nPROVISION TAKES PRECEDENCE OVER OTHER PROVISIONS CONTRARY TO IT),\nWHETHER EXPRESS OR IMPLIED, NONE OF THE LIMITATIONS OF LIABILITY\n(INCLUDING ANY LIMITATIONS REGARDING TYPES OF OR AMOUNTS OF DAMAGES\nOR LIABILITIES) CONTAINED ANYWHERE IN THIS AGREEMENT WILL APPLY TO\nVENDOR’S OBLIGATIONS UNDER THIS SECTION."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Non-exclusive market: Vendor receives no right or privilege to provide comparable Work in any market or geographic area outside the Cell Sites, and AT&T may use other vendors or perform the Work itself for other sites.",
+      "quotes": [
+        {
+          "clauseId": "3.24 Non-Exclusive Market",
+          "text": "3.24 Non-Exclusive Market . Other than with respect to the Cell Sites expressly contemplated in the Build\nAddendum, this Agreement does not grant Vendor any right or privilege to provide to AT&T any Work of\nthe type described in or purchased under this Agreement in any market or geographic area."
+        },
+        {
+          "clauseId": "3.24 Non-Exclusive Market",
+          "text": "manufacturers and vendors for the procurement or trial of Work comparable to that described in or\npurchased under this Agreement for sites other than the Cell Sites expressly contemplated in the Build\nAddendum, and AT&T may itself perform such Work."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 3.24 excludes “the Cell Sites expressly contemplated in the Build Addendum,” but the supplied text does not include the Build Addendum or identify those Cell Sites."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "AT&T must pay Vendor the Structured Payments for Material and Services under the Build Addendum.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount and payment schedule are defined in the Build Addendum, which is not included in the supplied text; payment is due no later than 60 days after receipt of the monthly payment request.",
+      "quotes": [
+        {
+          "clauseId": "1.1 Scope of Agreement",
+          "text": "In exchange for the\nprovision of the Material and Services set forth in the Build Addendum, the Parties agree that AT&T will\npay to Vendor the Structured Payments (as such term is defined in the Build Addendum) and in exchange\nfor the provision of the Material and Services set forth in the Maintenance Addendum, the Parties agree\nthat AT&T will pay to Vendor the Maintenance Fees (as such term is defined in the Maintenance\nAddendum)."
+        },
+        {
+          "clauseId": "3.19 Invoicing and Payment",
+          "text": "Vendor will provide a payment request to AT&T on a\nmonthly basis on the first day of each calendar month for the Structured Payments set forth in the Build\nAddendum and the Maintenance Fees set forth in the Maintenance Addendum, in each case as provided in\nthe respective addendum. AT&T shall pay Vendor no later than sixty (60) days after receipt of such monthly\npayment request for Structured Payments. AT&T shall pay, or provide a written notice of any good faith\ndispute to, Vendor no later than ninety (90) days after receipt of an invoice for Maintenance Fees."
+        }
+      ],
+      "ambiguities": [
+        "The Build Addendum and its Structured Payments Schedule are referenced but not included in the supplied text, so the amount and first certain due date cannot be determined."
+      ]
+    },
+    {
+      "description": "AT&T must pay Vendor the Maintenance Fees for Material and Services under the Maintenance Addendum.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount is defined in the Maintenance Addendum, which is not included in the supplied text; AT&T must pay or dispute within 90 days after receipt of an invoice for Maintenance Fees.",
+      "quotes": [
+        {
+          "clauseId": "1.1 Scope of Agreement",
+          "text": "In exchange for the\nprovision of the Material and Services set forth in the Build Addendum, the Parties agree that AT&T will\npay to Vendor the Structured Payments (as such term is defined in the Build Addendum) and in exchange\nfor the provision of the Material and Services set forth in the Maintenance Addendum, the Parties agree\nthat AT&T will pay to Vendor the Maintenance Fees (as such term is defined in the Maintenance\nAddendum)."
+        },
+        {
+          "clauseId": "3.19 Invoicing and Payment",
+          "text": "Vendor will provide a payment request to AT&T on a\nmonthly basis on the first day of each calendar month for the Structured Payments set forth in the Build\nAddendum and the Maintenance Fees set forth in the Maintenance Addendum, in each case as provided in\nthe respective addendum. AT&T shall pay Vendor no later than sixty (60) days after receipt of such monthly\npayment request for Structured Payments. AT&T shall pay, or provide a written notice of any good faith\ndispute to, Vendor no later than ninety (90) days after receipt of an invoice for Maintenance Fees."
+        }
+      ],
+      "ambiguities": [
+        "The Maintenance Addendum is referenced but not included in the supplied text, so the amount and first certain due date cannot be determined."
+      ]
+    },
+    {
+      "description": "Vendor must pay any amount due to AT&T or its Affiliates within 60 days after AT&T’s written demand or invoice.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Payable only if an amount becomes due and AT&T issues written demand or invoice; no fixed amount is stated.",
+      "quotes": [
+        {
+          "clauseId": "3.19 Invoicing and Payment",
+          "text": "(b) Vendor shall pay any amount due to AT&T or its Affiliates within sixty (60) days after written demand or\ninvoice by AT&T."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "AT&T must pay applicable federal excise, state and local transaction taxes stated on Vendor’s Material, Deliverable or Services invoice; Vendor must remit those taxes to the appropriate taxing authorities.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount depends on applicable taxes and Vendor’s invoice.",
+      "quotes": [
+        {
+          "clauseId": "3.36 Taxes",
+          "text": "AT&T shall pay all applicable taxes to Vendor that are stated on and at the time the Material, Deliverables, or\nServices invoice is submitted by Vendor. Vendor shall remit taxes to the appropriate taxing authorities."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "Vendor must pay the third party administrator an annual administrative fee capped at $300.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "annually",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Exact annual fee and due date are not stated; the agreement states only a cap of $300.00.",
+      "quotes": [
+        {
+          "clauseId": "3.38 Third Party Administrative Services",
+          "text": "Vendor agrees to pay the third party administrator an annual fee for the performance\nof these administrative functions, which annual fee shall not exceed three hundred dollars ($300.00), and a\none-time set-up fee of thirty dollars ($30.00). AT&T agrees to reimburse Vendor for such fees listed as a line\nitem expense on the invoice issued by Vendor to AT&T pursuant to Section 3.19 for the month immediately\nfollowing such payment."
+        }
+      ],
+      "ambiguities": [
+        "The annual fee is stated as a maximum, not a fixed amount."
+      ]
+    },
+    {
+      "description": "Vendor must pay the third party administrator a one-time set-up fee of $30.",
+      "amountMinor": 3000,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due date is not stated.",
+      "quotes": [
+        {
+          "clauseId": "3.38 Third Party Administrative Services",
+          "text": "Vendor agrees to pay the third party administrator an annual fee for the performance\nof these administrative functions, which annual fee shall not exceed three hundred dollars ($300.00), and a\none-time set-up fee of thirty dollars ($30.00). AT&T agrees to reimburse Vendor for such fees listed as a line\nitem expense on the invoice issued by Vendor to AT&T pursuant to Section 3.19 for the month immediately\nfollowing such payment."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "AT&T must reimburse Vendor for the third party administrator fees when listed as a line item on Vendor’s invoice for the month immediately following Vendor’s payment.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Reimbursement applies only after Vendor pays the third party administrator fees and includes them on the next month’s invoice; the annual fee amount is not fixed.",
+      "quotes": [
+        {
+          "clauseId": "3.38 Third Party Administrative Services",
+          "text": "Vendor agrees to pay the third party administrator an annual fee for the performance\nof these administrative functions, which annual fee shall not exceed three hundred dollars ($300.00), and a\none-time set-up fee of thirty dollars ($30.00). AT&T agrees to reimburse Vendor for such fees listed as a line\nitem expense on the invoice issued by Vendor to AT&T pursuant to Section 3.19 for the month immediately\nfollowing such payment."
+        }
+      ],
+      "ambiguities": [
+        "The annual administrator fee to be reimbursed is capped but not fixed."
+      ]
+    },
+    {
+      "description": "If AT&T terminates obligations for a Cell Site affected by a Permitting Delay, AT&T must pay Vendor demonstrated costs for completed Work transferred to AT&T, capped at $[***].",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Payable only if AT&T elects this Permitting Delay termination remedy; amount depends on demonstrated costs and a redacted cap.",
+      "quotes": [
+        {
+          "clauseId": "3.3(b)(i)",
+          "text": "provided that AT&T shall pay to Vendor, an amount equal to the demonstrated\ncosts incurred by Vendor for any Work completed (in accordance with applicable Specifications and\nrequirements) to the extent such Work is transferred to AT&T as of the effective time of termination of the\napplicable terminated Cell Site, which amount shall not exceed $[***];"
+        }
+      ],
+      "ambiguities": [
+        "The cap amount is redacted as $[***]."
+      ]
+    },
+    {
+      "description": "If AT&T terminates obligations for a Cell Site affected by a Force Majeure Event, AT&T must pay Vendor demonstrated costs for completed Work transferable to and usable by AT&T, capped at $[***].",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Payable only if AT&T elects this Force Majeure termination remedy; amount depends on demonstrated costs and a redacted cap.",
+      "quotes": [
+        {
+          "clauseId": "3.12(b)(i)",
+          "text": "provided that AT&T shall pay to Vendor, an amount equal to\ndemonstrated costs incurred by Vendor for any Work completed (in accordance with applicable\nSpecifications and requirements) to the extent such Work is transferable to and usable by AT&T as of the\neffective time of termination of the applicable terminated Cell Site, which amount shall not exceed $[***];"
+        }
+      ],
+      "ambiguities": [
+        "The cap amount is redacted as $[***]."
+      ]
+    }
+  ],
+  "grants": []
+}

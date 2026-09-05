@@ -1,5 +1,5 @@
 {
-  "selectedAt": "2026-09-05T07:56:48.662Z",
+  "selectedAt": "2026-09-05T08:52:30.620Z",
   "minCoverage": 5,
   "contracts": [
     {
@@ -401,6 +401,806 @@
         }
       },
       "coverage": 6
+    },
+    {
+      "filename": "DRAGONSYSTEMSINC_01_08_1999-EX-10.17-OUTSOURCING AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Outsourcing/DRAGONSYSTEMSINC_01_08_1999-EX-10.17-OUTSOURCING AGREEMENT.PDF",
+      "sizeBytes": 46840,
+      "fields": {
+        "parties": {
+          "spans": "['MMI', 'MODUS MEDIA INTERNATIONAL', 'DRAGON SYSTEMS', 'DRAGON SYSTEMS, INC.']",
+          "answer": "(Dragon Systems, Inc. (\"Dragon Systems\"); Modus Media International (\"MMI\")"
+        },
+        "commencementDate": {
+          "spans": "['19 Jan. 1998']",
+          "answer": "1/19/98"
+        },
+        "termEnd": {
+          "spans": "['This Agreement shall be valid for an indefinite period.']",
+          "answer": "perpetual"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "['Dragon may terminate this agreement without cause by giving sixty (60) days written notice to MMI.']",
+          "answer": "Yes"
+        },
+        "liabilityCap": {
+          "spans": "['MMI shall not be liable for indirect or consequential damages unless caused by intention or gross negligence.']",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_Amendment.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Distributor/NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_Amendment.pdf",
+      "sizeBytes": 54976,
+      "fields": {
+        "parties": {
+          "spans": "['Peregrine/Bridge Transfer Corporation', 'Licensor', 'NEON Systems, Inc.', 'Licensee']",
+          "answer": "Peregrine/Bridge Transfer Corporation (\"Licensor\"); Neon Systems, Inc. (\"Licensee\")"
+        },
+        "commencementDate": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "termEnd": {
+          "spans": "['This Agreement shall be effective           through and including March 31, 2004.']",
+          "answer": "3/31/04"
+        },
+        "renewalType": {
+          "spans": "['Upon the expiration           of such term, this Agreement will renew automatically for           successive terms of one (1) year each unless either party to           this Agreement delivers written notice of termination to the           other party to this Agreement at least sixty (60) days prior           to the end of the original or any renewal term.']",
+          "answer": "successive 1 year"
+        },
+        "renewalNoticeDays": {
+          "spans": "['Upon the expiration           of such term, this Agreement will renew automatically for           successive terms of one (1) year each unless either party to           this Agreement delivers written notice of termination to the           other party to this Agreement at least sixty (60) days prior           to the end of the original or any renewal term.']",
+          "answer": "60 days"
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[\"Licensor and Licensee do hereby agree that this Amendment shall effect a change in the nature of the distributorship granted to Licensee pursuant to the Distributor Agreement from a non-exclusive to an exclusive distributorship (provided, however, that with respect to Licensor's Partitioned Database Facility product, Licensor also may license such product to International Business Machines Corporation for sublicensing and distribution).\", 'Any and all references in the Distributor Agreement to the rights granted to Licensee as non-exclusive rights are hereby amended to provide that such rights are<omitted>exclusive rights (including without limitation such references in Sections 2.1']",
+          "answer": "Yes"
+        }
+      },
+      "coverage": 7
+    },
+    {
+      "filename": "LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Sponsorship/LOOKSMARTLTD_07_20_2012-EX-99.(D)(I)-SPONSORSHIP AGREEMENT.PDF",
+      "sizeBytes": 65815,
+      "fields": {
+        "parties": {
+          "spans": "['Purchaser', 'Sponsor', 'Platinum Partners Value Arbitrage Fund L.P.', 'Snowy August Fund I LP', 'PEEK Investments LLC', 'each other party hereto identified on the signature  page(s) hereto']",
+          "answer": "PEEK Investments LLC (\"Purchaser\"); Platinum Partners Value Arbitrage Fund L.P (\"Sponser\"); Snowy August Fund ILP (\"Sponser\")"
+        },
+        "commencementDate": {
+          "spans": "['July 16, 2012<omitted>THIS SPONSORSHIP AGREEMENT (\"Agreement\") is entered into and effective as of the date first written above (\"Effective Date\") by  and among PEEK Investments LLC, a Delaware limited liability company (\"Purchaser\"), and each other party hereto identified on the signature  page(s) hereto (each, a \"Sponsor\").']",
+          "answer": "7/16/12"
+        },
+        "termEnd": {
+          "spans": "['This Agreement shall automatically terminate at and as of (the first to occur of): (a) 12:00 midnight, New York City time,  on the 30th day after the Effective Date (if Purchaser has not commenced the Offer, with the unanimous consent of the Sponsors, by then); (b) the  expiration of the Offer (if the Offer is not consummated pursuant to the terms of the Offer), subject to any extension or subsequent offering period;  and (c) the expiration of the Interim Period (if the Offer is consummated pursuant to the terms of the Offer), in any case, unless sooner terminated  by unanimous written consent of the Participating Sponsors; provided, however, that any liability for failure to comply with this Agreement shall  survive any such termination.']",
+          "answer": "8/15/12"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "N2KINC_10_16_1997-EX-10.16-SPONSORSHIP AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Sponsorship/N2KINC_10_16_1997-EX-10.16-SPONSORSHIP AGREEMENT.PDF",
+      "sizeBytes": 76346,
+      "fields": {
+        "parties": {
+          "spans": "['Excite', 'Sponsor', 'Excite, Inc.', 'N2K Inc.']",
+          "answer": "Excite, Inc. (\"Excite\"); N2K, Inc. (\"Sponsor\")"
+        },
+        "commencementDate": {
+          "spans": "['23rd day of September, 1997']",
+          "answer": "9/23/97"
+        },
+        "termEnd": {
+          "spans": "['The term of this Agreement will begin on the Effective Date and                  will end on the second (2nd) anniversary of the Commencement                  Date.']",
+          "answer": "9/23/99"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "['THE                   LIABILITY OF EXCITE FOR DAMAGES OR ALLEGED DAMAGES HEREUNDER,                   WHETHER IN CONTRACT, TORT OR ANY OTHER LEGAL THEORY, IS                   LIMITED TO, AND WILL NOT EXCEED, THE AMOUNTS ACTUALLY PAID BY                   SPONSOR TO EXCITE HEREUNDER.', 'EXCEPT UNDER SECTION 13(c) and (d), IN NO EVENT WILL EITHER                   PARTY BE LIABLE TO THE OTHER FOR ANY SPECIAL, INCIDENTAL OR                   CONSEQUENTIAL DAMAGES, WHETHER BASED ON BREACH OF CONTRACT,                   TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, WHETHER OR NOT THAT                   PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.']",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "['Sponsor will be the exclusive retail music store sponsor of                   the Excite Site and the Excite Broadcast Pages.', 'In no event will Excite enter                  into arrangements to make available opportunities to purchase                  Music Products from parties other than Sponsor that would                  prevent Sponsor from being the exclusive source of such Music                  Products on the Excite Site once the Music Products become                  available through Sponsor.', 'Excite will                   not permit the display of advertising banners, promotional                   buttons, promotional links or other promotional materials for                   any retail sale of Music Products on the Excite Site, except                   those Music Products offered by Sponsor, nor advertising by                   any other Retail Music Store.']",
+          "answer": "Yes"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "MJBIOTECH,INC_12_06_2018-EX-99.01-JOINT VENTURE AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Joint Venture _ Filing/MJBIOTECH,INC_12_06_2018-EX-99.01-JOINT VENTURE AGREEMENT.PDF",
+      "sizeBytes": 90600,
+      "fields": {
+        "parties": {
+          "spans": "['individually and collectively the Joint Venture Participants \"JVP\"', 'SIMPLY HERBAL', 'MJ Syndicated, Inc.']",
+          "answer": "MJ Syndicated, Inc.; SIMPLY HERBAL; individually and collectively \"JVP\""
+        },
+        "commencementDate": {
+          "spans": "['The Joint Venture is a fixed term Joint Venture beginning November 27, 2018 and ending November 30th, 2019 or as otherwise provided in this Agreement.']",
+          "answer": "11/27/18"
+        },
+        "termEnd": {
+          "spans": "['The Joint Venture is a fixed term Joint Venture beginning November 27, 2018 and ending November 30th, 2019 or as otherwise provided in this Agreement.']",
+          "answer": "11/30/19"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "['Any Participant will have the right to voluntarily withdraw from the Joint Venture at any time', 'Written notice of intention to withdraw must be served in writing upon the remaining Participants at least Thirty (30) business days prior to the withdrawal date.']",
+          "answer": "Yes"
+        },
+        "liabilityCap": {
+          "spans": "['A Participant will not be liable to the Joint Venture, or to any other Participant, for any mistake or error in judgment or for any act or omission done in good faith and believed to be within the scope of authority conferred or implied by this Agreement or the Joint Venture.']",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "LEJUHOLDINGSLTD_03_12_2014-EX-10.34-INTERNET CHANNEL COOPERATION AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Collaboration/LEJUHOLDINGSLTD_03_12_2014-EX-10.34-INTERNET CHANNEL COOPERATION AGREEMENT.PDF",
+      "sizeBytes": 102039,
+      "fields": {
+        "parties": {
+          "spans": "['Party C', 'China Online Housing (Hong Kong) Co., Ltd.', 'Party B', 'In this Agreement, Party A, Party B and Party C individually a \"Party\", collectively the \"Parties\".', 'Beijing Baidu Netcom Science and Technology Co., Ltd.', 'Party A', 'Beijing Yisheng Leju Information Services Co., Ltd']",
+          "answer": "Beijing Baidu Netcom Science and Technology Co., Ltd. (\"Party A\"); China Online Housing (Hong Kong) Co., Ltd. (\"Party B\"); Beijing Yisheng Leju Information Services Co., Ltd (\"Party C\"); Party A, Party B, Party C (individually a \"Party\", collectively the \"Parties\")"
+        },
+        "commencementDate": {
+          "spans": "['Effective Date means the date of this Agreement.<omitted>This Agreement is dated April 29, 2010.']",
+          "answer": "4/29/10"
+        },
+        "termEnd": {
+          "spans": "['This Agreement will be effective as of the date of its execution, and term of the Cooperation will be four years from the date on which the channel is uploaded.<omitted>The channel is expected to be uploaded on August 1, 201']",
+          "answer": "8/1/14"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[\"During the term of this Agreement, Party B and its affiliates will be the exclusive cooperator of Party A's real estate and home furnishing cooperation channel.\", 'Party A grants all-round exclusive rights to Party B to construct, maintain and operate the Cooperation channel.', \"Party B and its affiliates will be the exclusive provider of real estate and home furnishing information, products and data in Party A's real estate and home furnishing channel.\"]",
+          "answer": "Yes"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_I/Transportation/TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement.pdf",
+      "sizeBytes": 113895,
+      "fields": {
+        "parties": {
+          "spans": "['Great Lakes Gas Transmission Limited Partnership', 'ANR PIPELINE COMPANY', 'Shipper', 'Transporter']",
+          "answer": "Great Lakes Gas Transmission Limited Partnership (\"Transporter\"); ANR PIPELINE COMPANY (\"Shipper\")"
+        },
+        "commencementDate": {
+          "spans": "['EFFECTIVE DATE: November 01, 2016']",
+          "answer": "11/1/16"
+        },
+        "termEnd": {
+          "spans": "['TERM: November 01, 2014 to October 31, 2017']",
+          "answer": "10/31/17"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Endorsement Agreement/ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT.PDF",
+      "sizeBytes": 125139,
+      "fields": {
+        "parties": {
+          "spans": "['ADAMS GOLF, LTD.', 'TOM WATSON', 'ADAMS GOLF', 'CONSULTANT']",
+          "answer": "TOM WATSON (\"CONSULTANT\"); ADAMS GOLF, LTD. (\"ADAMS GOLF\")"
+        },
+        "commencementDate": {
+          "spans": "['The Term of this Agreement shall be for a period of [* ****] years and [*****] months commencing the 1st day of September 2004 and terminating the [*****] day of [*****].']",
+          "answer": "9/1/04"
+        },
+        "termEnd": {
+          "spans": "['The Term of this Agreement shall be for a period of [* ****] years and [*****] months commencing the 1st day of September 2004 and terminating the [*****] day of [*****].']",
+          "answer": "[]/[]/[]"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[\"CONSULTANT hereby gives and grants to ADAMS GOLF the exclusive right and license to use CONSULTANT'S ENDORSEMENT in connection with the manufacture, sale, distribution, advertising and promotion of PRODUCT in the CONTRACT TERRITORY.\", \"During the term of this Agreement, unless otherwise authorized at the sole discretion of ADAMS GOLF in writing, CONSULTANT shall not:   A.give the right to use or permit the use of CONSULTANT'S name, facsimile signature, nickname, voice or likeness to any other manufacturer or seller of PRODUCT;\\n\\nB.sponsor or endorse PRODUCT made or sold by any other manufacturer or seller; or\\n\\nC.serve as a CONSULTANT or advisor of any other manufacturer or seller of PRODUCT.\", 'During the term of this Agreement, CONSULTANT shall exclusively play/use the MANDATORY PRODUCT.']",
+          "answer": "Yes"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "RaeSystemsInc_20001114_10-Q_EX-10.57_2631790_EX-10.57_Co-Branding Agreement.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_I/Co_Branding/RaeSystemsInc_20001114_10-Q_EX-10.57_2631790_EX-10.57_Co-Branding Agreement.pdf",
+      "sizeBytes": 133944,
+      "fields": {
+        "parties": {
+          "spans": "['NETTAXI', '\"SpinRecords.com\"  or  \"Client\"', 'Solutions  Media,  Inc.,  dba SpinRecords.com', 'NETTAXI Online Communities, Inc.']",
+          "answer": "NETTAXI Online Communities, Inc. (\"NETTAXI\"); Solutions Media, Inc.(dba SpinRecords.com, \"SpinRecords.com\" or \"Client\")"
+        },
+        "commencementDate": {
+          "spans": "['Nov  5,  1999']",
+          "answer": "11/5/99"
+        },
+        "termEnd": {
+          "spans": "['This  Agreement  shall  be effective upon the              ------------------- Effective Date and shall remain in force for a period of one (1) year, and shall be automatically renewed for successive periods of one (1) year unless otherwise terminated  as provided  herein.']",
+          "answer": "11/5/00"
+        },
+        "renewalType": {
+          "spans": "['This  Agreement  shall  be effective upon the<omitted>Effective Date and shall remain in force for a period of one (1) year, and shall be automatically renewed for successive periods of one (1) year unless otherwise terminated  as provided  herein.']",
+          "answer": "successive 1 year"
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": "60 days"
+        },
+        "terminationForConvenience": {
+          "spans": "['SpinRecords.com may terminate  this  Agreement  for no reason or for any reason upon sixty (60) days prior  written  notice  to  NETTAXI.', 'NETTAXI  may terminate this Agreement at any time for<omitted>its  convenience,  for  no  reason or for any reason, upon sixty (60) days prior written  notice  to  SpinRecords.com.']",
+          "answer": "Yes"
+        },
+        "liabilityCap": {
+          "spans": "['EXCEPT AS SET FORTH IN SECTION 6 AND 7.1,              ------------------------ UNDER  NO  CIRCUMSTANCES  WILL  EITHER  PARTY  BE  LIABLE TO THE OTHER UNDER ANY CONTRACT,  STRICT  LIABILITY, NEGLIGENCE OR OTHER LEGAL OR EQUITABLE THEORY, FOR ANY  INCIDENTAL  OR CONSEQUENTIAL DAMAGES OR LOST PROFITS IN CONNECTION WITH THE SUBJECT  MATTER  OF  THIS  AGREEMENT.']",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 8
+    },
+    {
+      "filename": "SPOKHOLDINGS,INC_06_19_2020-EX-10.1-COOPERATION AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Collaboration/SPOKHOLDINGS,INC_06_19_2020-EX-10.1-COOPERATION AGREEMENT.PDF",
+      "sizeBytes": 144987,
+      "fields": {
+        "parties": {
+          "spans": "['Spôk Holdings, Inc.', 'White Hat SP GP LLC', 'White Hat Strategic Partners LP', '(the \"Company\"),', 'White Hat Capital Partners GP LLC', '(collectively, the \"White Hat Parties\")', 'each of the Company and the White Hat Parties, a \"Party\" to this Agreement, and collectively, the \"Parties\")', 'White Hat Capital Partners LP']",
+          "answer": "Spôk Holdings, Inc. (\"Company\"); White Hat Strategic Partners LP; White Hat SP GP LLC; White Hat Capital Partners LP; White Hat Capital Partners GP LLC; (collectively the \"White Hat Parties\"); each of the Company and White Hat Parties a \"Party\"' collectively \"Parties\""
+        },
+        "commencementDate": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "termEnd": {
+          "spans": "['Unless earlier terminated as provided in this Agreement, upon the expiration of the Support Period in accordance with Section 4, this Agreement shall immediately and automatically terminate in its entirety and no Party shall have any further rights or obligations under this Agreement; provided, however, no Party shall be released from any breach of this Agreement that occurred prior to the termination of this Agreement.']",
+          "answer": "perpetual"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 5
+    },
+    {
+      "filename": "GIGGLESN_HUGS,INC_06_23_2016-EX-10.2-STRATEGIC ALLIANCE AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Strategic Alliance/GIGGLESN_HUGS,INC_06_23_2016-EX-10.2-STRATEGIC ALLIANCE AGREEMENT.PDF",
+      "sizeBytes": 154061,
+      "fields": {
+        "parties": {
+          "spans": "[\"Giggles N' Hugs, Inc.\", 'Consultant', 'Company\"', 'Kiddo, Inc.']",
+          "answer": "Giggles N' Hugs, Inc. (\"Company\"); Kiddo, Inc. (\"Consultant\")"
+        },
+        "commencementDate": {
+          "spans": "['May 17, 2016']",
+          "answer": "5/17/16"
+        },
+        "termEnd": {
+          "spans": "['Either party may terminate this agreement after 3 years following the effective date.']",
+          "answer": "5/17/19"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "GridironBionutrientsInc_20171206_8-K_EX-10.2_10972556_EX-10.2_Endorsement Agreement.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_I/Endorsement/GridironBionutrientsInc_20171206_8-K_EX-10.2_10972556_EX-10.2_Endorsement Agreement.pdf",
+      "sizeBytes": 160922,
+      "fields": {
+        "parties": {
+          "spans": "['(\"NFLA\")', 'Gridiron BioNutrients™', '(\"NFLA-NC\")', 'National Football League Alumni, Inc', 'National Football League Alumni - Northern California Chapter', 'Food For Athletes, Inc', '(collectively the \"Company\").']",
+          "answer": "National Football League Alumni - Northern California Chapter (\"NFLA-NC\"); National Football League Alumni, Inc (\"NFLA\"); Food For Athletes, Inc./ Gridiron Gridiron BioNutrients™ (collectively, the \"Company\")"
+        },
+        "commencementDate": {
+          "spans": "['November 7, 2017']",
+          "answer": "11/7/17"
+        },
+        "termEnd": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 5
+    },
+    {
+      "filename": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_I/Development/ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement.pdf",
+      "sizeBytes": 171798,
+      "fields": {
+        "parties": {
+          "spans": "['Fund', 'Blockchain Administrator', 'ARCA CAPITAL MANAGEMENT, LLC', 'ARCA U.S. TREASURY FUND,']",
+          "answer": "ARCA U.S. TREASURY FUND (\"Fund\"); ARCA CAPITAL MANAGEMENT, LLC (\"Blockchain Administrator\")"
+        },
+        "commencementDate": {
+          "spans": "['This Agreement shall become effective as of the first date above written']",
+          "answer": "[]/[]/2020"
+        },
+        "termEnd": {
+          "spans": "['This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for successive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote of a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund\\'s directors who are not parties to this Agreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with the requirements of the Investment Fund Act.']",
+          "answer": "[]/[]/2022"
+        },
+        "renewalType": {
+          "spans": "['This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for successive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote of a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund\\'s directors who are not parties to this Agreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with the requirements of the Investment Fund Act.']",
+          "answer": "successive 1 year"
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 7
+    },
+    {
+      "filename": "InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-Branding Agreement.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_I/Co_Branding/InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-Branding Agreement.pdf",
+      "sizeBytes": 193002,
+      "fields": {
+        "parties": {
+          "spans": "['At Home Corporation (\"Excite@Home\" or \"Excite\")', 'e-centives, Inc., (\"Application Provider\" or \"e-centives\")']",
+          "answer": "At Home Corporation (\"Excite@Home\" or \"Excite\"); e-centives, Inc. (\"Application Provider\" or \"e-centives\")"
+        },
+        "commencementDate": {
+          "spans": "['16th day of February, 2000']",
+          "answer": "2/16/00"
+        },
+        "termEnd": {
+          "spans": "['The term of this Agreement will begin on the Effective Date and will end      three (3) years from the date the Co-Branded Application becomes      accessible to Excite@Home Members (\"Launch Date\").']",
+          "answer": ""
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[\"Except as provided by Sections 19(a)(iii)(2), (a)(iii)(3), (b)(iii)(2) and      (b)(iii)(3):\\n\\n  a)   Neither party will have liability for any damages other than direct           damages. In no event will either party be liable to the other for any           special, incidental or consequential damages, whether based on breach           of contract, tort (including negligence) or otherwise, whether or not           that party has been advised of the possibility of such damage.\\n\\n  b)   Either party's liability for damages shall be limited to the amounts           actually paid by the other party.\"]",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 5
+    },
+    {
+      "filename": "CcRealEstateIncomeFundadv_20181205_POS 8C_EX-99.(H)(3)_11447739_EX-99.(H)(3)_Marketing Agreement.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_I/Marketing/CcRealEstateIncomeFundadv_20181205_POS 8C_EX-99.(H)(3)_11447739_EX-99.(H)(3)_Marketing Agreement.pdf",
+      "sizeBytes": 211866,
+      "fields": {
+        "parties": {
+          "spans": "['S2K', 'S2K Financial LLC', 'Distributor', 'ALPS Distributors, Inc.']",
+          "answer": "ALPS Distributors, Inc. (the “Distributor”); S2K Financial LLC (“S2K”);"
+        },
+        "commencementDate": {
+          "spans": "['24t h day of August 2018']",
+          "answer": "8/24/18"
+        },
+        "termEnd": {
+          "spans": "['The term of this Agreement shall commence on the Effective Date and shall end on the 60th day following a written notice from one party to the other of its decision to terminate this Agreement at the end of such 60-day period or upon termination of the applicable Distribution Agreement with respect to a Fund.']",
+          "answer": "perpetual"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "['The term of this Agreement shall commence on the Effective Date and shall end on the 60th day following a written notice from one party to the other of its decision to terminate this Agreement at the end of such 60-day period or upon termination of the applicable Distribution Agreement with respect to a Fund.']",
+          "answer": "Yes"
+        },
+        "liabilityCap": {
+          "spans": "[\"Notwithstanding anything to the contrary herein, in no event shall S2K be entitled to receive fees or compensation that would cause a Fund's sales charges to exceed the maximum amount allowed under FINRA rules or applicable law.\", 'Any and all claims, losses, cost or expenses shall be limited to actual and direct costs.', 'In no event shall any party be responsible to the other for indirect, special or consequential damages.']",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Supply/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.PDF",
+      "sizeBytes": 232468,
+      "fields": {
+        "parties": {
+          "spans": "['SutroVax and Sutro may be referred to herein by name or individually, as a \"Party\" and collectively, as the \"Parties.\"', 'Sutro Biopharma, Inc.', 'SutroVax, Inc.', 'Sutro', 'SutroVax']",
+          "answer": "SutroVax, Inc. (\"SutroVax\"); Sutro Biopharma, Inc. (\"Sutro\"); SutroVax and Sutro (individually, as a “Party” and collectively, as the “Parties\")"
+        },
+        "commencementDate": {
+          "spans": "['May 29, 2018']",
+          "answer": "5/29/18"
+        },
+        "termEnd": {
+          "spans": "['The term of this Supply Agreement shall begin on the Effective Date first set forth above and shall remain in effect until the later of (a) July 31, 2021 or (b) the date that the Parties enter into the Phase 3/Commercial Supply Agreement and Sutro is supplying to SutroVax each Product under the Phase 3/Commercial Supply Agreement (the \"Term\"), unless it is terminated earlier in accordance with Section 10.2.']",
+          "answer": "7/31/21"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[\"Notwithstanding anything to the contrary in this Supply Agreement, this Supply Agreement may be terminated:\\n\\n10.2.1 in its entirety or with respect to one or more Products, on a Product-by-Product basis, by mutual written consent of Sutro and SutroVax;\\n\\n\\n\\n\\n\\n10.2.2 in its entirety by a Party if the other Party materially breaches any of the material terms, conditions or agreements contained in this Supply Agreement to be kept, observed or performed by the other Party, by giving the Party who committed the breach [***] days' prior written notice, unless the notified Party shall have cured the breach within such [***]-day period; and\\n\\n10.2.3 in its entirety or with respect to one or more Products, on a Product-by-Product basis, by SutroVax upon [***] days' prior written notice to Sutro for any reason.\"]",
+          "answer": "Yes"
+        },
+        "liabilityCap": {
+          "spans": "[\"SUTRO'S LIABITY TO SUTROVAX FOR THIRD PARTY PENALTIES, COSTS AND EXPENSES UNDER SECTION 2.9 SHALL NOT EXCEED [***].\", \"For any failure to supply compliant Product(s) in the later of the Delivery Time Period and the period ending [***] after the delivery date specified under the Work Order, without limiting SutroVax's other remedies, subject to this Section 2.9.2 and Section 9.3 (Limitation of Liability), Sutro shall be liable for any non-cancelable Third Party penalties, costs and expenses incurred by SutroVax as a result of Sutro's failure to supply Product(s) as aforesaid, subject to receipt by Sutro of appropriate documentary evidence of such penalties, costs and expenses to the extent such evidence of such amounts may be provided by SutroVax without breaching SutroVax's or its Affiliates' duties of confidentiality to such Third Party (and provided that SutroVax shall use commercially reasonable efforts to (i) minimize or eliminate such penalties, costs and expenses and (ii) where provision of such evidence to Sutro would result in a breach of such duties of confidentiality, to obtain the consent of the applicable Third Party to the provision of such evidence to Sutro).\", \"EXCEPT (I) WITH RESPECT TO ANY BREACH OF ARTICLE 8 (CONFIDENTIALITY), (II) FOR THIRD PARTY PENALTIES, COSTS AND EXPENSES AS SET FORTH IN SECTION 2.9, OR (III) FOR [***], TO THE MAXIMUM EXTENT PERMITTED BY LAW, (A) NEITHER PARTY SHALL BE LIABLE TO THE OTHER PARTY FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR PUNITIVE DAMAGES, WHETHER LIABILITY IS ASSERTED IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR ANY OTHER THEORY OR FORM OF ACTION, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY THEREOF; AND (B) EACH PARTY'S TOTAL LIABILITY TO THE OTHER PARTY UNDER THIS SUPPLY AGREEMENT SHALL NOT EXCEED [***].\"]",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "VERICELCORP_08_06_2019-EX-10.10-SUPPLY AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Supply/VERICELCORP_08_06_2019-EX-10.10-SUPPLY AGREEMENT.PDF",
+      "sizeBytes": 272163,
+      "fields": {
+        "parties": {
+          "spans": "['Vericel Corporation', 'Vericel and MediWound may each be referred to herein individually as a \"Party\" and collectively as the \"Parties.\"', 'Vericel', 'MediWound', 'MediWound Ltd.']",
+          "answer": "Vericel Corporation (\"Vericel\"); MediWound Ltd. (\"MediWound\"); Vericel and MediWound (individually as a “Party” and collectively as the “Parties.”)"
+        },
+        "commencementDate": {
+          "spans": "['May 6, 2019']",
+          "answer": "5/6/19"
+        },
+        "termEnd": {
+          "spans": "['The term of this Agreement will commence upon the Effective Date and will continue until the fifth (5th) anniversary of the Effective Date, unless earlier terminated or extended under this Article 8 (the \"Initial Term\").']",
+          "answer": "5/6/24"
+        },
+        "renewalType": {
+          "spans": "['After the Initial Term (including any extension thereto made in accordance with the preceding sentence), the Agreement may be extended on a yearly basis up to ten (10) years at Vericel\\'s sole discretion, with renewal notice to be provided to MediWound no later than twelve (12) months prior to the expiry of any yearly extension (the \"Renewal Term\", and the Initial Term, together with the Renewal Term, if any, the \"Term\"); provided that unless otherwise agreed by the Parties, the Term of this Agreement (including the Initial Term, any extension of the Initial Term and any Renewal Terms) shall be no more than fifteen (15) years in total.']",
+          "answer": "10 successive 1 year"
+        },
+        "renewalNoticeDays": {
+          "spans": "['After the Initial Term (including any extension thereto made in accordance with the preceding sentence), the Agreement may be extended on a yearly basis up to ten (10) years at Vericel\\'s sole discretion, with renewal notice to be provided to MediWound no later than twelve (12) months prior to the expiry of any yearly extension (the \"Renewal Term\", and the Initial Term, together with the Renewal Term, if any, the \"Term\"); provided that unless otherwise agreed by the Parties, the Term of this Agreement (including the Initial Term, any extension of the Initial Term and any Renewal Terms) shall be no more than fifteen (15) years in total.']",
+          "answer": "12 months"
+        },
+        "terminationForConvenience": {
+          "spans": "['Following the Initial Term, Vericel may, without penalty or prejudice to any other rights or remedies Vericel may have, in its sole discretion terminate or reduce the scope of any individual activities contemplated by this Agreement or any Additional Service or with respect to any Product or terminate this Agreement as a whole with or without cause, upon [***] prior written notice of such termination or reduction (which such written notice may be provided during the Initial Term).']",
+          "answer": "Yes"
+        },
+        "liabilityCap": {
+          "spans": "['NEITHER PARTY SHALL BE LIABLE FOR ANY SPECIAL, INCIDENTAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES OF ANY KIND (INCLUDING LOST PROFITS) REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT, NEGLIGENCE, BREACH OF STATUTORY DUTY OR OTHERWISE, SUFFERED BY THE OTHER PARTY, EVEN IF THAT PARTY HAS BEEN INFORMED OF THE POSSIBILITY OF ANY SUCH DAMAGES IN ADVANCE. [***].']",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "['During the first five (5) years of the Term, with respect to the Bulk Vehicle Gel, Intermediate Drug Product and Finished Product, Vericel shall order and purchase such Products exclusively from MediWound in accordance with the terms of this Agreement; provided, however, Vericel may Manufacture or have Manufactured the Products (a) upon the occurrence of a Supply Failure with respect to any Product hereunder, or (b) as otherwise permitted under the terms of the License Agreement or this Agreement.', 'MediWound hereby grants to Vericel an exclusive (even as to MediWound), sublicensable, royalty- free, fully paid-up, license in the Territory to use the Licensed Trademarks (as defined in the License Agreement) and a non- exclusive, sublicensable, royalty-free, fully paid-up, license to use the MediWound name and trademark, in<omitted>each case, in connection with the Manufacture of Licensed Products in or for the Territory.']",
+          "answer": "Yes"
+        }
+      },
+      "coverage": 8
+    },
+    {
+      "filename": "GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_Content License Agreement1.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_I/License_Agreements/GluMobileInc_20070319_S-1A_EX-10.09_436630_EX-10.09_Content License Agreement1.pdf",
+      "sizeBytes": 327959,
+      "fields": {
+        "parties": {
+          "spans": "['Fox and Licensee are collectively referred to as the \"parties\" and each individually as a \"party.\"', 'Sorrent, Inc.', 'TWENTIETH CENTURY FOX LICENSING & MERCHANDISING', 'Licensee', 'Fox']",
+          "answer": "Twentieth Century Fox Licensing & Merchandising (\"Fox\"); Sorrent, Inc (\"Licensee\")(\"parties\" and each individually as a \"party)"
+        },
+        "commencementDate": {
+          "spans": "['December 16, 2004']",
+          "answer": "12/16/04"
+        },
+        "termEnd": {
+          "spans": "['The rights granted hereunder shall be effective as of the Effective Date and shall expire on December 31, 2006 (the \"Term\"); provided, however, that with respect to each Property, all rights and licenses granted herein will continue in full force and effect for a period of eighteen (18) months after the initial theatrical release of that Property.']",
+          "answer": "12/31/06"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[\"THE PROVISIONS OF THIS PARAGRAPH 14 SET FORTH EACH PARTY'S SOLE AND EXCLUSIVE OBLIGATIONS AND REMEDIES WITH RESPECT TO THIRD PARTY CLAIMS OF INFRINGEMENT OR MISAPPROPRIATION OF INTELLECTUAL PROPERTY RIGHTS OF ANY KIND UNLESS OTHERWISE STIPULATED BY JUDICIAL ORDER.\", 'No legal action shall be brought by Licensee under this Agreement unless commenced within 12 months from the date the cause of action arose.']",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "['Under no circumstances shall Licensee enter into an exclusive distribution agreement with a CSP other than VGSL in the following territories (\"VGSL Territories\") covered under the VGSL Agreement: (1) United Kingdom; (2) Ireland; (3) Germany; (4) Spain; (5) France; (6) Sweden; (7) Switzerland; (8) Portugal; (9) Netherlands; (10) Greece; (11) Italy; (12) Australia; (13) New Zealand; (14) Egypt; (15) Slovenia; (16) Belgium; (17) Austria; (18) Hungary; (19) Malta; (20) Croatia; (21) South Africa; and (22) Japan.', 'Fox has not granted and will not grant any exclusive distribution rights with respect to the Wireless Products to VGSL or any other party', \"Neither party may solicit or enter into any agreement with any third party regarding third-party promotional opportunities with respect to the Wireless Products without the other party's prior written consent; provided that the foregoing will not limit Licensee's rights to market and promote the Wireless Products directly and through (i) CSPs, subject to any Fox approval rights set forth elsewhere in this Agreement, or (ii) Fox's right to engage in third party promotions for the Properties involving wireless content otherwise sourced or created.\", 'Fox grants to Licensee a limited, exclusive (except as otherwise may be provided in this Agreement), non-transferable (except as permitted in Paragraph 17(d)) right and license to use, make, have made (as set forth in Paragraph 1(a)(i) below), reproduce, modify, and create derivative works of<omitted>the PSM in each Property, solely for the purpose of developing the wireless applications specifically set forth for each of the Properties on Exhibits B through M attached hereto (\"Wireless Products\"), some of which Wireless Products are defined in the Glossary attached hereto as Exhibit N', 'Neither party will solicit or enter into any agreement with any third party regarding the bundling of the Wireless Products with any other property (including a Fox property) or with any other products and services including preloading, OEM and soft bundling, except as mutually agreed between the parties.', 'Furthermore, Fox grants to Licensee a limited, exclusive (except as may otherwise be provided in this Agreement), non-transferable (except as permitted in Paragraph 17(d)) right and license to make, have made, reproduce, modify, create derivative works of, advertise, promote, distribute, sell and license the Wireless Products, including any PSM included therein, solely (i) for use on mobile or cellular telephones (the \"Wireless Platform\"); (ii) in the Territory (as defined in Paragraph 3), (iii) during the Term (as defined in Paragraph 4), (iv) for distribution by Licensee through the Distribution Channels (as defined in Paragraph 2(c)) granted herein; and (v) by means of periodic subscription fee, a per-download basis, or through a retail purchase']",
+          "answer": "Yes"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "AtnInternationalInc_20191108_10-Q_EX-10.1_11878541_EX-10.1_Maintenance Agreement.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_I/Maintenance/AtnInternationalInc_20191108_10-Q_EX-10.1_11878541_EX-10.1_Maintenance Agreement.pdf",
+      "sizeBytes": 477104,
+      "fields": {
+        "parties": {
+          "spans": "['AT&T Mobility LLC', 'Commnet Wireless, LLC', 'each of which may be referred to in the singular as a \"Party\" or in the plural as the \"Parties.\"', 'Vendor', 'AT&T']",
+          "answer": "Commnet Wireless, LLC (\"Vendor\"); AT&T Mobility LLC (\"AT&T\") (\"Party\" or in the plural as the \"Parties.\")"
+        },
+        "commencementDate": {
+          "spans": "['31  day of July, 2019']",
+          "answer": "7/31/19"
+        },
+        "termEnd": {
+          "spans": "['The \"Term\" of this Agreement shall commence on the Effective Date and shall continue in full force and effect until the expiration or earlier termination of the last Addendum to expire or be terminated, at which time this Agreement will expire, unless this Agreement is sooner terminated in accordance with the terms and provisions of this Agreement.']",
+          "answer": ""
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[\"Insofar as Vendor's obligations under Subsection (b)(i) result from, arise out of, or relate to a Covered Claim that is a Combination Claim, Vendor shall be liable to pay only its Proportionate Share of the Covered Loss associated with such Combination Claim.\", \"Notwithstanding anything contained in this Agreement to the contrary, neither Party shall be liable to the other Party for any special, consequential, incidental or punitive damages, however caused, based on any theory of liability except to the extent such damages are payable by such Party (a) pursuant to its indemnification obligations under Section 3.15 and infringement indemnification obligations under Section 3.17, (b) arising out of or resulting from such Party's breach of its confidentiality obligations set forth in this Agreement (including Section 3.16, Section 3.48, Section 4.2 and Exhibit A attached hereto) or (c) in connection with a Third Party Loss arising out of or resulting from such Party's violation of applicable Law.\", 'AT&T may elect to, after consultation with Vendor and good faith discussion to negotiate another resolution:\\n\\n(i) terminate its obligations solely with respect to each Cell Site affected by or related to such Permitting Delay under this Agreement and exercise any of the Termination Remedies set forth in the Build Addendum, without liability to Vendor; provided that AT&T shall pay to Vendor, an amount equal to the demonstrated costs incurred by Vendor for any Work completed (in accordance with applicable Specifications and requirements) to the extent such Work is transferred to AT&T as of the effective time of termination of the applicable terminated Cell Site, which amount shall not exceed $[***]']",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 5
+    },
+    {
+      "filename": "WESTERN COPPER - NON-COMPETITION AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_I/Non_Compete_Non_Solicit/WESTERN COPPER - NON-COMPETITION AGREEMENT.PDF",
+      "sizeBytes": 3683550,
+      "fields": {
+        "parties": {
+          "spans": "['GLAMIS GOLD LTD.', 'Glam is', 'Bach of the parties hereto agree that all of their covenants, agreements and obligations hereunder shall extend to and be binding upon and may be enforced against any and  all of their respective subsidiaries and other Affiliates, as well as against the parties themselves,  as the case may be, and that the names of Glamis and Western Copper will herein be deemed to  refer collectively to Glamis and all of its subsidiaries and other Affiliates and to Western Copper  and all of its subsidiaries and other Affiliates, respectively.', 'WESTERN COPPER CORPORATION', 'Western Copper']",
+          "answer": "Glamis Gold Ltd. and all of its subsidiaries and other Affiliates (\"Glamis\"); Western Copper Corporation and all of its subsidiaries and other Affiliates (\"Western Copper\")"
+        },
+        "commencementDate": {
+          "spans": "['Effective Date means May 3, 200ri or such later date as determined under the  Arrangement Agreement,']",
+          "answer": "5/3/06"
+        },
+        "termEnd": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 5
     }
   ]
 }

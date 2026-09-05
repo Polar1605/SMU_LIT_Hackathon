@@ -1,0 +1,264 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "ARCA U.S. TREASURY FUND, a Delaware statutory trust (\"Fund\"); ARCA CAPITAL MANAGEMENT, LLC, a Delaware limited liability company (\"Blockchain Administrator\").",
+      "quotes": [
+        {
+          "clauseId": "BETWEEN",
+          "text": "This Agreement ( \"Agreement\" ) is made as of [___], 2020 by and between ARCA U.S. TREASURY FUND, a Delaware statutory trust (the \"Fund\" ),\nand ARCA CAPITAL MANAGEMENT, LLC, a Delaware limited liability company (the \"Blockchain Administrator\" )."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "[___], 2020 (date left blank in form)",
+      "quotes": [
+        {
+          "clauseId": "BETWEEN",
+          "text": "This Agreement ( \"Agreement\" ) is made as of [___], 2020 by and between ARCA U.S. TREASURY FUND, a Delaware statutory trust (the \"Fund\" ),\nand ARCA CAPITAL MANAGEMENT, LLC, a Delaware limited liability company (the \"Blockchain Administrator\" )."
+        },
+        {
+          "clauseId": "7. Duration and Termination of this Agreement",
+          "text": "This Agreement shall become effective as of the first date above written."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The commencement date is left blank as [___], 2020, so it cannot be normalized to a YYYY-MM-DD date."
+      ]
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "2 years",
+      "quotes": [
+        {
+          "clauseId": "7. Duration and Termination of this Agreement",
+          "text": "(b) This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for\nsuccessive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote\nof a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this\nAgreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with\nthe requirements of the Investment Fund Act."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "Two years from [___], 2020; exact date not stated",
+      "quotes": [
+        {
+          "clauseId": "BETWEEN",
+          "text": "This Agreement ( \"Agreement\" ) is made as of [___], 2020 by and between ARCA U.S. TREASURY FUND, a Delaware statutory trust (the \"Fund\" ),\nand ARCA CAPITAL MANAGEMENT, LLC, a Delaware limited liability company (the \"Blockchain Administrator\" )."
+        },
+        {
+          "clauseId": "7. Duration and Termination of this Agreement",
+          "text": "(b) This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for\nsuccessive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote\nof a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this\nAgreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with\nthe requirements of the Investment Fund Act."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": [
+        "The initial term end would be derived from the commencement date plus two years, but the commencement date is left blank as [___], 2020."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Automatic successive annual periods after the initial two-year term, subject to specified annual approvals.",
+      "quotes": [
+        {
+          "clauseId": "7. Duration and Termination of this Agreement",
+          "text": "(b) This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for\nsuccessive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote\nof a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this\nAgreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with\nthe requirements of the Investment Fund Act."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": true,
+      "value": "60 days' written notice",
+      "quotes": [
+        {
+          "clauseId": "7. Duration and Termination of this Agreement",
+          "text": "This Agreement may be terminated at any time, without\nthe payment of any penalty, upon 60 days' written notice, by the vote of a majority of the outstanding voting securities of the Fund or by the vote\nof the Fund's Trustees or by the Blockchain Administrator."
+        },
+        {
+          "clauseId": "7. Duration and Termination of this Agreement",
+          "text": "(b) This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for\nsuccessive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote\nof a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this\nAgreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with\nthe requirements of the Investment Fund Act."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 7 provides a general termination right on 60 days' written notice, not a separate notice mechanism expressly labelled as notice to stop renewal; Section 7(b) also conditions continuance on annual approvals."
+      ]
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "The Fund, by majority outstanding voting securities or Trustees, or the Blockchain Administrator may terminate at any time without penalty on 60 days' written notice.",
+      "quotes": [
+        {
+          "clauseId": "7. Duration and Termination of this Agreement",
+          "text": "This Agreement may be terminated at any time, without\nthe payment of any penalty, upon 60 days' written notice, by the vote of a majority of the outstanding voting securities of the Fund or by the vote\nof the Fund's Trustees or by the Blockchain Administrator."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Automatic termination on assignment; no express breach or insolvency termination right stated.",
+      "quotes": [
+        {
+          "clauseId": "7. Duration and Termination of this Agreement",
+          "text": "(c) This Agreement will automatically terminate in the event of its \"assignment\" (as such term is defined for purposes of Section 15(a)\n(4) of the Investment Fund Act)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "No monetary cap stated; Blockchain Administrator is generally exculpated and indemnified by the Fund, subject to misconduct carve-outs.",
+      "quotes": [
+        {
+          "clauseId": "5. Limitation of Liability of the Blockchain Administrator; Indemnification",
+          "text": "The Blockchain Administrator (and its officers, managers, partners, agents, employees, controlling persons, members and any other\nperson or entity affiliated with the Blockchain Administrator) shall not be liable to the Fund for any action taken or omitted to be taken by the\nBlockchain Administrator in connection with the performance of any of its duties or obligations under this Agreement or otherwise as blockchain\nadministrator of the Fund"
+        },
+        {
+          "clauseId": "5. Limitation of Liability of the Blockchain Administrator; Indemnification",
+          "text": "the Fund shall indemnify, defend and protect the Blockchain Administrator (and its officers, managers, partners,\nagents, employees, controlling persons, members and any other person or entity affiliated with the Blockchain Administrator) (collectively, the\n\"Indemnified Parties\" ) and hold them harmless from and against all damages, liabilities, costs and expenses (including reasonable attorneys' fees\nand amounts reasonably paid in settlement)"
+        },
+        {
+          "clauseId": "5. Limitation of Liability of the Blockchain Administrator; Indemnification",
+          "text": "nothing contained herein shall protect or be deemed to protect\nthe Indemnified Parties against or entitle or be deemed to entitle the Indemnified Parties to indemnification in respect of, any liability to the Fund or\nits security holders to which the Indemnified Parties would otherwise be subject by reason of criminal conduct, willful misfeasance, bad faith or\ngross negligence in the performance of the Blockchain Administrator's duties or by reason of the reckless disregard of the Blockchain\nAdministrator's duties and obligations under this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 5 contains exculpation and indemnity language but no monetary ceiling; the Fund's indemnity for 'all damages, liabilities, costs and expenses' is not capped."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Non-exclusive; Blockchain Administrator and affiliates may render services to others.",
+      "quotes": [
+        {
+          "clauseId": "6. Activities of the Blockchain Administrator",
+          "text": "The services of the Blockchain Administrator to the Fund are not to be deemed to be exclusive, and the Blockchain Administrator and its\naffiliates are free to render services to others."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "The Fund must pay the Blockchain Administrator a fee at the annual rate of 0.20% of the Fund’s average annual net assets, accrued daily and paid monthly in arrears.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "The amount depends on the Fund’s average annual net assets, and the agreement does not state a specific first payment date or day of month.",
+      "quotes": [
+        {
+          "clauseId": "4. Compensation; Allocation of Costs and Expenses",
+          "text": "(a) In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the\nBlockchain Administrator a fees calculated at the annual rate of 0.20% of the value of the Fund’s average annual net assets. Such fee shall be\naccrued daily and paid monthly in arrears."
+        }
+      ],
+      "ambiguities": [
+        "The fee is percentage-based, so no fixed amount or currency is stated; no specific monthly payment date is stated."
+      ]
+    },
+    {
+      "description": "The Fund bears all operation, administration and transaction fees, costs and expenses not specifically assumed by the Blockchain Administrator or Adviser.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Costs and expenses are payable as incurred; no amount, currency, payment schedule or invoice due date is fixed.",
+      "quotes": [
+        {
+          "clauseId": "4. Compensation; Allocation of Costs and Expenses",
+          "text": "(b) The Fund shall bear all fees, costs and expenses incurred in connection with its operation, administration and transactions that are\nnot specifically assumed by the Blockchain Administrator (or the Adviser, if not the Blockchain Administrator, pursuant to the Advisory\nAgreement), including but not limited to:"
+        }
+      ],
+      "ambiguities": [
+        "The obligation depends on fees, costs and expenses being incurred and not otherwise assumed; no fixed amount, currency, or due date is stated."
+      ]
+    },
+    {
+      "description": "The Fund must indemnify and hold harmless the Blockchain Administrator and affiliated Indemnified Parties for covered damages, liabilities, costs and expenses, including reasonable attorneys' fees and settlement amounts.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only applies if covered actions, suits, investigations or proceedings arise and indemnified amounts are incurred; indemnification is not available for the listed misconduct categories.",
+      "quotes": [
+        {
+          "clauseId": "5. Limitation of Liability of the Blockchain Administrator; Indemnification",
+          "text": "the Fund shall indemnify, defend and protect the Blockchain Administrator (and its officers, managers, partners,\nagents, employees, controlling persons, members and any other person or entity affiliated with the Blockchain Administrator) (collectively, the\n\"Indemnified Parties\" ) and hold them harmless from and against all damages, liabilities, costs and expenses (including reasonable attorneys' fees\nand amounts reasonably paid in settlement) incurred by the Indemnified Parties in or by reason of any pending, threatened or completed action,\nsuit, investigation or other proceeding"
+        },
+        {
+          "clauseId": "5. Limitation of Liability of the Blockchain Administrator; Indemnification",
+          "text": "nothing contained herein shall protect or be deemed to protect\nthe Indemnified Parties against or entitle or be deemed to entitle the Indemnified Parties to indemnification in respect of, any liability to the Fund or\nits security holders to which the Indemnified Parties would otherwise be subject by reason of criminal conduct, willful misfeasance, bad faith or\ngross negligence in the performance of the Blockchain Administrator's duties or by reason of the reckless disregard of the Blockchain\nAdministrator's duties and obligations under this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "No monetary cap, currency, or payment timing is stated for the indemnity obligation."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "ARCA CAPITAL MANAGEMENT, LLC",
+      "grantor": "ARCA U.S. TREASURY FUND",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "not specified",
+      "territoryCodes": [],
+      "productLabel": "development and administrative services for the Fund’s shares as ERC-1404 compatible digital securities and the smart contracts underlying such Shares",
+      "productCodes": [
+        "SHARES",
+        "SMART_CONTRACTS"
+      ],
+      "start": null,
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "BETWEEN",
+          "text": "ARCA U.S. TREASURY FUND, a Delaware statutory trust (the \"Fund\" ),\nand ARCA CAPITAL MANAGEMENT, LLC, a Delaware limited liability company (the \"Blockchain Administrator\" )."
+        },
+        {
+          "clauseId": "1. Duties of the Blockchain Administrator",
+          "text": "(a) The Fund hereby employs the Blockchain Administrator to act as the blockchain administrator of the Fund, and to furnish, or\narrange for others to furnish, the services, personnel and facilities described below, subject to review by and the overall control of the Fund’s Board\nof Trustees (the \"Board\" ), for the period and on the terms and conditions set forth in this Agreement."
+        },
+        {
+          "clauseId": "1. Duties of the Blockchain Administrator",
+          "text": "(c) The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative\nservices necessary for the issuance of the Fund’s shares as ERC-1404 compatible digital securities ( “Shares” ) and the on-going maintenance and\nadministration of the smart contracts underlying such Shares."
+        },
+        {
+          "clauseId": "6. Activities of the Blockchain Administrator",
+          "text": "The services of the Blockchain Administrator to the Fund are not to be deemed to be exclusive, and the Blockchain Administrator and its\naffiliates are free to render services to others."
+        },
+        {
+          "clauseId": "7. Duration and Termination of this Agreement",
+          "text": "(b) This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for\nsuccessive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote\nof a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this\nAgreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with\nthe requirements of the Investment Fund Act."
+        }
+      ],
+      "ambiguities": [
+        "The agreement does not specify a territory for the appointment.",
+        "The form leaves the commencement date blank as [___], 2020, so the grant start and initial end date cannot be normalized; Section 7(b) also permits automatic successive annual periods subject to approvals."
+      ]
+    }
+  ]
+}

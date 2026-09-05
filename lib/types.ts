@@ -108,6 +108,8 @@ export interface PaymentTerm {
   confidence: Confidence;
   reasons: string[];
   citations: Citation[];
+  /** Quotes verify.ts rejected. Non-zero means the amount was destroyed. */
+  discardedQuoteCount: number;
 }
 
 export type ExclusivityType = "exclusive" | "sole" | "non-exclusive";
@@ -129,6 +131,10 @@ export interface Grant {
   confidence: Confidence;
   reasons: string[];
   citations: Citation[];
+  /** Quotes verify.ts rejected. Non-zero means the scope is unverified. */
+  discardedQuoteCount: number;
+  /** True when a citation could not be located, so the scope must not be relied on. */
+  scopeUnverified: boolean;
 }
 
 export interface ContractResult {

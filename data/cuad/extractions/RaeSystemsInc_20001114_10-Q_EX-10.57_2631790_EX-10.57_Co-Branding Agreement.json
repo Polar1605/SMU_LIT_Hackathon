@@ -1,0 +1,368 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "NETTAXI Online Communities, Inc. as \"NETTAXI\"; Solutions Media, Inc., dba SpinRecords.com as \"SpinRecords.com\" or \"Client\".",
+      "quotes": [
+        {
+          "clauseId": "CO-BRANDING AGREEMENT",
+          "text": "This CO-BRANDING AGREEMENT (the \"Agreement\") is made and entered into as of\nNov 5, 1999, (the \"Effective Date\") by and between NETTAXI Online Communities,\nInc., a Delaware corporation with principal offices at 2165 S. Bascom Avenue,\nCampbell, California 95008 (\"NETTAXI\"), and Solutions Media, Inc., dba\nSpinRecords.com a Delaware Corporation, with offices at 11440 West Barnardo Ct.,\nSuite 170, San Diego, CA 32127 (\"SpinRecords.com\" or \"Client\")."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "1999-11-05",
+      "quotes": [
+        {
+          "clauseId": "CO-BRANDING AGREEMENT",
+          "text": "made and entered into as of\nNov 5, 1999, (the \"Effective Date\")"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "1 year",
+      "quotes": [
+        {
+          "clauseId": "8.1",
+          "text": "8.1 Term of Agreement. This Agreement shall be effective upon the\n-------------------\nEffective Date and shall remain in force for a period of one (1) year, and shall\nbe automatically renewed for successive periods of one (1) year unless otherwise\nterminated as provided herein."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2000-11-05",
+      "quotes": [
+        {
+          "clauseId": "CO-BRANDING AGREEMENT",
+          "text": "made and entered into as of\nNov 5, 1999, (the \"Effective Date\")"
+        },
+        {
+          "clauseId": "8.1",
+          "text": "8.1 Term of Agreement. This Agreement shall be effective upon the\n-------------------\nEffective Date and shall remain in force for a period of one (1) year, and shall\nbe automatically renewed for successive periods of one (1) year unless otherwise\nterminated as provided herein."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Automatic renewal for successive 1-year periods unless terminated as provided in the agreement.",
+      "quotes": [
+        {
+          "clauseId": "8.1",
+          "text": "8.1 Term of Agreement. This Agreement shall be effective upon the\n-------------------\nEffective Date and shall remain in force for a period of one (1) year, and shall\nbe automatically renewed for successive periods of one (1) year unless otherwise\nterminated as provided herein."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": true,
+      "value": "60 days",
+      "quotes": [
+        {
+          "clauseId": "8.1",
+          "text": "8.1 Term of Agreement. This Agreement shall be effective upon the\n-------------------\nEffective Date and shall remain in force for a period of one (1) year, and shall\nbe automatically renewed for successive periods of one (1) year unless otherwise\nterminated as provided herein."
+        },
+        {
+          "clauseId": "8.2",
+          "text": "8.2 Convenience. NETTAXI may terminate this Agreement at any time for\n-----------\nits convenience, for no reason or for any reason, upon sixty (60) days prior\nwritten notice to SpinRecords.com. In the event of such termination,\nSpinrecords.com shall be entitled to receive and retain all payments made or\npayable by NETTAXI prior to the date of termination. SpinRecords.com may\nterminate this Agreement for no reason or for any reason upon sixty (60) days\nprior written notice to NETTAXI."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Either party may terminate for any reason or no reason on 60 days’ prior written notice.",
+      "quotes": [
+        {
+          "clauseId": "8.2",
+          "text": "8.2 Convenience. NETTAXI may terminate this Agreement at any time for\n-----------\nits convenience, for no reason or for any reason, upon sixty (60) days prior\nwritten notice to SpinRecords.com. In the event of such termination,\nSpinrecords.com shall be entitled to receive and retain all payments made or\npayable by NETTAXI prior to the date of termination. SpinRecords.com may\nterminate this Agreement for no reason or for any reason upon sixty (60) days\nprior written notice to NETTAXI."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate for insolvency events, change of control of 50% or more ownership, or uncured material default after 30 days’ notice.",
+      "quotes": [
+        {
+          "clauseId": "8.3",
+          "text": "8.3 Termination for Cause. This Agreement may be terminated by a party\n----------------------\nfor cause immediately upon the occurrence of and in accordance with the\nfollowing:"
+        },
+        {
+          "clauseId": "8.3(a)",
+          "text": "(a) Insolvency Event. Either may terminate this Agreement by\ndelivering written notice to the other party upon the occurrence of any of the\nfollowing events: (i) a receiver is appointed for either party or its property;\n(ii) either makes a general assignment for the benefit of its creditors; (iii)\neither party commences, or has commenced against it, proceedings under any\nbankruptcy, insolvency or debtor's relief law, which proceedings are not\ndismissed within sixty (60) days; or (iv) either party is liquidated or\ndissolved."
+        },
+        {
+          "clauseId": "8.3(b)",
+          "text": "(b) Change of Control. In the event more that there is a change in\nownership representing fifty percent (50%) or more of the equity ownership of\neither party, the other party may, at its option, terminate this Agreement upon\nwritten notice."
+        },
+        {
+          "clauseId": "8.3(c)",
+          "text": "(c) Default. Either party may terminate this Agreement effective\nupon written notice to the other if the other party violates any covenant,\nagreement, representation or warranty contained herein in any material respect\nor defaults or fails to perform any of its obligations or agreements hereunder\nin any material respect, which violation, default or failure is not cured within\nthirty (30) days after notice thereof from the non-defaulting party stating its\nintention to terminate this Agreement by reason thereof."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "No monetary cap stated; incidental or consequential damages and lost profits are excluded, except as set forth in Sections 6 and 7.1.",
+      "quotes": [
+        {
+          "clauseId": "7.3",
+          "text": "7.3 Limitation of Liability. EXCEPT AS SET FORTH IN SECTION 6 AND 7.1,\n------------------------\nUNDER NO CIRCUMSTANCES WILL EITHER PARTY BE LIABLE TO THE OTHER UNDER ANY\nCONTRACT, STRICT LIABILITY, NEGLIGENCE OR OTHER LEGAL OR EQUITABLE THEORY, FOR\nANY INCIDENTAL OR CONSEQUENTIAL DAMAGES OR LOST PROFITS IN CONNECTION WITH THE\nSUBJECT MATTER OF THIS AGREEMENT."
+        },
+        {
+          "clauseId": "7.1",
+          "text": "7.1 Indemnification by Spinrecords.com. SpinRecords.com shall defend,\n------------------------------------\nindemnify and hold NETTAXI harmless from any and all damages, liabilities, costs\nand expenses (including, but not limited to reasonable attorneys' fees) incurred\nby NETTAXI as a result of (i) any breach of this Agreement; (ii) any claim that\nthe SpinRecords.com Brand Features or any part thereof, infringes or\nmisappropriates any Intellectual Property Right of a third party; (iii) any\nclaim arising out of NETTAXI's display of the SpinRecords.com Brand Features ; or\n(iv) the operation of the SpinRecords.com Pages ."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 7.3 does not state any overall monetary ceiling on liability; it only excludes incidental or consequential damages and lost profits.",
+        "Clause 7.3 expressly carves out Section 6 and Section 7.1, so confidentiality obligations and SpinRecords.com’s indemnity are not subject to the stated damages exclusion."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "No exclusive or sole rights stated; the brand-feature licenses granted are non-exclusive/nonexclusive worldwide licenses.",
+      "quotes": [
+        {
+          "clauseId": "3.1",
+          "text": "3.1 Licenses by NETTAXI to SpinRecords.com. NETTAXI hereby grants to\n-----------------------------------------\nSpinRecords.com a non-exclusive, worldwide, nontransferable, revocable, royalty\nfree license to use the NETTAXI Brand Features as the same may be modified from\ntime to time for the purposes of this Agreement"
+        },
+        {
+          "clauseId": "3.2",
+          "text": "3.2 Licenses by SpinRecords.com to NETTAXI. SpinRecords.com hereby\n-------------------------------------------\ngrants NETTAXI a nonexclusive, worldwide, nontransferable, revocable, royalty\nfree license to display and distribute the, and make derivative works from the\nSpinRecords.com Brand Features and any enhancements, modifications or\nimprovements thereto as necessary to carry out the terms of this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "SpinRecords.com pays NETTAXI a 5% gross-sales commission/fee for co-branded store transactions or paying customers, with fees payable on or before 15 days after the end of the month in which payment is received.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "The first due date depends on when the relevant customer or transaction payment is received.",
+      "quotes": [
+        {
+          "clauseId": "Statement of Work 3",
+          "text": "3) The co-branded nettaximusic store will contain spingear, spingallery,\nspinmusic, and Kingdom Skateboard products and services. Spin agrees to pay\nNettaxi a 5% commission of the gross sales price on all transactions."
+        },
+        {
+          "clauseId": "Statement of Work 2: PER CUSTOMER FEE 1",
+          "text": "1. SpinRecords.com Payment. For each User that accesses the co-branded\n------------------------\nsite and becomes a paying customer on the co-branded site, SpinRecords.com\nagrees to pay a fee of five (5%) percent of the gross sale."
+        },
+        {
+          "clauseId": "Statement of Work 2: PER CUSTOMER FEE 3",
+          "text": "3. Payment Terms. All fees will be paid on or before fifteen (15) days\n--------------\nafter the end of the month in which the party has received payment"
+        }
+      ],
+      "ambiguities": [
+        "Statement of Work Branding Methods item 3 applies to 'all transactions', while Statement of Work 2: PER CUSTOMER FEE item 1 applies to each User who becomes a paying customer; the document does not state whether these are cumulative or the same 5% obligation.",
+        "The payment schedule appears in the PER CUSTOMER FEE section; the document does not expressly say whether that schedule also governs the 5% commission in Branding Methods item 3."
+      ]
+    },
+    {
+      "description": "Both parties share production costs of the Nettaximusic.com Co-Branded CD; per-unit cost is 50 cents or less unless otherwise agreed.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Total cost and payment date depend on production of the CD and number of units, which the document does not fix.",
+      "quotes": [
+        {
+          "clauseId": "Statement of Work 4",
+          "text": "2) Both Parties agree to develop a Nettaxi co-branded CD featuring\nNettaximusic.com. Both parties will share the production costs of the\nNettaximusic.com Co-Branded CD. The per unit cost shall be 50 cents or\nless, unless both parties agree otherwise."
+        }
+      ],
+      "ambiguities": [
+        "Statement of Work Marketing Efforts item 2 does not specify each party’s percentage share of production costs, number of units, or a payment date."
+      ]
+    },
+    {
+      "description": "Each party contributes a monthly marketing investment of at least US$20,000 per month, in cash expenditure or in-kind contribution, toward co-branded-site marketing efforts.",
+      "amountMinor": 2000000,
+      "currency": "USD",
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "The clause requires a monthly investment but does not state exact due dates or how in-kind contributions are valued.",
+      "quotes": [
+        {
+          "clauseId": "Statement of Work 4",
+          "text": "5) Spinrecords.com will engage with Nettaxi as an -advertising sponsor\npromoting the co-branded site with each party contributing a monthly\ninvestment of not less than $20,000 per month, in cash expenditure or\nin-kind contribution toward the marketing effort(s)."
+        }
+      ],
+      "ambiguities": [
+        "Statement of Work Marketing Efforts item 5 allows either cash expenditure or in-kind contribution and does not specify how in-kind value is measured."
+      ]
+    },
+    {
+      "description": "NETTAXI procures US$250,000 worth of co-promotional placement in Spinrecords advertising for Spinrecords.com fourth quarter promotional plans.",
+      "amountMinor": 25000000,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "The obligation is tied to fourth quarter promotional plans but no exact due date is stated.",
+      "quotes": [
+        {
+          "clauseId": "Statement of Work 4",
+          "text": "9) Nettaxi.com agrees to participate in Spinrecords.com fourth quarter\npromotional plans by procuring $250,000 worth of co-promotional placement\nin Spinrecords advertising targeted towards colleges, extreme sports and\nother mutually agreed upon target audiences."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "SpinRecords.com purchases US$250,000 worth of advertising and sponsorship space within the NETTAXI site in the fourth quarter.",
+      "amountMinor": 25000000,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "The obligation is tied to the fourth quarter but no exact due date is stated.",
+      "quotes": [
+        {
+          "clauseId": "Statement of Work 4",
+          "text": "10) Spinrecords.com agrees to purchase in the fourth quarter, $250,000 worth of\nadvertising and sponsorship space within the Nettaxi site for promotion of\nthe co-branded and Spinrecords.com community."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "SpinRecords.com pays NETTAXI 50% of applicable advertising revenue multiplied by SpinRecords.com's AR Share, at an average rate no lower than US$6.50 CPM, within 30 days after each calendar quarter.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": "2000-01-30",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "Statement of Work 1",
+          "text": "This is a Statement of Work under the Co-Branding Agreement by and between\nNETTAXI Online Communities, Inc. (\"NETTAXI\") and Solutions Media, Inc.,\n(\"SpinRecords.com\") dated effective as of Nov. 5, 1999."
+        },
+        {
+          "clauseId": "Statement of Work 5.1",
+          "text": "5.1 \"SpinRecords.com's Advertising Revenue\" means the gross revenue\nfrom advertising invoiced by SpinRecords.com in a calendar quarter for\nadvertising by third parties on the SpinRecords.com Pages , less any commissions\nnot to exceed 35%."
+        },
+        {
+          "clauseId": "Statement of Work 5.2",
+          "text": "5.2 \"SpinRecords.com's AR Share\" means the number of Impressions on the\nSpinRecords.com Pages by Users arriving through the Co-branded NETTAXI Pages in\na calendar quarter divided by the total number of Impressions on the\nSpinRecords.com Pages by all Users in that calendar quarter."
+        },
+        {
+          "clauseId": "Statement of Work 5.5",
+          "text": "5.5 SpinRecords.com Rate. In full consideration for the rights granted\n---------------------\nby NETTAXI, SpinRecords.com agrees to pay NETTAXI fifty (50%) percent of ad\nrevenue at an average rate no lower then $6.50 per one thousand impressions\n(CPM) payable to NETTAXI which results when the SpinRecords.com Advertising\nRevenue is multiplied by SpinRecords.com's AR Share. SpinRecords.com shall be\nresponsible for payment of all taxes based on the Advertising Revenue except\ntaxes based on NETTAXI's income."
+        },
+        {
+          "clauseId": "Statement of Work 5.7",
+          "text": "5.7 Payment Schedule. The parties shall make such payments within\n-----------------\nthirty (30) days of the end of each calendar quarter for the Advertising Revenue\ninvoiced during such calendar quarter."
+        }
+      ],
+      "ambiguities": []
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "Solutions Media, Inc., dba SpinRecords.com",
+      "grantor": "NETTAXI Online Communities, Inc.",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "worldwide",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "NETTAXI Brand Features",
+      "productCodes": [
+        "NETTAXI_BRAND_FEATURES"
+      ],
+      "start": "1999-11-05",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "CO-BRANDING AGREEMENT",
+          "text": "This CO-BRANDING AGREEMENT (the \"Agreement\") is made and entered into as of\nNov 5, 1999, (the \"Effective Date\") by and between NETTAXI Online Communities,\nInc., a Delaware corporation with principal offices at 2165 S. Bascom Avenue,\nCampbell, California 95008 (\"NETTAXI\"), and Solutions Media, Inc., dba\nSpinRecords.com a Delaware Corporation, with offices at 11440 West Barnardo Ct.,\nSuite 170, San Diego, CA 32127 (\"SpinRecords.com\" or \"Client\")."
+        },
+        {
+          "clauseId": "1.5",
+          "text": "1.5 \"NETTAXI Brand Features\" means the NETTAXI name and logo and any\nother trademarks, trade names and service names of NETTAXI, including but not\nlimited to those set forth on Exhibit B attached hereto and incorporated herein\n---------\nby reference and all Intellectual Property Rights related thereto. NETTAXI Brand\nFeatures shall include any derivatives, improvements or modifications thereto or\nthereof and any Intellectual Property rights related thereto."
+        },
+        {
+          "clauseId": "3.1",
+          "text": "3.1 Licenses by NETTAXI to SpinRecords.com. NETTAXI hereby grants to\n-----------------------------------------\nSpinRecords.com a non-exclusive, worldwide, nontransferable, revocable, royalty\nfree license to use the NETTAXI Brand Features as the same may be modified from\ntime to time for the purposes of this Agreement"
+        },
+        {
+          "clauseId": "8.1",
+          "text": "8.1 Term of Agreement. This Agreement shall be effective upon the\n-------------------\nEffective Date and shall remain in force for a period of one (1) year, and shall\nbe automatically renewed for successive periods of one (1) year unless otherwise\nterminated as provided herein."
+        }
+      ],
+      "ambiguities": [
+        "Clause 3.1 states the license is revocable, and clause 8.1 provides automatic renewal unless terminated; no fixed final end date for the grant is stated."
+      ]
+    },
+    {
+      "grantee": "NETTAXI Online Communities, Inc.",
+      "grantor": "Solutions Media, Inc., dba SpinRecords.com",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "worldwide",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "SpinRecords.com Brand Features",
+      "productCodes": [
+        "SPINRECORDS_COM_BRAND_FEATURES"
+      ],
+      "start": "1999-11-05",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "CO-BRANDING AGREEMENT",
+          "text": "This CO-BRANDING AGREEMENT (the \"Agreement\") is made and entered into as of\nNov 5, 1999, (the \"Effective Date\") by and between NETTAXI Online Communities,\nInc., a Delaware corporation with principal offices at 2165 S. Bascom Avenue,\nCampbell, California 95008 (\"NETTAXI\"), and Solutions Media, Inc., dba\nSpinRecords.com a Delaware Corporation, with offices at 11440 West Barnardo Ct.,\nSuite 170, San Diego, CA 32127 (\"SpinRecords.com\" or \"Client\")."
+        },
+        {
+          "clauseId": "1.1",
+          "text": "1.1 \"Spinrecords.com Brand Features\" means the SpinRecords.com name and\nlogo and other trademarks, trade names and service names including but not\nlimited to those set forth on Exhibit A attached hereto and incorporated herein\n---------\nby reference and all Intellectual Property Rights related thereto.\nSpinRecords.com Brand Features shall include any derivatives, improvements or\nmodifications thereto or thereof and any Intellectual Property rights related\nthereto."
+        },
+        {
+          "clauseId": "3.2",
+          "text": "3.2 Licenses by SpinRecords.com to NETTAXI. SpinRecords.com hereby\n-------------------------------------------\ngrants NETTAXI a nonexclusive, worldwide, nontransferable, revocable, royalty\nfree license to display and distribute the, and make derivative works from the\nSpinRecords.com Brand Features and any enhancements, modifications or\nimprovements thereto as necessary to carry out the terms of this Agreement."
+        },
+        {
+          "clauseId": "8.1",
+          "text": "8.1 Term of Agreement. This Agreement shall be effective upon the\n-------------------\nEffective Date and shall remain in force for a period of one (1) year, and shall\nbe automatically renewed for successive periods of one (1) year unless otherwise\nterminated as provided herein."
+        }
+      ],
+      "ambiguities": [
+        "Clause 3.2 states the license is revocable, and clause 8.1 provides automatic renewal unless terminated; no fixed final end date for the grant is stated."
+      ]
+    }
+  ]
+}

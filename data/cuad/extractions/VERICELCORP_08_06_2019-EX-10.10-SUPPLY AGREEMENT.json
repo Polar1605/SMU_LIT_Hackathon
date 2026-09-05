@@ -1,0 +1,1067 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Vericel Corporation (“Vericel”) as purchaser/recipient of Product and services; MediWound Ltd. (“MediWound”) as manufacturer/supplier and service provider.",
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "Vericel Corporation, a corporation organized and existing under the laws of Michigan and having a principal place of business at"
+        },
+        {
+          "clauseId": "Preamble",
+          "text": "64 Sidney Street, Cambridge, MA 02139 (“ Vericel ”) and MediWound Ltd., a corporation organized and existing under the laws"
+        },
+        {
+          "clauseId": "Preamble",
+          "text": "of Israel and having a principal place of business at 42 Hayarkon Street, Yavne, Israel 8122745 (“ MediWound ”). Vericel and"
+        },
+        {
+          "clauseId": "Preamble",
+          "text": "MediWound may each be referred to herein individually as a “ Party ” and collectively as the “ Parties .”"
+        },
+        {
+          "clauseId": "2.1",
+          "text": "Standards and the Quality Agreement. MediWound shall Manufacture and supply Product in exchange for the Supply Price and"
+        },
+        {
+          "clauseId": "2.1",
+          "text": "shall perform the Additional Services for the Additional Service Fees."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2019-05-06",
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "THIS SUPPLY AGREEMENT (the “ Agreement ”) is entered into as of May 6, 2019 (the “ Effective Date ”), by and between"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "Initial Term: 5 years; possible extensions/renewals up to 15 years total.",
+      "quotes": [
+        {
+          "clauseId": "8.1",
+          "text": "8.1 Term. The term of this Agreement will commence upon the Effective Date and will continue until the fifth (5th) anniversary of"
+        },
+        {
+          "clauseId": "8.1",
+          "text": "the Effective Date, unless earlier terminated or extended under this Article 8 (the “ Initial Term ”)."
+        },
+        {
+          "clauseId": "8.1",
+          "text": "with the preceding sentence), the Agreement may be extended on a yearly basis up to ten (10) years at Vericel’s sole discretion,"
+        },
+        {
+          "clauseId": "8.1",
+          "text": "Terms) shall be no more than fifteen (15) years in total."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 8.1 allows extension and earlier termination, so the total actual Term depends on later notices and events not shown in the document."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2024-05-06",
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "THIS SUPPLY AGREEMENT (the “ Agreement ”) is entered into as of May 6, 2019 (the “ Effective Date ”), by and between"
+        },
+        {
+          "clauseId": "8.1",
+          "text": "8.1 Term. The term of this Agreement will commence upon the Effective Date and will continue until the fifth (5th) anniversary of"
+        },
+        {
+          "clauseId": "8.1",
+          "text": "the Effective Date, unless earlier terminated or extended under this Article 8 (the “ Initial Term ”)."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": [
+        "The stated date is the end of the Initial Term derived from the Effective Date plus five years; Section 8.1 permits earlier termination or extension."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Not automatic. Vericel may elect a 24-month extension, then yearly extensions at Vericel’s sole discretion up to 15 years total, by giving renewal notices.",
+      "quotes": [
+        {
+          "clauseId": "8.1",
+          "text": "from the end of the Initial Term, Vericel shall provide MediWound notice whether Vericel elects to extend the Initial Term of the"
+        },
+        {
+          "clauseId": "8.1",
+          "text": "Agreement by an additional twenty four (24) months. After the Initial Term (including any extension thereto made in accordance"
+        },
+        {
+          "clauseId": "8.1",
+          "text": "with the preceding sentence), the Agreement may be extended on a yearly basis up to ten (10) years at Vericel’s sole discretion,"
+        },
+        {
+          "clauseId": "8.1",
+          "text": "with renewal notice to be provided to MediWound no later than twelve (12) months prior to the expiry of any yearly extension (the"
+        },
+        {
+          "clauseId": "8.1",
+          "text": "Terms) shall be no more than fifteen (15) years in total."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "After the Initial Term, Vericel may terminate or reduce scope with or without cause on [***] prior written notice. After the Initial Term, MediWound may terminate on at least [***] advance written notice, or longer as reasonably necessary to avoid supply disruption, if it ceases Manufacturing the applicable Product for the Territory.",
+      "quotes": [
+        {
+          "clauseId": "8.4",
+          "text": "8.4 Termination by Vericel. Following the Initial Term, Vericel may, without penalty or prejudice to any other rights or remedies"
+        },
+        {
+          "clauseId": "8.4",
+          "text": "Vericel may have, in its sole discretion terminate or reduce the scope of any individual activities contemplated by this Agreement or"
+        },
+        {
+          "clauseId": "8.4",
+          "text": "any Additional Service or with respect to any Product or terminate this Agreement as a whole with or without cause, upon [***]"
+        },
+        {
+          "clauseId": "8.4",
+          "text": "prior written notice of such termination or reduction (which such written notice may be provided during the Initial Term)."
+        },
+        {
+          "clauseId": "8.5",
+          "text": "8.5 Termination by MediWound. Following the Initial Term, MediWound may terminate this Agreement by notice in writing to"
+        },
+        {
+          "clauseId": "8.5",
+          "text": "Vericel upon on at least [***] advanced written notice (or such longer period of time as reasonably necessary to avoid a supply"
+        },
+        {
+          "clauseId": "8.5",
+          "text": "disruption) if MediWound determines to cease Manufacturing the applicable Product for the Territory, but in such case"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Sections 8.4 and 8.5 redact the actual notice periods as [***].",
+        "Section 8.5 also allows a longer notice period where reasonably necessary to avoid a supply disruption, so MediWound’s exact notice period may vary."
+      ]
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate for uncured material breach of a material provision after [***] notice/cure period. The agreement also automatically terminates on expiration or termination of the License Agreement.",
+      "quotes": [
+        {
+          "clauseId": "8.2",
+          "text": "8.2 Automatic Termination. This Agreement will automatically immediately terminate in the event of the expiration or termination of"
+        },
+        {
+          "clauseId": "8.2",
+          "text": "the License Agreement."
+        },
+        {
+          "clauseId": "8.3",
+          "text": "8.3 Termination for Breach. Subject to the provisions of Article 10 below, either Party may terminate this Agreement in its entirety"
+        },
+        {
+          "clauseId": "8.3",
+          "text": "if the other Party materially breaches a material provision and does not cure such breach, or does not take reasonable steps"
+        },
+        {
+          "clauseId": "8.3",
+          "text": "required under the circumstances to cure such breach going forward, within [***] after receiving notice of the breach."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 8.3 redacts the cure period as [***].",
+        "Section 8.2 depends on the separate License Agreement, whose expiration and termination provisions are not included in this document."
+      ]
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "No disclosed monetary liability cap. The agreement excludes special, incidental, exemplary and consequential damages, including lost profits, and contains an additional redacted limitation sentence.",
+      "quotes": [
+        {
+          "clauseId": "7.6",
+          "text": "7.6 LIMITATION OF LIABILITY. NEITHER PARTY SHALL BE LIABLE FOR ANY SPECIAL, INCIDENTAL,"
+        },
+        {
+          "clauseId": "7.6",
+          "text": "EXEMPLARY OR CONSEQUENTIAL DAMAGES OF ANY KIND (INCLUDING LOST PROFITS) REGARDLESS OF"
+        },
+        {
+          "clauseId": "7.6",
+          "text": "THE FORM OF ACTION, WHETHER IN CONTRACT, TORT, NEGLIGENCE, BREACH OF STATUTORY DUTY OR"
+        },
+        {
+          "clauseId": "7.6",
+          "text": "OTHERWISE, SUFFERED BY THE OTHER PARTY, EVEN IF THAT PARTY HAS BEEN INFORMED OF THE"
+        },
+        {
+          "clauseId": "7.6",
+          "text": "POSSIBILITY OF ANY SUCH DAMAGES IN ADVANCE. [***]."
+        },
+        {
+          "clauseId": "7.3",
+          "text": "by the provisions of this Agreement and, for the avoidance of doubt, except as set forth in Section 7.6, no limits on indemnification"
+        },
+        {
+          "clauseId": "7.3",
+          "text": "or liability set forth in the License Agreement shall apply to this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 7.6 contains a redacted sentence after the damages exclusion, shown only as [***], which may contain a monetary cap, carve-outs, or other liability limits not visible in the document.",
+        "Section 7.3 states that License Agreement limits do not apply except as set forth in Section 7.6, so any undisclosed cap would have to be in the redacted Section 7.6 text."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Vericel must purchase Bulk Vehicle Gel, Intermediate Drug Product and Finished Product exclusively from MediWound during the first five years of the Term, subject to exceptions. MediWound also grants Vericel an exclusive trademark license in the Territory for Licensed Trademarks in connection with Manufacture of Licensed Products; other manufacturing/name trademark licenses are non-exclusive.",
+      "quotes": [
+        {
+          "clauseId": "2.2",
+          "text": "2.2 Exclusive Supply. During the first five (5) years of the Term, with respect to the Bulk Vehicle Gel, Intermediate Drug Product"
+        },
+        {
+          "clauseId": "2.2",
+          "text": "and Finished Product, Vericel shall order and purchase such Products exclusively from MediWound in accordance with the terms"
+        },
+        {
+          "clauseId": "2.2",
+          "text": "of this Agreement; provided , however , Vericel may Manufacture or have Manufactured the Products (a) upon the occurrence of a"
+        },
+        {
+          "clauseId": "2.2",
+          "text": "Supply Failure with respect to any Product hereunder, or (b) as otherwise permitted under the terms of the License Agreement or"
+        },
+        {
+          "clauseId": "9.2",
+          "text": "9.2 Trademarks License Grant. MediWound hereby grants to Vericel an exclusive (even as to MediWound), sublicensable, royalty-"
+        },
+        {
+          "clauseId": "9.2",
+          "text": "free, fully paid-up, license in the Territory to use the Licensed Trademarks (as defined in the License Agreement) and a non-"
+        },
+        {
+          "clauseId": "9.2",
+          "text": "exclusive, sublicensable, royalty-free, fully paid-up, license to use the MediWound name and trademark, in"
+        },
+        {
+          "clauseId": "9.1",
+          "text": "9.1 Manufacturing License Grant. Subject to the terms herein, MediWound hereby grants to Vericel a non-exclusive, sublicensable"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 2.2 exclusivity is subject to exceptions for Supply Failure and other rights under the License Agreement or this Agreement."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "Vericel must pay MediWound the per-unit Supply Price for Product; the Exhibit A unit prices are redacted.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Payment is due within a redacted period from invoice; shipment invoices are issued on delivery dates, which are not fixed in the document.",
+      "quotes": [
+        {
+          "clauseId": "5.1",
+          "text": "5.1 Supply Price. On a Product-by-Product basis, the price payable in U.S. Dollars by Vericel for supply of such Product for a"
+        },
+        {
+          "clauseId": "5.1",
+          "text": "given Calendar Year shall be as set forth on a per unit basis on Exhibit A (with respect to each Product, the “ Supply Price ”),"
+        },
+        {
+          "clauseId": "5.4",
+          "text": "5.4 Payments. Unless specified otherwise, any payment to be made by Vericel under this Agreement shall be made within [***]"
+        },
+        {
+          "clauseId": "5.4",
+          "text": "from date of invoice. It is hereby agreed that the invoice with respect to any shipment will be issued upon the delivery date. The"
+        },
+        {
+          "clauseId": "EXHIBIT A",
+          "text": "◦ 5 gram units of Finished Product at [***] per unit"
+        },
+        {
+          "clauseId": "EXHIBIT A",
+          "text": "◦ 2 gram units of Finished Product at [***] per unit"
+        }
+      ],
+      "ambiguities": [
+        "Exhibit A redacts the unit prices as [***].",
+        "Section 5.4 redacts the payment period from invoice as [***].",
+        "Section 5.2 permits Supply Price adjustments, so future Supply Prices may differ."
+      ]
+    },
+    {
+      "description": "Vericel must pay MediWound agreed Additional Service Fees for Additional Services, plus VAT or similar taxes if applicable.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount depends on services requested and written agreement; due date depends on invoice date unless otherwise specified.",
+      "quotes": [
+        {
+          "clauseId": "1.2",
+          "text": "1.2 “ Additional Service Fee ” shall mean the fee, cost and/or expense to be paid by Vericel to MediWound for the performance"
+        },
+        {
+          "clauseId": "1.2",
+          "text": "of Additional Services, as such fee, cost and/or expense is agreed to by Vericel and MediWound in writing in respect of such"
+        },
+        {
+          "clauseId": "1.2",
+          "text": "Additional Services (plus VAT or similar taxes, if applicable)."
+        },
+        {
+          "clauseId": "2.1",
+          "text": "shall perform the Additional Services for the Additional Service Fees."
+        },
+        {
+          "clauseId": "5.4",
+          "text": "5.4 Payments. Unless specified otherwise, any payment to be made by Vericel under this Agreement shall be made within [***]"
+        },
+        {
+          "clauseId": "EXHIBIT B",
+          "text": "Other Additional Services At the FTE Rates set forth on Schedule 4.5"
+        }
+      ],
+      "ambiguities": [
+        "The fee amount is not fixed; it is to be agreed in writing or calculated by FTE rates, and relevant Schedule 4.5 figures are redacted.",
+        "Section 5.4 redacts the payment period from invoice as [***]."
+      ]
+    },
+    {
+      "description": "Vericel must bear the cost of requested labeling artwork changes and reimburse MediWound for procured labeling rendered unusable by those changes, up to forecasted quantities.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only arises if Vericel requires labeling artwork changes that make procured labeling unusable; due date depends on invoice/payment request not dated in the contract.",
+      "quotes": [
+        {
+          "clauseId": "2.4",
+          "text": "Vericel shall be permitted to require changes to the labeling artwork from time-to-time"
+        },
+        {
+          "clauseId": "2.4",
+          "text": "at its cost, but will be required to reimburse MediWound for the cost of any quantities of labeling procured by MediWound that is"
+        },
+        {
+          "clauseId": "2.4",
+          "text": "rendered unusable by such changes, up to the quantities of labeling as"
+        },
+        {
+          "clauseId": "5.4",
+          "text": "5.4 Payments. Unless specified otherwise, any payment to be made by Vericel under this Agreement shall be made within [***]"
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on future labeling changes and unusable quantities.",
+        "Section 5.4 redacts the default payment period from invoice as [***]."
+      ]
+    },
+    {
+      "description": "Vericel must pay costs consistent with Schedule 4.5 for MediWound’s Second Source technology-transfer assistance requested under Section 2.7(b).",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only due if Vericel requests technology transfer or in connection with a Supply Failure; invoices and request dates are not fixed.",
+      "quotes": [
+        {
+          "clauseId": "2.7(b)",
+          "text": "Within [***] of a request by Vericel to initiate technology transfer or as soon as reasonably practicable upon request by Vericel"
+        },
+        {
+          "clauseId": "2.7(b)",
+          "text": "in connection with a Supply Failure, MediWound shall provide Vericel, at Vericel’s cost consistent with Schedule 4.5, with"
+        },
+        {
+          "clauseId": "2.7(b)",
+          "text": "information necessary for Vericel to qualify a second or back-up supplier identified by Vericel for the Manufacture and supply of"
+        },
+        {
+          "clauseId": "5.4",
+          "text": "5.4 Payments. Unless specified otherwise, any payment to be made by Vericel under this Agreement shall be made within [***]"
+        },
+        {
+          "clauseId": "SCHEDULE 4.5",
+          "text": "The FTE rate will be capped per [***]."
+        }
+      ],
+      "ambiguities": [
+        "The response period, FTE cap and other Schedule 4.5 amounts are redacted as [***].",
+        "The amount depends on Vericel’s request and work performed."
+      ]
+    },
+    {
+      "description": "Vericel bears audit/corrective-action expenses under Section 3.5 unless the audit result is due to MediWound’s material breach.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only arises after audit/regulatory inspection issues; due date depends on invoice/payment request not dated in the contract.",
+      "quotes": [
+        {
+          "clauseId": "3.5",
+          "text": "MediWound and Vericel shall, at Vericel’s expense (unless the result is due to a material breach of MediWound of"
+        },
+        {
+          "clauseId": "3.5",
+          "text": "any of its obligations under this Agreement), (a) cooperate to determine the cause for any identified issues, (b) work together in"
+        },
+        {
+          "clauseId": "3.5",
+          "text": "good faith to develop a corrective action, and (c) endeavor to implement such corrective action within a mutually agreed time"
+        },
+        {
+          "clauseId": "5.4",
+          "text": "5.4 Payments. Unless specified otherwise, any payment to be made by Vericel under this Agreement shall be made within [***]"
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on the audit findings and corrective action.",
+        "Section 5.4 redacts the default payment period from invoice as [***]."
+      ]
+    },
+    {
+      "description": "Recall cost allocation: Vericel generally bears its and related parties’ Recall costs; MediWound bears out-of-pocket Recall expenses to the extent caused by specified MediWound breach, negligence, willful misconduct or failure to supply conforming Product.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only arises if there is a Recall; amount and responsible party depend on the cause of the Recall.",
+      "quotes": [
+        {
+          "clauseId": "3.7",
+          "text": "Vericel’s and its Affiliates’, Sublicensees’ and Distributors’ costs (including internal costs of Vericel) associated with any such"
+        },
+        {
+          "clauseId": "3.7",
+          "text": "Recall shall be borne solely by Vericel (including refunds to customers); provided , however , that all out of pocket expenses"
+        },
+        {
+          "clauseId": "3.7",
+          "text": "associated with a Recall (including those of Vericel and its Affiliates, Sublicensees and Distributors and refunds to customers) shall"
+        },
+        {
+          "clauseId": "3.7",
+          "text": "be borne solely by MediWound to the extent such Recall (a) arises from or is caused directly by any breach by MediWound of this"
+        },
+        {
+          "clauseId": "3.7",
+          "text": "Agreement, the License Agreement or the Quality Agreement, or MediWound’s or any of its Affiliates’, Suppliers’ or"
+        },
+        {
+          "clauseId": "3.7",
+          "text": "subcontractors’ negligence or willful misconduct; or (b) resulting directly from MediWound’s failure to supply Product that"
+        }
+      ],
+      "ambiguities": [
+        "The amount is not fixed and depends on whether a Recall occurs and its cause."
+      ]
+    },
+    {
+      "description": "Vericel bears [***] of costs for Vericel-proposed Discretionary Manufacturing Changes agreed by MediWound.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only arises if Vericel proposes and MediWound agrees to such changes; invoice date and implementation date are not fixed.",
+      "quotes": [
+        {
+          "clauseId": "4.3",
+          "text": "Manufacturing Change ”). If agreed to by MediWound, MediWound or its Suppliers will use commercially reasonable efforts to"
+        },
+        {
+          "clauseId": "4.3",
+          "text": "make such proposed changes, and Vericel will bear [***] of the costs associated with such changes. MediWound may propose"
+        },
+        {
+          "clauseId": "5.4",
+          "text": "5.4 Payments. Unless specified otherwise, any payment to be made by Vericel under this Agreement shall be made within [***]"
+        }
+      ],
+      "ambiguities": [
+        "Section 4.3 redacts the percentage of costs borne by Vericel as [***].",
+        "The amount depends on future changes and costs."
+      ]
+    },
+    {
+      "description": "Vericel bears costs for Regulatory Changes required by a Regulatory Authority in the Territory if MediWound determines it is technically able to implement the change.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only arises if a Regulatory Change is required and MediWound can implement it; invoices and implementation dates are not fixed.",
+      "quotes": [
+        {
+          "clauseId": "4.4(c)",
+          "text": "(c) If MediWound determines it is technically able to implement a Regulatory Change required by a Regulatory Authority in the"
+        },
+        {
+          "clauseId": "4.4(c)",
+          "text": "Territory, the costs for such Regulatory Change shall be borne by Vericel consistent with Schedule 4.5."
+        },
+        {
+          "clauseId": "5.4",
+          "text": "5.4 Payments. Unless specified otherwise, any payment to be made by Vericel under this Agreement shall be made within [***]"
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on the Regulatory Change and Schedule 4.5; Schedule 4.5 includes redacted cost information.",
+        "Section 5.4 redacts the default payment period from invoice as [***]."
+      ]
+    },
+    {
+      "description": "Vericel pays costs for certain ongoing regulatory assistance: Vericel-initiated process changes at FTE rates, new regulatory registrations, and periodic regulatory reporting/questions; MediWound-initiated regulatory filings/process changes are at no cost to Vericel.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only arises after Vericel requests assistance in specified categories; due date depends on invoice date not fixed in the document.",
+      "quotes": [
+        {
+          "clauseId": "4.5",
+          "text": "4.5 Ongoing Regulatory Assistance. Within [***] following Vericel’s request, MediWound shall provide technical data and"
+        },
+        {
+          "clauseId": "4.5",
+          "text": "assistance in answering Vericel’s questions (a) for regulatory filings and for process changes initiated by MediWound at no cost to"
+        },
+        {
+          "clauseId": "4.5",
+          "text": "Vericel, (b) for process changes initiated by Vericel at the cost of Vericel for the applicable number of hours at a Full Time"
+        },
+        {
+          "clauseId": "4.5",
+          "text": "Equivalent rate described in Schedule 4.5, (c) for new regulatory registrations, which shall be at Vericel’s cost, and (d) for periodic"
+        },
+        {
+          "clauseId": "4.5",
+          "text": "regulatory reporting and questions from regulatory authorities, which shall be at the cost of Vericel."
+        },
+        {
+          "clauseId": "SCHEDULE 4.5",
+          "text": "FTE Rates for Reimbursement of Preapproved Activities Completed by MediWound per Section 4.5:"
+        },
+        {
+          "clauseId": "SCHEDULE 4.5",
+          "text": "The FTE rate will be capped per [***]."
+        }
+      ],
+      "ambiguities": [
+        "The response period and FTE rate cap are redacted as [***].",
+        "The amount depends on the assistance requested and hours/costs incurred."
+      ]
+    },
+    {
+      "description": "For Cost Savings Changes, Vericel must pay implementation costs as an Additional Service Fee for eligible Vericel-proposed changes; if MediWound proposes and the Parties agree to implementation, Vericel pays the agreed amount before implementation.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only due if a Cost Savings Change is proposed and agreed/eligible; implementation date is not fixed.",
+      "quotes": [
+        {
+          "clauseId": "5.3",
+          "text": "Vericel agrees to pay the costs to implement such Costs Saving Change as an Additional Service Fee,"
+        },
+        {
+          "clauseId": "5.3",
+          "text": "MediWound shall agree to implement such proposed change which MediWound shall not unreasonably decline to implement. If"
+        },
+        {
+          "clauseId": "5.3",
+          "text": "MediWound proposes a Cost Savings Change and the Parties agree to its implementation, (i) Vericel shall pay MediWound the"
+        },
+        {
+          "clauseId": "5.3",
+          "text": "agreed amount to implement such change as an Additional Service Fee prior to the implementation of such Cost Savings Change;"
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on the proposed Cost Savings Change and agreed implementation costs.",
+        "For MediWound-proposed changes, the obligation is due before an implementation date that the document does not fix."
+      ]
+    },
+    {
+      "description": "Late payments accrue interest, and each late payment must include accrued interest.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only applies if a payment is late; interest start date and rate are redacted.",
+      "quotes": [
+        {
+          "clauseId": "5.5",
+          "text": "5.5 Late Payments. Any payments due under this Agreement shall be due on such date as specified in this Agreement and, in the"
+        },
+        {
+          "clauseId": "5.5",
+          "text": "event such date is not a Business Day, then the next succeeding Business Day. In the event that any payment due under this"
+        },
+        {
+          "clauseId": "5.5",
+          "text": "Agreement is not made when due, the amount due shall accrue interest beginning on the [***] following the date on which such"
+        },
+        {
+          "clauseId": "5.5",
+          "text": "payment was due, calculated at the [***] for the due date, or, if lower, the maximum rate permitted by law, calculated from the"
+        },
+        {
+          "clauseId": "5.5",
+          "text": "due date until paid in full. Each payment made after the due date shall be accompanied by all interest so accrued. Notwithstanding"
+        }
+      ],
+      "ambiguities": [
+        "The interest commencement timing and rate are redacted as [***].",
+        "The amount depends on the unpaid amount and duration of lateness."
+      ]
+    },
+    {
+      "description": "Vericel must pay value added or similar tax on Products delivered by MediWound where itemized on a valid invoice and legally required to be collected from Vericel.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only due if applicable tax is legally required, itemized and invoiced; delivery/invoice dates are not fixed.",
+      "quotes": [
+        {
+          "clauseId": "5.6",
+          "text": "5.6 Taxes. Vericel shall be responsible for the payment of any value added or similar tax (but excluding, for avoidance of doubt,"
+        },
+        {
+          "clauseId": "5.6",
+          "text": "any tax on the income of MediWound) on the Products delivered by MediWound to Vericel, to the extent such taxes are itemized"
+        },
+        {
+          "clauseId": "5.6",
+          "text": "and included on a valid invoice and required to be collected from Vericel under applicable Law."
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on applicable tax law and invoice contents."
+      ]
+    },
+    {
+      "description": "MediWound bears withholding taxes required to be paid or withheld from payments made by Vericel under the Agreement.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only applies if payments become subject to withholding taxes; amount depends on applicable law.",
+      "quotes": [
+        {
+          "clauseId": "5.6",
+          "text": "In addition, in the event any"
+        },
+        {
+          "clauseId": "5.6",
+          "text": "payments made by Vericel pursuant to this Agreement become subject to withholding taxes under the Laws or regulations of any"
+        },
+        {
+          "clauseId": "5.6",
+          "text": "jurisdiction or Governmental Authority, Vericel shall deduct and withhold the amount of such taxes for the account of MediWound"
+        },
+        {
+          "clauseId": "5.6",
+          "text": "payment from the relevant Governmental Authority of all amounts deducted and withheld. Any such withholding taxes required"
+        },
+        {
+          "clauseId": "5.6",
+          "text": "under applicable Laws or regulations to be paid or withheld shall be an expense of, and borne solely by, MediWound. Each Party"
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on whether withholding taxes apply under relevant law."
+      ]
+    },
+    {
+      "description": "Upon expiration or termination, Vericel must pay MediWound outstanding amounts for supplied Product, amounts for Product in Binding Forecasts/Binding Orders if delivered, Materials purchased in reliance on Binding Forecasts/Orders if not cancellable or usable, and remaining Product inventory/work in process.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only arises on expiration or termination; payment amount depends on outstanding obligations, deliveries, materials, inventory and work in process at that time.",
+      "quotes": [
+        {
+          "clauseId": "8.6(b)",
+          "text": "Vericel shall pay to MediWound: (i) all amounts outstanding and remaining to be paid for Product supplied prior to such"
+        },
+        {
+          "clauseId": "8.6(b)",
+          "text": "expiration or termination or under any other obligation under the Agreement; (ii) all amounts for Product in the Binding Forecasts"
+        },
+        {
+          "clauseId": "8.6(b)",
+          "text": "and Binding Orders prior to the expiration or termination, provided that MediWound delivers such Product in accordance with the"
+        },
+        {
+          "clauseId": "8.6(b)",
+          "text": "terms of this Agreement; (iii) all amounts representing the purchase by MediWound of Materials in reliance upon the Binding"
+        },
+        {
+          "clauseId": "8.6(b)",
+          "text": "Forecasts and Binding Orders (if MediWound is unable to cancel (without incurring any costs) or otherwise use such Materials);"
+        },
+        {
+          "clauseId": "8.6(b)",
+          "text": "and (iv) all amounts representing remaining inventory of Product and all Product work in process undertaken in accordance with"
+        },
+        {
+          "clauseId": "8.6(b)",
+          "text": "the Binding Forecasts or Binding Orders or undertaken otherwise in accordance with the terms of this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on the status of forecasts, orders, deliveries, materials, inventory and work in process at expiration or termination."
+      ]
+    },
+    {
+      "description": "MediWound must indemnify, defend and hold harmless Vericel Indemnified Parties against third-party Liability arising from specified MediWound breaches, recall/withdrawal causes, gross negligence or willful misconduct, subject to exclusions.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only applies if covered third-party Liability arises.",
+      "quotes": [
+        {
+          "clauseId": "7.1",
+          "text": "7.1 Indemnification by MediWound. MediWound will indemnify, defend and hold harmless Vericel, its Affiliates, Sublicensees,"
+        },
+        {
+          "clauseId": "7.1",
+          "text": "contractors, Distributors and each of its and their respective employees, officers, directors and agents (each, a “ Vericel"
+        },
+        {
+          "clauseId": "7.1",
+          "text": "Indemnified Party ”) from and against any and all liability, loss, damage, expense (including reasonable attorneys’ fees and"
+        },
+        {
+          "clauseId": "7.1",
+          "text": "expenses) and cost (collectively, “ Liability ”) that the Vericel Indemnified Party may be required to pay to one or more Third"
+        },
+        {
+          "clauseId": "7.1",
+          "text": "Parties resulting from or arising out of:"
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on future third-party claims and covered liabilities.",
+        "Section 7.6 contains a redacted limitation sentence that may affect indemnity exposure."
+      ]
+    },
+    {
+      "description": "Vericel must indemnify, defend and hold harmless MediWound Indemnified Parties against third-party Liability arising from specified Vericel breaches, recall/withdrawal causes, gross negligence or willful misconduct, subject to exclusions.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only applies if covered third-party Liability arises.",
+      "quotes": [
+        {
+          "clauseId": "7.2",
+          "text": "7.2 Indemnification by Vericel. Vericel will indemnify, defend and hold harmless MediWound, each of its Affiliates, and each of its"
+        },
+        {
+          "clauseId": "7.2",
+          "text": "and its Affiliates’ employees, officers, directors and agents (each, a “ MediWound Indemnified Party ”) from and against any and"
+        },
+        {
+          "clauseId": "7.2",
+          "text": "all Liability that the MediWound Indemnified Party may be required to pay to one or more Third Parties (other than shareholders"
+        },
+        {
+          "clauseId": "7.2",
+          "text": "of MediWound or its Affiliates) resulting from or arising out of:"
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on future third-party claims and covered liabilities.",
+        "Section 7.6 contains a redacted limitation sentence that may affect indemnity exposure."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "MediWound Ltd.",
+      "grantor": "Vericel Corporation",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Territory",
+      "territoryCodes": [
+        "US",
+        "CA",
+        "MX"
+      ],
+      "productLabel": "Bulk Vehicle Gel, Intermediate Drug Product and Finished Product",
+      "productCodes": [
+        "BULKVEHICLEGEL",
+        "INTERMEDIATEDRUGPRODUCT",
+        "FINISHEDPRODUCT"
+      ],
+      "start": "2019-05-06",
+      "end": "2024-05-06",
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "THIS SUPPLY AGREEMENT (the “ Agreement ”) is entered into as of May 6, 2019 (the “ Effective Date ”), by and between"
+        },
+        {
+          "clauseId": "Preamble",
+          "text": "64 Sidney Street, Cambridge, MA 02139 (“ Vericel ”) and MediWound Ltd., a corporation organized and existing under the laws"
+        },
+        {
+          "clauseId": "2.2",
+          "text": "2.2 Exclusive Supply. During the first five (5) years of the Term, with respect to the Bulk Vehicle Gel, Intermediate Drug Product"
+        },
+        {
+          "clauseId": "2.2",
+          "text": "and Finished Product, Vericel shall order and purchase such Products exclusively from MediWound in accordance with the terms"
+        },
+        {
+          "clauseId": "2.2",
+          "text": "of this Agreement; provided , however , Vericel may Manufacture or have Manufactured the Products (a) upon the occurrence of a"
+        },
+        {
+          "clauseId": "2.2",
+          "text": "Supply Failure with respect to any Product hereunder, or (b) as otherwise permitted under the terms of the License Agreement or"
+        },
+        {
+          "clauseId": "1.55",
+          "text": "1.55 “ Territory ” means the United States, Canada and Mexico."
+        },
+        {
+          "clauseId": "8.1",
+          "text": "8.1 Term. The term of this Agreement will commence upon the Effective Date and will continue until the fifth (5th) anniversary of"
+        }
+      ],
+      "ambiguities": [
+        "Section 2.2 permits Vericel to Manufacture or have Manufactured the Products upon a Supply Failure or as otherwise permitted under the License Agreement or this Agreement, so the exclusivity is subject to those exceptions.",
+        "The end date is derived from the Effective Date plus the first five years of the Term; earlier termination could shorten it."
+      ]
+    },
+    {
+      "grantee": "Vericel Corporation",
+      "grantor": "MediWound Ltd.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Territory",
+      "territoryCodes": [
+        "US",
+        "CA",
+        "MX"
+      ],
+      "productLabel": "Licensed Trademarks in connection with the Manufacture of Licensed Products in or for the Territory",
+      "productCodes": [
+        "LICENSEDTRADEMARKS",
+        "LICENSEDPRODUCTS"
+      ],
+      "start": "2019-05-06",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "THIS SUPPLY AGREEMENT (the “ Agreement ”) is entered into as of May 6, 2019 (the “ Effective Date ”), by and between"
+        },
+        {
+          "clauseId": "Preamble",
+          "text": "64 Sidney Street, Cambridge, MA 02139 (“ Vericel ”) and MediWound Ltd., a corporation organized and existing under the laws"
+        },
+        {
+          "clauseId": "1.55",
+          "text": "1.55 “ Territory ” means the United States, Canada and Mexico."
+        },
+        {
+          "clauseId": "9.2",
+          "text": "9.2 Trademarks License Grant. MediWound hereby grants to Vericel an exclusive (even as to MediWound), sublicensable, royalty-"
+        },
+        {
+          "clauseId": "9.2",
+          "text": "free, fully paid-up, license in the Territory to use the Licensed Trademarks (as defined in the License Agreement) and a non-"
+        },
+        {
+          "clauseId": "9.2",
+          "text": "each case, in connection with the Manufacture of Licensed Products in or for the Territory. All uses of the Licensed Trademarks by"
+        },
+        {
+          "clauseId": "8.7",
+          "text": "Article 1, Sections 3.2, 5.4, 5.5 and 5.6, Article 7, Article 8, Sections 9.1 and 9.2 (except in the event of termination of the"
+        }
+      ],
+      "ambiguities": [
+        "Section 8.7 states Section 9.2 survives expiration or termination except for specified License Agreement terminations, but this document does not state a fixed end date for the trademark license.",
+        "“Licensed Trademarks” and “Licensed Products” are defined in the License Agreement, not in this document."
+      ]
+    },
+    {
+      "grantee": "Vericel Corporation",
+      "grantor": "MediWound Ltd.",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "Territory",
+      "territoryCodes": [
+        "US",
+        "CA",
+        "MX"
+      ],
+      "productLabel": "MediWound name and trademark in connection with the Manufacture of Licensed Products in or for the Territory",
+      "productCodes": [
+        "MEDIWOUNDNAMEANDTRADEMARK",
+        "LICENSEDPRODUCTS"
+      ],
+      "start": "2019-05-06",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "THIS SUPPLY AGREEMENT (the “ Agreement ”) is entered into as of May 6, 2019 (the “ Effective Date ”), by and between"
+        },
+        {
+          "clauseId": "Preamble",
+          "text": "64 Sidney Street, Cambridge, MA 02139 (“ Vericel ”) and MediWound Ltd., a corporation organized and existing under the laws"
+        },
+        {
+          "clauseId": "1.55",
+          "text": "1.55 “ Territory ” means the United States, Canada and Mexico."
+        },
+        {
+          "clauseId": "9.2",
+          "text": "free, fully paid-up, license in the Territory to use the Licensed Trademarks (as defined in the License Agreement) and a non-"
+        },
+        {
+          "clauseId": "9.2",
+          "text": "exclusive, sublicensable, royalty-free, fully paid-up, license to use the MediWound name and trademark, in"
+        },
+        {
+          "clauseId": "9.2",
+          "text": "each case, in connection with the Manufacture of Licensed Products in or for the Territory. All uses of the Licensed Trademarks by"
+        },
+        {
+          "clauseId": "8.7",
+          "text": "Article 1, Sections 3.2, 5.4, 5.5 and 5.6, Article 7, Article 8, Sections 9.1 and 9.2 (except in the event of termination of the"
+        }
+      ],
+      "ambiguities": [
+        "Section 8.7 states Section 9.2 survives expiration or termination except for specified License Agreement terminations, but this document does not state a fixed end date for the MediWound name/trademark license.",
+        "“Licensed Products” is defined in the License Agreement, not in this document."
+      ]
+    },
+    {
+      "grantee": "Vericel Corporation",
+      "grantor": "MediWound Ltd.",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "Territory",
+      "territoryCodes": [
+        "US",
+        "CA",
+        "MX"
+      ],
+      "productLabel": "MediWound Technology and MediWound’s interest in Joint Technology to Manufacture and have Manufactured Licensed Products in the Territory for use in the Field in the Territory",
+      "productCodes": [
+        "MEDIWOUNDTECHNOLOGY",
+        "JOINTTECHNOLOGY",
+        "LICENSEDPRODUCTS"
+      ],
+      "start": "2019-05-06",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "THIS SUPPLY AGREEMENT (the “ Agreement ”) is entered into as of May 6, 2019 (the “ Effective Date ”), by and between"
+        },
+        {
+          "clauseId": "Preamble",
+          "text": "64 Sidney Street, Cambridge, MA 02139 (“ Vericel ”) and MediWound Ltd., a corporation organized and existing under the laws"
+        },
+        {
+          "clauseId": "1.55",
+          "text": "1.55 “ Territory ” means the United States, Canada and Mexico."
+        },
+        {
+          "clauseId": "9.1",
+          "text": "9.1 Manufacturing License Grant. Subject to the terms herein, MediWound hereby grants to Vericel a non-exclusive, sublicensable"
+        },
+        {
+          "clauseId": "9.1",
+          "text": "(subject to Section 4.2 of the License Agreement) license under the MediWound Technology and MediWound’s interest in the"
+        },
+        {
+          "clauseId": "9.1",
+          "text": "Joint Technology, to Manufacture and have Manufactured Licensed Products in the Territory for use in the Field in the Territory."
+        },
+        {
+          "clauseId": "8.6(c)",
+          "text": "(c) Following expiration of the Royalty Term (as defined in the License Agreement) for any Licensed Product in a given country,"
+        },
+        {
+          "clauseId": "8.6(c)",
+          "text": "the license granted to Vericel under Section 9.1 of this Agreement with respect to such Licensed Product in such country shall"
+        },
+        {
+          "clauseId": "8.6(c)",
+          "text": "automatically become fully paid-up, perpetual, irrevocable and royalty-free."
+        },
+        {
+          "clauseId": "8.7",
+          "text": "Article 1, Sections 3.2, 5.4, 5.5 and 5.6, Article 7, Article 8, Sections 9.1 and 9.2 (except in the event of termination of the"
+        }
+      ],
+      "ambiguities": [
+        "The document does not state a single fixed end date for the Section 9.1 license; Section 8.6(c) can make it perpetual after expiration of the Royalty Term for a Licensed Product in a country, and Section 8.7 addresses survival subject to certain License Agreement terminations.",
+        "“MediWound Technology,” “Joint Technology,” “Licensed Products,” “Field,” and “Royalty Term” are defined in the License Agreement, not in this document."
+      ]
+    }
+  ]
+}

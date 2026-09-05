@@ -1,0 +1,136 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Great Lakes Gas Transmission Limited Partnership (Transporter) and ANR PIPELINE COMPANY (Shipper)",
+      "quotes": [
+        {
+          "clauseId": "TRANSPORTATION SERVICE AGREEMENT",
+          "text": "This Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Transporter)\nand ANR PIPELINE COMPANY (Shipper)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2016-11-01",
+      "quotes": [
+        {
+          "clauseId": "1. EFFECTIVE DATE",
+          "text": "1. EFFECTIVE DATE: November 01, 2016"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 6 states a term beginning 2014-11-01, so the effective date and stated term start differ."
+      ]
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "3 years",
+      "quotes": [
+        {
+          "clauseId": "6. TERM",
+          "text": "6. TERM: November 01, 2014 to October 31, 2017"
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": [
+        "Clause 1 states an effective date of 2016-11-01, while clause 6 states a term beginning 2014-11-01; the 3-year length is computed from clause 6's stated term dates."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2017-10-31",
+      "quotes": [
+        {
+          "clauseId": "6. TERM",
+          "text": "6. TERM: November 01, 2014 to October 31, 2017"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "No monetary cap; Shipper's sole recourse for Transporter's obligations is limited to Transporter's assets, and specified Transporter-related individuals have no personal liability.",
+      "quotes": [
+        {
+          "clauseId": "14. OTHER PROVISIONS",
+          "text": "It is agreed that no personal liability whatsoever shall attach to, be imposed on or otherwise be incurred by any Partner, agent,\nmanagement official or employee of the Transporter or any director, officer or employee of any of the foregoing, for any obligation\nof the Transporter arising under this Agreement or for any claim based on such obligation and that the sole recourse of Shipper\nunder this Agreement is limited to assets of the Transporter."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 14 does not state a monetary amount and limits only Shipper's recourse for obligations of Transporter; it does not state a reciprocal liability cap for Shipper."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "Transportation service rates, charges and applicable surcharges under Rate Schedule FT, unless otherwise agreed by the parties in writing.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "The document states applicable rates and charges but does not state any fixed amount, currency, invoice date, payment due date, or billing frequency.",
+      "quotes": [
+        {
+          "clauseId": "9. RATES",
+          "text": "Unless Shipper and Transporter have agreed to a rate other than the maximum rate, rates shall be Transporter's maximum rates\nand charges plus all applicable surcharges in effect from time to time under the applicable Rate Schedule (as stated above) on\nfile with the Commission unless otherwise agreed to by the parties in writing. Provisions governing a Rate other than the\nmaximum shall be set forth in this Paragraph 9 and/or on Appendix B hereto."
+        }
+      ],
+      "ambiguities": [
+        "Clause 9 does not state the amount, currency, payment due date, or billing frequency; rates are Transporter's maximum rates and charges plus surcharges in effect from time to time unless otherwise agreed in writing."
+      ]
+    }
+  ],
+  "grants": []
+}

@@ -1,0 +1,237 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "ALPS Distributors, Inc. (the “Distributor”) and S2K Financial LLC (“S2K”).",
+      "quotes": [
+        {
+          "clauseId": "WHOLESALE MARKETING AGREEMENT",
+          "text": "THIS AGREEMENT is entered into effective as of the 24 t h day of August 2018, by and among ALPS Distributors, Inc., a Colorado\ncorporation (the “ Distributor ” ) and S2K Financial LLC, a Delaware limited liability company (“S2K”)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2018-08-24",
+      "quotes": [
+        {
+          "clauseId": "WHOLESALE MARKETING AGREEMENT",
+          "text": "THIS AGREEMENT is entered into effective as of the 24 t h day of August 2018"
+        },
+        {
+          "clauseId": "4. Duration and Termination.",
+          "text": "The term of this Agreement shall commence on the Effective Date"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "No fixed term; continues until terminated under Clause 4.",
+      "quotes": [
+        {
+          "clauseId": "4. Duration and Termination.",
+          "text": "The term of this Agreement shall commence on the Effective Date and shall end on the 60th day following a\nwritten notice from one party to the other of its decision to terminate this Agreement at the end of such 60-day period or upon termination of the\napplicable Distribution Agreement with respect to a Fund."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 4. Duration and Termination. does not state a fixed calendar duration; the end depends on a future written notice or termination of an applicable Distribution Agreement."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "No fixed end date; ends on the 60th day after written termination notice or upon termination of the applicable Distribution Agreement for a Fund.",
+      "quotes": [
+        {
+          "clauseId": "4. Duration and Termination.",
+          "text": "The term of this Agreement shall commence on the Effective Date and shall end on the 60th day following a\nwritten notice from one party to the other of its decision to terminate this Agreement at the end of such 60-day period or upon termination of the\napplicable Distribution Agreement with respect to a Fund."
+        },
+        {
+          "clauseId": "4. Duration and Termination.",
+          "text": "Termination of this Agreement as to a Fund shall not terminate this Agreement with\nrespect to any other Fund so long as such other Fund’s (or Funds’, as the case may be) Distribution Agreement is effective. If this Agreement is\nterminated by one party, it shall terminate the entire Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 4. Duration and Termination. does not identify any date of termination notice or Distribution Agreement termination, so no YYYY-MM-DD end date can be calculated.",
+        "Clause 4. Duration and Termination. distinguishes termination as to a Fund from termination of the entire Agreement, so the end may differ by Fund unless one party terminates the entire Agreement."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Either party may terminate the entire Agreement on 60 days' written notice.",
+      "quotes": [
+        {
+          "clauseId": "4. Duration and Termination.",
+          "text": "The term of this Agreement shall commence on the Effective Date and shall end on the 60th day following a\nwritten notice from one party to the other of its decision to terminate this Agreement at the end of such 60-day period"
+        },
+        {
+          "clauseId": "4. Duration and Termination.",
+          "text": "If this Agreement is\nterminated by one party, it shall terminate the entire Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "No monetary cap stated; claims, losses, costs or expenses are limited to actual and direct costs, and indirect, special or consequential damages are excluded.",
+      "quotes": [
+        {
+          "clauseId": "7. Indemnification.",
+          "text": "(c) Any and all claims, losses, cost or expenses shall be limited to actual and direct costs. In no event shall any party be\nresponsible to the other for indirect, special or consequential damages."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 7. Indemnification. limits categories of recoverable damages but does not state a single monetary ceiling or aggregate cap."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "ALPS or its designated agent, at each Fund's direction, will facilitate payment of the applicable dealer reallowance fee / compensation to S2K.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount depends on each Fund's then-current Prospectus and class-by-class basis; no compensation is due until Distributor actually receives payments from the Fund; facilitation ceases for the applicable Fund when the 8.0% threshold is reached.",
+      "quotes": [
+        {
+          "clauseId": "5. Compensation; Expenses",
+          "text": "(a) As described in the Fund’s Prospectus, the Fund may impose a sales charge “load” in connection with the purchase of shares\nof the Fund, a portion of which will be paid to S2K pursuant to the terms and conditions of the Prospectus."
+        },
+        {
+          "clauseId": "5. Compensation; Expenses",
+          "text": "(b) In consideration of the marketing, sales and other related activities provided by S2K, the Distributor may compensate S2K for\nsuch services on each Fund’s behalf and at the direction of each such Fund. The amount of compensation payable by the Distributor to S2K\nhereunder shall be determined on a class by class basis. At the direction of each Fund, ALPS or its designated agent will facilitate the payment of\nthe applicable dealer reallowance fee to S2K in the amounts set forth in Exhibit B hereto."
+        },
+        {
+          "clauseId": "5. Compensation; Expenses",
+          "text": "(c) No compensation with respect to a Fund shall be due and owing hereunder until the Distributor actually receives payments\nfrom such Fund, to the extent applicable."
+        },
+        {
+          "clauseId": "Exhibit B",
+          "text": "At the direction of each Fund set forth in Exhibit A to this Agreement, ALPS or its designated agent will facilitate the payment of the applicable\ndealer reallowance fee to S2K (as a percentage of the offering price) in the amounts set forth in each such Fund’s then-current Prospectus."
+        },
+        {
+          "clauseId": "Exhibit B",
+          "text": "In no event will a Fund’s aggregate selling commissions, dealer manager fees and distribution and servicing fees, if applicable, exceed 8.0% of the\naggregate gross proceeds raised in the Fund’s offering. Therefore, the Distributor’s facilitation of the dealer reallowance payments set forth in each\nFund’s then-current Prospectus shall cease with respect to the applicable Fund as of the date such 8.0% threshold has been reached with respect\nto such Fund."
+        }
+      ],
+      "ambiguities": [
+        "Section 5. Compensation; Expenses and Exhibit B do not state a fixed amount; they refer to each Fund’s then-current Prospectus and a class-by-class determination.",
+        "Section 5(c) makes payment dependent on Distributor actually receiving payments from the applicable Fund, and no due date is stated."
+      ]
+    },
+    {
+      "description": "S2K must reimburse Distributor for reasonable out-of-pocket expenses, including FINRA advertising/filing fees and expedited review fees.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies as reasonable out-of-pocket expenses are incurred; the agreement does not state a payment date.",
+      "quotes": [
+        {
+          "clauseId": "5. Compensation; Expenses",
+          "text": "(e) S2K shall reimburse Distributor for all reasonable out-of-pocket expenses, including but not limited to: FINRA\nadvertising/filing fees (including additional fees for expedited reviews as set forth in Section 2(b) herein)."
+        }
+      ],
+      "ambiguities": [
+        "Section 5(e) does not state the amount of reimbursable expenses or when reimbursement is due."
+      ]
+    },
+    {
+      "description": "S2K is charged $250 for each expedited review request, in addition to FINRA filing fees, unless Distributor fails to provide comments within one business day.",
+      "amountMinor": 25000,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only applies if S2K requests expedited review through AdLit and accepts the related terms and fees; the charge does not apply if Distributor fails to provide comments within one business day.",
+      "quotes": [
+        {
+          "clauseId": "2. Services Provided by the Distributor.",
+          "text": "a) A charge of $250 will apply to each request for expedited review, in addition to FINRA filing fees."
+        },
+        {
+          "clauseId": "2. Services Provided by the Distributor.",
+          "text": "d) S2K must check the box on the AdLit coversheet whereby S2K requests and accepts the terms and fee(s) associated\nwith expedited review in order to ensure that Distributor is notified of the expedited request."
+        },
+        {
+          "clauseId": "2. Services Provided by the Distributor.",
+          "text": "If Distributor fails to provide S2K with\ncomments within one business day, the $250 expedited review charge will not apply."
+        }
+      ],
+      "ambiguities": [
+        "Section 2(b)(iv) states the amount and trigger for the charge, but does not state when it must be paid."
+      ]
+    },
+    {
+      "description": "S2K bears all expenses and costs attributable to producing, reviewing, approving, using and filing Fund Materials.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies if S2K produces Fund Materials for use in marketing a Fund; the agreement does not state a fixed amount or payment date.",
+      "quotes": [
+        {
+          "clauseId": "9. Fund Materials.",
+          "text": "S2K shall be entitled to produce materials ( “ Fund Materials ” ) for use in marketing a Fund as described herein"
+        },
+        {
+          "clauseId": "9. Fund Materials.",
+          "text": "All expenses and costs attributable to the\nforegoing provision shall be borne by S2K in accordance with Section 2 and Section 5 herein."
+        }
+      ],
+      "ambiguities": [
+        "Section 9. Fund Materials. does not state the amount of Fund Materials expenses or when they must be paid."
+      ]
+    }
+  ],
+  "grants": []
+}

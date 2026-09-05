@@ -1,0 +1,263 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "GLAMIS GOLD LTD. (“Glam is”/Glamis) and WESTERN COPPER CORPORATION (“Western Copper”).",
+      "quotes": [
+        {
+          "clauseId": "Parties",
+          "text": "GLAMIS GOLD LTD., a company incorporated under the laws\nof the Province of British Columbia, having an office at 310-5190\nNeil Road, Reno, Nevada 89502\n(“Glam is”)\nAND:\nWESTERN COPPER CORPORATION, a company\nincorporated under the laws of the Province of British Columbia,\nhaving an office at 2050-1111 West Georgia Street, Vancouver.\nB.C. V6E 4M3\n(“Western Copper”)"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2006-05-03",
+      "quotes": [
+        {
+          "clauseId": "Introductory clause",
+          "text": "THIS AGREEMENT is dated May 3,2006."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 1.1(f) separately defines the Effective Date as “May 3, 200ri or such later date as determined under the Arrangement Agreement,” so obligations tied to the Effective Date may begin on a later undetermined date."
+      ]
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "2 years after the Effective Date for the non-competition covenant",
+      "quotes": [
+        {
+          "clauseId": "2.1",
+          "text": "Western Copper covenants and agrees with Glamis that, for a period of 2 years\nafter the Effective Date, it will not, directly or indirectly"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 2.1 provides a 2-year period only for the non-competition covenant, not an overall fixed term for the Agreement or the right of first offer.",
+        "Clause 1.1(f) defines the Effective Date as “May 3, 200ri or such later date as determined under the Arrangement Agreement,” so the start of the 2-year period may be a later undetermined date."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2008-05-03",
+      "quotes": [
+        {
+          "clauseId": "Introductory clause",
+          "text": "THIS AGREEMENT is dated May 3,2006."
+        },
+        {
+          "clauseId": "2.1",
+          "text": "Western Copper covenants and agrees with Glamis that, for a period of 2 years\nafter the Effective Date, it will not, directly or indirectly"
+        },
+        {
+          "clauseId": "1.1",
+          "text": "(f) Effective Date means May 3, 200ri or such later date as determined under the\nArrangement Agreement,"
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": [
+        "The 2008-05-03 date is derived for the non-competition covenant only; clause 2.1 does not state an overall Agreement end date.",
+        "Clause 1.1(f) contains an OCR-corrupted year and allows the Effective Date to be a later date determined under the Arrangement Agreement, so the actual end of the 2-year period may be later than 2008-05-03."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate immediately by written notice if the other ceases conducting business in the normal course, becomes insolvent, makes a general assignment for creditors, has a receiver appointed, or becomes subject to bankruptcy/insolvency creditor-protection proceedings.",
+      "quotes": [
+        {
+          "clauseId": "3.5",
+          "text": "W'estem Copper may, at its option, terminate this Agreement by written notice to\nGlamis, effective immediately upon delivery of the notice, should Glamis cease conducting\nbusiness in the normal course, become insolvent, make a general assignment for the benefit of\ncreditors, suffer or permit the appointment of a receiver for its business or assets or avail itself\nof, or become subject to, any proceedings under the Bankruptcy and Insolvency Act (Canada) or\nany other statute of any province or state relating to insolvency or the protection of rights of\ncreditors."
+        },
+        {
+          "clauseId": "3.6",
+          "text": "Glamis may, at its option, terminate this Agreement by written notice to Western\nCopper, effective immediately upon delivery of the notice, should Western Copper cease\nconducting business in the normal course, become insolvent, make a general assignment for the\nbenefit of creditors, suffer or permit the appointment of a receiver for its business or assets or\navail itself of, or become subject to, any proceedings under the Bankruptcy and Insolvency Act\n(Canada) or any other statute of any province or state relating to insolvency or the protection of\nrights of creditors."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Western Copper gives Glamis a 2-year non-competition covenant for Mining Activities in the Area of Non-Competition. Glamis gives Western Copper a right of first offer for intended cash dispositions or abandonments of Designated Mineral Properties.",
+      "quotes": [
+        {
+          "clauseId": "2.1",
+          "text": "Western Copper covenants and agrees with Glamis that, for a period of 2 years\nafter the Effective Date, it will not, directly or indirectly, either individually or in partnership or\njointly or in conjunction with any Person, which will include being a principal, agent,\nshareholder, or advisor of such Person or in any other manner whatsoever,"
+        },
+        {
+          "clauseId": "2.1",
+          "text": "(a) carry on or be engaged in Mining Activities, or"
+        },
+        {
+          "clauseId": "2.1",
+          "text": "(b) advise, lend money to, guarantee the debts or obligations of or permit its name to\nbe used by any Person who carries on or is engaged in Mining Activities,"
+        },
+        {
+          "clauseId": "2.1",
+          "text": "in the Area of Non-Competition."
+        },
+        {
+          "clauseId": "2.2",
+          "text": "Glamis covenants and agrees with Western Copper that if at any time it intends to\ndispose of a Designated Mineral Property for cash consideration or by abandonment, it will give\nWestern Copper notice (the ‘ Disposition Notice”) of the intended disposition. For a period of\n30 days from the time of delivery of the Disposition Notice Glamis will, if requested by Western\nSilver, entertain an offer from Western Copper to acquire the Designated Mineral Property."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 2.2 says Glamis will entertain an offer “if requested by Western Silver,” although the covenant is stated to be with Western Copper and the offer is from Western Copper.",
+        "Clause 1.1(f) defines the Effective Date as “May 3, 200ri or such later date as determined under the Arrangement Agreement,” which affects the start and end of the 2-year non-compete period."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "Reasonable transfer costs incurred by Glamis for transferring an abandoned Designated Mineral Property to Western Copper, if Glamis intends to abandon it and Western Copper requests the transfer.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Payable only if Glamis intends to abandon a Designated Mineral Property and Western Copper requests transfer; amount is the reasonable costs of transfer incurred by Glamis.",
+      "quotes": [
+        {
+          "clauseId": "2.2",
+          "text": "In the case of a\nDesignated Mineral Property that Glamis intends to abandon, Glamis wall, if requested by\nWestern Copper, transfer such Designated Mineral Property to Western Copper at no cost save\nand except for the reasonable costs of transfer incurred by Glamis."
+        }
+      ],
+      "ambiguities": [
+        "Clause 2.2 does not fix the amount, currency, or due date for the reasonable transfer costs."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "GLAMIS GOLD LTD.",
+      "grantor": "WESTERN COPPER CORPORATION",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Area of Non-Competition: the State of Zacatecas, Mexico and the area extending 20 kilometers in all directions from the external boundary of each Western Silver mineral property/legal interest in Mexico as at the Effective Date",
+      "territoryCodes": [
+        "MX-ZAC",
+        "MX-WESTERN-SILVER-20KM"
+      ],
+      "productLabel": "Mining Activities",
+      "productCodes": [
+        "MINING_ACTIVITIES"
+      ],
+      "start": "2006-05-03",
+      "end": "2008-05-03",
+      "quotes": [
+        {
+          "clauseId": "2.1",
+          "text": "Western Copper covenants and agrees with Glamis that, for a period of 2 years\nafter the Effective Date, it will not, directly or indirectly, either individually or in partnership or\njointly or in conjunction with any Person, which will include being a principal, agent,\nshareholder, or advisor of such Person or in any other manner whatsoever,"
+        },
+        {
+          "clauseId": "2.1",
+          "text": "(a) carry on or be engaged in Mining Activities, or"
+        },
+        {
+          "clauseId": "2.1",
+          "text": "(b) advise, lend money to, guarantee the debts or obligations of or permit its name to\nbe used by any Person who carries on or is engaged in Mining Activities,"
+        },
+        {
+          "clauseId": "2.1",
+          "text": "in the Area of Non-Competition."
+        },
+        {
+          "clauseId": "1.1",
+          "text": "(b) Area of Non-Competition means the State of Zacatecas, Mexico and the area\nextending 20 kilometers in all directions from the external boundary of each mineral\nproperty owned or controlled by Western Silver or in which Western Silver holds any\nlegal interest, in Mexico, as at the Effective Date,"
+        },
+        {
+          "clauseId": "1.1",
+          "text": "(g) Mining Activities means any acquisition of mineral rights or any mineral\nexploration or development activities, in any manner whatsoever,"
+        },
+        {
+          "clauseId": "1.1",
+          "text": "(f) Effective Date means May 3, 200ri or such later date as determined under the\nArrangement Agreement,"
+        }
+      ],
+      "ambiguities": [
+        "The listed start and end dates assume the Effective Date corresponds to the Agreement date of 2006-05-03; clause 1.1(f) contains the OCR-corrupted date “May 3, 200ri” and allows a later date under the Arrangement Agreement.",
+        "Clause 1.3 extends covenants to subsidiaries and other Affiliates, but those entities are not individually named in the Agreement text."
+      ]
+    },
+    {
+      "grantee": "WESTERN COPPER CORPORATION",
+      "grantor": "GLAMIS GOLD LTD.",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "Mexico, for Designated Mineral Properties owned or controlled by Western Silver or in which Western Silver holds any legal interest as of the Effective Date",
+      "territoryCodes": [
+        "MX"
+      ],
+      "productLabel": "Designated Mineral Property",
+      "productCodes": [
+        "DESIGNATED_MINERAL_PROPERTY"
+      ],
+      "start": "2006-05-03",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "2.2",
+          "text": "Glamis covenants and agrees with Western Copper that if at any time it intends to\ndispose of a Designated Mineral Property for cash consideration or by abandonment, it will give\nWestern Copper notice (the ‘ Disposition Notice”) of the intended disposition. For a period of\n30 days from the time of delivery of the Disposition Notice Glamis will, if requested by Western\nSilver, entertain an offer from Western Copper to acquire the Designated Mineral Property."
+        },
+        {
+          "clauseId": "2.2",
+          "text": "If Glamis and Western Copper\nare unable to negotiate an acceptable agreement with respect to the Designated Mineral Property\nwithin the 30 day period, Glamis may thereafter dispose of the Designated Mineral Property as it\nsees til in its absolute discretion."
+        },
+        {
+          "clauseId": "1.1",
+          "text": "(e) Designated Mineral Property means a mineral property or individual mineral\nconcession within a mineral property, that is owned or controlled by Western Silver or in\nwhich Western Silver holds any legal interest in Mexico as of the Effective Date,"
+        },
+        {
+          "clauseId": "Introductory clause",
+          "text": "THIS AGREEMENT is dated May 3,2006."
+        }
+      ],
+      "ambiguities": [
+        "Clause 2.2 creates a right of first offer rather than a true exclusive or sole acquisition right; it is classified as non-exclusive because Glamis may dispose of the property after the 30-day process if no acceptable agreement is reached.",
+        "Clause 2.2 says Glamis will entertain an offer “if requested by Western Silver,” although the covenant is stated to be with Western Copper and the offer is from Western Copper.",
+        "Clause 1.3 extends covenants to subsidiaries and other Affiliates, but those entities are not individually named in the Agreement text."
+      ]
+    }
+  ]
+}

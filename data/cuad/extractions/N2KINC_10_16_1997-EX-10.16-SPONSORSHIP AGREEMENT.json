@@ -1,0 +1,392 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Excite, Inc. (“Excite”) and N2K Inc. (“Sponsor”).",
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "This agreement (\"Agreement\") is entered into as of the 23rd day of September,\n1997 (\"Effective Date\"), by and between Excite, Inc., a California corporation,\nlocated at 555 Broadway, Redwood City, California 94063 (\"Excite\"), and N2K\nInc., a Pennsylvania corporation, located at 55 Broad Street, 26th Floor, New\nYork, New York, 10004 (\"Sponsor\")."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "1997-09-23",
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "This agreement (\"Agreement\") is entered into as of the 23rd day of September,\n1997 (\"Effective Date\")"
+        },
+        {
+          "clauseId": "1(b)",
+          "text": "b) The term of this Agreement will begin on the Effective Date and\nwill end on the second (2nd) anniversary of the Commencement\nDate."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "From 1997-09-23 until the second anniversary of the Commencement Date.",
+      "quotes": [
+        {
+          "clauseId": "1(b)",
+          "text": "b) The term of this Agreement will begin on the Effective Date and\nwill end on the second (2nd) anniversary of the Commencement\nDate. The \"Commencement Date\" means the date on which Excite\ncommences delivery of Impressions (defined below). The parties\nanticipate the Commencement Date will be on or about October\n15, 1997."
+        },
+        {
+          "clauseId": "11(b)",
+          "text": "However, the term of this Agreement will continue until Excite\nhas made good the guaranteed number of Impressions on the\nExcite Site."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 1(b) defines the end by reference to the event-based Commencement Date, which is only anticipated to be on or about October 15, 1997.",
+        "Section 11(b) may extend the term after the second year until Excite has made good any second-year Impression shortfall."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "Second anniversary of the Commencement Date; anticipated on/about 1999-10-15, subject to possible make-good extension.",
+      "quotes": [
+        {
+          "clauseId": "1(b)",
+          "text": "b) The term of this Agreement will begin on the Effective Date and\nwill end on the second (2nd) anniversary of the Commencement\nDate. The \"Commencement Date\" means the date on which Excite\ncommences delivery of Impressions (defined below). The parties\nanticipate the Commencement Date will be on or about October\n15, 1997."
+        },
+        {
+          "clauseId": "11(b)",
+          "text": "However, the term of this Agreement will continue until Excite\nhas made good the guaranteed number of Impressions on the\nExcite Site."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": [
+        "The actual Commencement Date is not stated; it is the date Excite commences delivery of Impressions and is only anticipated to be on or about October 15, 1997.",
+        "Section 11(b) may extend the term after the second year until Excite has made good any second-year Impression shortfall."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "No automatic renewal; Sponsor has a right of first refusal and an exclusive negotiation period, and renewal requires a written sponsorship renewal agreement.",
+      "quotes": [
+        {
+          "clauseId": "1(d)",
+          "text": "d) Excite will offer Sponsor the right of first refusal to\nnegotiate with Excite for renewal of this sponsorship."
+        },
+        {
+          "clauseId": "1(d)(ii)",
+          "text": "ii) Commencing not later than [****] prior to the expiration\nof the term of the Agreement, Excite will negotiate with\nSponsor in good faith with respect to the terms and conditions\nunder which this Agreement would be renewed. Excite will\nnegotiate exclusively with Sponsor for the next [****] in good\nfaith effort to negotiate and execute a written sponsorship\nrenewal agreement. If, [****] prior to the expiration of the\nterm of the Agreement, the parties have not entered into a\nwritten sponsorship renewal agreement. Excite may enter into\nnegotiations with any third party with respect to retail music\nstore sponsorships of the Excite Site."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The lengths and deadlines for the renewal negotiation process are redacted in Section 1(d)."
+      ]
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate for uncured material breach after 30 days’ notice. Sponsor may terminate for an uncured first-year Impression shortfall after Excite’s make-good period. Excite may terminate for repeated Content/Co-Branded Area errors or outages on 15 days’ notice unless corrected, or for Content quality deficiencies on 30 days’ notice unless corrected.",
+      "quotes": [
+        {
+          "clauseId": "11(a)",
+          "text": "a) If Excite fails to deliver the guaranteed number of\nImpressions on the Excite Site during the first year, Excite\nwill use commercially reasonable efforts to \"make good\" the\nshortfall. If Excite fails to \"make good\" the shortfall within\n[****] following the first year end, Sponsor may terminate the\nAgreement in accordance with Section 11 (b)."
+        },
+        {
+          "clauseId": "11(c)",
+          "text": "c) Either party may terminate this Agreement if the other party\nmaterially breaches its obligations hereunder and such breach\nremains uncured for thirty (30) days following the notice to\nthe breaching party of the breach, with the following\nexceptions:"
+        },
+        {
+          "clauseId": "11(c)(i)",
+          "text": "In the event of three or more errors,\nfailures or outages of the Content or the Co-Branded\nArea in any thirty (30) day period, Excite may elect\nto terminate this Agreement upon fifteen days written\nnotice to Sponsor, unless Sponsor demonstrates to\nExcite's reasonable satisfaction before the\nexpiration of the fifteen (15) day notice period that\nthe cause(s) of the errors, failures or outages have\nbeen corrected; or"
+        },
+        {
+          "clauseId": "11(c)(ii)",
+          "text": "ii) Sponsor will ensure that the Content will at all\ntimes be at least substantially similar to any other\nsource of comparable topical content available on the\nInternet in terms of the following factors, taken as\na whole: (i) breadth and depth of coverage, (ii)\ntimeliness of content updates and (iii) reputation\nand ranking based on a cross-section of third party\nreviewers in terms of features, functionality,\nquality and other qualitative factors. In the event\nthat Sponsor fails to meet these quality criteria,\nExcite may terminate this agreement on thirty (30)\ndays written notice and enter into an other\narrangements for the acquisition of similar content,\nunless Sponsor demonstrates to Excite's reasonable\nsatisfaction before the expiration of the thirty (30)\nday notice period that the deficiencies in the\nContent have been corrected."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 11(a) says Sponsor may terminate for first-year shortfall “in accordance with Section 11 (b),” but Section 11(b) addresses second-year make-good and term extension rather than a clear termination procedure."
+      ]
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "Excite’s liability is capped at the amounts actually paid by Sponsor to Excite; no express monetary cap is stated for Sponsor.",
+      "quotes": [
+        {
+          "clauseId": "14",
+          "text": "EXCEPT UNDER SECTION 13(c) and (d), IN NO EVENT WILL EITHER\nPARTY BE LIABLE TO THE OTHER FOR ANY SPECIAL, INCIDENTAL OR\nCONSEQUENTIAL DAMAGES, WHETHER BASED ON BREACH OF CONTRACT,\nTORT (INCLUDING NEGLIGENCE) OR OTHERWISE, WHETHER OR NOT THAT\nPARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THE\nLIABILITY OF EXCITE FOR DAMAGES OR ALLEGED DAMAGES HEREUNDER,\nWHETHER IN CONTRACT, TORT OR ANY OTHER LEGAL THEORY, IS\nLIMITED TO, AND WILL NOT EXCEED, THE AMOUNTS ACTUALLY PAID BY\nSPONSOR TO EXCITE HEREUNDER."
+        },
+        {
+          "clauseId": "13(c)",
+          "text": "c) Excite will indemnify, defend and hold harmless Sponsor, its\naffiliates, officers, directors, employees, consultants and\nagents from any and all third party claims, liability, damages\nand/or costs (including, but not limited to, attorneys fees)\narising from the breach of any warranty, representation or\ncovenant in this Agreement."
+        },
+        {
+          "clauseId": "13(d)",
+          "text": "d) Sponsor will indemnify, defend and hold harmless Excite, its\naffiliates, officers, directors, employees, consultants and\nagents from any and all third party claims, liability, damages\nand/or costs (including, but not limited to, attorneys fees)\narising from:"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 14 expressly begins with “EXCEPT UNDER SECTION 13(c) and (d)” while Sections 13(c) and 13(d) contain indemnities, so indemnity exposure may sit outside at least the consequential-damages exclusion and its relationship to the monetary cap is not fully clear.",
+        "The stated monetary cap applies only to Excite; the agreement does not state an equivalent monetary cap for Sponsor.",
+        "The amount of the Excite cap depends on amounts actually paid by Sponsor to Excite, and the fixed fee amounts are redacted."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "N2K Inc. is the exclusive retail music store sponsor of the Excite Site and Excite Broadcast Pages for Music Products, subject to specified exceptions. N2K Inc. also has renewal right-of-first-refusal/exclusive negotiation rights.",
+      "quotes": [
+        {
+          "clauseId": "1(a)",
+          "text": "a) Sponsor will be the exclusive retail music store sponsor of\nthe Excite Site and the Excite Broadcast Pages. Excite will\nnot permit the display of advertising banners, promotional\nbuttons, promotional links or other promotional materials for\nany retail sale of Music Products on the Excite Site, except\nthose Music Products offered by Sponsor, nor advertising by\nany other Retail Music Store."
+        },
+        {
+          "clauseId": "1(a)",
+          "text": "shall mean pre-recorded music hard goods, digitally\ndistributed music (except live and/or cybercast events), music\nbooks (to the extent this Agreement does not conflict with\nExcite's existing agreement with Amazon.com), music-related\nt-shirts and apparel, and music videos (except live and/or\ncybercast events)."
+        },
+        {
+          "clauseId": "1(a)",
+          "text": "Excite may make available\nopportunities on the Excite Site to purchase Music Products\nfrom parties other than Sponsor if such Music Products are not\navailable from Sponsor so long as, prior to entering into\narrangements to make available opportunities to purchase Music\nProducts from parties other than Sponsor, Excite notifies\nSponsor of its interest in the Music Products and gives Sponsor\nthirty (30) days to make the desired Music Products available\nthrough the Sponsor Site."
+        },
+        {
+          "clauseId": "1(d)",
+          "text": "d) Excite will offer Sponsor the right of first refusal to\nnegotiate with Excite for renewal of this sponsorship."
+        },
+        {
+          "clauseId": "1(d)(ii)",
+          "text": "Excite will\nnegotiate exclusively with Sponsor for the next [****] in good\nfaith effort to negotiate and execute a written sponsorship\nrenewal agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 1(a) permits third-party Music Product purchase opportunities where products are not available from Sponsor, after notice and a 30-day opportunity to make them available.",
+        "The Music Products definition excludes live and/or cybercast events and qualifies music books to the extent of conflict with Excite’s existing Amazon.com agreement.",
+        "The renewal right timings and duration of the exclusive negotiation period are redacted in Section 1(d)."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "Sponsor must pay redacted fixed fees to Excite for setup/initiation, annual exclusivity, and first- and second-year ongoing programming, links, placements, advertisements and promotions, according to the Section 7(e) schedule.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "quarterly",
+      "firstDueDate": "1997-09-23",
+      "conditional": true,
+      "conditionNote": "Exact amounts are redacted; one scheduled payment is due on the event-based Commencement Date, and the schedule contains a repeated/out-of-order final date.",
+      "quotes": [
+        {
+          "clauseId": "7(a)",
+          "text": "a) [****] will be due to Excite on the Effective Date as\ncompensation for Excite's costs of initiating access to the\nExcite Site, programming costs, set-up costs and other\nexpenses associated with Excite's initiation of the links,\nplacements, advertisements and promotions contemplated by the\nAgreement."
+        },
+        {
+          "clauseId": "7(b)",
+          "text": "b) Sponsor will pay Excite [****] per year as compensation for\nbeing the exclusive online retail music store sponsor of the\nExcite Site."
+        },
+        {
+          "clauseId": "7(c)",
+          "text": "c) Sponsor will pay Excite [****] in the first year of the term\nof the Agreement as compensation for on-going programming,\nlinks, placements, advertisements and promotions contemplated\nby this Agreement."
+        },
+        {
+          "clauseId": "7(d)",
+          "text": "d) Sponsor will pay Excite [****] in the second year of the term\nof the Agreement as compensation for on-going programming,\nlinks, placements, advertisements and promotions contemplated\nby this Agreement."
+        },
+        {
+          "clauseId": "7(e)",
+          "text": "e) Sponsor will make payments to Excite according to the\nfollowing schedule:\nDATE PAYMENT\n---- -------\nEffective Date [****]\nCommencement Date [****]\n12/31/97 [****]\n\n1/1/98 [****]\n4/1/98 [****]\n7/1/98 [****]\n10/1/98 [****]\n1/1/99 [****]\n4/1/99 [****]\n7/1/98 [****]"
+        }
+      ],
+      "ambiguities": [
+        "All fixed amounts are redacted as [****].",
+        "Section 7(e) gives scheduled payment dates but does not reveal which redacted scheduled payment corresponds to which fee category in Sections 7(a)–(d).",
+        "The Commencement Date payment depends on an event-based date not fixed in the document.",
+        "The final scheduled date is written as “7/1/98” after “4/1/99,” creating an apparent repeated/out-of-order date."
+      ]
+    },
+    {
+      "description": "Sponsor must pay Excite a redacted share of gross margin on qualifying revenue from users referred from the Excite Site, if Total Revenue for the period exceeds the Revenue Floor; shared gross margin payments are due within 30 days after the end of each calendar quarter in which revenue is recognized.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "quarterly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Payment is owed only if Total Revenue exceeds the applicable Revenue Floor and depends on revenue recognized by Sponsor; percentages, gross margin definition and fee figures are redacted.",
+      "quotes": [
+        {
+          "clauseId": "7(f)",
+          "text": "f) Sponsor will pay Excite a share of all gross margins Sponsor\nrealizes on transactions, advertising, sponsorship, promotions\nand any other revenue generated during each year of the term\nof the Agreement on the Sponsor Site as a result of users\nreferred from the Excite Site (\"Total Revenue\"), subject to\nthe following conditions:"
+        },
+        {
+          "clauseId": "7(f)(iii)",
+          "text": "iii) If the Total Revenue earned by Sponsor during the\nthree-month period exceeds the total of the Revenue\nFloor applicable to the same three-month period,\nSponsor will pay Excite [****] of the gross margin\nSponsor realizes on the gross revenue amount equal to\nthe excess of the Total Revenue over the Revenue\nFloor during the three-month period."
+        },
+        {
+          "clauseId": "7(g)",
+          "text": "g) Payments of shared gross margin will be due to Excite within\nthirty (30) days of the end of each calendar quarter in which\nthe revenue is recognized by Sponsor."
+        },
+        {
+          "clauseId": "11(b)",
+          "text": "Sponsor will not be obligated to make\nsponsorship, advertising or exclusivity payments to Excite\nduring the \"make good\" period after the second year of the\nAgreement, but Sponsor will continue to make revenue sharing\npayments as described in Section 7(e)."
+        }
+      ],
+      "ambiguities": [
+        "The revenue share percentage, gross margin definition and fee amounts used to calculate the Revenue Floor are redacted.",
+        "Section 11(b) says revenue sharing is “as described in Section 7(e),” but Section 7(e) is the fixed payment schedule; revenue sharing is described in Section 7(f) and payment timing in Section 7(g)."
+      ]
+    },
+    {
+      "description": "If Excite audits Sponsor’s payment records and the payments made to Excite are less than 90% of the amount owed, Sponsor must pay the reasonable CPA inspection fees; otherwise Excite pays the CPA fees.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only due if an audit determines payments made to Excite were less than 90% of the payment owed.",
+      "quotes": [
+        {
+          "clauseId": "7(i)",
+          "text": "The fees charged by such Certified Public Accountant in\nconnection with the inspection will be paid by Excite unless\nthe payments made to Excite are determined to have been less\nthan ninety percent (90%) of the payment owed to Excite, in\nwhich case Sponsor will be responsible for the payment of the\nreasonable fees for such inspection."
+        }
+      ],
+      "ambiguities": [
+        "The amount of CPA inspection fees is not fixed."
+      ]
+    },
+    {
+      "description": "All payments accrued before termination or expiration must be paid in full within 30 days after termination or expiration.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only applies if payments have accrued before termination or expiration; the actual due date depends on the termination or expiration date.",
+      "quotes": [
+        {
+          "clauseId": "11(d)",
+          "text": "d) All payments that have accrued prior to the termination or\nexpiration of this Agreement will be payable in full within\nthirty (30) days thereof."
+        }
+      ],
+      "ambiguities": [
+        "The triggering termination or expiration date is not fixed in the payment provision."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "N2K Inc.",
+      "grantor": "Excite, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Excite Site and the Excite Broadcast Pages",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "Exclusive retail music store sponsorship and retail-sale promotional opportunities for Music Products on the Excite Site and Excite Broadcast Pages.",
+      "productCodes": [
+        "MUSICPRODUCTS",
+        "RETAILMUSICSTORE"
+      ],
+      "start": "1997-09-23",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "This agreement (\"Agreement\") is entered into as of the 23rd day of September,\n1997 (\"Effective Date\"), by and between Excite, Inc., a California corporation,\nlocated at 555 Broadway, Redwood City, California 94063 (\"Excite\"), and N2K\nInc., a Pennsylvania corporation, located at 55 Broad Street, 26th Floor, New\nYork, New York, 10004 (\"Sponsor\")."
+        },
+        {
+          "clauseId": "1(a)",
+          "text": "a) Sponsor will be the exclusive retail music store sponsor of\nthe Excite Site and the Excite Broadcast Pages. Excite will\nnot permit the display of advertising banners, promotional\nbuttons, promotional links or other promotional materials for\nany retail sale of Music Products on the Excite Site, except\nthose Music Products offered by Sponsor, nor advertising by\nany other Retail Music Store."
+        },
+        {
+          "clauseId": "1(a)",
+          "text": "\"Retail Music Store\" shall mean\nany entity which is primarily engaged in the sale of Music\nProducts at retail to consumers."
+        },
+        {
+          "clauseId": "1(a)",
+          "text": "shall mean pre-recorded music hard goods, digitally\ndistributed music (except live and/or cybercast events), music\nbooks (to the extent this Agreement does not conflict with\nExcite's existing agreement with Amazon.com), music-related\nt-shirts and apparel, and music videos (except live and/or\ncybercast events)."
+        },
+        {
+          "clauseId": "1(a)",
+          "text": "Excite may make available\nopportunities on the Excite Site to purchase Music Products\nfrom parties other than Sponsor if such Music Products are not\navailable from Sponsor so long as, prior to entering into\narrangements to make available opportunities to purchase Music\nProducts from parties other than Sponsor, Excite notifies\nSponsor of its interest in the Music Products and gives Sponsor\nthirty (30) days to make the desired Music Products available\nthrough the Sponsor Site."
+        },
+        {
+          "clauseId": "1(b)",
+          "text": "b) The term of this Agreement will begin on the Effective Date and\nwill end on the second (2nd) anniversary of the Commencement\nDate. The \"Commencement Date\" means the date on which Excite\ncommences delivery of Impressions (defined below). The parties\nanticipate the Commencement Date will be on or about October\n15, 1997."
+        }
+      ],
+      "ambiguities": [
+        "Clause 1(a) states the scope by online properties, not by geographic territory; territory is normalized as worldwide because no geographic limitation is stated for the Internet properties.",
+        "End date is not a fixed date because Section 1(b) ties it to the event-based Commencement Date, which is only anticipated.",
+        "Section 11(b) may extend the term during a second-year make-good period.",
+        "The exclusivity is subject to exceptions for Music Products not available from Sponsor after notice and opportunity, live and/or cybercast events, and music books to the extent of conflict with Excite’s Amazon.com agreement."
+      ]
+    },
+    {
+      "grantee": "N2K Inc.",
+      "grantor": "Excite, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Excite Site",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "Right of first refusal and exclusive negotiations for renewal of retail music store sponsorships of the Excite Site.",
+      "productCodes": [
+        "RETAILMUSICSTORESPONSORSHIP"
+      ],
+      "start": null,
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "1(d)",
+          "text": "d) Excite will offer Sponsor the right of first refusal to\nnegotiate with Excite for renewal of this sponsorship."
+        },
+        {
+          "clauseId": "1(d)(i)",
+          "text": "i) Excite will not propose, solicit or negotiate offers from\nentities other than Sponsor for any retail music store\nsponsorships of the Excite Site, if at all, until [****] prior\nto the expiration of the term of this Agreement."
+        },
+        {
+          "clauseId": "1(d)(ii)",
+          "text": "ii) Commencing not later than [****] prior to the expiration\nof the term of the Agreement, Excite will negotiate with\nSponsor in good faith with respect to the terms and conditions\nunder which this Agreement would be renewed. Excite will\nnegotiate exclusively with Sponsor for the next [****] in good\nfaith effort to negotiate and execute a written sponsorship\nrenewal agreement. If, [****] prior to the expiration of the\nterm of the Agreement, the parties have not entered into a\nwritten sponsorship renewal agreement. Excite may enter into\nnegotiations with any third party with respect to retail music\nstore sponsorships of the Excite Site."
+        },
+        {
+          "clauseId": "1(d)(iii)",
+          "text": "iii) In the event that Excite intends to enter into an\nagreement with a third party with respect to retail music\nstore sponsorships of the Excite Site before the expiration of\nthe term of the Agreement, Excite will deliver to Sponsor a\nwritten notice describing the relevant opportunity."
+        },
+        {
+          "clauseId": "1(d)(iii)",
+          "text": "Sponsor will have [****] after receipt of such written notice\nto provide notice to Excite that it is prepared to enter into\nan agreement with Excite on the same terms and conditions as\nExcite proposes to accept from such third party."
+        }
+      ],
+      "ambiguities": [
+        "The start, duration and notice periods for the right of first refusal and exclusive negotiation process are redacted as [****].",
+        "The right concerns renewal negotiations and matching opportunities; it is not an automatic renewal of the sponsorship.",
+        "The current term expiration date is itself not fixed because it depends on the event-based Commencement Date and possible make-good extension."
+      ]
+    }
+  ]
+}

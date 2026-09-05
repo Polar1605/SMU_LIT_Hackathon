@@ -1,0 +1,276 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Spôk Holdings, Inc. (the Company); White Hat Strategic Partners LP, White Hat SP GP LLC, White Hat Capital Partners LP, and White Hat Capital Partners GP LLC (collectively, the White Hat Parties).",
+      "quotes": [
+        {
+          "clauseId": "COOPERATION AGREEMENT",
+          "text": "This Cooperation Agreement (“ Agreement ”) is entered into as of June 18, 2020, by and between Spôk Holdings, Inc., a Delaware corporation (the\n“ Company ”), and White Hat Strategic Partners LP, a Delaware limited partnership, White Hat SP GP LLC, a Delaware limited liability company,\nWhite Hat Capital Partners LP, a Delaware limited partnership, and White Hat Capital Partners GP LLC, a Delaware limited liability company\n(collectively, the “ White Hat Parties ”) (each of the Company and the White Hat Parties, a “ Party ” to this Agreement, and collectively, the\n“ Parties ”)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2020-06-18",
+      "quotes": [
+        {
+          "clauseId": "COOPERATION AGREEMENT",
+          "text": "This Cooperation Agreement (“ Agreement ”) is entered into as of June 18, 2020, by and between Spôk Holdings, Inc., a Delaware corporation (the"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "Not a fixed duration; from 2020-06-18 until expiration of the Support Period (30 days before expiration of the 2021 Annual Meeting nomination advance-notice period).",
+      "quotes": [
+        {
+          "clauseId": "COOPERATION AGREEMENT",
+          "text": "This Cooperation Agreement (“ Agreement ”) is entered into as of June 18, 2020, by and between Spôk Holdings, Inc., a Delaware corporation (the"
+        },
+        {
+          "clauseId": "5. Support Period Covenants.",
+          "text": "Except as otherwise contemplated in this Agreement, at all times during the period commencing on the date hereof\nand ending on the date that is thirty (30) days prior to expiration of the advance notice period for the submission by stockholders of director\nnominations for consideration at the 2021 Annual Meeting as set forth in the Bylaws,"
+        },
+        {
+          "clauseId": "(m) Termination.",
+          "text": "Unless earlier terminated as provided in this Agreement, upon the expiration of the Support Period in accordance with Section 4,\nthis Agreement shall immediately and automatically terminate in its entirety and no Party shall have any further rights or obligations under this\nAgreement;"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 5 ties the end of the period to the advance notice period for director nominations for the 2021 Annual Meeting as set forth in the Bylaws, but the Bylaws and the relevant expiration date are not included in the document.",
+        "Clause 7(m) refers to expiration of the Support Period “in accordance with Section 4,” while the Support Period language appears in Section 5, creating a cross-reference uncertainty."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "Upon expiration of the Support Period; no calendar date stated.",
+      "quotes": [
+        {
+          "clauseId": "5. Support Period Covenants.",
+          "text": "Except as otherwise contemplated in this Agreement, at all times during the period commencing on the date hereof\nand ending on the date that is thirty (30) days prior to expiration of the advance notice period for the submission by stockholders of director\nnominations for consideration at the 2021 Annual Meeting as set forth in the Bylaws,"
+        },
+        {
+          "clauseId": "(m) Termination.",
+          "text": "Unless earlier terminated as provided in this Agreement, upon the expiration of the Support Period in accordance with Section 4,\nthis Agreement shall immediately and automatically terminate in its entirety and no Party shall have any further rights or obligations under this\nAgreement;"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 5 does not state a calendar date for the end of the Support Period and depends on the Bylaws’ advance notice period for the 2021 Annual Meeting.",
+        "Clause 7(m) refers to expiration of the Support Period “in accordance with Section 4,” while the Support Period language appears in Section 5."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "No renewal; the Agreement automatically terminates in its entirety upon expiration of the Support Period unless earlier terminated.",
+      "quotes": [
+        {
+          "clauseId": "(m) Termination.",
+          "text": "Unless earlier terminated as provided in this Agreement, upon the expiration of the Support Period in accordance with Section 4,\nthis Agreement shall immediately and automatically terminate in its entirety and no Party shall have any further rights or obligations under this\nAgreement;"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "No exclusive or sole appointment. The Agreement contains restrictive covenants: White Hat voting commitments for the 2020 Annual Meeting, White Hat standstill covenants during the Support Period, White Hat press-release restriction for three months, and Company public-disclosure review covenant.",
+      "quotes": [
+        {
+          "clauseId": "4. Voting Commitments.",
+          "text": "The White Hat Parties shall appear in person or by proxy for quorum purposes at the 2020 Annual Meeting, including any\nadjournment or postponement thereof, to vote all of the shares of Common Stock beneficially owned by the White Hat Parties on the record date (if\nthe 2020 Annual Meeting is within thirty (30) days of the anniversary of the Company’s 2019 Annual Meeting of Stockholders, such number of\nshares shall be no less than 90% of the Current Position) for such meeting (i) in favor of all persons nominated by the Board to serve as directors of\nthe Company and against any stockholder nominated candidate not endorsed by the Board, (ii) against the stockholder proposal made pursuant to\nRule 14a-8 under the Exchange Act as disclosed to the White Hat Parties prior to the execution of this Agreement, (iii) to ratify the appointment of\nthe Company’s independent registered public accounting firm, and (iv) in accordance with the Board’s recommendation with respect to the\nCompany’s “say-on-pay” proposal and new equity compensation plan (collectively, the “ 2020 Proposals ”), provided, that with respect to the\nproposals described in clauses (ii) through (iv) of this Section 4, the White Hat Parties may vote in accordance with the recommendation of\nInstitutional Shareholders Services to the extent such recommendation differs from the voting commitments set forth herein and provided that the\nWhite Hat Parties do not publicly disclose their vote on such proposals if it differs from the Board’s recommendation; and provided, further, that\nWhite Hat Parties shall have the right to vote the shares of Common Stock beneficially owned by the White Hat Parties in their sole discretion with\nrespect to all other proposals brought before the 2020 Annual Meeting."
+        },
+        {
+          "clauseId": "5. Support Period Covenants.",
+          "text": "the White Hat Parties shall not, and shall cause the White Hat\nRepresentatives not to, directly or indirectly, in any manner, alone or in concert with others: (a) attempt to call a special meeting of stockholders of\nthe Company; or (b) make a request for any stockholder list or other Company books and records, whether pursuant to Section 220 of the Delaware\nGeneral Corporation Law or otherwise."
+        },
+        {
+          "clauseId": "6. Press Release.",
+          "text": "The Parties agree that the Company shall issue a press release and file a Current Report on Form 8-K in substantially the forms\nagreed to between the Parties promptly following the execution and delivery of this Agreement by the Parties and shall not make any other public\ndisclosure relating to this Agreement or the transactions contemplated herein without the prior review and good faith consideration of any\ncomments made by the White Hat Parties."
+        },
+        {
+          "clauseId": "6. Press Release.",
+          "text": "The White Hat Parties agree that they shall not issue a press release regarding the subject matter of this\nAgreement for a period of three (3) months after the date of this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The Support Period end date for the Section 5 standstill cannot be calculated from the document because it depends on the Bylaws’ advance notice period for the 2021 Annual Meeting.",
+        "Clause 5 refers to “White Hat Representatives,” but that term is not defined in the supplied text."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "The Company must reimburse the White Hat Parties for out-of-pocket expenses, including counsel fees and expenses, incurred in connection with their engagement with the Company, the Nominations, negotiation of the Agreement and matters arising under it, capped at $55,000.",
+      "amountMinor": 5500000,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Actual reimbursement depends on out-of-pocket expenses incurred; no due date is specified.",
+      "quotes": [
+        {
+          "clauseId": "(h) Reimbursement.",
+          "text": "The Company shall reimburse the White Hat Parties for their out-of-pocket expenses, including the fees and expenses of\ncounsel, incurred in connection with their engagement with the Company, the Nominations and the negotiation of, and all matters arising under this\nAgreement; provided, however, that such reimbursement shall not exceed $55,000."
+        }
+      ],
+      "ambiguities": [
+        "Clause 7(h) states a reimbursement cap, not a fixed reimbursement amount, and does not state when reimbursement is due."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "Spôk Holdings, Inc.",
+      "grantor": "White Hat Strategic Partners LP; White Hat SP GP LLC; White Hat Capital Partners LP; White Hat Capital Partners GP LLC",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "Not specified",
+      "territoryCodes": [],
+      "productLabel": "2020 Annual Meeting voting commitments for Common Stock beneficially owned by the White Hat Parties",
+      "productCodes": [
+        "COMMONSTOCK",
+        "2020PROPOSALS"
+      ],
+      "start": "2020-06-18",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "COOPERATION AGREEMENT",
+          "text": "This Cooperation Agreement (“ Agreement ”) is entered into as of June 18, 2020, by and between Spôk Holdings, Inc., a Delaware corporation (the\n“ Company ”), and White Hat Strategic Partners LP, a Delaware limited partnership, White Hat SP GP LLC, a Delaware limited liability company,\nWhite Hat Capital Partners LP, a Delaware limited partnership, and White Hat Capital Partners GP LLC, a Delaware limited liability company\n(collectively, the “ White Hat Parties ”)"
+        },
+        {
+          "clauseId": "4. Voting Commitments.",
+          "text": "The White Hat Parties shall appear in person or by proxy for quorum purposes at the 2020 Annual Meeting, including any\nadjournment or postponement thereof, to vote all of the shares of Common Stock beneficially owned by the White Hat Parties on the record date (if\nthe 2020 Annual Meeting is within thirty (30) days of the anniversary of the Company’s 2019 Annual Meeting of Stockholders, such number of\nshares shall be no less than 90% of the Current Position) for such meeting (i) in favor of all persons nominated by the Board to serve as directors of\nthe Company and against any stockholder nominated candidate not endorsed by the Board, (ii) against the stockholder proposal made pursuant to\nRule 14a-8 under the Exchange Act as disclosed to the White Hat Parties prior to the execution of this Agreement, (iii) to ratify the appointment of\nthe Company’s independent registered public accounting firm, and (iv) in accordance with the Board’s recommendation with respect to the\nCompany’s “say-on-pay” proposal and new equity compensation plan (collectively, the “ 2020 Proposals ”), provided, that with respect to the\nproposals described in clauses (ii) through (iv) of this Section 4, the White Hat Parties may vote in accordance with the recommendation of\nInstitutional Shareholders Services to the extent such recommendation differs from the voting commitments set forth herein and provided that the\nWhite Hat Parties do not publicly disclose their vote on such proposals if it differs from the Board’s recommendation; and provided, further, that\nWhite Hat Parties shall have the right to vote the shares of Common Stock beneficially owned by the White Hat Parties in their sole discretion with\nrespect to all other proposals brought before the 2020 Annual Meeting."
+        }
+      ],
+      "ambiguities": [
+        "Clause 4 applies to the 2020 Annual Meeting, but the document does not state that meeting date, so the end date of this voting commitment is not fixed in the text.",
+        "Clause 4 contains exceptions permitting votes in accordance with Institutional Shareholders Services for clauses (ii) through (iv) and sole discretion for other proposals."
+      ]
+    },
+    {
+      "grantee": "Spôk Holdings, Inc.",
+      "grantor": "White Hat Strategic Partners LP; White Hat SP GP LLC; White Hat Capital Partners LP; White Hat Capital Partners GP LLC",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "Not specified",
+      "territoryCodes": [],
+      "productLabel": "Support Period standstill: no special meeting request and no stockholder list or Company books-and-records request",
+      "productCodes": [
+        "STANDSTILL",
+        "SPECIALMEETING",
+        "BOOKSRECORDS"
+      ],
+      "start": "2020-06-18",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "COOPERATION AGREEMENT",
+          "text": "This Cooperation Agreement (“ Agreement ”) is entered into as of June 18, 2020, by and between Spôk Holdings, Inc., a Delaware corporation (the\n“ Company ”), and White Hat Strategic Partners LP, a Delaware limited partnership, White Hat SP GP LLC, a Delaware limited liability company,\nWhite Hat Capital Partners LP, a Delaware limited partnership, and White Hat Capital Partners GP LLC, a Delaware limited liability company\n(collectively, the “ White Hat Parties ”)"
+        },
+        {
+          "clauseId": "5. Support Period Covenants.",
+          "text": "Except as otherwise contemplated in this Agreement, at all times during the period commencing on the date hereof\nand ending on the date that is thirty (30) days prior to expiration of the advance notice period for the submission by stockholders of director\nnominations for consideration at the 2021 Annual Meeting as set forth in the Bylaws, the White Hat Parties shall not, and shall cause the White Hat\nRepresentatives not to, directly or indirectly, in any manner, alone or in concert with others: (a) attempt to call a special meeting of stockholders of\nthe Company; or (b) make a request for any stockholder list or other Company books and records, whether pursuant to Section 220 of the Delaware\nGeneral Corporation Law or otherwise."
+        }
+      ],
+      "ambiguities": [
+        "The end of the Support Period cannot be calculated from the document because it depends on the Bylaws’ advance notice period for the 2021 Annual Meeting.",
+        "Clause 5 refers to “White Hat Representatives,” but that term is not defined in the supplied text."
+      ]
+    },
+    {
+      "grantee": "Spôk Holdings, Inc.",
+      "grantor": "White Hat Strategic Partners LP; White Hat SP GP LLC; White Hat Capital Partners LP; White Hat Capital Partners GP LLC",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "Not specified",
+      "territoryCodes": [],
+      "productLabel": "No White Hat press release regarding the subject matter of the Agreement for three months",
+      "productCodes": [
+        "PRESSRELEASE"
+      ],
+      "start": "2020-06-18",
+      "end": "2020-09-18",
+      "quotes": [
+        {
+          "clauseId": "COOPERATION AGREEMENT",
+          "text": "This Cooperation Agreement (“ Agreement ”) is entered into as of June 18, 2020, by and between Spôk Holdings, Inc., a Delaware corporation (the\n“ Company ”), and White Hat Strategic Partners LP, a Delaware limited partnership, White Hat SP GP LLC, a Delaware limited liability company,\nWhite Hat Capital Partners LP, a Delaware limited partnership, and White Hat Capital Partners GP LLC, a Delaware limited liability company\n(collectively, the “ White Hat Parties ”)"
+        },
+        {
+          "clauseId": "6. Press Release.",
+          "text": "The White Hat Parties agree that they shall not issue a press release regarding the subject matter of this\nAgreement for a period of three (3) months after the date of this Agreement."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "grantee": "White Hat Strategic Partners LP; White Hat SP GP LLC; White Hat Capital Partners LP; White Hat Capital Partners GP LLC",
+      "grantor": "Spôk Holdings, Inc.",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "Not specified",
+      "territoryCodes": [],
+      "productLabel": "Prior review and good-faith consideration right for Company public disclosures relating to the Agreement or transactions contemplated by it",
+      "productCodes": [
+        "PUBLICDISCLOSURE"
+      ],
+      "start": "2020-06-18",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "COOPERATION AGREEMENT",
+          "text": "This Cooperation Agreement (“ Agreement ”) is entered into as of June 18, 2020, by and between Spôk Holdings, Inc., a Delaware corporation (the\n“ Company ”), and White Hat Strategic Partners LP, a Delaware limited partnership, White Hat SP GP LLC, a Delaware limited liability company,\nWhite Hat Capital Partners LP, a Delaware limited partnership, and White Hat Capital Partners GP LLC, a Delaware limited liability company\n(collectively, the “ White Hat Parties ”)"
+        },
+        {
+          "clauseId": "6. Press Release.",
+          "text": "The Parties agree that the Company shall issue a press release and file a Current Report on Form 8-K in substantially the forms\nagreed to between the Parties promptly following the execution and delivery of this Agreement by the Parties and shall not make any other public\ndisclosure relating to this Agreement or the transactions contemplated herein without the prior review and good faith consideration of any\ncomments made by the White Hat Parties."
+        }
+      ],
+      "ambiguities": [
+        "Clause 6 does not state a separate end date for this public-disclosure covenant; if it ends with the Agreement, the Agreement end date is uncertain because the Support Period end cannot be calculated from the document."
+      ]
+    }
+  ]
+}

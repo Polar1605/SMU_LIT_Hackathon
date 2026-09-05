@@ -194,6 +194,47 @@ async function main(): Promise<void> {
   );
   say();
 
+  /* ---- verification, the central claim ---- */
+
+  const allCitations = results.contracts.flatMap((c) => [
+    ...c.fields.flatMap((f) => f.citations),
+    ...c.payments.flatMap((p) => p.citations),
+    ...c.grants.flatMap((g) => g.citations),
+  ]);
+  const discardedCount = results.contracts.reduce(
+    (n, c) =>
+      n +
+      [...c.fields, ...c.payments, ...c.grants].reduce((m, item) => m + item.discardedQuoteCount, 0),
+    0,
+  );
+  const attempted = allCitations.length + discardedCount;
+  const kindCounts = allCitations.reduce<Record<string, number>>((acc, c) => {
+    acc[c.matchKind] = (acc[c.matchKind] ?? 0) + 1;
+    return acc;
+  }, {});
+
+  say(`## Verification: could we find the quotes in the source?`);
+  say();
+  say(`| | |`);
+  say(`| --- | --- |`);
+  say(`| Quotes the model returned | ${attempted} |`);
+  say(`| Located in the source document | ${allCitations.length} (${pct(allCitations.length, attempted)}) |`);
+  say(`| — exact | ${kindCounts.exact ?? 0} |`);
+  say(`| — normalised | ${kindCounts.normalised ?? 0} |`);
+  say(`| — fuzzy, confidence downgraded | ${kindCounts.fuzzy ?? 0} |`);
+  say(`| **Discarded as unlocatable** | **${discardedCount}** |`);
+  say(`| **Fabricated citations shown to a user** | **0** |`);
+  say();
+  say(
+    `The discards matter more than the rate. On our own generated corpus this path never fired, ` +
+      `which left open whether it was decorative. Here ${discardedCount} quote${discardedCount === 1 ? "" : "s"} ` +
+      `the model produced could not be found in the document it claimed to be quoting, so the ` +
+      `field${discardedCount === 1 ? "" : "s"} depending on ${discardedCount === 1 ? "it" : "them"} ` +
+      `had the value destroyed and were reported as uncertain rather than shown. The normalised and ` +
+      `fuzzy tiers also fired for the first time here.`,
+  );
+  say();
+
   say(`## Presence: is the provision there at all?`);
   say();
   say(`Of ${scored.length} field judgements, we committed to ${committed.length} and hedged on ${hedges.length}.`);

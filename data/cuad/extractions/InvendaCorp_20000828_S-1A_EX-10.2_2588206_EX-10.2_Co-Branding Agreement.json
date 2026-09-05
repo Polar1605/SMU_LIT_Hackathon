@@ -1,0 +1,792 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "At Home Corporation (\"Excite@Home\" or \"Excite\") and e-centives, Inc. (\"Application Provider\" or \"e-centives\")",
+      "quotes": [
+        {
+          "clauseId": "E-CENTIVES - EXCITE@HOME CO-BRANDING AGREEMENT",
+          "text": "This agreement (\"Agreement\") is entered into as of the 16th day of February,\n2000 (\"Effective Date\"), by and between the At Home Corporation (\"Excite@Home\"\nor \"Excite\"), located at 450 Broadway, Redwood City, California 94063, and\ne-centives, Inc., (\"Application Provider\" or \"e-centives\"), a Delaware\ncorporation, located at 6903 Rockledge Drive, Suite 1200, Bethesda, MD 20817."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2000-02-16",
+      "quotes": [
+        {
+          "clauseId": "E-CENTIVES - EXCITE@HOME CO-BRANDING AGREEMENT",
+          "text": "This agreement (\"Agreement\") is entered into as of the 16th day of February,\n2000 (\"Effective Date\"), by and between the At Home Corporation (\"Excite@Home\"\nor \"Excite\"), located at 450 Broadway, Redwood City, California 94063, and\ne-centives, Inc., (\"Application Provider\" or \"e-centives\"), a Delaware\ncorporation, located at 6903 Rockledge Drive, Suite 1200, Bethesda, MD 20817."
+        },
+        {
+          "clauseId": "15. TERM",
+          "text": "The term of this Agreement will begin on the Effective Date and will end\nthree (3) years from the date the Co-Branded Application becomes\naccessible to Excite@Home Members (\"Launch Date\")."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "Begins on 2000-02-16 and ends three years from the Launch Date",
+      "quotes": [
+        {
+          "clauseId": "15. TERM",
+          "text": "The term of this Agreement will begin on the Effective Date and will end\nthree (3) years from the date the Co-Branded Application becomes\naccessible to Excite@Home Members (\"Launch Date\")."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 15 measures the end of the term from the Launch Date, but the document does not state the Launch Date, so the full duration from the Effective Date cannot be reduced to a fixed number of months or years."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "Three years from the Launch Date; Launch Date not stated",
+      "quotes": [
+        {
+          "clauseId": "15. TERM",
+          "text": "The term of this Agreement will begin on the Effective Date and will end\nthree (3) years from the date the Co-Branded Application becomes\naccessible to Excite@Home Members (\"Launch Date\")."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 15 states that the agreement ends three years from the Launch Date, but the document does not state when the Co-Branded Application became accessible to Excite@Home Members, so no YYYY-MM-DD end date can be determined."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "No unrestricted at-will termination right. Conditional no-fault rights: either party may terminate on 30 days if federal privacy/User Data laws impede or prohibit performance; Excite@Home may terminate on 30 days after certain e-centives acquisitions by an Excite@Home Named Competitor; Excite@Home may terminate on 90 days if e-centives cannot or will not deliver requested modifications or the parties disagree on direction/integration.",
+      "quotes": [
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "Either party may terminate the Agreement without penalty upon thirty (30)\ndays' written notice if regulations or applicable laws applied at the US\nfederal level regarding privacy or User Data purchase and/or usage impede\nor prohibit said party from performing its services as contemplated by this\nAgreement or thereafter."
+        },
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "In the event that a majority of Application Provider's assets are merged,\nacquired or sold to an Excite@Home Named Competitor, or to an entity\ncontrolling or controlled by an Excite@Home Named Competitor, then\nExcite@Home may terminate this Agreement by providing thirty (30) days\nwritten notice."
+        },
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "In the event that\nApplication Provider is unable and/or unwilling to deliver such additions,\nor in the event that the parties disagree on the direction of the\nCo-Branded Application or its integration, Excite@Home may terminate the\nAgreement with no penalty by providing ninety (90) days written notice."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate for uncured breach after 30 days' notice. Excite@Home may also terminate on 30 days if e-centives fails content/launch guidelines, and may terminate if the Co-Branded Application is not comparable after a 28-day cure period.",
+      "quotes": [
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "Either party may terminate if the other party breaches the\nAgreement and the breach remains uncured for thirty (30) days\nfollowing receipt of written notice of intention to terminate\nfrom the other party."
+        },
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "Excite@Home may terminate the Agreement with thirty (30) days\nwritten notice if Application Provider does not meet the content\nand launch guidelines described in EXHIBIT B."
+        },
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "If Excite@Home determines that the Co-Branded Application is not at\nleast comparable to other sources of Application Content generally\navailable on the Internet in terms of at least two of the four factors\nin Section 16.a.iii.1, Excite@Home may notify Application Provider in\nwriting of said deficiency, which shall initiate a 28-day \"Cure\nPeriod.\" If at the end of the Cure Period Excite@Home, in its\nreasonable judgment, determines that the deficiency still exists, then\nExcite@Home may terminate the Agreement without further delay."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "Direct damages only; each party's liability for damages is limited to the amounts actually paid by the other party, except specified indemnity claims under Sections 19(a)(iii)(2), 19(a)(iii)(3), 19(b)(iii)(2), and 19(b)(iii)(3).",
+      "quotes": [
+        {
+          "clauseId": "20. LIMITATION OF LIABILITY",
+          "text": "Except as provided by Sections 19(a)(iii)(2), (a)(iii)(3), (b)(iii)(2) and\n(b)(iii)(3):\na) Neither party will have liability for any damages other than direct\ndamages. In no event will either party be liable to the other for any\nspecial, incidental or consequential damages, whether based on breach\nof contract, tort (including negligence) or otherwise, whether or not\nthat party has been advised of the possibility of such damage.\nb) Either party's liability for damages shall be limited to the amounts\nactually paid by the other party."
+        },
+        {
+          "clauseId": "19. WARRANTIES AND INDEMNITIES",
+          "text": "Any claim (including, without limitation, claims for\ninfringement of third party intellectual property,\npublicity, or privacy rights) arising from the e-centives\nContent, including, without limitation, e-centives'\ntrademarks, but excluding claims based upon the Excite\nContent or any other materials provided by Excite in the\nform originally provided by Excite; or"
+        },
+        {
+          "clauseId": "19. WARRANTIES AND INDEMNITIES",
+          "text": "Any claims (including, without limitation, claims for\ninfringement of third party intellectual property,\npublicity, or privacy rights), by third parties arising out\nof or based upon e-centives' services and/or any other\nservice provided by e-centives, but excluding claims based\nupon the Excite Content or any other information or\nmaterials provided by Excite in the form originally provided\nby Excite."
+        },
+        {
+          "clauseId": "19. WARRANTIES AND INDEMNITIES",
+          "text": "Any claim (including, without limitation, claims for infringement\nof third party intellectual property rights) arising from the\nExcite Content, including, without limitation, Excite's\ntrademarks, but excluding claims based upon the e-centives\nContent or any other materials provided by e-centives in the form\noriginally provided by e-centives; or"
+        },
+        {
+          "clauseId": "19. WARRANTIES AND INDEMNITIES",
+          "text": "Any claims (including, without limitation, claims for\ninfringement of third party intellectual property rights), by\nthird parties arising out of or based upon Excite@Home's services\nand/or any other service provided by Excite, but excluding claims\nbased upon the e-centives Content or any other information or\nmaterials provided by e-centives in the form originally provided\nby e-centives."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 20 expressly excludes the indemnity claims in Sections 19(a)(iii)(2), 19(a)(iii)(3), 19(b)(iii)(2), and 19(b)(iii)(3), so those indemnity exposures may sit outside the stated liability cap.",
+        "Clause 20.b caps liability by \"the amounts actually paid by the other party,\" not by a fixed stated figure; because payments are partly redacted and future-dependent, the cap cannot be reduced to a single monetary amount from this text."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Multiple exclusivity and restrictive covenants: Excite@Home must not offer substantially similar branded/co-branded services during the term; each party is restricted from serving ads for the other's Named Competitors on the Co-Branded Application; both parties have User Data transfer restrictions; e-centives has no-solicitation/contact restrictions; certain Excite@Home advertiser offers are exclusive for 30 days; and the first post-termination email is exclusive to e-centives in certain termination scenarios.",
+      "quotes": [
+        {
+          "clauseId": "3. INTEGRATION WITH EXCITE@HOME SERVICES",
+          "text": "Excite@Home shall not offer any Excite-branded or Excite-co-branded\nservice during the Term of this Agreement that is substantially similar\nin functionally to the Co-Branded Application."
+        },
+        {
+          "clauseId": "4. ADVERTISING ON THE CO-BRANDED APPLICATION",
+          "text": "Excite@Home will not serve advertising on the Co-Branded Application for\nany \"Application Provider Named Competitor,\" as specified in EXHIBIT E."
+        },
+        {
+          "clauseId": "4. ADVERTISING ON THE CO-BRANDED APPLICATION",
+          "text": "Application Provider will not serve advertising on the Co-Branded\nApplication for any \"Excite@Home Named Competitor,\" as specified in\nEXHIBIT E."
+        },
+        {
+          "clauseId": "6. USER DATA OWNERSHIP",
+          "text": "In no event may either party sell, disclose, transfer, rent, or\nlicense Payment-Eligible User Data to the other party's Named\nCompetitors as listed in EXHIBIT E."
+        },
+        {
+          "clauseId": "6. USER DATA OWNERSHIP",
+          "text": "Application Provider will not solicit any Excite@Home Member on\nbehalf of any Excite@Home Named Competitor during the Term of this\nAgreement or thereafter."
+        },
+        {
+          "clauseId": "9. EXCITE@HOME PURCHASES FROM E-CENTIVES",
+          "text": "e-centives may not extend exclusive offers developed for Excite@Home\nby its advertisers to non-Excite@Home users of the e-centives service\nfor a period of 30 days following the day on which the offer is first\nmade available through Excite@Home."
+        },
+        {
+          "clauseId": "17. POST-TERMINATION COMMUNICATIONS",
+          "text": "The first email will be exclusive to e-centives (i.e., it will\nnot mention similar services from Excite@Home or other third\nparties) and will alert Program Members of the continuation of\nthe e-centives service directly from e-centives."
+        },
+        {
+          "clauseId": "17. POST-TERMINATION COMMUNICATIONS",
+          "text": "In the event that the Agreement is terminated pursuant to Section\n16.a.v. due to e-centives' acquisition by an Excite@Home Named\nCompetitor, or by an entity controlling or controlled by an\nExcite@Home Named Competitor, e-centives or its assigns or designates\nmay not contact any Users for whom User Data has been provided\npursuant to this Agreement, excluding those that have opted out in\naccordance with Section 5(a) of Exhibit D."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Several restrictions run only during the Term, and Clause 15 does not state the Launch Date needed to calculate the Term end date.",
+        "The Named Competitor and Data Restricted company lists may be updated under clauses 4(d), 4(e), and 6(b)(iii), so the restricted counterparties may change over time.",
+        "The 30-day exclusivity in clause 9(d) runs separately for each offer from the day that offer is first made available through Excite@Home, which is not dated in the document.",
+        "The post-termination exclusivity and contact restrictions in clause 17 apply only after specified termination scenarios."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "e-centives must make a non-refundable pre-payment to Excite@Home for Payment-Eligible User Data records within ten days of the Effective Date; the amount is redacted.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": "2000-02-26",
+      "conditional": false,
+      "conditionNote": "Amount is stated only as $*****. The due date is the deadline calculated from the 2000-02-16 Effective Date plus ten days.",
+      "quotes": [
+        {
+          "clauseId": "E-CENTIVES - EXCITE@HOME CO-BRANDING AGREEMENT",
+          "text": "This agreement (\"Agreement\") is entered into as of the 16th day of February,\n2000 (\"Effective Date\"), by and between the At Home Corporation (\"Excite@Home\"\nor \"Excite\"), located at 450 Broadway, Redwood City, California 94063, and\ne-centives, Inc., (\"Application Provider\" or \"e-centives\"), a Delaware\ncorporation, located at 6903 Rockledge Drive, Suite 1200, Bethesda, MD 20817."
+        },
+        {
+          "clauseId": "7. PAYMENTS AND DELIVERY OF USER DATA",
+          "text": "Within ten (10) days of the Effective Date of this Agreement,\ne-centives shall make a non-refundable payment to Excite@Home of\n$***** as pre-payment for Payment-Eligible User Data records:\n(1) e-centives will pay Excite@Home $***** in pre-payments for\n***** General Program Member User Data records.\n(2) e-centives will pay Excite@Home $***** in pre-payments for\n***** Qualified Program Member User Data records."
+        }
+      ],
+      "ambiguities": [
+        "Clause 7.d.i requires payment \"within ten (10) days\" of the Effective Date, so 2000-02-26 is the outside deadline rather than an exclusive required payment day."
+      ]
+    },
+    {
+      "description": "e-centives must pay Excite@Home for General Program Member User Data records at a redacted per-record rate and redacted total over the Term, subject to the Section 7.d schedule and reductions for shortfall.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Ongoing payment timing depends on the Launch Date and record delivery; amounts are redacted.",
+      "quotes": [
+        {
+          "clauseId": "7. PAYMENTS AND DELIVERY OF USER DATA",
+          "text": "e-centives will pay for these General Program Member User Data\nrecords to Excite@Home at a rate of $***** per unique User Data\nrecord. This rate will apply only to the first ***** records.\ne-centives will pay Excite@Home $***** in payments for these\nGeneral Program Member User Data records over the Term of\nthis Agreement, in accordance with the schedule set out in\nSection 7.d."
+        },
+        {
+          "clauseId": "7. PAYMENTS AND DELIVERY OF USER DATA",
+          "text": "To the extent that Excite@Home fails to\ndeliver at least ***** General Program Member User Data\nrecords, however, e-centives' total payment obligations under\nSection 7.a.iv shall be correspondingly reduced at the rate of\n$***** per record for any shortfall."
+        }
+      ],
+      "ambiguities": [
+        "Per-record rate, guaranteed record quantities, and total payment amounts are redacted as $***** or *****.",
+        "The Launch Date is not stated, so the first quarterly payment date under Section 7.d cannot be determined."
+      ]
+    },
+    {
+      "description": "e-centives must pay Excite@Home for Qualified Program Member User Data records at a redacted per-record rate and redacted total over the Term, subject to the Section 7.d schedule and reductions for shortfall.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Ongoing payment timing depends on the Launch Date and record delivery; amounts are redacted.",
+      "quotes": [
+        {
+          "clauseId": "7. PAYMENTS AND DELIVERY OF USER DATA",
+          "text": "e-centives will pay for these Qualified Program Member User Data\nrecords to Excite@Home at a rate of $***** per unique User Data\nrecord. This rate will apply only to the first ***** records.\ne-centives will pay Excite@Home $***** in payments for these\nQualified Program Member User Data records over the Term of this\nAgreement, in accordance with the schedule set out in Section 7.d."
+        },
+        {
+          "clauseId": "7. PAYMENTS AND DELIVERY OF USER DATA",
+          "text": "To the extent that Excite@Home fails to\ndeliver at least ***** Qualified Program Member User Data records,\nhowever, e-centives' total payment obligations under Section 7.b.iv\nshall be correspondingly reduced at the rate of $***** per record for\nany shortfall."
+        }
+      ],
+      "ambiguities": [
+        "Per-record rate, guaranteed record quantities, and total payment amounts are redacted as $***** or *****.",
+        "The Launch Date is not stated, so the first quarterly payment date under Section 7.d cannot be determined."
+      ]
+    },
+    {
+      "description": "e-centives must make additional non-refundable quarterly payments for Payment-Eligible User Data records after the quarter in which the Launch Date falls, calculated by redacted formulas and subject to a redacted average quarterly cap.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "First quarterly due date depends on the Launch Date; formulas and caps include redacted amounts.",
+      "quotes": [
+        {
+          "clauseId": "7. PAYMENTS AND DELIVERY OF USER DATA",
+          "text": "During the Term of this Agreement, on the first day of each quarter\nfollowing the quarter in which the Launch Date falls, e-centives shall\nmake additional non-refundable payments for the Payment-Eligible User\nData records. In the event that the Launch Date is delayed beyond\nMarch 31, 2000, the April 1, 2000, payment pursuant to this subsection\nshall be postponed and shall instead be made within (10) days of the\nLaunch Date."
+        },
+        {
+          "clauseId": "7. PAYMENTS AND DELIVERY OF USER DATA",
+          "text": "The amounts paid pursuant to subsection 7.d.ii shall be further\nsubject to the following cap: at no point shall e-centives' total\npayments exceed an average of $***** per quarter."
+        }
+      ],
+      "ambiguities": [
+        "The Launch Date is not stated, so no certain first due date can be given.",
+        "The payment formulas and quarterly cap contain redacted dollar amounts."
+      ]
+    },
+    {
+      "description": "If Excite@Home delivers more than the redacted threshold of Payment-Eligible General or Qualified Program Member User Data records, e-centives must pay Excite@Home a redacted percentage of net revenue generated from delivery of offers to those excess Program Members, on a quarterly basis.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Obligation arises only if excess records are delivered and revenue is generated; percentage and thresholds are redacted.",
+      "quotes": [
+        {
+          "clauseId": "7. PAYMENTS AND DELIVERY OF USER DATA",
+          "text": "In the event that Excite@Home delivers more than *****\nPayment-Eligible General Program Member User Data records and/or more\nthan ***** Payment-Eligible Qualified Program Member User Data\nrecords during the Term of the Agreement, e-centives will pay\nExcite@Home, on a quarterly basis, *****% of net revenue (gross\nrevenue less direct third party commissions) generated from the\ndelivery of offers to any such excess Program Members. This provision\nshall apply to net revenue generated during the year following the\nend of the calendar quarter in which the names were supplied,\nirrespective of the Term of this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "The excess-record thresholds and revenue-share percentage are redacted.",
+        "The first due date depends on whether and when Excite@Home delivers excess records and whether revenue is generated."
+      ]
+    },
+    {
+      "description": "Excite@Home must purchase a minimum aggregate of $3.75 million in e-centive packages from e-centives for resale, with an initial redacted non-refundable payment within five days of Launch Date and redacted minimum quarterly payments thereafter.",
+      "amountMinor": 375000000,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Launch Date is not stated, and the installment amounts are redacted.",
+      "quotes": [
+        {
+          "clauseId": "9. EXCITE@HOME PURCHASES FROM E-CENTIVES",
+          "text": "Excite@Home will purchase in bulk a minimum of $3.75 million in\ne-centive packages from e-centives at the rate of $***** per e-centive\ndelivered for the purpose of resale to Excite@Home's advertisers and\npartners. Within 5 days of Launch Date Excite@Home will pay e-centives\na non-refundable minimum of $***** and will continue to pay a\nminimum of $***** each quarter, payable at the beginning of the\nquarter, during the Term of this Agreement for such packages."
+        }
+      ],
+      "ambiguities": [
+        "The fixed $3.75 million is the aggregate minimum purchase obligation; the individual initial and quarterly payment amounts are redacted.",
+        "The first due date depends on the Launch Date, which is not stated."
+      ]
+    },
+    {
+      "description": "Excite@Home must pay e-centives a redacted percentage of net revenue generated from sales of e-centive packages.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount depends on sales revenue, and no payment timing is stated.",
+      "quotes": [
+        {
+          "clauseId": "9. EXCITE@HOME PURCHASES FROM E-CENTIVES",
+          "text": "Excite@Home will pay e-centives *****% of net revenue (gross revenue\nless $***** purchase price and cost of sales not to exceed *****% of\ngross revenues) generated from sales of the e-centives packages."
+        }
+      ],
+      "ambiguities": [
+        "The revenue-share percentage, purchase price deduction, and cost-of-sales cap are redacted.",
+        "Clause 9.c does not state when these revenue-share payments are due."
+      ]
+    },
+    {
+      "description": "The parties must share equally all revenue from the sale of Untargeted Offers sold for display in the Co-Branded Application, and revenue attributable to qualifying Co-Branded Application placement when offers also appear elsewhere on the Excite Network.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount depends on sales of Untargeted Offers; payment timing is not stated.",
+      "quotes": [
+        {
+          "clauseId": "EXHIBIT A",
+          "text": "The parties will share equally all revenue from the sale of\nUntargeted Offers sold for display in the Co-Branded Application ."
+        },
+        {
+          "clauseId": "EXHIBIT A",
+          "text": "For Untargeted\nOffers that appear both on the Co-Branded Application and elsewhere\non the Excite Network, revenue attributable to placement on the\nCo-Branded Application shall be calculated based on the price to be\nestablished as set forth in Section 2.a of this Exhibit, and the\nparties will share equally such revenue."
+        }
+      ],
+      "ambiguities": [
+        "Exhibit A does not state a payment date or payment mechanics for the equal revenue share.",
+        "The sale price is to be established by mutual agreement, so the amount cannot be determined from the document."
+      ]
+    },
+    {
+      "description": "The parties must share equally all revenue from listing paper or local coupons in the Co-Branded Application.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount depends on revenue from paper or local coupon listings; payment timing is not stated.",
+      "quotes": [
+        {
+          "clauseId": "EXHIBIT A",
+          "text": "The parties will share equally all revenue from the listing of paper\nor local coupons in the Co-Branded Application ."
+        }
+      ],
+      "ambiguities": [
+        "Exhibit A does not state a payment date or payment mechanics for this equal revenue share."
+      ]
+    },
+    {
+      "description": "Excite@Home and e-centives must share equally all net revenue from Thematic or Supplemental email offers, after third-party serving costs capped at $0.01 per email piece delivered.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount depends on revenue from email offers; payment timing is not stated.",
+      "quotes": [
+        {
+          "clauseId": "EXHIBIT D",
+          "text": "Excite@Home and e-centives shall share equally all net revenue from\nsuch offers, defined as gross revenue minus third-party serving\ncosts, which shall not exceed $0.01 per email piece delivered."
+        }
+      ],
+      "ambiguities": [
+        "Exhibit D does not state a payment date or payment mechanics for this equal net revenue share."
+      ]
+    },
+    {
+      "description": "On termination, each party must pay all earned and undisputed outstanding amounts owed to the other party within 30 days after the effective termination date, except that User Data record payments continue to accrue under the agreement terms.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only upon termination; amount depends on outstanding earned undisputed amounts.",
+      "quotes": [
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "Each Party will pay all earned and undisputed outstanding amounts owed\nto the other Party under this Agreement within thirty (30) days after\nthe effective date of such termination. Notwithstanding the foregoing,\nall payments for User Data records shall be due and accrue in\naccordance with terms of this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "The due date depends on the effective termination date, which is not fixed in the document.",
+        "The amount depends on amounts then earned, undisputed, and outstanding."
+      ]
+    },
+    {
+      "description": "For up to 60 days after termination, if Excite@Home requests transition consulting services, Excite@Home must pay Application Provider reasonable fees agreed in writing.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if Excite@Home requests services and the parties agree fees in writing after termination.",
+      "quotes": [
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "For a period of up to sixty (60) days, Application Provider will\nprovide consulting services to Excite@Home, as Excite@Home may\nreasonably request and for reasonable fees to be paid to Application\nProvider, such fees to be agreed upon in writing by the Parties, to\nassist Excite@Home in providing a seamless transition to Program\nMembers."
+        }
+      ],
+      "ambiguities": [
+        "The fees are not fixed; they must be agreed in writing by the parties.",
+        "The obligation arises only if Excite@Home reasonably requests the consulting services after termination."
+      ]
+    },
+    {
+      "description": "If termination is based on e-centives' material breach or an acquisition under Section 16.a.v, Application Provider must continue hosting and maintaining the Co-Branded Application for 120 days, at reasonable rates mutually agreed by the parties.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only for specified termination events and only if the parties mutually agree rates.",
+      "quotes": [
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "To further ensure a seamless transition for Program Members, in the\nevent of a termination based upon a material breach by e-centives or\nan acquisition pursuant to Section 16.a.v. only, Application Provider\nshall continue to host and maintain the Co-Branded Application for a\nperiod of one hundred twenty (120) days following either receipt or\nissuance of notice of intention to terminate this Agreement."
+        },
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "Such\nhosting and maintenance of the Co-Branded Application shall be\nprovided by Application Provider at such reasonable rates as are\nmutually agreed upon by the parties."
+        }
+      ],
+      "ambiguities": [
+        "The rates are not fixed and must be mutually agreed.",
+        "The obligation applies only in the specified termination scenarios."
+      ]
+    },
+    {
+      "description": "If an audit reveals underpayments, the inspected party must immediately pay overdue amounts plus applicable interest; if overdue payments exceed 5% of payments owed to date, the inspected party must also pay the audit cost.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if an audit reveals underpayments, and audit-cost reimbursement applies only above the 5% threshold.",
+      "quotes": [
+        {
+          "clauseId": "22. GENERAL",
+          "text": "In the case of underpayments, the inspected party\nshall immediately make any overdue payments disclosed by the audit plus\napplicable interest."
+        },
+        {
+          "clauseId": "22. GENERAL",
+          "text": "if the audit reveals overdue payments in excess of 5% of\nthe payments owed to date, the inspected party shall immediately pay the\ncost of such audit"
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on audit findings and applicable interest.",
+        "The audit-cost payment applies only if overdue payments exceed 5% of payments owed to date."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "e-centives, Inc.",
+      "grantor": "At Home Corporation",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic limit stated for the restriction",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "Excite-branded or Excite-co-branded service substantially similar in functionally to the Co-Branded Application",
+      "productCodes": [
+        "COBRANDEDAPP-SIMILAR-SERVICE"
+      ],
+      "start": "2000-02-16",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "3. INTEGRATION WITH EXCITE@HOME SERVICES",
+          "text": "Excite@Home shall not offer any Excite-branded or Excite-co-branded\nservice during the Term of this Agreement that is substantially similar\nin functionally to the Co-Branded Application."
+        },
+        {
+          "clauseId": "15. TERM",
+          "text": "The term of this Agreement will begin on the Effective Date and will end\nthree (3) years from the date the Co-Branded Application becomes\naccessible to Excite@Home Members (\"Launch Date\")."
+        }
+      ],
+      "ambiguities": [
+        "The restriction applies only to Excite-branded or Excite-co-branded services; clause 3.i does not expressly restrict unbranded services.",
+        "The end date cannot be stated because the Launch Date is not stated."
+      ]
+    },
+    {
+      "grantee": "e-centives, Inc.",
+      "grantor": "At Home Corporation",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Advertising on the Co-Branded Application; no geographic limit stated",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "No advertising on the Co-Branded Application for Application Provider Named Competitors",
+      "productCodes": [
+        "COBRANDEDAPP-AP-NAMEDCOMP-ADS"
+      ],
+      "start": "2000-02-16",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "4. ADVERTISING ON THE CO-BRANDED APPLICATION",
+          "text": "Excite@Home will not serve advertising on the Co-Branded Application for\nany \"Application Provider Named Competitor,\" as specified in EXHIBIT E."
+        },
+        {
+          "clauseId": "EXHIBIT E",
+          "text": "Application Provider Named Competitors\n--------------------------------------\nCoolSavings.com\nIQ.com\nBrightStreet.com\nValPak\nHotCoupons\nAduo\nSuperMarkets Online\nCoupons.com (Xadvantage)\nDash\nShoppingList.com"
+        }
+      ],
+      "ambiguities": [
+        "Clause 4.d allows Application Provider to update the list not more than once per quarter, so the restricted competitors may change.",
+        "The end date cannot be stated because this covenant runs with the agreement term and the Launch Date needed to calculate the term end is not stated."
+      ]
+    },
+    {
+      "grantee": "At Home Corporation",
+      "grantor": "e-centives, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Advertising on the Co-Branded Application; no geographic limit stated",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "No advertising on the Co-Branded Application for Excite@Home Named Competitors",
+      "productCodes": [
+        "COBRANDEDAPP-EXCITE-NAMEDCOMP-ADS"
+      ],
+      "start": "2000-02-16",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "4. ADVERTISING ON THE CO-BRANDED APPLICATION",
+          "text": "Application Provider will not serve advertising on the Co-Branded\nApplication for any \"Excite@Home Named Competitor,\" as specified in\nEXHIBIT E."
+        },
+        {
+          "clauseId": "EXHIBIT E",
+          "text": "Excite@Home Named Competitors\n-----------------------------\nAOL Time Warner\nYahoo\nGo/Infoseek\nLycos\nSnap/NBCi\nEbay\nAltaVista"
+        }
+      ],
+      "ambiguities": [
+        "Clause 4.e allows Excite@Home to update the list not more than once per quarter, so the restricted competitors may change.",
+        "The end date cannot be stated because this covenant runs with the agreement term and the Launch Date needed to calculate the term end is not stated."
+      ]
+    },
+    {
+      "grantee": "At Home Corporation",
+      "grantor": "e-centives, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic limit stated for User Data transfer restriction",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "No sale, disclosure, transfer, rental, or license of Payment-Eligible User Data to Excite@Home Named Competitors",
+      "productCodes": [
+        "PAYMENTELIGIBLEUSERDATA-EXCITE-NAMEDCOMP-TRANSFER"
+      ],
+      "start": "2000-02-16",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "6. USER DATA OWNERSHIP",
+          "text": "In no event may either party sell, disclose, transfer, rent, or\nlicense Payment-Eligible User Data to the other party's Named\nCompetitors as listed in EXHIBIT E."
+        },
+        {
+          "clauseId": "EXHIBIT E",
+          "text": "Excite@Home Named Competitors\n-----------------------------\nAOL Time Warner\nYahoo\nGo/Infoseek\nLycos\nSnap/NBCi\nEbay\nAltaVista"
+        },
+        {
+          "clauseId": "6. USER DATA OWNERSHIP",
+          "text": "In the event that the Agreement expires or is terminated for any\nreason other than termination pursuant to Section 16.a.v, the\nparties shall continue to jointly own Payment-Eligible User Data\nin accordance with Section 6.a. The restrictions of Section 6.b\nshall continue to apply, with the exception of subsections 6.b.i\nand 6.b.v."
+        }
+      ],
+      "ambiguities": [
+        "Clause 6.c.ii continues Section 6.b restrictions after ordinary expiration or termination, but clause 6.c.i changes ownership upon termination under Section 16.a.v; the post-termination operation depends on the termination scenario.",
+        "The named competitor list may be affected by updates to Exhibit E."
+      ]
+    },
+    {
+      "grantee": "e-centives, Inc.",
+      "grantor": "At Home Corporation",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic limit stated for User Data transfer restriction",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "No sale, disclosure, transfer, rental, or license of Payment-Eligible User Data to Application Provider Named Competitors",
+      "productCodes": [
+        "PAYMENTELIGIBLEUSERDATA-AP-NAMEDCOMP-TRANSFER"
+      ],
+      "start": "2000-02-16",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "6. USER DATA OWNERSHIP",
+          "text": "In no event may either party sell, disclose, transfer, rent, or\nlicense Payment-Eligible User Data to the other party's Named\nCompetitors as listed in EXHIBIT E."
+        },
+        {
+          "clauseId": "EXHIBIT E",
+          "text": "Application Provider Named Competitors\n--------------------------------------\nCoolSavings.com\nIQ.com\nBrightStreet.com\nValPak\nHotCoupons\nAduo\nSuperMarkets Online\nCoupons.com (Xadvantage)\nDash\nShoppingList.com"
+        },
+        {
+          "clauseId": "6. USER DATA OWNERSHIP",
+          "text": "In the event that the Agreement expires or is terminated for any\nreason other than termination pursuant to Section 16.a.v, the\nparties shall continue to jointly own Payment-Eligible User Data\nin accordance with Section 6.a. The restrictions of Section 6.b\nshall continue to apply, with the exception of subsections 6.b.i\nand 6.b.v."
+        }
+      ],
+      "ambiguities": [
+        "Clause 6.c.ii continues Section 6.b restrictions after ordinary expiration or termination, but clause 6.c.i changes ownership upon termination under Section 16.a.v; the post-termination operation depends on the termination scenario.",
+        "The named competitor list may be affected by updates to Exhibit E."
+      ]
+    },
+    {
+      "grantee": "e-centives, Inc.",
+      "grantor": "At Home Corporation",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic limit stated for data transfer restriction",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "No sale, disclosure, transfer, rental, or license of Shopping Category Data or Superset Data to Data Restricted Named Companies",
+      "productCodes": [
+        "SHOPPINGCATEGORYDATA-SUPERSETDATA-DATARESTRICTED-TRANSFER"
+      ],
+      "start": "2000-02-16",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "6. USER DATA OWNERSHIP",
+          "text": "Furthermore, Excite@Home may not\nsell, disclose, transfer, rent, or license Shopping Category Data or\nSuperset Data to Data Restricted Named Companies as specified in\nEXHIBIT I."
+        },
+        {
+          "clauseId": "EXHIBIT I",
+          "text": "APPLICATION PROVIDERS DATA RESTRICTED NAMED COMPANIES"
+        },
+        {
+          "clauseId": "EXHIBIT I",
+          "text": "Netcentives\nMyPoints.com\nCybergold\nbeenz.com\nYesMail\nLifeminders\nNet Creations\nDouble Click\n24/7\nNet Perceptions\nEngage Technologies\nBroadvision\nPersonify\nAndromedia\nBefree\nLinkshare\nBrodiq\nQ-Pass\nYounology"
+        }
+      ],
+      "ambiguities": [
+        "Clause 6.b.iii allows Application Provider to update the Data Restricted Named Companies list not more than once per quarter, subject to a maximum of twenty-five companies, so the restricted companies may change.",
+        "Clause 6.c.ii continues Section 6.b restrictions after ordinary expiration or termination, but the exact post-termination operation depends on the termination scenario."
+      ]
+    },
+    {
+      "grantee": "At Home Corporation",
+      "grantor": "e-centives, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic limit stated for solicitation restriction",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "No solicitation of Excite@Home Members on behalf of any Excite@Home Named Competitor",
+      "productCodes": [
+        "EXCITE-MEMBER-NOSOLICIT-NAMEDCOMP"
+      ],
+      "start": "2000-02-16",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "6. USER DATA OWNERSHIP",
+          "text": "Application Provider will not solicit any Excite@Home Member on\nbehalf of any Excite@Home Named Competitor during the Term of this\nAgreement or thereafter."
+        },
+        {
+          "clauseId": "EXHIBIT E",
+          "text": "Excite@Home Named Competitors\n-----------------------------\nAOL Time Warner\nYahoo\nGo/Infoseek\nLycos\nSnap/NBCi\nEbay\nAltaVista"
+        }
+      ],
+      "ambiguities": [
+        "The restriction continues \"thereafter,\" so it has no stated end date.",
+        "The Excite@Home Named Competitor list may be affected by updates to Exhibit E."
+      ]
+    },
+    {
+      "grantee": "At Home Corporation",
+      "grantor": "e-centives, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Non-Excite@Home users of the e-centives service; no geographic limit stated",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "Exclusive offers developed for Excite@Home by its advertisers",
+      "productCodes": [
+        "EXCITE-ADVERTISER-EXCLUSIVE-OFFERS"
+      ],
+      "start": null,
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "9. EXCITE@HOME PURCHASES FROM E-CENTIVES",
+          "text": "e-centives may not extend exclusive offers developed for Excite@Home\nby its advertisers to non-Excite@Home users of the e-centives service\nfor a period of 30 days following the day on which the offer is first\nmade available through Excite@Home."
+        }
+      ],
+      "ambiguities": [
+        "The 30-day period runs separately for each offer from the day that offer is first made available through Excite@Home; no such dates are stated."
+      ]
+    },
+    {
+      "grantee": "e-centives, Inc.",
+      "grantor": "At Home Corporation",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Program Member email communication; no geographic limit stated",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "First post-termination email to Program Members exclusive to e-centives",
+      "productCodes": [
+        "POSTTERMINATION-FIRST-EMAIL-ECENTIVES"
+      ],
+      "start": null,
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "17. POST-TERMINATION COMMUNICATIONS",
+          "text": "Upon termination of this Agreement for reasons other than a\nrelationship with an Excite@Home Named Competitor under Section\n16.a.v., the parties will communicate with Program Members as follows:"
+        },
+        {
+          "clauseId": "17. POST-TERMINATION COMMUNICATIONS",
+          "text": "The first email will be exclusive to e-centives (i.e., it will\nnot mention similar services from Excite@Home or other third\nparties) and will alert Program Members of the continuation of\nthe e-centives service directly from e-centives."
+        },
+        {
+          "clauseId": "17. POST-TERMINATION COMMUNICATIONS",
+          "text": "Excite@Home shall not promote competing services in such contact\nor otherwise discourage Program Members from continuing to use\nthe e-centives service as provided directly by e-centives."
+        }
+      ],
+      "ambiguities": [
+        "This exclusivity applies only if the agreement is terminated for reasons other than a relationship with an Excite@Home Named Competitor under Section 16.a.v.",
+        "The timing of the first email is not stated."
+      ]
+    },
+    {
+      "grantee": "At Home Corporation",
+      "grantor": "e-centives, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Users for whom User Data has been provided; no geographic limit stated",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "No contact by e-centives or its assigns/designates with Users for whom User Data has been provided after termination under Section 16.a.v, excluding opt-outs under Exhibit D Section 5(a)",
+      "productCodes": [
+        "USERDATA-USERS-NOCONTACT-16AV"
+      ],
+      "start": null,
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "17. POST-TERMINATION COMMUNICATIONS",
+          "text": "In the event that the Agreement is terminated pursuant to Section\n16.a.v. due to e-centives' acquisition by an Excite@Home Named\nCompetitor, or by an entity controlling or controlled by an\nExcite@Home Named Competitor, e-centives or its assigns or designates\nmay not contact any Users for whom User Data has been provided\npursuant to this Agreement, excluding those that have opted out in\naccordance with Section 5(a) of Exhibit D."
+        }
+      ],
+      "ambiguities": [
+        "This restriction is triggered only if the agreement is terminated pursuant to Section 16.a.v due to acquisition by an Excite@Home Named Competitor or related entity.",
+        "The restriction excludes users who have opted out in accordance with Section 5(a) of Exhibit D."
+      ]
+    }
+  ]
+}

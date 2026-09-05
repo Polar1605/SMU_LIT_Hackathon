@@ -76,6 +76,7 @@ function payment(over: Partial<PaymentTerm> = {}): PaymentTerm {
     confidence: "FOUND",
     reasons: ["reason for payment"],
     citations: [citation("saas", "5.1", 900)],
+    discardedQuoteCount: 0,
     ...over,
   };
 }

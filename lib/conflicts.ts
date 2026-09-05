@@ -248,6 +248,10 @@ function grantKey(grant: Grant): string {
  * and those are two halves of one bargain, not a contradiction.
  */
 export function detectExclusivityConflicts(contracts: ContractResult[]): ExclusivityConflict[] {
+  // A grant whose citation could not be located has a scope we cannot stand
+  // behind, and a conflict is an assertion about two scopes overlapping. Better
+  // to report no conflict than one built on text we failed to find.
+
   const conflicts: ExclusivityConflict[] = [];
 
   for (let i = 0; i < contracts.length; i += 1) {
@@ -261,6 +265,10 @@ export function detectExclusivityConflicts(contracts: ContractResult[]): Exclusi
           // Canonical order, so a-vs-b and b-vs-a produce one identical conflict.
           const [a, b] = grantKey(left) <= grantKey(right) ? [left, right] : [right, left];
 
+          // R1 for grants: a scope resting on a quote we could not locate is
+          // not established, and a conflict is an assertion that two scopes
+          // overlap. Better to report none than one built on unfound text.
+          if (a.scopeUnverified || b.scopeUnverified) continue;
           if (!restricts(a.exclusivityType) && !restricts(b.exclusivityType)) continue;
           if (normaliseEntity(a.grantee) === normaliseEntity(b.grantee)) continue;
 

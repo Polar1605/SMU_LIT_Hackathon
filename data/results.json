@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T06:42:54.006Z",
+  "generatedAt": "2026-09-05T09:03:58.489Z",
   "asOf": "2026-09-05",
   "model": "gpt-5.5-2026-04-23",
   "windowDays": 90,
@@ -5357,7 +5357,8 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0
         }
       ],
       "grants": [
@@ -7657,7 +7658,9 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0,
+          "scopeUnverified": false
         },
         {
           "id": "distribution-a-grant-1",
@@ -9724,7 +9727,9 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0,
+          "scopeUnverified": false
         }
       ]
     },
@@ -14206,7 +14211,8 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0
         },
         {
           "id": "distribution-b-payment-1",
@@ -14328,7 +14334,8 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0
         }
       ],
       "grants": [
@@ -16655,7 +16662,9 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0,
+          "scopeUnverified": false
         }
       ]
     },
@@ -20454,7 +20463,8 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0
         },
         {
           "id": "msa-payment-1",
@@ -20810,7 +20820,8 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0
         },
         {
           "id": "msa-payment-2",
@@ -21130,7 +21141,8 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0
         },
         {
           "id": "msa-payment-3",
@@ -21504,7 +21516,8 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0
         }
       ],
       "grants": []
@@ -25584,7 +25597,8 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0
         }
       ],
       "grants": []
@@ -28544,7 +28558,8 @@
               "ocrConfidenceMean": 91.60526315789474,
               "ocrConfidenceMin": 51
             }
-          ]
+          ],
+          "discardedQuoteCount": 0
         },
         {
           "id": "supplier-agreement-scanned-payment-1",
@@ -28773,7 +28788,8 @@
               "ocrConfidenceMean": 95.8076923076923,
               "ocrConfidenceMin": 93
             }
-          ]
+          ],
+          "discardedQuoteCount": 0
         }
       ],
       "grants": []
@@ -37343,7 +37359,9 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0,
+          "scopeUnverified": false
         },
         {
           "id": "distribution-b-grant-0",
@@ -39668,7 +39686,9 @@
               "ocrConfidenceMean": null,
               "ocrConfidenceMin": null
             }
-          ]
+          ],
+          "discardedQuoteCount": 0,
+          "scopeUnverified": false
         }
       ],
       "overlapTerritories": [

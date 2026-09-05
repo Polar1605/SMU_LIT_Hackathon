@@ -1,0 +1,564 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "TWENTIETH CENTURY FOX LICENSING & MERCHANDISING, a division of Fox Entertainment Group, Inc. (“Fox”), as Administrator for Twentieth Century Fox Film Corporation (“Trademark Licensor”); and Sorrent, Inc. (“Licensee”).",
+      "quotes": [
+        {
+          "clauseId": "Introductory clause",
+          "text": "This License Agreement (this “Agreement” ) is entered into effective as of December 16, 2004, (the “Effective Date” ) by and between TWENTIETH\nCENTURY FOX LICENSING & MERCHANDISING, a division of Fox Entertainment Group, Inc. ( “Fox” ), as Administrator for Twentieth Century Fox\nFilm Corporation ( “Trademark Licensor” ), and Sorrent, Inc. ( “Licensee” ). Fox and Licensee are collectively referred to as the “parties” and each\nindividually as a “party.”"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2004-12-16",
+      "quotes": [
+        {
+          "clauseId": "Introductory clause",
+          "text": "This License Agreement (this “Agreement” ) is entered into effective as of December 16, 2004, (the “Effective Date” ) by and between TWENTIETH"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "Effective Date through 2006-12-31; for each Property, rights continue 18 months after its initial theatrical release.",
+      "quotes": [
+        {
+          "clauseId": "4. TERM",
+          "text": "4. TERM: The rights granted hereunder shall be effective as of the Effective Date and shall expire on December 31, 2006 (the “Term” ); provided,\nhowever, that with respect to each Property, all rights and licenses granted herein will continue in full force and effect for a period of eighteen (18)\nmonths after the initial theatrical release of that Property."
+        },
+        {
+          "clauseId": "Introductory clause",
+          "text": "This License Agreement (this “Agreement” ) is entered into effective as of December 16, 2004, (the “Effective Date” ) by and between TWENTIETH"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 4 gives a general Term ending on December 31, 2006, but also continues rights and licenses for each Property for 18 months after that Property’s initial theatrical release; those release dates are not stated in the agreement text."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2006-12-31",
+      "quotes": [
+        {
+          "clauseId": "4. TERM",
+          "text": "4. TERM: The rights granted hereunder shall be effective as of the Effective Date and shall expire on December 31, 2006 (the “Term” ); provided,\nhowever, that with respect to each Property, all rights and licenses granted herein will continue in full force and effect for a period of eighteen (18)\nmonths after the initial theatrical release of that Property."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 4 expressly states a general expiry date of December 31, 2006, but property-specific rights continue for 18 months after each Property’s initial theatrical release; the document does not state those release dates, so property-specific end dates cannot be determined from this text."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "No automatic renewal; the Term expires on 2006-12-31, subject to per-Property continuation for 18 months after theatrical release.",
+      "quotes": [
+        {
+          "clauseId": "4. TERM",
+          "text": "4. TERM: The rights granted hereunder shall be effective as of the Effective Date and shall expire on December 31, 2006 (the “Term” ); provided,\nhowever, that with respect to each Property, all rights and licenses granted herein will continue in full force and effect for a period of eighteen (18)\nmonths after the initial theatrical release of that Property."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Fox may terminate for specified Licensee events/defaults including bankruptcy, transfer/change of control, unauthorized uses, failure to exploit/release, and release without required approval, with notice/cure varying by trigger. Either party may terminate for uncured material breach on 30 days’ notice; payment/accounting defaults have a one-time 15-day cure, after which termination may be immediate on written notice.",
+      "quotes": [
+        {
+          "clauseId": "15(a)(i)",
+          "text": "(i) Bankruptcy: If Licensee’s liabilities exceed its assets, or if Licensee becomes unable to pay its debts as they become due, or files or has\nfiled against Licensee a petition in bankruptcy, reorganization or for the adoption of an arrangement under any present or future bankruptcy,\nreorganization or similar law (which petition if filed against Licensee shall not be dismissed within 30 days from the filing date), or if Licensee\nmakes an assignment for the benefit of its creditors or is adjudicated a bankrupt, or if a receiver or trustee of all or substantially all of\nLicensee’s property is appointed, or if Licensee discontinues its business, this Agreement shall automatically terminate forthwith without\nnotice to Licensee."
+        },
+        {
+          "clauseId": "15(a)(ii)",
+          "text": "(ii) Transfer or Change of Control: If a substantial portion of the assets or controlling stock in Licensee’s business is sold or transferred, or if\nthere is a substantial change in Licensee’s management, or if Licensee’s property is expropriated, confiscated or nationalized by any\ngovernment or if any government assumes de facto control of Licensee’s business, in whole or in part, Fox may terminate this Agreement\nupon 30 days’ notice to Licensee."
+        },
+        {
+          "clauseId": "15(a)(iii)",
+          "text": "(iii) Unauthorized Uses: If Licensee transfers, sells or distributes to any unauthorized third party any artwork, voice clips, or other Fox\nproprietary materials related to the Property including but not limited to Marketing Materials, then Fox may terminate this Agreement\nforthwith on written notice without any cure period."
+        },
+        {
+          "clauseId": "15(a)(iv)",
+          "text": "(iv) Failure to Exploit: If Licensee fails to exploit the PSM as set forth in Paragraph 2(a) and 2(b), or fails to release the Wireless Products in\naccordance with the dates set forth in Paragraph 2(b), then Fox may terminate this Agreement forthwith on written notice without any cure\nperiod subject to the terms and conditions set forth in Paragraph 2(a) and 2(b), respectively."
+        },
+        {
+          "clauseId": "15(a)(v)",
+          "text": "(v) Failure to Obtain Approvals: If Licensee releases a Wireless Product without first obtaining Fox’s approval as specifically set forth in this\nAgreement in Paragraph 9, then Fox may terminate this Agreement forthwith on written notice without any cure period."
+        },
+        {
+          "clauseId": "15(a)(vi)",
+          "text": "(vi) Other Defaults: Excepting only those Licensee defaults in this Paragraph 15 which permit Fox to terminate immediately without any cure\nperiod for Licensee, if either party fails to perform any of its material obligations hereunder, the other party may terminate this Agreement\nupon 30 days’ notice, unless the breaching party cures any such breach within said 30 days and gives notice to the other party thereof within\nthat period. Notwithstanding the foregoing, in the event that either party (A) fails to pay Royalties or other amounts when due, or (B) fails to\nmake Royalty or other accountings in accordance with the terms of this Agreement, then the breaching party shall be subject to a one-time\ncure period of fifteen (15) days for such breach. If a party fails to cure the breach within such fifteen (15)-day period or another breach of\neither (A) or (B) above occurs following an initial cure within the fifteen (15)-day period, then the other party shall have the right in its sole\ndiscretion to terminate this Agreement forthwith on written notice without any cure period."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Sorrent, Inc. receives a limited exclusive license for Wireless Products/PSM on mobile/cellular telephones in the Territory during the Term, subject to contractual exceptions and reservations including Japan, VGSL/T-Mobile distribution, additional Wireless Products, and possible loss of exclusivity if market penetration targets are not met.",
+      "quotes": [
+        {
+          "clauseId": "1(a)",
+          "text": "(a) Wireless Products and Wireless Platform: Fox grants to Licensee a limited, exclusive (except as otherwise may be provided in this Agreement),\nnon-transferable (except as permitted in Paragraph 17(d)) right and license to use, make, have made (as set forth in Paragraph 1(a)(i) below),\nreproduce, modify, and create derivative works of"
+        },
+        {
+          "clauseId": "1(a)",
+          "text": "Furthermore, Fox grants to Licensee a limited, exclusive (except as may otherwise be provided in this\nAgreement), non-transferable (except as permitted in Paragraph 17(d)) right and license to make, have made, reproduce, modify, create derivative works\nof, advertise, promote, distribute, sell and license the Wireless Products, including any PSM included therein, solely (i) for use on mobile or cellular\ntelephones (the “Wireless Platform” ); (ii) in the Territory (as defined in Paragraph 3), (iii) during the Term (as defined in Paragraph 4), (iv) for\ndistribution by Licensee through the Distribution Channels (as defined in Paragraph 2(c)) granted herein; and (v) by means of periodic subscription\nfee, a per-download basis, or through a retail purchase."
+        },
+        {
+          "clauseId": "1(e)(i)",
+          "text": "competition with the Wireless Products at any time in Japan including during the Term and within Japan, provided that Fox will not grant to any\nother party any such rights to develop, publish, and/or distribute Wireless Products for the Wireless Platform to end users outside of Japan\n(with the exception of those distribution rights for Wireless Products granted to VGSL under the VGSL Agreement in accordance with Paragraph\n1(f) of this Agreement), or provide to any Licensee Competitor (as defined in Exhibit Q) any Licensee Materials or otherwise grant any rights to\nany Licensee Competitor to develop, publish, and/or distribute Wireless Products, or other wireless products or content based on the Properties.\nFox has not granted and will not grant any exclusive distribution rights with respect to the Wireless Products to VGSL or any other party; and"
+        },
+        {
+          "clauseId": "2(c)(i)(A)(1)",
+          "text": "If Licensee fails to reach the Market Penetration Targets Fox shall in its sole discretion have the right to\nterminate Licensee’s exclusivity under this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 1(a) labels the license exclusive only “except as otherwise may be provided in this Agreement.” Clause 1(e)(i) reserves Fox’s ability to develop/publish/distribute competing wireless products in Japan and makes the outside-Japan exclusivity subject to VGSL distribution rights under Paragraph 1(f).",
+        "Clause 1(a)(iii) permits Fox to develop or have developed requested additional Wireless Products for a Property if the parties do not agree on additions within five business days, notwithstanding Licensee’s exclusivity.",
+        "Clause 2(c)(i)(A)(1) allows Fox to terminate Licensee’s exclusivity if Licensee fails to reach Market Penetration Targets."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "Sorrent, Inc. must pay Fox a non-refundable recoupable Advance as the first installment of the Guarantee, due upon Licensee’s signature.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": "2004-12-17",
+      "conditional": false,
+      "conditionNote": "Due upon Licensee’s signature; the signature block dates Licensee’s signature December 17, 2004. The amount is redacted.",
+      "quotes": [
+        {
+          "clauseId": "5. ADVANCE",
+          "text": "5. ADVANCE: Licensee shall pay Fox a non-refundable recoupable advance in the amount of US$***** upon Licensee’s signature of this Agreement\n(the “Advance” ). The Advance shall be treated as the first installment of the Guarantee described in Section 6(a), and will be recoupable against\nroyalties as part of the Guarantee."
+        },
+        {
+          "clauseId": "Signature block",
+          "text": "By /s/ Paul Zuzelo By /s/ Jamie Samson\nName Paul Zuzelo Jamie Samson\nIts Senior Vice President\nIts CAO & Exec. V.P.\nDate December 17, 2004 Date 12/17/04"
+        }
+      ],
+      "ambiguities": [
+        "Clause 5 redacts the Advance amount as US$*****."
+      ]
+    },
+    {
+      "description": "Sorrent, Inc. must pay Fox a non-refundable Guarantee, inclusive of the Advance, recoupable against royalty payments and payable in redacted installments.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": false,
+      "conditionNote": "The public text redacts the total amount, installment amounts and installment due dates.",
+      "quotes": [
+        {
+          "clauseId": "6(a)",
+          "text": "6. GUARANTEE:\n(a) Amount: Licensee shall pay to Fox a non-refundable guarantee in the amount of US$***** ( “Guarantee” ), inclusive of the Advance. The\nGuarantee shall be recoupable against royalty payments and payable as follows: (a) US$***** inclusive of the Advance above; (b) US$*****\non or before *****; (c) US$***** on or before *****; (d) US$***** on or before *****; (e) US$***** on or before *****; (f) US$***** on\nor before *****; and (g) US$***** on or before *****. There shall be no cross-collateralization among the Royalties earned, as defined in\nParagraph 7 below, for the purposes of recouping the Guarantee for any of the Major Releases or Targeted Releases."
+        }
+      ],
+      "ambiguities": [
+        "Clause 6(a) redacts the Guarantee amount, installment amounts and installment due dates as *****."
+      ]
+    },
+    {
+      "description": "Sorrent, Inc. must pay Fox royalties on Gross Receipts from sale, license, distribution or other exploitation of Wireless Products for Major Releases and Targeted Releases, at redacted percentage rates, with quarterly statements and payments.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Royalties accrue when Wireless Products are sold, downloaded or otherwise distributed to end users and become payable upon Licensee’s receipt of revenue; statements/payments are due within 30 days after the close of each calendar quarter in which applicable revenue was received.",
+      "quotes": [
+        {
+          "clauseId": "7(a)",
+          "text": "7. ROYALTIES:\n(a) Payments from Licensee to Fox: In consideration of the rights granted to Licensee pursuant to this Agreement, Licensee shall pay to Fox, or\nsuch other party as Fox may designate in writing, a royalty in the following amounts:"
+        },
+        {
+          "clauseId": "7(a)(i)",
+          "text": "(i) Major Releases:\n(A) Until such time as ***** percent (*****%) of an Individual Property Guarantee for a Major Release is recouped by Licensee, Fox shall\nearn, and credit against the Individual Property Guarantees, Royalties at the rate of ***** percent (*****%) of Licensee’s Gross Receipts\nfrom Licensee’s sale, license, distribution or other exploitation of the Wireless Products derived from the respective Major Release; and\n(B) Thereafter and until such time as ***** percent (*****%) of an Individual Property Guarantee for a Major Release is recouped by\nLicensee, Fox shall earn and Licensee shall pay to Fox Royalties at the rate of ***** percent (*****%) of Licensee’s Gross Receipts from\nLicensee’s sale, license, distribution or other exploitation of the Wireless Products derived from the respective Major Release; and\n(C) Thereafter (and for the remainder of the Term), Fox shall earn and Licensee shall pay to Fox Royalties at the rate of ***** percent\n(*****%) of Licensee’s Gross Receipts from Licensee’s sale, license, distribution or other exploitation of the Wireless Products derived from\nthe respective Major Release."
+        },
+        {
+          "clauseId": "7(a)(ii)",
+          "text": "(ii) Targeted Releases:\n(A) Until such time as ***** percent (*****%) of an Individual Property Guarantee for a Targeted Release is recouped by Licensee, Fox\nshall earn, and credit against the Individual Property Guarantees, Royalties at the rate of ***** percent (*****%) of Licensee’s Gross\nReceipts from Licensee’s sale, license, distribution or other exploitation of the Wireless Products derived from the respective Targeted\nRelease; and\n(B) Thereafter (and for the remainder of the Term), Fox shall earn and Licensee shall pay to Fox Royalties at the rate of ***** percent\n(*****%) of Licensee’s gross receipts from Licensee’s sale, license, distribution or other exploitation of the Wireless Products derived from\nthe respective Targeted Release."
+        },
+        {
+          "clauseId": "7(a)(ii)",
+          "text": "Royalties shall accrue when the Wireless Products are sold, downloaded or otherwise distributed to the end user, whichever first occurs, and\nshall become payable upon receipt by Licensee. “Gross Receipts” shall mean all monies received by or credited to Licensee for download of\nthe Wireless Products by end users less only monies actually retained by the CSPs (the “Deductions” )."
+        },
+        {
+          "clauseId": "7(c)",
+          "text": "(c) Payment Terms. Payment of all royalties and other payments by either party to the other shall be made in United States Dollars by check or wire\ntransfer to a bank account to be designated by the receiving party."
+        },
+        {
+          "clauseId": "7(d)",
+          "text": "(d) Accounting Statement: Royalty statements (which statements shall be on the form attached hereto as Exhibit O and incorporated herein by this\nreference or such other form as the receiving party may designate in its discretion) shall be due and payments made within thirty (30) days after the\nclose of each calendar quarter in which the paying party received any applicable revenue."
+        }
+      ],
+      "ambiguities": [
+        "Royalty percentages and recoupment thresholds in Paragraphs 7(a)(i) and 7(a)(ii) are redacted as *****. No certain first due date can be identified because payment depends on sales/downloads/distributions and Licensee’s receipt of applicable revenue."
+      ]
+    },
+    {
+      "description": "Fox must pay Sorrent, Inc. a royalty on Fox’s gross receipts if Fox distributes, licenses or exploits Wireless Products in Japan or grants Japanese distribution rights, at a redacted percentage rate.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if Fox exploits or authorizes exploitation in Japan as described; quarterly payment timing applies to royalties generally when applicable revenue is received.",
+      "quotes": [
+        {
+          "clauseId": "7(b)(i)",
+          "text": "(i) Distribution in Japan. In the event that Fox distributes, licenses, or otherwise exploits the Wireless Products in Japan pursuant to Paragraph\n2(c)(iii), or grants to any third party any rights to distribute the Wireless Products for the Wireless Platform to end users within Japan, or\notherwise uses in Japan any elements of the Fox Intellectual Property (as defined in Paragraph 11(a) that are solely attributable to Licensee’s\ndevelopment efforts pursuant to this Agreement, Fox agrees to pay Licensee a royalty in the amount of ***** percent (*****%) of Fox’s gross\nreceipts for any such activity, which shall be defined as all monies actually received by Fox for the Wireless Products or other such elements of\nthe PSM, less any Deductions."
+        },
+        {
+          "clauseId": "7(c)",
+          "text": "(c) Payment Terms. Payment of all royalties and other payments by either party to the other shall be made in United States Dollars by check or wire\ntransfer to a bank account to be designated by the receiving party."
+        },
+        {
+          "clauseId": "7(d)",
+          "text": "(d) Accounting Statement: Royalty statements (which statements shall be on the form attached hereto as Exhibit O and incorporated herein by this\nreference or such other form as the receiving party may designate in its discretion) shall be due and payments made within thirty (30) days after the\nclose of each calendar quarter in which the paying party received any applicable revenue."
+        }
+      ],
+      "ambiguities": [
+        "The royalty percentage in Paragraph 7(b)(i) is redacted as *****. The obligation is contingent on Fox’s Japan exploitation or grant of Japanese distribution rights, so no certain first due date is stated."
+      ]
+    },
+    {
+      "description": "Fox must pass through to Sorrent, Inc. VGSL Revenue and any agreed other CSP revenue remitted directly to Fox; VGSL/other CSP revenue is treated as Gross Receipts for calculating royalties due back to Fox.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due within 30 days of Fox’s receipt of revenue from VGSL or another CSP arrangement prospectively agreed by the parties.",
+      "quotes": [
+        {
+          "clauseId": "7(b)(ii)",
+          "text": "(ii) VGSL Payments: As set forth in Paragraph 2(c)(ii) above, pursuant to the VGSL Agreement, VGSL will remit directly to Fox Fox’s contractual\nshare (pursuant to the VGSL Agreement) of all revenue from sales of the Wireless Products by VGSL in the VGSL Territories (“ VGSL Revenue ”).\nFox will remit all VGSL Revenue to Licensee and such VGSL Revenue shall be treated as Gross Receipts for the purpose of this Agreement. The\nVGSL Revenue shall be treated in accordance with Paragraph 7(a) in calculating Royalties due to Fox from Licensee."
+        },
+        {
+          "clauseId": "7(b)(iii)",
+          "text": "(iii) Other Payments: To the extent that Fox enters into an agreement with a CSP other than VGSL with Licensee’s consent in accordance with\nParagraph 1(f),\n\nwhereby Fox’s contractual share of revenue from the sale of the Wireless Products to the CSP’s subscribers is remitted directly to Fox from the\nCSP, Fox will pass through all such revenue from the CSP to Licensee and such revenue shall be treated as Gross Receipts for the purpose of this\nAgreement."
+        },
+        {
+          "clauseId": "7(d)",
+          "text": "Notwithstanding the foregoing, pursuant to Paragraphs 7(b)\n(2) and 7(b)(3), Fox shall make all payments of revenue remitted directly by VGSL or any other CSP with whom the parties prospectively agree Fox\nwill receive revenue directly, within thirty (30) days of receipt of such revenue."
+        },
+        {
+          "clauseId": "7(c)",
+          "text": "(c) Payment Terms. Payment of all royalties and other payments by either party to the other shall be made in United States Dollars by check or wire\ntransfer to a bank account to be designated by the receiving party."
+        }
+      ],
+      "ambiguities": [
+        "The first due date depends on Fox’s receipt of VGSL or other CSP revenue, which the agreement does not date."
+      ]
+    },
+    {
+      "description": "If approved music or sound effects from a Property are used, Sorrent, Inc. must pay third-party music-related payments and pay Fox Music a separate royalty on sales of Wireless Products incorporating such music, at a rate to be negotiated.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if Licensee seeks and obtains approval to use music or sound effects from a Property; rate and timing are not fixed in the text.",
+      "quotes": [
+        {
+          "clauseId": "2(a)(iv)",
+          "text": "(iv) Music and Sound Effects: If Licensee seeks to use music or sound effects from any of the Properties in connection with the development of\nthe Wireless Products, such use shall be subject to the advance written approval of Fox, and, if applicable, Fox Music, Inc., c/o the Vice\nPresident, General Manager, Fox Music Publishing (“Fox Music”)."
+        },
+        {
+          "clauseId": "2(a)(iv)",
+          "text": "approved use of the music from the Property in connection with the Wireless Products, including without limitation any royalties, mechanical\nfees, residuals, publishing fees, license fees, reuse fees or other guild-related payments. In such event, Licensee shall pay directly to Fox Music\na separate Royalty, at a rate subject to good faith negotiation between Licensee and Fox Music, on sales of the Wireless Products incorporating\nsuch music."
+        }
+      ],
+      "ambiguities": [
+        "Paragraph 2(a)(iv) makes the Fox Music royalty rate subject to future good faith negotiation and does not state a payment date or currency."
+      ]
+    },
+    {
+      "description": "A party that is late paying royalties must pay interest at 5% above U.S. Prime Rate on an annual basis until payment.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if an applicable royalty payment is not received on or before the thirtieth day after the close of a calendar quarter.",
+      "quotes": [
+        {
+          "clauseId": "7(f)",
+          "text": "(f) Late Payments: If a party does not receive the applicable royalty payment as specified on or before the thirtieth day after the close of any\ncalendar quarter, the party owing such royalty shall pay interest with respect to any royalties owed from day to day until the date of payment at a\nrate of 5% above U.S. Prime Rate on an annual basis."
+        }
+      ],
+      "ambiguities": [
+        "The dollar amount cannot be known unless and until a royalty payment is late, the unpaid amount is known, and the applicable U.S. Prime Rate is known."
+      ]
+    },
+    {
+      "description": "If an audit discloses royalty underpayment exceeding 5% for an accounting period, the audited party must pay audit costs, the shortfall and interest.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if an audit discloses royalties owed in excess of 5% of royalties paid during an accounting period.",
+      "quotes": [
+        {
+          "clauseId": "7(e)",
+          "text": "If any audit discloses that a party owes royalties in excess of 5% of royalties paid during any accounting period, the\naudited party shall pay the audit costs together with shortfall and interest at rates as specified in Paragraph 7(e) below."
+        }
+      ],
+      "ambiguities": [
+        "The obligation depends on audit findings; the agreement does not state a fixed amount or due date. The quoted clause refers to interest rates specified in “Paragraph 7(e) below,” but the late-payment interest provision appears in Paragraph 7(f)."
+      ]
+    },
+    {
+      "description": "Upon termination, Sorrent, Inc. forfeits paid Guarantee amounts and must immediately pay remaining Guarantee amounts up to redacted caps depending on whether termination occurs in the first or second year; Fox refunds certain excess Guarantee payments in the first-year scenario.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if the Agreement is terminated; amounts depend on timing of termination and redacted caps.",
+      "quotes": [
+        {
+          "clauseId": "15(c)",
+          "text": "(c) Guarantee Forfeiture: In the event of termination of this Agreement and without limitation of Fox’s rights and remedies all of which are\nexpressly reserved, the following payment penalties shall apply: (i) if termination occurs in the first year of the Term, Licensee shall forfeit any\nGuarantee paid, and shall immediately pay any remaining Guarantee, up to the amount of ***** dollars (US$*****), and any Guarantee payments\nmade in excess of ***** dollars ($*****) shall be refunded by Fox to Licensee; and (ii) if termination occurs in the second year of the Term,\nLicensee shall forfeit any Guarantee paid, and shall immediately pay any remaining portion of the Guarantee then unpaid, up to the amount of\n***** dollars (US$*****). Any forfeited Guarantees will apply as a set off against any additional damages claimed by Fox."
+        }
+      ],
+      "ambiguities": [
+        "The payment caps and refund threshold in Paragraph 15(c) are redacted as *****. The amount due depends on whether and when termination occurs and how much of the Guarantee has already been paid."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "Sorrent, Inc.",
+      "grantor": "TWENTIETH CENTURY FOX LICENSING & MERCHANDISING, a division of Fox Entertainment Group, Inc., as Administrator for Twentieth Century Fox Film Corporation",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "throughout the world (the “Territory”), subject to Agreement exceptions including Japan and VGSL/T-Mobile distribution",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "Wireless Products for the Properties on Exhibits B through M, using PSM and operated on mobile or cellular telephones/the Wireless Platform",
+      "productCodes": [
+        "WIRELESS_PRODUCTS",
+        "PSM",
+        "WIRELESS_PLATFORM",
+        "ROBOTS",
+        "UNTITLED_RIDLEY_SCOTT_FILM",
+        "ICE_AGE_2",
+        "ERAGON",
+        "UNTITLED_MIKE_JUDGE_FILM",
+        "MR_MRS_SMITH",
+        "LADY_LUCK",
+        "TBD",
+        "JAVA_GAME",
+        "JAVA_APPLICATION_SCREENSAVER",
+        "MMS",
+        "WALLPAPER",
+        "VOICETONE"
+      ],
+      "start": "2004-12-16",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "Introductory clause",
+          "text": "This License Agreement (this “Agreement” ) is entered into effective as of December 16, 2004, (the “Effective Date” ) by and between TWENTIETH\nCENTURY FOX LICENSING & MERCHANDISING, a division of Fox Entertainment Group, Inc. ( “Fox” ), as Administrator for Twentieth Century Fox\nFilm Corporation ( “Trademark Licensor” ), and Sorrent, Inc. ( “Licensee” ). Fox and Licensee are collectively referred to as the “parties” and each\nindividually as a “party.”"
+        },
+        {
+          "clauseId": "1(a)",
+          "text": "(a) Wireless Products and Wireless Platform: Fox grants to Licensee a limited, exclusive (except as otherwise may be provided in this Agreement),\nnon-transferable (except as permitted in Paragraph 17(d)) right and license to use, make, have made (as set forth in Paragraph 1(a)(i) below),\nreproduce, modify, and create derivative works of"
+        },
+        {
+          "clauseId": "1(a)",
+          "text": "the PSM in each Property, solely for the purpose of developing the wireless applications specifically set forth for each of the Properties on Exhibits B\nthrough M attached hereto ( “Wireless Products” ), some of which Wireless Products are defined in the Glossary attached hereto as Exhibit N."
+        },
+        {
+          "clauseId": "1(a)",
+          "text": "Furthermore, Fox grants to Licensee a limited, exclusive (except as may otherwise be provided in this\nAgreement), non-transferable (except as permitted in Paragraph 17(d)) right and license to make, have made, reproduce, modify, create derivative works\nof, advertise, promote, distribute, sell and license the Wireless Products, including any PSM included therein, solely (i) for use on mobile or cellular\ntelephones (the “Wireless Platform” ); (ii) in the Territory (as defined in Paragraph 3), (iii) during the Term (as defined in Paragraph 4), (iv) for\ndistribution by Licensee through the Distribution Channels (as defined in Paragraph 2(c)) granted herein; and (v) by means of periodic subscription\nfee, a per-download basis, or through a retail purchase."
+        },
+        {
+          "clauseId": "3. TERRITORY",
+          "text": "3. TERRITORY: Licensee shall use commercially reasonable efforts to exploit the rights granted hereunder throughout the world (the “Territory” ),"
+        },
+        {
+          "clauseId": "4. TERM",
+          "text": "4. TERM: The rights granted hereunder shall be effective as of the Effective Date and shall expire on December 31, 2006 (the “Term” ); provided,\nhowever, that with respect to each Property, all rights and licenses granted herein will continue in full force and effect for a period of eighteen (18)\nmonths after the initial theatrical release of that Property."
+        },
+        {
+          "clauseId": "1(e)(i)",
+          "text": "competition with the Wireless Products at any time in Japan including during the Term and within Japan, provided that Fox will not grant to any\nother party any such rights to develop, publish, and/or distribute Wireless Products for the Wireless Platform to end users outside of Japan\n(with the exception of those distribution rights for Wireless Products granted to VGSL under the VGSL Agreement in accordance with Paragraph\n1(f) of this Agreement), or provide to any Licensee Competitor (as defined in Exhibit Q) any Licensee Materials or otherwise grant any rights to\nany Licensee Competitor to develop, publish, and/or distribute Wireless Products, or other wireless products or content based on the Properties.\nFox has not granted and will not grant any exclusive distribution rights with respect to the Wireless Products to VGSL or any other party; and"
+        }
+      ],
+      "ambiguities": [
+        "The grant is stated to be exclusive but expressly subject to other provisions in the Agreement. Clause 1(e)(i) reserves Fox’s ability to develop/publish/distribute competing wireless products in Japan and allows VGSL distribution rights under Paragraph 1(f).",
+        "The end date is not a single date for all Properties: Clause 4 states general expiry on December 31, 2006 but continues rights and licenses for 18 months after each Property’s initial theatrical release; those release dates are not stated.",
+        "Clause 1(a)(iii) allows Fox to develop or have developed requested additional Wireless Products for a Property if the parties fail to agree on additions within five business days, notwithstanding Licensee’s exclusivity.",
+        "Clause 2(c)(i)(A)(1) permits Fox to terminate Licensee’s exclusivity if Licensee fails to reach Market Penetration Targets."
+      ]
+    },
+    {
+      "grantee": "TWENTIETH CENTURY FOX LICENSING & MERCHANDISING, a division of Fox Entertainment Group, Inc., as Administrator for Twentieth Century Fox Film Corporation",
+      "grantor": "Sorrent, Inc.",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "outside of the United States",
+      "territoryCodes": [
+        "WORLD",
+        "EXCEPT_US"
+      ],
+      "productLabel": "Licensee Materials solely as incorporated into Wireless Products, for distribution to VGSL and T-Mobile and by them to end users outside the United States",
+      "productCodes": [
+        "LICENSEE_MATERIALS",
+        "WIRELESS_PRODUCTS",
+        "VGSL",
+        "T_MOBILE"
+      ],
+      "start": "2004-12-16",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "Introductory clause",
+          "text": "This License Agreement (this “Agreement” ) is entered into effective as of December 16, 2004, (the “Effective Date” ) by and between TWENTIETH\nCENTURY FOX LICENSING & MERCHANDISING, a division of Fox Entertainment Group, Inc. ( “Fox” ), as Administrator for Twentieth Century Fox\nFilm Corporation ( “Trademark Licensor” ), and Sorrent, Inc. ( “Licensee” ). Fox and Licensee are collectively referred to as the “parties” and each\nindividually as a “party.”"
+        },
+        {
+          "clauseId": "1(f)",
+          "text": "(f) Licensee’s Grant of Rights. Subject to Fox’s compliance with the terms and conditions of this Agreement, including its payment obligations in\naccordance with Section 7, Licensee hereby grants to Fox a limited, non-exclusive, non-transferable (except as permitted in Section 17(d)), right to\ndistribute Licensee Materials (as defined in Paragraph 11 (c)) to VGSL and T-Mobile, solely as incorporated into Wireless Products, and to authorize\nVGSL and T-Mobile to distribute such Wireless Products to end users outside of the United States."
+        },
+        {
+          "clauseId": "4. TERM",
+          "text": "4. TERM: The rights granted hereunder shall be effective as of the Effective Date and shall expire on December 31, 2006 (the “Term” ); provided,\nhowever, that with respect to each Property, all rights and licenses granted herein will continue in full force and effect for a period of eighteen (18)\nmonths after the initial theatrical release of that Property."
+        }
+      ],
+      "ambiguities": [
+        "The grant is subject to Fox’s compliance with the Agreement, including payment obligations in Section 7. The end date is not a single date for all Properties because Clause 4 includes both a general expiry date and per-Property 18-month continuations after theatrical release."
+      ]
+    },
+    {
+      "grantee": "TWENTIETH CENTURY FOX LICENSING & MERCHANDISING, a division of Fox Entertainment Group, Inc., as Administrator for Twentieth Century Fox Film Corporation",
+      "grantor": "Sorrent, Inc.",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "Japan",
+      "territoryCodes": [
+        "JP"
+      ],
+      "productLabel": "Licensee Materials for Fox to distribute Wireless Products that Licensee developed for Japan before termination of Licensee’s Japan distribution",
+      "productCodes": [
+        "LICENSEE_MATERIALS",
+        "WIRELESS_PRODUCTS",
+        "JAPAN_DISTRIBUTION"
+      ],
+      "start": null,
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "2(c)(iii)",
+          "text": "(iii) Japan Distribution: Upon Fox’s notice to Licensee, Licensee shall cease immediately some or all distribution of the Wireless Products in\nJapan. In the event Fox provides such termination notice to Licensee, Licensee hereby grants Fox a license to the Licensee Materials in order for\nFox to distribute the Wireless Products that Licensee has developed for distribution in Japan prior to such termination, either directly or through\na third-party. In consideration of such license, Fox shall pay Licensee a royalty as set forth in Paragraph 7(b)(i) below."
+        },
+        {
+          "clauseId": "Introductory clause",
+          "text": "This License Agreement (this “Agreement” ) is entered into effective as of December 16, 2004, (the “Effective Date” ) by and between TWENTIETH\nCENTURY FOX LICENSING & MERCHANDISING, a division of Fox Entertainment Group, Inc. ( “Fox” ), as Administrator for Twentieth Century Fox\nFilm Corporation ( “Trademark Licensor” ), and Sorrent, Inc. ( “Licensee” ). Fox and Licensee are collectively referred to as the “parties” and each\nindividually as a “party.”"
+        }
+      ],
+      "ambiguities": [
+        "This Japan license arises only if Fox gives notice requiring Licensee to cease some or all distribution of Wireless Products in Japan; the agreement does not date that event or state a definite end date for the resulting license."
+      ]
+    },
+    {
+      "grantee": "TWENTIETH CENTURY FOX LICENSING & MERCHANDISING, a division of Fox Entertainment Group, Inc., as Administrator for Twentieth Century Fox Film Corporation",
+      "grantor": "Sorrent, Inc.",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "VGSL Territories",
+      "territoryCodes": [
+        "GB",
+        "IE",
+        "DE",
+        "ES",
+        "FR",
+        "SE",
+        "CH",
+        "PT",
+        "NL",
+        "GR",
+        "IT",
+        "AU",
+        "NZ",
+        "EG",
+        "SI",
+        "BE",
+        "AT",
+        "HU",
+        "MT",
+        "HR",
+        "ZA",
+        "JP"
+      ],
+      "productLabel": "Restriction against exclusive CSP distribution agreements for Wireless Products in VGSL Territories",
+      "productCodes": [
+        "WIRELESS_PRODUCTS",
+        "CSP_DISTRIBUTION",
+        "VGSL_TERRITORIES"
+      ],
+      "start": "2004-12-16",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "2(c)(ii)(A)",
+          "text": "(A) Non-Exclusive CSP Distribution in VGSL Territories: Under no circumstances shall Licensee enter into an exclusive distribution agreement\nwith a CSP other than VGSL in the following territories ( “VGSL Territories” ) covered under the VGSL Agreement: (1) United Kingdom; (2)\nIreland; (3) Germany; (4) Spain; (5) France; (6) Sweden; (7) Switzerland; (8) Portugal; (9) Netherlands; (10) Greece; (11) Italy; (12) Australia;\n(13) New Zealand; (14) Egypt; (15) Slovenia; (16) Belgium; (17) Austria; (18) Hungary; (19) Malta; (20) Croatia; (21) South Africa; and (22)\nJapan."
+        },
+        {
+          "clauseId": "Introductory clause",
+          "text": "This License Agreement (this “Agreement” ) is entered into effective as of December 16, 2004, (the “Effective Date” ) by and between TWENTIETH\nCENTURY FOX LICENSING & MERCHANDISING, a division of Fox Entertainment Group, Inc. ( “Fox” ), as Administrator for Twentieth Century Fox\nFilm Corporation ( “Trademark Licensor” ), and Sorrent, Inc. ( “Licensee” ). Fox and Licensee are collectively referred to as the “parties” and each\nindividually as a “party.”"
+        },
+        {
+          "clauseId": "4. TERM",
+          "text": "4. TERM: The rights granted hereunder shall be effective as of the Effective Date and shall expire on December 31, 2006 (the “Term” ); provided,\nhowever, that with respect to each Property, all rights and licenses granted herein will continue in full force and effect for a period of eighteen (18)\nmonths after the initial theatrical release of that Property."
+        }
+      ],
+      "ambiguities": [
+        "This is a restrictive covenant rather than an affirmative distribution license. The end date follows the Agreement term, which is subject to the same Clause 4 per-Property continuation ambiguity."
+      ]
+    }
+  ]
+}

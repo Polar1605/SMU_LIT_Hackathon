@@ -1,0 +1,560 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "SutroVax, Inc. (“SutroVax”) as purchaser/customer; Sutro Biopharma, Inc. (“Sutro”) as manufacturer/supplier.",
+      "quotes": [
+        {
+          "clauseId": "SUPPLY AGREEMENT",
+          "text": "by and between SutroVax, Inc., a Delaware\ncorporation having principal offices at 353 Hatch Dr., Foster City, CA 94404 (“ SutroVax ”) and Sutro Biopharma, Inc., a Delaware corporation, having\nprincipal offices at 310 Utah Ave, Suite 150, South San Francisco, CA, 94080 (“ Sutro ”)."
+        },
+        {
+          "clauseId": "BACKGROUND",
+          "text": "C. SutroVax desires to purchase from Sutro, and Sutro desires to supply to SutroVax, the Extracts and Custom Reagents (as defined below) upon the terms\nand subject to the conditions set forth herein."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2018-05-29",
+      "quotes": [
+        {
+          "clauseId": "SUPPLY AGREEMENT",
+          "text": "made as of May 29, 2018 (the “ Effective Date ”)"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "At least until 2021-07-31; potentially longer until the Phase 3/Commercial Supply Agreement condition is met, unless earlier terminated.",
+      "quotes": [
+        {
+          "clauseId": "10.1",
+          "text": "10.1 Term. The term of this Supply Agreement shall begin on the Effective Date first set forth above and shall remain in effect until the later of (a) July 31,\n2021 or (b) the date that the Parties enter into the Phase 3/Commercial Supply Agreement and Sutro is supplying to SutroVax each Product under the\nPhase 3/Commercial Supply Agreement (the “ Term ”), unless it is terminated earlier in accordance with Section 10.2."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 10.1 makes the term end on the later of 2021-07-31 and an undated future Phase 3/Commercial Supply Agreement supply event, so no fixed duration can be stated."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "No fixed date; not earlier than 2021-07-31 and ending on the later Phase 3/Commercial Supply Agreement supply condition if later.",
+      "quotes": [
+        {
+          "clauseId": "10.1",
+          "text": "10.1 Term. The term of this Supply Agreement shall begin on the Effective Date first set forth above and shall remain in effect until the later of (a) July 31,\n2021 or (b) the date that the Parties enter into the Phase 3/Commercial Supply Agreement and Sutro is supplying to SutroVax each Product under the\nPhase 3/Commercial Supply Agreement (the “ Term ”), unless it is terminated earlier in accordance with Section 10.2."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 10.1 ties the actual end date to an undated future event, so the current term end cannot be reduced to a single YYYY-MM-DD date."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Not automatic; no renewal mechanism is stated. The agreement instead continues until the Section 10.1 end condition unless earlier terminated.",
+      "quotes": [
+        {
+          "clauseId": "10.1",
+          "text": "10.1 Term. The term of this Supply Agreement shall begin on the Effective Date first set forth above and shall remain in effect until the later of (a) July 31,\n2021 or (b) the date that the Parties enter into the Phase 3/Commercial Supply Agreement and Sutro is supplying to SutroVax each Product under the\nPhase 3/Commercial Supply Agreement (the “ Term ”), unless it is terminated earlier in accordance with Section 10.2."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "By mutual written consent; SutroVax may terminate all or one or more Products for any reason on [***] days’ prior written notice.",
+      "quotes": [
+        {
+          "clauseId": "10.2.1",
+          "text": "10.2.1 in its entirety or with respect to one or more Products, on a Product-by-Product basis, by mutual written consent of Sutro and SutroVax;"
+        },
+        {
+          "clauseId": "10.2.3",
+          "text": "10.2.3 in its entirety or with respect to one or more Products, on a Product-by-Product basis, by SutroVax upon [***] days’ prior written notice to Sutro\nfor any reason."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 10.2.3 redacts the number of days’ notice required for SutroVax termination for convenience."
+      ]
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either Party may terminate for the other Party’s uncured material breach after [***] days’ prior written notice; the other Party may also terminate if Force Majeure delay continues for more than [***] days.",
+      "quotes": [
+        {
+          "clauseId": "10.2.2",
+          "text": "10.2.2 in its entirety by a Party if the other Party materially breaches any of the material terms, conditions or agreements contained in this Supply\nAgreement to be kept, observed or performed by the other Party, by giving the Party who committed the breach [***] days’ prior written notice, unless\nthe notified Party shall have cured the breach within such [***]-day period;"
+        },
+        {
+          "clauseId": "12.3",
+          "text": "If the performance of any obligation of a Party under this Supply Agreement is delayed\nowing to such a Force Majeure for any continuous period of more than [***] days, the other Party shall have the right to terminate this Supply\nAgreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 10.2.2 redacts the breach notice/cure period.",
+        "Section 12.3 redacts the continuous Force Majeure delay period."
+      ]
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "Each Party’s total liability to the other under the Supply Agreement is capped at [***], except for confidentiality breach, Section 2.9 third-party penalties/costs/expenses, and a redacted category; Sutro’s liability for Section 2.9 third-party penalties/costs/expenses is separately capped at [***].",
+      "quotes": [
+        {
+          "clauseId": "9.3",
+          "text": "9.3 LIMITATION OF LIABILITY. EXCEPT (I) WITH RESPECT TO ANY BREACH OF ARTICLE 8 (CONFIDENTIALITY), (II) FOR THIRD PARTY\nPENALTIES, COSTS AND EXPENSES AS SET FORTH IN SECTION 2.9, OR (III) FOR [***], TO THE MAXIMUM EXTENT PERMITTED BY LAW, (A)\nNEITHER PARTY SHALL BE LIABLE TO THE OTHER PARTY FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR PUNITIVE\nDAMAGES, WHETHER LIABILITY IS ASSERTED IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR ANY OTHER THEORY\nOR FORM OF ACTION, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY THEREOF; AND (B) EACH PARTY’S TOTAL LIABILITY\nTO THE OTHER PARTY UNDER THIS SUPPLY AGREEMENT SHALL NOT EXCEED [***]. SUTRO’S LIABITY TO SUTROVAX FOR THIRD PARTY\nPENALTIES, COSTS AND EXPENSES UNDER SECTION 2.9 SHALL NOT EXCEED [***]."
+        },
+        {
+          "clauseId": "9.1.1",
+          "text": "9.1.1 Indemnification by Sutro. Sutro hereby agrees, at its sole cost and expense, to defend, hold harmless and indemnify, to the extent permitted by\nApplicable Law, (collectively, “ Indemnify ”) SutroVax and its Affiliates and their respective agents, directors, officers and employees of such Persons and\nthe respective successors and assigns of any of the foregoing (the “ SutroVax Indemnitees ”) from and against any and all liabilities, damages, penalties,\nfines, costs and expenses (including, reasonable attorneys’ fees and other expenses of litigation) (collectively, “ Liabilities ”) resulting from suits, claims,\nactions and demands, in each case brought by a Third Party (each, a “ Third-Party Claim ”) against any SutroVax Indemnitee and arising from or occurring\nas a result of: [***]."
+        },
+        {
+          "clauseId": "9.1.2",
+          "text": "9.1.2 Indemnification by SutroVax. SutroVax hereby agrees to Indemnify Sutro and its agents, directors, officers and employees and the respective\nsuccessors and assigns of any of the foregoing (the “ Sutro lndemnitees ”) from and against any and all Liabilities resulting from Third-Party Claims\nagainst any Sutro Indemnitee arising from or occurring as a result of: [***]."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 9.3 redacts both the main liability cap amount and the separate cap for Section 2.9 third-party penalties, costs and expenses.",
+        "Section 9.3 contains a redacted carve-out, so an additional category of liability may be outside the cap.",
+        "Sections 9.1.1 and 9.1.2 contain indemnities with redacted subject matter; because Section 9.3 also contains a redacted carve-out, the extent to which indemnity exposure is capped cannot be confirmed from the visible text."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "SutroVax must purchase all Extract requirements from Sutro, subject to specified Alternate Supplier/CMO exceptions. SutroVax also has a first right to Alternate Supplier Extract capacity. Custom Reagents are expressly non-exclusive for SutroVax sourcing/manufacture.",
+      "quotes": [
+        {
+          "clauseId": "2.20",
+          "text": "2.20 Extract Requirements. SutroVax agrees to purchase all its requirements of Extract from Sutro in accordance with this Agreement, except to the extent\nSutroVax is allowed to purchase Extract from (a) Alternate Suppliers engaged by Sutro in accordance with Section 2.15 of this Agreement; (b) a CMO\nengaged or established and authorized by Sutro under Section 3.l(d) of the License Agreement; or (c) a CMO authorized by Sutro under Section 3.l(e) of\nthe License Agreement. Manufacturing of Extracts in breach of this Section 2.20 shall be deemed a material breach of this Agreement and the License\nAgreement by SutroVax."
+        },
+        {
+          "clauseId": "2.15.4",
+          "text": "2.15.4 Sutro/Third Party use of Alternate Supplier. Once the Alternate Supplier is qualified pursuant to this Section 2.15, SutroVax shall have the first right\n(as between SutroVax and Sutro or Third Parties supplied or authorized by Sutro) to obtain Extract Manufactured by the Alternate Supplier up to the\nCapacity established pursuant to the Transfer Addendum for a period ending the later of [***] or [***], and provided SutroVax commits to [***] or [***]."
+        },
+        {
+          "clauseId": "2.17",
+          "text": "2.17 Manufacture of Custom Reagents. For clarity, SutroVax may Manufacture Custom Reagents itself or obtain supply thereof through a Third Party\nindependent of this Supply Agreement and nothing in this Supply Agreement is intended to restrict SutroVax from doing so."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Section 2.20 cross-refers to CMO rights under the License Agreement; the quoted text identifies the exceptions but the underlying License Agreement terms are not included here.",
+        "Section 2.15.4 redacts the period and commitment conditions for SutroVax’s first right to Alternate Supplier capacity."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "SutroVax must pay Sutro invoices for the Price for each Product shipment; Product Prices are set in the applicable Work Order and capped by a redacted percentage of Fully Burdened Manufacturing Costs.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due within [***] days after SutroVax receives an invoice for a shipment; shipment dates, invoice receipt dates, Work Order Prices and the payment period are not fixed in the text.",
+      "quotes": [
+        {
+          "clauseId": "3.1",
+          "text": "3.1 Invoices. Sutro shall invoice SutroVax at the time of each shipment of Product(s) for the Price for such shipment. SutroVax will pay such invoices\nwithin [***] days of receipt of invoice (including all required documentation) by SutroVax."
+        },
+        {
+          "clauseId": "3.2",
+          "text": "3.2 Prices. The Prices for the Products shall not exceed [***] of the Fully Burdened Manufacturing Costs of such Product at the time such Product is\nmanufactured and shall be set forth in the applicable Work Order."
+        }
+      ],
+      "ambiguities": [
+        "The visible text redacts the percentage cap and omits the actual Work Order/Schedule 1 Prices."
+      ]
+    },
+    {
+      "description": "For Extract manufactured by a Third Party, including an Alternate Supplier, SutroVax must pay a Price based on Sutro’s out-of-pocket cost plus Sutro FTE relationship-management costs, subject to redacted caps/adjustments.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if Extract supplied to SutroVax is manufactured by a Third Party; invoice timing and quantities are not fixed.",
+      "quotes": [
+        {
+          "clauseId": "2.15.3",
+          "text": "2.15.3 Price. To the extent Sutro or its Affiliate Manufactures Extract supplied to SutroVax, the Price (per unit volume or unit weight) under this Supply\nAgreement and the Phase 3/Commercial Supply Agreement for such Extract shall not exceed [***] of the Fully Burdened Manufacturing Costs of such\nExtract; and to the extent the Extract to be supplied to SutroVax is Manufactured by a Third Party (including the Alternate Supplier), the Price to be\n\ncharged to SutroVax under this Supply Agreement and the Phase 3/Commercial Supply Agreement for such Extract shall equal the amount Sutro paid\nsuch Third Party for such Extract (“ OOP Cost ”) plus an amount reasonably calculated to cover Sutro’s FTE costs to procure and manage the relationship\nwith such Third Party, such amount not to exceed [***] of the OOP Cost for such Extract."
+        }
+      ],
+      "ambiguities": [
+        "Section 2.15.3 redacts the percentage caps and later alternative price calculations, so no fixed amount can be extracted."
+      ]
+    },
+    {
+      "description": "For Other Extracts, the Price is the cost of materials plus Sutro labor at a redacted FTE rate for Sutro laboratory scientists.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if SutroVax places purchase orders for Other Extracts subject to an agreed Work Order and Sutro accepts or is required to accept them.",
+      "quotes": [
+        {
+          "clauseId": "2.16",
+          "text": "2.16 Other Extracts. From time-to-time, subject to an agreed-upon Work Order, SutroVax may place purchase orders for quantities of research grade\nextract derived from strains of E. Coli other than that set forth on Schedule 1 attached hereto (each an “ Other Extract ”). Sutro shall use Commercially\nReasonable Efforts to accept such purchase orders (and shall accept such purchase orders placed consistent with an agreed-upon Work Order) and\nmanufacture and supply to SutroVax such Other Extracts. For the purpose of calculating the Price for Other Extracts in accordance with this Section, the\nPrice will be the cost of materials and Sutro’s labor at an FTE rate of [***] per year for Sutro laboratory scientists."
+        }
+      ],
+      "ambiguities": [
+        "Section 2.16 redacts the FTE rate and does not fix the cost of materials or quantities."
+      ]
+    },
+    {
+      "description": "SutroVax must pay taxes and duties assessed on its purchase or use of Products, excluding taxes based on Sutro’s income or gross receipts.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Taxes depend on purchases/use and are separately identified on Sutro’s invoice; no invoice date or tax amount is fixed.",
+      "quotes": [
+        {
+          "clauseId": "3.4",
+          "text": "3.4 Taxes. The Prices are exclusive of all Taxes. SutroVax will pay all taxes and duties that are assessed by any national, federal, state or local\ngovernmental authority on SutroVax’s purchase or use of the Products, including, without limitation, sales, use, excise, value-added and withholding\ntaxes, but excluding any taxes based on Sutro’s income or gross receipts (collectively, “ Taxes ”). Sutro will separately identify all such Taxes on Sutro’s\ninvoice."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "SutroVax bears the cost and expense of arranging shipping from Sutro’s Facility to the destination specified by SutroVax.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Shipping costs arise per shipment and depend on destination and carrier arrangements not fixed in the agreement.",
+      "quotes": [
+        {
+          "clauseId": "2.6",
+          "text": "SutroVax will arrange\nfor shipping from Sutro’s Facility to the destination specified by SutroVax at SutroVax’s cost and expense."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "SutroVax must fund Sutro’s costs to conduct Process Transfer and/or establish Alternate Supplier Capacity under an agreed Transfer Addendum budget.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only upon the relevant Transfer Addendum process; amount depends on the budget and incurred costs.",
+      "quotes": [
+        {
+          "clauseId": "2.15.1(a)",
+          "text": "(ii) require SutroVax to fund the costs incurred by Sutro to conduct Process Transfer and/or establish such Capacity in accordance with such budget;"
+        }
+      ],
+      "ambiguities": [
+        "The budget, Process Transfer/Capacity scope, timing and amounts are not fixed in the supplied text."
+      ]
+    },
+    {
+      "description": "If SutroVax modifies timing or terminates the Process Transfer, Capacity or specified aspects, SutroVax bears resulting Alternate Supplier termination or cancellation fees.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only applies if SutroVax exercises the modification/termination right and fees are charged by the Alternative Supplier.",
+      "quotes": [
+        {
+          "clauseId": "2.15.1(a)",
+          "text": "(vii) provide a right for SutroVax to modify the timing of or terminate the Process Transfer, Capacity or specified aspects thereof on reasonable notice,\nsubject to SutroVax’ agreement to bear any resulting termination or cancellation fees charged by the Alternative Supplier;"
+        }
+      ],
+      "ambiguities": [
+        "The amount and due date depend on future Alternative Supplier charges."
+      ]
+    },
+    {
+      "description": "SutroVax must reimburse Sutro for documented personnel time and out-of-pocket costs for Custom Reagent manufacturing-process transfer, subject to a pre-approved budget.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only upon SutroVax’s request for the transfer; amount depends on documented time, out-of-pocket costs and a budget.",
+      "quotes": [
+        {
+          "clauseId": "2.17",
+          "text": "provided however, that SutroVax shall fully reimburse Sutro for all documented time spent by Sutro’s personnel to perform such\ntransfer (on an FTE basis, each such FTE charged at an annual rate of [***]) and out-of-pocket costs incurred by Sutro in connection with all of the\nactivities under the preceding sub-clauses (a) and (b), in accordance with a budget reasonably approved in advance by SutroVax."
+        }
+      ],
+      "ambiguities": [
+        "Section 2.17 redacts the annual FTE rate and does not fix the budget or out-of-pocket costs."
+      ]
+    },
+    {
+      "description": "SutroVax must bear Sutro’s expenses for certain Drug Master File support, additional data requested by Regulatory Authorities, and correction of deficiencies, subject to a pre-approved budget.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies if the relevant regulatory filings, requests or deficiencies arise; amount depends on the approved budget and requested work.",
+      "quotes": [
+        {
+          "clauseId": "6.2",
+          "text": "Sutro shall file such Drug Master File in coordination with\nSutroVax’s efforts to file and prosecute the applicable regulatory filings to such Regulatory Authority and Sutro shall be responsible, at SutroVax’s sole\nexpense (subject to a budget reasonably approved in advance by SutroVax), for providing the applicable Regulatory Authorities with such additional data\nas they may request (which may in some cases require Sutro to conduct additional studies), and for correcting any deficiencies of such Drug Master File\nidentified by such Regulatory Authority, in each case in a reasonably prompt and efficient manner so as to prevent any delay in obtaining Regulatory\nApprovals for any Vaccine Composition based on such Drug Master File."
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on future Regulatory Authority requests, deficiencies and a budget not included in the supplied text."
+      ]
+    },
+    {
+      "description": "Laboratory fees and expenses for Product conformance disputes are borne by Sutro if the Product is non-conforming, and by SutroVax if the Product conforms.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if the Parties submit a dispute to a Laboratory; payer depends on the Laboratory’s determination.",
+      "quotes": [
+        {
+          "clauseId": "4.3",
+          "text": "The fees and expenses of the Laboratory making such determination shall be borne by Sutro, in the event that the Laboratory\ndetermines that the Product was non-conforming and by SutroVax, in the event that the Laboratory determines that the Product did conform to the\nRequired Standards."
+        }
+      ],
+      "ambiguities": [
+        "No Laboratory fees or dates are fixed."
+      ]
+    },
+    {
+      "description": "For non-conforming Product, Sutro bears reasonable return/destruction expense; SutroVax receives credit for amounts paid but must pay the applicable Price for replacement Product under Section 3.1.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only when Product is rejected or determined non-conforming; replacement Product payment follows invoice terms.",
+      "quotes": [
+        {
+          "clauseId": "4.4",
+          "text": "Product that is either rejected by SutroVax as not meeting the Required Standards, or that is\ndetermined by the Laboratory not to meet such Required Standards, shall, [***], be returned by SutroVax to Sutro, or destroyed pursuant to Applicable\nLaw, at Sutro’s reasonable expense. Sutro shall replace any non-conforming Product(s) within the shortest possible time. SutroVax shall have no\nresponsibility to Sutro for the amounts invoiced for non-conforming Product(s), and shall be credited for any amounts paid, but shall pay Sutro the\napplicable Price for the replacement Product(s) under the terms of Section 3.1."
+        }
+      ],
+      "ambiguities": [
+        "The clause contains a redaction after “shall,” and the replacement Product Price is not fixed in the supplied text."
+      ]
+    },
+    {
+      "description": "A Party whose breach causes a recall is responsible for recall costs and must reimburse the other Party as necessary; shared responsibility is allocated by contributory responsibility.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if a recall results from a Party’s breach; amount depends on recall costs and responsibility allocation.",
+      "quotes": [
+        {
+          "clauseId": "6.3",
+          "text": "In the event it\nis determined that such a recall resulted from a breach by either Party of any of its representations, warranties, duties or obligations under this Supply\nAgreement, such Party shall be responsible for the costs of the recall and shall reimburse the other Party as necessary; provided that if both Parties share\nresponsibility with respect to such recall, the costs shall be shared in the ratio of the Parties’ contributory responsibility."
+        }
+      ],
+      "ambiguities": [
+        "Recall occurrence, costs and contributory responsibility are not fixed."
+      ]
+    },
+    {
+      "description": "If Sutro fails to supply compliant Product as specified, Sutro is liable for SutroVax’s non-cancelable Third Party penalties, costs and expenses, subject to documentary evidence and Section 9.3 limits.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only upon qualifying late/failing supply and depends on Third Party penalties, costs and expenses actually incurred.",
+      "quotes": [
+        {
+          "clauseId": "2.9.2",
+          "text": "For any failure to supply compliant Product(s) in the later of the Delivery Time Period and the period ending [***]\nafter the delivery date specified under the Work Order, without limiting SutroVax’s other remedies, subject to this Section 2.9.2 and Section 9.3 (Limitation\nof Liability), Sutro shall be liable for any non-cancelable Third Party penalties, costs and expenses incurred by SutroVax as a result of Sutro’s failure to\nsupply Product(s) as aforesaid, subject to receipt by Sutro of appropriate documentary evidence of such penalties, costs and expenses"
+        }
+      ],
+      "ambiguities": [
+        "The additional period after the Work Order delivery date is redacted, and the separate Section 9.3 cap for this liability is redacted."
+      ]
+    },
+    {
+      "description": "If SutroVax terminates for convenience and outstanding Work Orders or accepted purchase orders will not be fulfilled, SutroVax reimburses Sutro for specified unmitigated supplies, materials and Sutro personnel time.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only on SutroVax termination under Section 10.2.3 where outstanding orders are not fulfilled and costs cannot reasonably be mitigated.",
+      "quotes": [
+        {
+          "clauseId": "10.3",
+          "text": "provided,\nhowever, that (a) in the event this Supply Agreement is terminated by SutroVax pursuant to Section 10.2.3 and there are outstanding Work Orders or other\npurchase orders accepted by Sutro that would not be fulfilled as a result of such termination, SutroVax shall reimburse Sutro for all supplies and materials\npurchased by Sutro and time incurred by Sutro personnel (to the extent incurred solely for manufacture of Product for SutroVax) for the manufacture, or\npreparation for the manufacture, of Products for any Work Orders placed by SutroVax and any other purchase orders accepted by Sutro prior to such\nexpiration or termination, in each case to the extent Sutro cannot otherwise reasonably mitigate such the costs and expenses of such supplies, materials\nand time (e.g., by use of resulting supplies, materials and work-in-progress Product for other purposes);"
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on outstanding orders, incurred costs and mitigation at the time of termination."
+      ]
+    },
+    {
+      "description": "Sutro indemnifies SutroVax Indemnitees for Liabilities from Third-Party Claims arising from redacted circumstances, subject to stated exceptions.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if a qualifying Third-Party Claim arises.",
+      "quotes": [
+        {
+          "clauseId": "9.1.1",
+          "text": "9.1.1 Indemnification by Sutro. Sutro hereby agrees, at its sole cost and expense, to defend, hold harmless and indemnify, to the extent permitted by\nApplicable Law, (collectively, “ Indemnify ”) SutroVax and its Affiliates and their respective agents, directors, officers and employees of such Persons and\nthe respective successors and assigns of any of the foregoing (the “ SutroVax Indemnitees ”) from and against any and all liabilities, damages, penalties,\nfines, costs and expenses (including, reasonable attorneys’ fees and other expenses of litigation) (collectively, “ Liabilities ”) resulting from suits, claims,\nactions and demands, in each case brought by a Third Party (each, a “ Third-Party Claim ”) against any SutroVax Indemnitee and arising from or occurring\nas a result of: [***]."
+        }
+      ],
+      "ambiguities": [
+        "The triggering circumstances for Sutro’s indemnity are redacted in Section 9.1.1."
+      ]
+    },
+    {
+      "description": "SutroVax indemnifies Sutro Indemnitees for Liabilities from Third-Party Claims arising from redacted circumstances, subject to stated exceptions.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if a qualifying Third-Party Claim arises.",
+      "quotes": [
+        {
+          "clauseId": "9.1.2",
+          "text": "9.1.2 Indemnification by SutroVax. SutroVax hereby agrees to Indemnify Sutro and its agents, directors, officers and employees and the respective\nsuccessors and assigns of any of the foregoing (the “ Sutro lndemnitees ”) from and against any and all Liabilities resulting from Third-Party Claims\nagainst any Sutro Indemnitee arising from or occurring as a result of: [***]."
+        }
+      ],
+      "ambiguities": [
+        "The triggering circumstances for SutroVax’s indemnity are redacted in Section 9.1.2."
+      ]
+    },
+    {
+      "description": "In arbitration, the Parties share arbitrator fees and expenses equally unless the award assesses or allocates them differently; each Party bears its own dispute-resolution expenses.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if a dispute proceeds to arbitration.",
+      "quotes": [
+        {
+          "clauseId": "11.3",
+          "text": "The arbitrator’s fees and expenses shall be shared equally by the Parties, unless\nthe arbitrator in the award assesses such fees and expenses against one of the Parties or allocates such fees and expenses other than equally between the\nParties. Each Party shall bear and pay its own expenses incurred in connection with any dispute resolution under this Section 11.3."
+        }
+      ],
+      "ambiguities": [
+        "The amount depends on future arbitration costs and any fee allocation in the award."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "Sutro Biopharma, Inc.",
+      "grantor": "SutroVax, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "worldwide / no narrower geographic limit stated",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "Extract",
+      "productCodes": [
+        "EXTRACT"
+      ],
+      "start": "2018-05-29",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "SUPPLY AGREEMENT",
+          "text": "made as of May 29, 2018 (the “ Effective Date ”)"
+        },
+        {
+          "clauseId": "1.5",
+          "text": "1.5 “ Extract ” means Sutro’s extract derived from strains of E. coli identified on Schedule 1 attached hereto, as may be amended from time to time in\naccordance with Section 12.7, and any new versions and improvements thereof that may be included in Schedule 1 by written agreement of the Parties in\naccordance with Section 12.7."
+        },
+        {
+          "clauseId": "1.22",
+          "text": "1.22 “ Territory ” means worldwide."
+        },
+        {
+          "clauseId": "2.20",
+          "text": "2.20 Extract Requirements. SutroVax agrees to purchase all its requirements of Extract from Sutro in accordance with this Agreement, except to the extent\nSutroVax is allowed to purchase Extract from (a) Alternate Suppliers engaged by Sutro in accordance with Section 2.15 of this Agreement; (b) a CMO\nengaged or established and authorized by Sutro under Section 3.l(d) of the License Agreement; or (c) a CMO authorized by Sutro under Section 3.l(e) of\nthe License Agreement. Manufacturing of Extracts in breach of this Section 2.20 shall be deemed a material breach of this Agreement and the License\nAgreement by SutroVax."
+        },
+        {
+          "clauseId": "10.1",
+          "text": "10.1 Term. The term of this Supply Agreement shall begin on the Effective Date first set forth above and shall remain in effect until the later of (a) July 31,\n2021 or (b) the date that the Parties enter into the Phase 3/Commercial Supply Agreement and Sutro is supplying to SutroVax each Product under the\nPhase 3/Commercial Supply Agreement (the “ Term ”), unless it is terminated earlier in accordance with Section 10.2."
+        }
+      ],
+      "ambiguities": [
+        "Section 2.20 allows exceptions for Alternate Suppliers and CMOs, including CMO rights under the License Agreement whose full terms are not supplied here.",
+        "Section 1.5 defines Extract by reference to Schedule 1, but Schedule 1 product details are omitted in the supplied text.",
+        "The grant end date follows the agreement term; Section 10.1 makes that end date dependent on an undated future Phase 3/Commercial Supply Agreement supply event."
+      ]
+    },
+    {
+      "grantee": "SutroVax, Inc.",
+      "grantor": "Sutro Biopharma, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "worldwide; Extract Manufactured by the Alternate Supplier up to the Capacity established pursuant to the Transfer Addendum",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "Extract manufactured by Alternate Supplier up to established Capacity",
+      "productCodes": [
+        "EXTRACT"
+      ],
+      "start": null,
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "1.5",
+          "text": "1.5 “ Extract ” means Sutro’s extract derived from strains of E. coli identified on Schedule 1 attached hereto, as may be amended from time to time in\naccordance with Section 12.7, and any new versions and improvements thereof that may be included in Schedule 1 by written agreement of the Parties in\naccordance with Section 12.7."
+        },
+        {
+          "clauseId": "1.22",
+          "text": "1.22 “ Territory ” means worldwide."
+        },
+        {
+          "clauseId": "2.15.4",
+          "text": "2.15.4 Sutro/Third Party use of Alternate Supplier. Once the Alternate Supplier is qualified pursuant to this Section 2.15, SutroVax shall have the first right\n(as between SutroVax and Sutro or Third Parties supplied or authorized by Sutro) to obtain Extract Manufactured by the Alternate Supplier up to the\nCapacity established pursuant to the Transfer Addendum for a period ending the later of [***] or [***], and provided SutroVax commits to [***] or [***]."
+        }
+      ],
+      "ambiguities": [
+        "Section 2.15.4 creates a first/prior right rather than using the word “exclusive”; it is normalized as exclusive only for the limited Alternate Supplier Capacity because SutroVax has the first right as against Sutro and authorized Third Parties.",
+        "The start depends on when the Alternate Supplier is qualified, which is not dated.",
+        "The end period and SutroVax commitment conditions are redacted in Section 2.15.4.",
+        "Section 1.5 defines Extract by reference to Schedule 1, but Schedule 1 product details are omitted in the supplied text."
+      ]
+    }
+  ]
+}

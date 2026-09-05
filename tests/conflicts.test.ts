@@ -30,6 +30,8 @@ function grant(over: Partial<Grant> & Pick<Grant, "id" | "docId">): Grant {
     confidence: "FOUND",
     reasons: [],
     citations: [],
+    discardedQuoteCount: 0,
+    scopeUnverified: false,
     ...over,
   };
 }

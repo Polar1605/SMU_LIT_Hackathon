@@ -1,0 +1,380 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "MJ Syndicated, Inc. (Joint Venture Participant/JVP) and SIMPLY HERBALS, Nervanah Herbal Medicine Company (Joint Venture Participant/JVP).",
+      "quotes": [
+        {
+          "clauseId": "BETWEEN:",
+          "text": "BETWEEN:\nMJ Syndicated, Inc. a Florida Corporation of\n_______________________________, FL 33436\nAnd\nSIMPLY HERBALS, Nervanah Herbal Medicine Company of\n_______________________________TN 37660\n(individually and collectively the Joint Venture Participants “JVP”)."
+        },
+        {
+          "clauseId": "IN WITNESS WHEREOF",
+          "text": "Simply Herbals\nPer: ____________________\nCEO: MJ Syndicated, Inc CEO: Simply Herbals, Inc.\nMJ Syndicated, Inc.\nPer: __ /s/ Maxine Pierson ________"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The parties clause names “SIMPLY HERBALS, Nervanah Herbal Medicine Company,” but the signature block uses “Simply Herbals” and “Simply Herbals, Inc.”"
+      ]
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2018-11-27",
+      "quotes": [
+        {
+          "clauseId": "Purpose",
+          "text": "The Joint Venture is a fixed term Joint Venture beginning November\n27, 2018 and ending November 30th, 2019 or as otherwise provided\nin this Agreement."
+        },
+        {
+          "clauseId": "Execution Date",
+          "text": "THIS JOINT VENTURE AGREEMENT (the \"Agreement\") made and entered into this 27th\nday of November 2018 (the \"Execution Date\"),"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "Fixed term from 2018-11-27 to 2019-11-30.",
+      "quotes": [
+        {
+          "clauseId": "Purpose",
+          "text": "The Joint Venture is a fixed term Joint Venture beginning November\n27, 2018 and ending November 30th, 2019 or as otherwise provided\nin this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2019-11-30",
+      "quotes": [
+        {
+          "clauseId": "Purpose",
+          "text": "The Joint Venture is a fixed term Joint Venture beginning November\n27, 2018 and ending November 30th, 2019 or as otherwise provided\nin this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "No automatic fixed-term renewal is stated; if the Joint Venture continues after expiry without an express new agreement, it continues at will with rights and duties remaining the same so far as consistent.",
+      "quotes": [
+        {
+          "clauseId": "Purpose",
+          "text": "Where the Joint Venture is entered for a fixed\nterm and the Joint Venture continues after the expiration of that\nterm then in the absence of an express new agreement, the rights\nand duties of the Participants remain the same as they were at the\nexpiration of that term so far as those terms are consistent with a\nJoint Venture at will."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The Purpose clause does not call this a renewal and makes continuation depend on the Joint Venture continuing after the fixed term expires."
+      ]
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Any Participant may voluntarily withdraw at any time on at least Thirty (30) business days' written notice; voluntary withdrawal dissolves the Joint Venture.",
+      "quotes": [
+        {
+          "clauseId": "Voluntary Withdrawal of a Participant",
+          "text": "Any Participant will have the right to voluntarily withdraw from\nthe Joint Venture at any time. Written notice of intention to\nwithdraw must be served in writing upon the remaining Participants\nat least Thirty (30) business days prior to the withdrawal date."
+        },
+        {
+          "clauseId": "Voluntary Withdrawal of a Participant",
+          "text": "T h e v o l u n t a r y w i t h d r a w a l o f a P a r t i c i p a n t w i l l r e s u l t i n t h e\ndissolution of the Joint Venture."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The Voluntary Withdrawal of a Participant clause uses “business days,” but the agreement does not define business days or a holiday calendar."
+      ]
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Involuntary withdrawal, causing dissolution, applies for events including breach of fiduciary duties, criminal conviction, expulsion, operation of law/bankruptcy and reputational disrepute; expulsion includes willful or persistent material breach of the Agreement or duties owed.",
+      "quotes": [
+        {
+          "clauseId": "Involuntary Withdrawal of a Participant",
+          "text": "Events resulting in the involuntary withdrawal of a Participant from\nthe Joint Venture will include, but not be limited to: death of a\nParticipant; Participant mental incapacity; Participant disability\npreventing reasonable participation in the Joint Venture; Participant\nincompetence; breach of fiduciary duties by a Participant; criminal\nconviction of a Participant; Expulsion of a Participant; Operation of\nLaw against a Participant; or any act or omission of a Participant\nthat can reasonably be expected to bring the business or societal\nreputation of the Joint Venture into disrepute."
+        },
+        {
+          "clauseId": "Involuntary Withdrawal of a Participant",
+          "text": "The involuntary withdrawal of a Participant will result in the\ndissolution of the Joint Venture."
+        },
+        {
+          "clauseId": "Definitions",
+          "text": "has willfully or persistently committed a material breach\nof this Agreement or of a duty owed to the Joint Venture\nor to the other Participants;"
+        },
+        {
+          "clauseId": "Definitions",
+          "text": "\"Operation of Law\" means rights or duties that are cast upon a\nparty by the law, without any act or agreement on the part of\nthe individual including, but not limited to, an assignment for\nthe benefit of creditors, a divorce, or a bankruptcy."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Mutual non-compete/conflict covenant: no Participant may directly or indirectly engage in competitive or direct-conflict business without unanimous written consent of the remaining Participants; apparent conflicts must be disclosed.",
+      "quotes": [
+        {
+          "clauseId": "Duty of Loyalty",
+          "text": "No Participant will engage in any business, venture or transaction,\nwhether directly or indirectly, that might be competitive with the\nbusiness of the Joint Venture or that would be in direct conflict of\ninterest to the Joint Venture without the unanimous written consent\nof the remaining Participants. Any and all businesses, ventures or\ntransactions with any appearance of conflict of interest must be\nfully disclosed to all other Participants. Failure to comply with any of\nthe terms of this clause will be deemed an Involuntary Withdrawal of\nthe offending Participant and may be treated accordingly by the\nremaining Participants."
+        },
+        {
+          "clauseId": "Purpose",
+          "text": "The purpose of the Joint Venture will be: Manufacturing and Selling\nHealth Related products."
+        },
+        {
+          "clauseId": "Purpose",
+          "text": "Where the Joint Venture is entered for a fixed\nterm and the Joint Venture continues after the expiration of that\nterm then in the absence of an express new agreement, the rights\nand duties of the Participants remain the same as they were at the\nexpiration of that term so far as those terms are consistent with a\nJoint Venture at will."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The Duty of Loyalty clause does not state a geographic territory.",
+        "The restriction is tied to activities that “might be competitive with the business of the Joint Venture” or in direct conflict, and the clause does not further define those phrases.",
+        "Duration after 2019-11-30 may continue if the Joint Venture continues after expiry under the Purpose clause."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "Initial capital contributions by each Participant to the Joint Venture.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amounts, value of any property, and due dates are only stated as agreed and are not fixed in the document.",
+      "quotes": [
+        {
+          "clauseId": "Capital Contributions",
+          "text": "Each of the Participants will contribute to the capital of the Joint\nVenture, in cash or property in agreed upon value. All Participants\nwill contribute their respective Contributions as agreed."
+        }
+      ],
+      "ambiguities": [
+        "The Capital Contributions clause does not state any fixed contribution amount, currency or due date."
+      ]
+    },
+    {
+      "description": "Repayment by the Joint Venture of Participant advances in excess of agreed capital contributions, with interest.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if a Participant advances money; repayment rate and timing are to be determined later by majority vote.",
+      "quotes": [
+        {
+          "clauseId": "Additional Capital",
+          "text": "Any advance of money to the Joint Venture by any Participant in\ne x c e s s o f t h e a m o u n t s p r o v i d e d f o r i n t h i s A g r e e m e n t o r\nsubsequently agreed to as Additional Capital Contribution will be\ndeemed a debt owed by the Joint Venture and not an increase in\nCapital Contribution of the Participant. This liability will be repaid\nwith interest at rates and times to be determined by a majority of\nthe Participants within the limits of what is required or permitted in\nthe Act."
+        }
+      ],
+      "ambiguities": [
+        "The Additional Capital clause does not state the amount of any advance, the interest rate, or repayment dates."
+      ]
+    },
+    {
+      "description": "Audit cost borne by the Joint Venture when a Participant requests an audit.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Triggered by an audit request; amount and due date are not fixed.",
+      "quotes": [
+        {
+          "clauseId": "Audit",
+          "text": "Any of the Participants will have the right to request an audit of the\nJoint Venture books. The cost of the audit will be borne by the Joint\nVenture."
+        }
+      ],
+      "ambiguities": [
+        "The Audit clause does not state the amount of audit costs or when they must be paid."
+      ]
+    },
+    {
+      "description": "Chargeback and collection from a Participant of losses caused by acting without required unanimous consent.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if a violation causes losses; amount and due date are not fixed.",
+      "quotes": [
+        {
+          "clauseId": "Actions Requiring Unanimous Consent of the Participants",
+          "text": "Any losses incurred as a result of a violation of this section will be\ncharged to and collected from the individual Participant that acted\nwithout unanimous consent and caused the loss."
+        }
+      ],
+      "ambiguities": [
+        "The Actions Requiring Unanimous Consent of the Participants clause does not state a fixed amount or payment date for collected losses."
+      ]
+    },
+    {
+      "description": "Indemnification and hold harmless by the Joint Venture for claims arising out of a Participant's participation in Joint Venture affairs, excluding gross negligence, willful misconduct or breach.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Triggered by covered claims; amount and payment timing depend on the claim.",
+      "quotes": [
+        {
+          "clauseId": "Indemnification",
+          "text": "All Participants will be indemnified and held harmless by the Joint\nV e n t u r e f r o m a n d a g a i n s t a n y a n d a l l c l a i m s o f a n y n a t u r e ,\nwhatsoever, arising out of a Participant's participation in Joint\nVenture affairs. A Participant will not be entitled to indemnification\nunder this section for liability arising out of gross negligence or\nw i l l f u l m i s c o n d u c t o f t h e P a r t i c i p a n t o r t h e b r e a c h b y t h e\nParticipant of any provisions of this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "The Indemnification clause does not state a monetary limit, procedure or payment date for indemnified claims."
+      ]
+    },
+    {
+      "description": "On dissolution and liquidation, Joint Venture assets must be applied to selling costs and expenses, creditor liabilities, debt obligations to current Participants, and then distributions to Participants; Participants share remaining assets or liabilities by capital contribution proportions.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Triggered by dissolution and liquidation; amounts depend on assets, liabilities, costs and capital contribution proportions.",
+      "quotes": [
+        {
+          "clauseId": "Distribution of Property on Dissolution of Joint Venture",
+          "text": "In the event of the dissolution of the Joint Venture, each Participant\nwill share in any remaining assets or liabilities of the Joint Venture\nin proportion to the Participants' Capital Contributions inclusive of\nany Additional Capital Contributions (the \"Dissolution Distribution\")."
+        },
+        {
+          "clauseId": "Distribution of Property on Dissolution of Joint Venture",
+          "text": "Upon Dissolution of the Joint Venture and liquidation of Joint\nVenture Property, and after payment of all selling costs and\nexpenses, the liquidator will distribute the Joint Venture assets to\nthe following groups according to the following order of priority:\nin satisfaction of liabilities to creditors except Joint Venture\nobligations to current Participants;\nin satisfaction of Joint Venture debt obligations to current\nParticipants; and then\nto the Participants according to the Dissolution Distribution\ndescribed above."
+        }
+      ],
+      "ambiguities": [
+        "The Distribution of Property on Dissolution of Joint Venture clause does not state fixed amounts, currencies or dates; payment depends on dissolution, liquidation results and capital contribution proportions."
+      ]
+    },
+    {
+      "description": "Participants must account to the Joint Venture for benefits derived without consent from Joint Venture transactions or use of Joint Venture property, name or business connection.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Triggered by an unauthorized benefit; amount, currency and payment timing are not fixed, and the benefit may be non-cash.",
+      "quotes": [
+        {
+          "clauseId": "Duty of Accountability for Private Profits",
+          "text": "Each Participant must account to the Joint Venture for any benefit\nderived by that Participant without the consent of the other\nParticipants from any transaction concerning the Joint Venture or\nany use by that Participant of the Joint Venture property, name or\nb u s i n e s s c o n n e c t i o n ."
+        }
+      ],
+      "ambiguities": [
+        "The Duty of Accountability for Private Profits clause does not state a fixed amount or date, and “any benefit” may include non-cash benefits."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "SIMPLY HERBALS, Nervanah Herbal Medicine Company",
+      "grantor": "MJ Syndicated, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "not specified",
+      "territoryCodes": [],
+      "productLabel": "business of the Joint Venture: Manufacturing and Selling Health Related products",
+      "productCodes": [
+        "HEALTH_RELATED_PRODUCTS"
+      ],
+      "start": "2018-11-27",
+      "end": "2019-11-30",
+      "quotes": [
+        {
+          "clauseId": "BETWEEN:",
+          "text": "BETWEEN:\nMJ Syndicated, Inc. a Florida Corporation of\n_______________________________, FL 33436\nAnd\nSIMPLY HERBALS, Nervanah Herbal Medicine Company of\n_______________________________TN 37660\n(individually and collectively the Joint Venture Participants “JVP”)."
+        },
+        {
+          "clauseId": "Purpose",
+          "text": "The purpose of the Joint Venture will be: Manufacturing and Selling\nHealth Related products."
+        },
+        {
+          "clauseId": "Purpose",
+          "text": "The Joint Venture is a fixed term Joint Venture beginning November\n27, 2018 and ending November 30th, 2019 or as otherwise provided\nin this Agreement."
+        },
+        {
+          "clauseId": "Duty of Loyalty",
+          "text": "No Participant will engage in any business, venture or transaction,\nwhether directly or indirectly, that might be competitive with the\nbusiness of the Joint Venture or that would be in direct conflict of\ninterest to the Joint Venture without the unanimous written consent\nof the remaining Participants. Any and all businesses, ventures or\ntransactions with any appearance of conflict of interest must be\nfully disclosed to all other Participants. Failure to comply with any of\nthe terms of this clause will be deemed an Involuntary Withdrawal of\nthe offending Participant and may be treated accordingly by the\nremaining Participants."
+        },
+        {
+          "clauseId": "Purpose",
+          "text": "Where the Joint Venture is entered for a fixed\nterm and the Joint Venture continues after the expiration of that\nterm then in the absence of an express new agreement, the rights\nand duties of the Participants remain the same as they were at the\nexpiration of that term so far as those terms are consistent with a\nJoint Venture at will."
+        }
+      ],
+      "ambiguities": [
+        "The Duty of Loyalty clause states no territory.",
+        "The fixed term ends 2019-11-30, but the Purpose clause provides for possible continuation at will if the Joint Venture continues after expiration without an express new agreement.",
+        "The parties clause and signature block identify Simply Herbals inconsistently."
+      ]
+    },
+    {
+      "grantee": "MJ Syndicated, Inc.",
+      "grantor": "SIMPLY HERBALS, Nervanah Herbal Medicine Company",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "not specified",
+      "territoryCodes": [],
+      "productLabel": "business of the Joint Venture: Manufacturing and Selling Health Related products",
+      "productCodes": [
+        "HEALTH_RELATED_PRODUCTS"
+      ],
+      "start": "2018-11-27",
+      "end": "2019-11-30",
+      "quotes": [
+        {
+          "clauseId": "BETWEEN:",
+          "text": "BETWEEN:\nMJ Syndicated, Inc. a Florida Corporation of\n_______________________________, FL 33436\nAnd\nSIMPLY HERBALS, Nervanah Herbal Medicine Company of\n_______________________________TN 37660\n(individually and collectively the Joint Venture Participants “JVP”)."
+        },
+        {
+          "clauseId": "Purpose",
+          "text": "The purpose of the Joint Venture will be: Manufacturing and Selling\nHealth Related products."
+        },
+        {
+          "clauseId": "Purpose",
+          "text": "The Joint Venture is a fixed term Joint Venture beginning November\n27, 2018 and ending November 30th, 2019 or as otherwise provided\nin this Agreement."
+        },
+        {
+          "clauseId": "Duty of Loyalty",
+          "text": "No Participant will engage in any business, venture or transaction,\nwhether directly or indirectly, that might be competitive with the\nbusiness of the Joint Venture or that would be in direct conflict of\ninterest to the Joint Venture without the unanimous written consent\nof the remaining Participants. Any and all businesses, ventures or\ntransactions with any appearance of conflict of interest must be\nfully disclosed to all other Participants. Failure to comply with any of\nthe terms of this clause will be deemed an Involuntary Withdrawal of\nthe offending Participant and may be treated accordingly by the\nremaining Participants."
+        },
+        {
+          "clauseId": "Purpose",
+          "text": "Where the Joint Venture is entered for a fixed\nterm and the Joint Venture continues after the expiration of that\nterm then in the absence of an express new agreement, the rights\nand duties of the Participants remain the same as they were at the\nexpiration of that term so far as those terms are consistent with a\nJoint Venture at will."
+        }
+      ],
+      "ambiguities": [
+        "The Duty of Loyalty clause states no territory.",
+        "The fixed term ends 2019-11-30, but the Purpose clause provides for possible continuation at will if the Joint Venture continues after expiration without an express new agreement.",
+        "The parties clause and signature block identify Simply Herbals inconsistently."
+      ]
+    }
+  ]
+}

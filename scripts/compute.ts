@@ -242,6 +242,7 @@ function buildPayments(extraction: RawExtraction, doc: ParsedDoc): PaymentTerm[]
       confidence: verdict.level,
       reasons: verdict.reasons,
       citations: outcome.citations,
+      discardedQuoteCount: outcome.discardedCount,
     };
   });
 }
@@ -275,6 +276,11 @@ function buildGrants(extraction: RawExtraction, doc: ParsedDoc): Grant[] {
       confidence: verdict.level,
       reasons: verdict.reasons,
       citations: outcome.citations,
+      discardedQuoteCount: outcome.discardedCount,
+      // R1 applies to grants too. A grant whose supporting quote could not be
+      // located has an unverified scope, and conflict detection must not treat
+      // its territory and product codes as established fact.
+      scopeUnverified: outcome.discardedCount > 0,
     };
   });
 }
@@ -375,7 +381,11 @@ export async function run(opts: StageOpts): Promise<Results> {
     acc[f.confidence] = (acc[f.confidence] ?? 0) + 1;
     return acc;
   }, {});
-  const discarded = contracts.flatMap((c) => c.fields).reduce((n, f) => n + f.discardedQuoteCount, 0);
+  const discarded = contracts.reduce(
+    (n, c) =>
+      n + [...c.fields, ...c.payments, ...c.grants].reduce((m, item) => m + item.discardedQuoteCount, 0),
+    0,
+  );
 
   console.log(
     `${contracts.length} contracts  ` +

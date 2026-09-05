@@ -1,0 +1,532 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Peregrine/Bridge Transfer Corporation, a Delaware corporation (Licensor); NEON Systems, Inc., a Delaware corporation (Licensee). Skunkware, Inc. joins for Sections 15.11 and 15.12.",
+      "quotes": [
+        {
+          "clauseId": "FIRST AMENDMENT TO\nDISTRIBUTOR AGREEMENT",
+          "text": "THIS FIRST AMENDMENT TO DISTRIBUTOR AGREEMENT (this \"Amendment\") is made\nand entered into as of the 1st day of January, 1999, by and between\nPeregrine/Bridge Transfer Corporation, a Delaware corporation (\"Licensor\"), and\nNEON Systems, Inc., a Delaware corporation (\"Licensee\")."
+        },
+        {
+          "clauseId": "Section 15.11 Right of First Refusal.",
+          "text": "Skunkware, Inc., a Delaware corporation and the sole\nstockholder of Licensor (\"Skunkware\"), is joining in this Agreement\nfor the purpose of agreeing to the terms of this Section and Section\n15.12."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "1999-01-01",
+      "quotes": [
+        {
+          "clauseId": "FIRST AMENDMENT TO\nDISTRIBUTOR AGREEMENT",
+          "text": "THIS FIRST AMENDMENT TO DISTRIBUTOR AGREEMENT (this \"Amendment\") is made\nand entered into as of the 1st day of January, 1999, by and between\nPeregrine/Bridge Transfer Corporation, a Delaware corporation (\"Licensor\"), and\nNEON Systems, Inc., a Delaware corporation (\"Licensee\")."
+        },
+        {
+          "clauseId": "9. MISCELLANEOUS.",
+          "text": "The amendments to\nthe Distributor Agreement effected by this Amendment shall be effective from and\nafter the date hereof."
+        },
+        {
+          "clauseId": "RECITALS:",
+          "text": "Licensor and Licensee are parties to that certain Distributor Agreement\ndated as of January 1, 1996 (the \"Distributor Agreement\"). Licensor and\nLicensee desire to amend the Distributor Agreement as set forth herein."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "RECITALS: identify the underlying Distributor Agreement as dated January 1, 1996, so 1999-01-01 is the Amendment effective date rather than necessarily the original Distributor Agreement commencement date."
+      ]
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "5 years 3 months from the Amendment effective date to 2004-03-31",
+      "quotes": [
+        {
+          "clauseId": "FIRST AMENDMENT TO\nDISTRIBUTOR AGREEMENT",
+          "text": "THIS FIRST AMENDMENT TO DISTRIBUTOR AGREEMENT (this \"Amendment\") is made\nand entered into as of the 1st day of January, 1999, by and between\nPeregrine/Bridge Transfer Corporation, a Delaware corporation (\"Licensor\"), and\nNEON Systems, Inc., a Delaware corporation (\"Licensee\")."
+        },
+        {
+          "clauseId": "Section 14.1 TERM.",
+          "text": "Section 14.1 TERM. This Agreement shall be effective\nthrough and including March 31, 2004. Upon the expiration\nof such term, this Agreement will renew automatically for\nsuccessive terms of one (1) year each unless either party to\nthis Agreement delivers written notice of termination to the\nother party to this Agreement at least sixty (60) days prior\nto the end of the original or any renewal term."
+        },
+        {
+          "clauseId": "9. MISCELLANEOUS.",
+          "text": "The amendments to\nthe Distributor Agreement effected by this Amendment shall be effective from and\nafter the date hereof."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": [
+        "RECITALS: identify the underlying Distributor Agreement as dated January 1, 1996; if term length is measured from that underlying agreement date rather than the Amendment effective date, the period to March 31, 2004 is 8 years 3 months."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2004-03-31",
+      "quotes": [
+        {
+          "clauseId": "Section 14.1 TERM.",
+          "text": "Section 14.1 TERM. This Agreement shall be effective\nthrough and including March 31, 2004. Upon the expiration\nof such term, this Agreement will renew automatically for\nsuccessive terms of one (1) year each unless either party to\nthis Agreement delivers written notice of termination to the\nother party to this Agreement at least sixty (60) days prior\nto the end of the original or any renewal term."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Automatic renewal for successive 1-year terms unless either party gives timely written termination notice.",
+      "quotes": [
+        {
+          "clauseId": "Section 14.1 TERM.",
+          "text": "Upon the expiration\nof such term, this Agreement will renew automatically for\nsuccessive terms of one (1) year each unless either party to\nthis Agreement delivers written notice of termination to the\nother party to this Agreement at least sixty (60) days prior\nto the end of the original or any renewal term."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": true,
+      "value": "60 days before the end of the original or any renewal term",
+      "quotes": [
+        {
+          "clauseId": "Section 14.1 TERM.",
+          "text": "Upon the expiration\nof such term, this Agreement will renew automatically for\nsuccessive terms of one (1) year each unless either party to\nthis Agreement delivers written notice of termination to the\nother party to this Agreement at least sixty (60) days prior\nto the end of the original or any renewal term."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Either party may terminate/non-renew at the end of the original or any renewal term by written notice at least 60 days before term end; no early convenience termination is stated in the supplied text.",
+      "quotes": [
+        {
+          "clauseId": "Section 14.1 TERM.",
+          "text": "Upon the expiration\nof such term, this Agreement will renew automatically for\nsuccessive terms of one (1) year each unless either party to\nthis Agreement delivers written notice of termination to the\nother party to this Agreement at least sixty (60) days prior\nto the end of the original or any renewal term."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate immediately on written notice if the other party defaults, including failure to promptly pay, and fails to cure within 30 days after written notice specifying the default.",
+      "quotes": [
+        {
+          "clauseId": "4. AMENDMENT OF TERMINATION PROVISIONS.",
+          "text": "(2) Immediately upon written notice if the other party defaults in\nthe performance of any obligation under this Agreement, including\nfailure to promptly pay any amount due hereunder, and fails to\ncure such default within thirty (30) days after delivery of\nwritten notice specifying the default (with any termination as a\nresult of Licensee's failure to pay amounts due under this\nAgreement resulting in acceleration of Licensee's obligation to\npay all sums accrued and payable to Licensor under this Agreement\nas of the date of such termination)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "4. AMENDMENT OF TERMINATION PROVISIONS. states that Section 14.2 is amended only by deleting subsection (b) and replacing Section 14.2(a)(2); other termination-for-cause provisions in the underlying Distributor Agreement may remain but are not reproduced in the supplied text."
+      ]
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "Cap amount not stated in supplied text; the limitation does not apply to Licensor liability for Section 6.2 misrepresentation/breach or to Licensor’s Royalty Advance repayment obligation.",
+      "quotes": [
+        {
+          "clauseId": "6. AMENDMENT OF SECTION 13.1.",
+          "text": "Notwithstanding the foregoing, the foregoing limitation on liability\nshall not be applicable in respect of any liability of Licensor to\nLicensee resulting from any misrepresentation in, or breach of, the\nterms of Section 6.2 hereof or in respect of Licensor's obligation to\nrepay Royalty Advances pursuant to Section 3.2 hereof."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "6. AMENDMENT OF SECTION 13.1. refers to the “foregoing limitation on liability,” but Section 13.1 of the underlying Distributor Agreement is not reproduced, so the ceiling amount and general scope of the cap cannot be determined from the supplied text.",
+        "6. AMENDMENT OF SECTION 13.1. excludes Licensor liability for Section 6.2 misrepresentation/breach and Licensor’s obligation to repay Royalty Advances, leaving those exposures outside the limitation referred to in the Amendment."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Licensee’s distributorship changes from non-exclusive to exclusive, except Licensor may also license Partitioned Database Facility to IBM; Licensee also receives a right of first refusal and an exclusive irrevocable option to purchase Licensor stock/assets.",
+      "quotes": [
+        {
+          "clauseId": "5. AMENDMENT OF NATURE OF DISTRIBUTORSHIP.",
+          "text": "Licensor and Licensee do\nhereby agree that this Amendment shall effect a change in the nature of the\ndistributorship granted to Licensee pursuant to the Distributor Agreement from a\nnon-exclusive to an exclusive distributorship (provided, however, that with\nrespect to Licensor's Partitioned Database Facility product, Licensor also may\nlicense such product to International Business Machines Corporation for\nsublicensing and distribution)."
+        },
+        {
+          "clauseId": "Section 15.11 Right of First Refusal.",
+          "text": "Licensee shall have the right and a first opportunity\nto purchase, lease or otherwise acquire, as the case may be, all or\nthe applicable portion of such stock or assets (as specified in the\napplicable Offering Notice) on the Terms and Conditions set forth in\nthe Offering Notice, such right to be exercised by notice in writing\nto the Offeree within ninety (90) days after the giving of the\nOffering Notice."
+        },
+        {
+          "clauseId": "Section 15.12 OPTION TO PURCHASE.",
+          "text": "Section 15.12 OPTION TO PURCHASE. Skunkware and Licensor hereby\ngrant to Licensee the exclusive and irrevocable right and option to\npurchase (the \"Option\"), at Licensee's election, either (i) all of the\nassets of Licensor or (ii) all of the issued and outstanding stock of\nLicensor."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "5. AMENDMENT OF NATURE OF DISTRIBUTORSHIP. does not reproduce the Distributor Agreement’s definitions of Licensed Products, rights or territory, so the full product and territory scope of the exclusive distributorship cannot be resolved from the supplied text.",
+        "5. AMENDMENT OF NATURE OF DISTRIBUTORSHIP. carves out Licensor’s ability to license the Partitioned Database Facility product to International Business Machines Corporation for sublicensing and distribution."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "Licensee must pay Licensor quarterly Royalty Advances for Licensee’s fiscal year beginning April 1, 1999, each equal to 25% of the $1,000,000 Annual Royalty Advance Requirement.",
+      "amountMinor": 25000000,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": "1999-04-01",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "1.11",
+          "text": "1.11 \"Annual Royalty Advance Requirement\" shall mean (i) $1,000,000 in\nrespect of Licensee's fiscal year beginning April 1, 1999, (ii)\n$2,000,000 in respect of Licensee's fiscal year beginning April 1,\n2000, (iii) $3,000,000 in respect of Licensee's fiscal year beginning\nApril 1, 2001, (iv) $4,000,000 in respect of Licensee's fiscal year\nbeginning April 1, 2002 and (v) $5,000,000 in respect of Licensee's\nfiscal year beginning April 1, 2003."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "On or before the first day of each\nfiscal quarter of each fiscal year during the term hereof, commencing\nwith the Licensee's fiscal year which begins on April 1, 1999,\nLicensee shall pay to Licensor, as an advance (a \"Royalty Advance\") of\nroyalties anticipated to be paid hereunder during such fiscal year, an\namount equal to twenty-five percent (25%) of the Annual Royalty\nAdvance Requirement for such fiscal year."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "All royalty payments due to Licensor under this Agreement shall be\npaid in U.S. Dollars."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "Licensee must pay Licensor quarterly Royalty Advances for Licensee’s fiscal year beginning April 1, 2000, each equal to 25% of the $2,000,000 Annual Royalty Advance Requirement.",
+      "amountMinor": 50000000,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": "2000-04-01",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "1.11",
+          "text": "1.11 \"Annual Royalty Advance Requirement\" shall mean (i) $1,000,000 in\nrespect of Licensee's fiscal year beginning April 1, 1999, (ii)\n$2,000,000 in respect of Licensee's fiscal year beginning April 1,\n2000, (iii) $3,000,000 in respect of Licensee's fiscal year beginning\nApril 1, 2001, (iv) $4,000,000 in respect of Licensee's fiscal year\nbeginning April 1, 2002 and (v) $5,000,000 in respect of Licensee's\nfiscal year beginning April 1, 2003."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "On or before the first day of each\nfiscal quarter of each fiscal year during the term hereof, commencing\nwith the Licensee's fiscal year which begins on April 1, 1999,\nLicensee shall pay to Licensor, as an advance (a \"Royalty Advance\") of\nroyalties anticipated to be paid hereunder during such fiscal year, an\namount equal to twenty-five percent (25%) of the Annual Royalty\nAdvance Requirement for such fiscal year."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "All royalty payments due to Licensor under this Agreement shall be\npaid in U.S. Dollars."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "Licensee must pay Licensor quarterly Royalty Advances for Licensee’s fiscal year beginning April 1, 2001, each equal to 25% of the $3,000,000 Annual Royalty Advance Requirement.",
+      "amountMinor": 75000000,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": "2001-04-01",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "1.11",
+          "text": "1.11 \"Annual Royalty Advance Requirement\" shall mean (i) $1,000,000 in\nrespect of Licensee's fiscal year beginning April 1, 1999, (ii)\n$2,000,000 in respect of Licensee's fiscal year beginning April 1,\n2000, (iii) $3,000,000 in respect of Licensee's fiscal year beginning\nApril 1, 2001, (iv) $4,000,000 in respect of Licensee's fiscal year\nbeginning April 1, 2002 and (v) $5,000,000 in respect of Licensee's\nfiscal year beginning April 1, 2003."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "On or before the first day of each\nfiscal quarter of each fiscal year during the term hereof, commencing\nwith the Licensee's fiscal year which begins on April 1, 1999,\nLicensee shall pay to Licensor, as an advance (a \"Royalty Advance\") of\nroyalties anticipated to be paid hereunder during such fiscal year, an\namount equal to twenty-five percent (25%) of the Annual Royalty\nAdvance Requirement for such fiscal year."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "All royalty payments due to Licensor under this Agreement shall be\npaid in U.S. Dollars."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "Licensee must pay Licensor quarterly Royalty Advances for Licensee’s fiscal year beginning April 1, 2002, each equal to 25% of the $4,000,000 Annual Royalty Advance Requirement.",
+      "amountMinor": 100000000,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": "2002-04-01",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "1.11",
+          "text": "1.11 \"Annual Royalty Advance Requirement\" shall mean (i) $1,000,000 in\nrespect of Licensee's fiscal year beginning April 1, 1999, (ii)\n$2,000,000 in respect of Licensee's fiscal year beginning April 1,\n2000, (iii) $3,000,000 in respect of Licensee's fiscal year beginning\nApril 1, 2001, (iv) $4,000,000 in respect of Licensee's fiscal year\nbeginning April 1, 2002 and (v) $5,000,000 in respect of Licensee's\nfiscal year beginning April 1, 2003."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "On or before the first day of each\nfiscal quarter of each fiscal year during the term hereof, commencing\nwith the Licensee's fiscal year which begins on April 1, 1999,\nLicensee shall pay to Licensor, as an advance (a \"Royalty Advance\") of\nroyalties anticipated to be paid hereunder during such fiscal year, an\namount equal to twenty-five percent (25%) of the Annual Royalty\nAdvance Requirement for such fiscal year."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "All royalty payments due to Licensor under this Agreement shall be\npaid in U.S. Dollars."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "Licensee must pay Licensor quarterly Royalty Advances for Licensee’s fiscal year beginning April 1, 2003, each equal to 25% of the $5,000,000 Annual Royalty Advance Requirement.",
+      "amountMinor": 125000000,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": "2003-04-01",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "1.11",
+          "text": "1.11 \"Annual Royalty Advance Requirement\" shall mean (i) $1,000,000 in\nrespect of Licensee's fiscal year beginning April 1, 1999, (ii)\n$2,000,000 in respect of Licensee's fiscal year beginning April 1,\n2000, (iii) $3,000,000 in respect of Licensee's fiscal year beginning\nApril 1, 2001, (iv) $4,000,000 in respect of Licensee's fiscal year\nbeginning April 1, 2002 and (v) $5,000,000 in respect of Licensee's\nfiscal year beginning April 1, 2003."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "On or before the first day of each\nfiscal quarter of each fiscal year during the term hereof, commencing\nwith the Licensee's fiscal year which begins on April 1, 1999,\nLicensee shall pay to Licensor, as an advance (a \"Royalty Advance\") of\nroyalties anticipated to be paid hereunder during such fiscal year, an\namount equal to twenty-five percent (25%) of the Annual Royalty\nAdvance Requirement for such fiscal year."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "All royalty payments due to Licensor under this Agreement shall be\npaid in U.S. Dollars."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "If the term extends beyond Licensee’s fiscal year beginning April 1, 2003, Licensee must continue paying quarterly Royalty Advances equal to 25% of the Annual Royalty Advance Requirement, which increases by $1,000,000 for each later fiscal year.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due only if the Agreement extends beyond Licensee’s fiscal year beginning April 1, 2003; future installment amounts vary by fiscal year.",
+      "quotes": [
+        {
+          "clauseId": "1.11",
+          "text": "In the event that the term\nhereof extends beyond Licensee's fiscal year beginning April 1, 2003,\nthe amount of the Annual Royalty Advance shall increase by $1,000,000\nfor each such fiscal year thereafter."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "On or before the first day of each\nfiscal quarter of each fiscal year during the term hereof, commencing\nwith the Licensee's fiscal year which begins on April 1, 1999,\nLicensee shall pay to Licensor, as an advance (a \"Royalty Advance\") of\nroyalties anticipated to be paid hereunder during such fiscal year, an\namount equal to twenty-five percent (25%) of the Annual Royalty\nAdvance Requirement for such fiscal year."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "All royalty payments due to Licensor under this Agreement shall be\npaid in U.S. Dollars."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "Licensee must pay Licensor royalties for each Licensed Product licensed to a Redistributor or Customer equal to the Specified Royalty Percentage of relevant revenues received, to the extent payment exceeds credited Royalty Advances.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount depends on revenues received and outstanding Royalty Advances; due date depends on invoice/payment events.",
+      "quotes": [
+        {
+          "clauseId": "Section 3.1 ROYALTIES TO LICENSOR.",
+          "text": "(a) Licensee shall pay to Licensor for each Licensed\nProduct licensed to a Redistributor or a Customer a\n\nroyalty equal to the Specified Royalty Percentage of\nall revenues received (without deduction for value\nadded tax, if any, but excluding any revenues for\nmaintenance and support or upgrade services, which\nrevenues are covered in paragraph (b) below) by\nLicensee under the Redistributor Agreement or\nSublicense applicable to such Licensed Product."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "With respect to any royalty\npayments due hereunder from Licensee to Licensor in excess of the\namount of Royalty Advances made by Licensee from time to time\nhereunder, such payments shall be payable on the later of (i) sixty\n(60) days after the date of the applicable invoice to a Redistributor\nor Customer, as the case may be, or (ii) five (5) business days\nfollowing Licensee's receipt of payment from a Redistributor or\nCustomer, as the case may be."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "All royalty payments due to Licensor under this Agreement shall be\npaid in U.S. Dollars."
+        }
+      ],
+      "ambiguities": [
+        "1.13 defines “Specified Royalty Percentage” as fifty percent “from and including January 1, 1999 through and including March 31, 1994,” which is internally inconsistent and predates the start of the period."
+      ]
+    },
+    {
+      "description": "Licensee must pay Licensor royalties for maintenance and support and upgrade services for Licensed Products equal to the Specified Royalty Percentage of related revenues received, to the extent payment exceeds credited Royalty Advances.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Amount depends on revenues received and outstanding Royalty Advances; due date depends on invoice/payment events.",
+      "quotes": [
+        {
+          "clauseId": "Section 3.1 ROYALTIES TO LICENSOR.",
+          "text": "(b) Licensee shall pay to Licensor for maintenance and\nsupport and upgrade services provided under the\napplicable Sublicense or other written maintenance and\nsupport agreement with or approved by Licensee for each\nof the Licensed Products a royalty equal to the\nSpecified Royalty Percentage of all revenues received\n(without deduction for value added tax, if any) by\nLicensee from a Redistributor or Customer relating to\nmaintenance and support services or services for\nUpgrades or upgrades of systems for such Licensed\nProducts."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "With respect to any royalty\npayments due hereunder from Licensee to Licensor in excess of the\namount of Royalty Advances made by Licensee from time to time\nhereunder, such payments shall be payable on the later of (i) sixty\n(60) days after the date of the applicable invoice to a Redistributor\nor Customer, as the case may be, or (ii) five (5) business days\nfollowing Licensee's receipt of payment from a Redistributor or\nCustomer, as the case may be."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "All royalty payments due to Licensor under this Agreement shall be\npaid in U.S. Dollars."
+        }
+      ],
+      "ambiguities": [
+        "1.13 defines “Specified Royalty Percentage” as fifty percent “from and including January 1, 1999 through and including March 31, 1994,” which is internally inconsistent and predates the start of the period."
+      ]
+    },
+    {
+      "description": "Overdue royalty payments bear interest at 10% per annum from the due date until paid.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "annually",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if a royalty payment is not paid when due; amount depends on overdue balance and length of delay.",
+      "quotes": [
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "Any royalty payment that is not paid\nwhen due will bear interest from the date such amount is due until the\ndate payment is made at a rate equal to ten percent (10%) per annum."
+        },
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "All royalty payments due to Licensor under this Agreement shall be\npaid in U.S. Dollars."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "Upon expiration or termination, Licensor must repay Licensee the aggregate amount of all Royalty Advances then outstanding.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due upon expiration or any termination; amount depends on Royalty Advances then outstanding.",
+      "quotes": [
+        {
+          "clauseId": "Section 3.2 TERMS OF PAYMENT.",
+          "text": "Upon the expiration or any termination of this\nAgreement, Licensor shall repay to Licensee the aggregate amount of\nall Royalty Advances then outstanding."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "If termination results from Licensee’s failure to pay, Licensee’s obligation to pay all accrued and payable sums to Licensor is accelerated as of the termination date.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only upon termination resulting from Licensee’s failure to pay amounts due.",
+      "quotes": [
+        {
+          "clauseId": "4. AMENDMENT OF TERMINATION PROVISIONS.",
+          "text": "(2) Immediately upon written notice if the other party defaults in\nthe performance of any obligation under this Agreement, including\nfailure to promptly pay any amount due hereunder, and fails to\ncure such default within thirty (30) days after delivery of\nwritten notice specifying the default (with any termination as a\nresult of Licensee's failure to pay amounts due under this\nAgreement resulting in acceleration of Licensee's obligation to\npay all sums accrued and payable to Licensor under this Agreement\nas of the date of such termination)."
+        }
+      ],
+      "ambiguities": []
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "NEON Systems, Inc.",
+      "grantor": "Peregrine/Bridge Transfer Corporation",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Not stated in supplied text",
+      "territoryCodes": [],
+      "productLabel": "Licensed Products; except Licensor’s Partitioned Database Facility product may also be licensed to International Business Machines Corporation for sublicensing and distribution",
+      "productCodes": [
+        "LICENSED_PRODUCTS",
+        "PARTITIONED_DATABASE_FACILITY"
+      ],
+      "start": "1999-01-01",
+      "end": "2004-03-31",
+      "quotes": [
+        {
+          "clauseId": "5. AMENDMENT OF NATURE OF DISTRIBUTORSHIP.",
+          "text": "Licensor and Licensee do\nhereby agree that this Amendment shall effect a change in the nature of the\ndistributorship granted to Licensee pursuant to the Distributor Agreement from a\nnon-exclusive to an exclusive distributorship (provided, however, that with\nrespect to Licensor's Partitioned Database Facility product, Licensor also may\nlicense such product to International Business Machines Corporation for\nsublicensing and distribution)."
+        },
+        {
+          "clauseId": "9. MISCELLANEOUS.",
+          "text": "The amendments to\nthe Distributor Agreement effected by this Amendment shall be effective from and\nafter the date hereof."
+        },
+        {
+          "clauseId": "Section 14.1 TERM.",
+          "text": "Section 14.1 TERM. This Agreement shall be effective\nthrough and including March 31, 2004. Upon the expiration\nof such term, this Agreement will renew automatically for\nsuccessive terms of one (1) year each unless either party to\nthis Agreement delivers written notice of termination to the\nother party to this Agreement at least sixty (60) days prior\nto the end of the original or any renewal term."
+        }
+      ],
+      "ambiguities": [
+        "The supplied text does not state the territory for the distributorship.",
+        "The supplied text does not reproduce the definition or schedule of Licensed Products.",
+        "The grant may continue beyond 2004-03-31 for automatic renewal terms unless terminated under Section 14.1.",
+        "Licensor retains the ability to license the Partitioned Database Facility product to International Business Machines Corporation for sublicensing and distribution."
+      ]
+    },
+    {
+      "grantee": "NEON Systems, Inc.",
+      "grantor": "Peregrine/Bridge Transfer Corporation and Skunkware, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Not applicable; stock/assets of Licensor",
+      "territoryCodes": [],
+      "productLabel": "Right of first refusal to purchase, lease or otherwise acquire all or the applicable portion of stock in, or assets of, Peregrine/Bridge Transfer Corporation subject to a bona fide offer",
+      "productCodes": [
+        "PBTC_STOCK",
+        "PBTC_ASSETS"
+      ],
+      "start": "1999-01-01",
+      "end": "2004-03-31",
+      "quotes": [
+        {
+          "clauseId": "Section 15.11 Right of First Refusal.",
+          "text": "Section 15.11 Right of First Refusal. If, at any time or from\ntime to time during the term hereof, Licensor or any stockholder in\nLicensor shall have received a bona fide offer from any person or\nentity to sell, transfer or otherwise convey all or any stock in, or\nassets of, Licensor which Licensor or such stockholder, as the case\nmay be (the \"Offeree\"), desires to accept, the Offeree shall first\ngive written notice (the \"Offering Notice\") to Licensee of the\nfinancial and other terms and conditions (the \"Terms and Conditions\")\nof such offer."
+        },
+        {
+          "clauseId": "Section 15.11 Right of First Refusal.",
+          "text": "Licensee shall have the right and a first opportunity\nto purchase, lease or otherwise acquire, as the case may be, all or\nthe applicable portion of such stock or assets (as specified in the\napplicable Offering Notice) on the Terms and Conditions set forth in\nthe Offering Notice, such right to be exercised by notice in writing\nto the Offeree within ninety (90) days after the giving of the\nOffering Notice."
+        },
+        {
+          "clauseId": "Section 15.11 Right of First Refusal.",
+          "text": "Skunkware, Inc., a Delaware corporation and the sole\nstockholder of Licensor (\"Skunkware\"), is joining in this Agreement\nfor the purpose of agreeing to the terms of this Section and Section\n15.12."
+        },
+        {
+          "clauseId": "Section 14.1 TERM.",
+          "text": "Section 14.1 TERM. This Agreement shall be effective\nthrough and including March 31, 2004. Upon the expiration\nof such term, this Agreement will renew automatically for\nsuccessive terms of one (1) year each unless either party to\nthis Agreement delivers written notice of termination to the\nother party to this Agreement at least sixty (60) days prior\nto the end of the original or any renewal term."
+        }
+      ],
+      "ambiguities": [
+        "The right applies only if Licensor or a stockholder receives a bona fide offer that the Offeree desires to accept.",
+        "The grant may continue beyond 2004-03-31 for automatic renewal terms unless terminated under Section 14.1."
+      ]
+    },
+    {
+      "grantee": "NEON Systems, Inc.",
+      "grantor": "Peregrine/Bridge Transfer Corporation and Skunkware, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Not applicable; stock/assets of Licensor",
+      "territoryCodes": [],
+      "productLabel": "Exclusive irrevocable option to purchase either all assets of Peregrine/Bridge Transfer Corporation or all issued and outstanding stock of Peregrine/Bridge Transfer Corporation, with related negative covenants while the Option exists",
+      "productCodes": [
+        "PBTC_ASSETS",
+        "PBTC_STOCK"
+      ],
+      "start": null,
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "Section 15.12 OPTION TO PURCHASE.",
+          "text": "Section 15.12 OPTION TO PURCHASE. Skunkware and Licensor hereby\ngrant to Licensee the exclusive and irrevocable right and option to\npurchase (the \"Option\"), at Licensee's election, either (i) all of the\nassets of Licensor or (ii) all of the issued and outstanding stock of\nLicensor."
+        },
+        {
+          "clauseId": "Section 15.12 OPTION TO PURCHASE.",
+          "text": "Such option shall be exercisable during a period (the\n\"Option Period\") commencing on and including the earlier of (i) the\ndate upon which Licensee shall have paid to Licensor, in any single\nfiscal year of Licensee, royalty payments hereunder in the aggregate\namount of $10,000,000 or (ii) January 1, 2002, and ending upon the\nexpiration or sooner termination of this Agreement."
+        },
+        {
+          "clauseId": "Section 15.12 OPTION TO PURCHASE.",
+          "text": "So long as the Option shall be in existence\n(whether or not exercisable), Skunkware and Licensor agree that\nLicensor will conduct its business in the ordinary course and will\nnot, without the prior written consent of Licensee, merge or\nconsolidated with any other entity, sell all or substantially all of\nits assets, grant or permit to exist any lien or encumbrance on any\nmaterial portion of its assets, issue any securities to any person\nother than Skunkware or engage in any other transaction or enter into\nany other agreement other than in the ordinary course of business."
+        },
+        {
+          "clauseId": "Section 15.12 OPTION TO PURCHASE.",
+          "text": "Skunkware further agrees that, so long as the Option shall be in\nexistence (whether or not exercisable), it shall be and remain the\nsole Stockholder Licensor, and Licensor shall not issue to any other\nperson or entity any stock, warrants or similar rights to acquire\nequity interests in Licensor."
+        }
+      ],
+      "ambiguities": [
+        "The Option Period starts on the earlier of a $10,000,000 royalty-payment threshold in a single fiscal year or January 1, 2002; the supplied text does not state whether the threshold occurs before January 1, 2002, so the start date cannot be fixed.",
+        "The Option Period ends on expiration or sooner termination of the Agreement, and Section 14.1 provides for automatic renewal; the final end date cannot be fixed from the supplied text."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Giggles N’ Hugs, Inc., a Nevada corporation, as “Company”; Kiddo, Inc., a Florida corporation, as “Consultant”.",
+      "quotes": [
+        {
+          "clauseId": "STRATEGIC ALLIANCE AGREEMENT",
+          "text": "This Strategic Alliance Agreement (this “Agreement” ) is made and entered into as of May 17, 2016, (the “Effective Date” ) by and between Giggles\nN’ Hugs, Inc., a Nevada corporation (the “Company” ), and Kiddo, Inc., a Florida corporation, Inc., ( “Consultant” )."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2016-05-17",
+      "quotes": [
+        {
+          "clauseId": "STRATEGIC ALLIANCE AGREEMENT",
+          "text": "as of May 17, 2016, (the “Effective Date” )"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "No fixed term length stated; the Agreement terminates on completion of work or period of work, and either party may terminate after 3 years following the Effective Date.",
+      "quotes": [
+        {
+          "clauseId": "3. Termination.",
+          "text": "Either party may terminate this agreement after 3 years following the effective date."
+        },
+        {
+          "clauseId": "3. Termination.",
+          "text": "(1) Completion of work or period of work provided in this agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 3 provides termination events rather than a fixed term length; clause 3(a)(1) refers to “Completion of work or period of work” but does not state when that occurs."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "No fixed calendar end date stated.",
+      "quotes": [
+        {
+          "clauseId": "3. Termination.",
+          "text": "Either party may terminate this agreement after 3 years following the effective date."
+        },
+        {
+          "clauseId": "3. Termination.",
+          "text": "(1) Completion of work or period of work provided in this agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 3 does not state that the Agreement automatically ends after 3 years; it states only that either party may terminate after that period. Clause 3(a)(1) also makes termination depend on completion of work or period of work, which is not dated."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Either party may terminate after 3 years following the Effective Date. The Company may also terminate at its option if at least two Milestones, excluding Milestone 1, are not achieved within 12 months from the Effective Date. No notice period is stated for these rights.",
+      "quotes": [
+        {
+          "clauseId": "3. Termination.",
+          "text": "Either party may terminate this agreement after 3 years following the effective date."
+        },
+        {
+          "clauseId": "3. Termination.",
+          "text": "(3) By the Company, at its option, if at least two Milestones (excluding Milestones 1) are not achieved within 12 months\nfrom the Effective Date."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 3 states the no-cause and Company optional termination rights but does not state any notice period for exercising them."
+      ]
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either Company or Consultant may terminate for material breach if not cured within 30 days after written notice from the non-breaching party.",
+      "quotes": [
+        {
+          "clauseId": "3. Termination.",
+          "text": "(2) Termination by Company or Consultant for any material breach, which is not cured within 30 days after written notice of\nany such material breach from the non-breaching party, pursuant to the terms of the Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Restrictive covenant: Consultant may not, during the Term and for one year thereafter, solicit or recruit Company employees or consultants, or solicit Company clients, customers or prospective customers with Material Contact or about whom Consultant received Confidential Information, for Competitive Products/Services.",
+      "quotes": [
+        {
+          "clauseId": "6. Non-Solicitation .",
+          "text": "Consultant will not, during the Term, and for a period of one (1) year thereafter, directly or indirectly: (i) solicit, recruit or\npromote the solicitation or recruitment of any employee or consultant of the Company for the purpose of encouraging that employee or\nconsultant to leave the Company’s employ or sever an agreement for services; or (ii) solicit, participate in or promote the solicitation of\nany of the Company’s clients, customers, or prospective customers with whom Consultant had a Material Contact (hereinafter defined)\nand/or regarding whom Consultant received Confidential Information, for the purpose of providing products or services (“Competitive\nProducts/Services”)."
+        },
+        {
+          "clauseId": "6. Non-Solicitation .",
+          "text": "“Material Contact” means interaction between Consultant and the customer, client or prospective customer within\none year prior to Consultant’s separation of services from the Company that takes place to manage, service or further the business\nrelationship."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 6 uses “the Term”, but the Agreement does not define a fixed Term or fixed end date, so the exact expiry date of the one-year post-Term restriction cannot be determined."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "Company must issue Consultant a warrant to purchase 4,400,000 shares of the Company’s common stock on or before the Effective Date.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": "2016-05-17",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "2. Consideration .",
+          "text": "In consideration for all duties and obligations contained herein, on or before the Effective date above, Company shall issue\nto Consultant a warrant to purchase 4,400,000 shares of the Company’s common stock, which is equal to 10% of the issued and\noutstanding shares of common stock of the Company at the time of the grant."
+        },
+        {
+          "clauseId": "STRATEGIC ALLIANCE AGREEMENT",
+          "text": "as of May 17, 2016, (the “Effective Date” )"
+        }
+      ],
+      "ambiguities": [
+        "The consideration is a warrant rather than a cash payment; most vesting is governed by separate milestones in clause 2(b)."
+      ]
+    },
+    {
+      "description": "Consultant must pay an exercise price of $0.075 per share if it exercises the warrants.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Payable only if and when the warrants are exercised; the Agreement does not state an exercise date or the number of shares that will be exercised.",
+      "quotes": [
+        {
+          "clauseId": "2. Consideration .",
+          "text": "(a) The exercise price for the warrants shall be $0.075 per share, and shall not increase for any reason."
+        }
+      ],
+      "ambiguities": [
+        "Clause 2(a) states a per-share exercise price only; the total payable depends on whether the warrants are exercised and how many shares are purchased."
+      ]
+    },
+    {
+      "description": "Consultant must indemnify the Company for claims, damages, losses, costs and expenses relating to withholding taxes, social security, unemployment or disability insurance, or similar items connected with Consultant’s compensation.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if such claims, losses, costs, expenses or legal obligations arise.",
+      "quotes": [
+        {
+          "clauseId": "4. Relationship of Parties .",
+          "text": "Consultant will indemnify the Company and hold it harmless from and against all claims, damages, losses, costs and\nexpenses, including reasonable fees and expenses of attorneys and other professionals, relating to any obligation imposed by law on the\nCompany to pay any withholding taxes, social security, unemployment or disability insurance, or similar items in connection with\ncompensation received by Consultant pursuant to this Agreement."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "Company must bear expenses for requested assistance with Innovations and must compensate Consultant at a reasonable rate after termination for time actually spent at the Company’s request providing such assistance.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only when the Company requests assistance and, for compensation at a reasonable rate, after termination for time actually spent.",
+      "quotes": [
+        {
+          "clauseId": "7. Property of Company .",
+          "text": "At the Company’s request and expense, during and after the term of this Agreement, Consultant will assist and cooperate\nwith the Company in all respects and will execute documents, and, subject to the reasonable availability of Consultant, give testimony and\ntake such further acts reasonably requested by the Company to enable the Company to acquire, transfer, maintain, perfect and enforce its\nIntellectual Property Rights and other legal protections for the Innovations."
+        },
+        {
+          "clauseId": "7. Property of Company .",
+          "text": "Consultant’s obligation to assist the\nCompany shall continue beyond the termination of Consultant’s relationship with the Company, but the Company shall compensate\nConsultant at a reasonable rate after the termination of such relationship for time actually spent at the Company’s request providing such\nassistance."
+        }
+      ],
+      "ambiguities": [
+        "The Agreement does not state the reasonable rate, expenses, or any date on which assistance will be requested."
+      ]
+    },
+    {
+      "description": "The non-prevailing party must pay reasonable attorney costs and expenses if the other party is required to engage an attorney to enforce the Agreement.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if a party is required to engage an attorney to enforce the Agreement and there is a non-prevailing party.",
+      "quotes": [
+        {
+          "clauseId": "11. General.",
+          "text": "Each party hereto agrees that in the event that the other\nparty is required to engage an attorney to enforce any of the terms or obligations contained in this Agreement, the non-prevailing party shall pay\nall reasonable costs and expenses of that attorney or firm, whether or not a complaint or suit is filed with any court of competent jurisdiction."
+        }
+      ],
+      "ambiguities": [
+        "Clause 11(b) does not state the amount of reasonable costs and expenses or when they become due."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "Giggles N’ Hugs, Inc.",
+      "grantor": "Kiddo, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic limitation stated",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "Non-solicitation/recruitment of Company employees and consultants",
+      "productCodes": [
+        "EMPLOYEE_CONSULTANT_NON_SOLICIT"
+      ],
+      "start": "2016-05-17",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "STRATEGIC ALLIANCE AGREEMENT",
+          "text": "This Strategic Alliance Agreement (this “Agreement” ) is made and entered into as of May 17, 2016, (the “Effective Date” ) by and between Giggles\nN’ Hugs, Inc., a Nevada corporation (the “Company” ), and Kiddo, Inc., a Florida corporation, Inc., ( “Consultant” )."
+        },
+        {
+          "clauseId": "6. Non-Solicitation .",
+          "text": "Consultant will not, during the Term, and for a period of one (1) year thereafter, directly or indirectly: (i) solicit, recruit or\npromote the solicitation or recruitment of any employee or consultant of the Company for the purpose of encouraging that employee or\nconsultant to leave the Company’s employ or sever an agreement for services; or (ii) solicit, participate in or promote the solicitation of\nany of the Company’s clients, customers, or prospective customers with whom Consultant had a Material Contact (hereinafter defined)\nand/or regarding whom Consultant received Confidential Information, for the purpose of providing products or services (“Competitive\nProducts/Services”)."
+        }
+      ],
+      "ambiguities": [
+        "Clause 6 uses “the Term”, but the Agreement does not define a fixed Term or fixed end date, so the exact end date of this restriction cannot be determined."
+      ]
+    },
+    {
+      "grantee": "Giggles N’ Hugs, Inc.",
+      "grantor": "Kiddo, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No geographic limitation stated",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "Non-solicitation of Company clients, customers, or prospective customers with Material Contact or Confidential Information for Competitive Products/Services",
+      "productCodes": [
+        "COMPETITIVE_PRODUCTS_SERVICES_CLIENT_NON_SOLICIT"
+      ],
+      "start": "2016-05-17",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "STRATEGIC ALLIANCE AGREEMENT",
+          "text": "This Strategic Alliance Agreement (this “Agreement” ) is made and entered into as of May 17, 2016, (the “Effective Date” ) by and between Giggles\nN’ Hugs, Inc., a Nevada corporation (the “Company” ), and Kiddo, Inc., a Florida corporation, Inc., ( “Consultant” )."
+        },
+        {
+          "clauseId": "6. Non-Solicitation .",
+          "text": "Consultant will not, during the Term, and for a period of one (1) year thereafter, directly or indirectly: (i) solicit, recruit or\npromote the solicitation or recruitment of any employee or consultant of the Company for the purpose of encouraging that employee or\nconsultant to leave the Company’s employ or sever an agreement for services; or (ii) solicit, participate in or promote the solicitation of\nany of the Company’s clients, customers, or prospective customers with whom Consultant had a Material Contact (hereinafter defined)\nand/or regarding whom Consultant received Confidential Information, for the purpose of providing products or services (“Competitive\nProducts/Services”)."
+        },
+        {
+          "clauseId": "6. Non-Solicitation .",
+          "text": "“Material Contact” means interaction between Consultant and the customer, client or prospective customer within\none year prior to Consultant’s separation of services from the Company that takes place to manage, service or further the business\nrelationship."
+        }
+      ],
+      "ambiguities": [
+        "Clause 6 uses “the Term”, but the Agreement does not define a fixed Term or fixed end date, so the exact end date of this restriction cannot be determined."
+      ]
+    }
+  ]
+}

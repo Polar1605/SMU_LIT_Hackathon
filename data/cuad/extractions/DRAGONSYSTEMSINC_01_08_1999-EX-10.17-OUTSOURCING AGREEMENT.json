@@ -1,0 +1,246 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "MODUS MEDIA INTERNATIONAL (\"MMI\"), service provider/producer; DRAGON SYSTEMS, INC. (\"DRAGON SYSTEMS\"), customer",
+      "quotes": [
+        {
+          "clauseId": "BETWEEN:",
+          "text": "BETWEEN:\nMODUS MEDIA INTERNATIONAL\nLANDDROSTLAAN 51\n7327 GM APELDOORN\nTHE NETHERLANDS\n(HEREINAFTER \"MMI\")\nAND\nDRAGON SYSTEMS, INC.\n320 NEVADA STREET\nNEWTON, MA 02160\nU.S.A.\n(HEREAFTER \"DRAGON SYSTEMS\")"
+        },
+        {
+          "clauseId": "2. SERVICES",
+          "text": "MMI will produce products for Dragon Systems on a Turnkey basis."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "Not specified; stated only as \"(EFFECTIVE DATE)\"",
+      "quotes": [
+        {
+          "clauseId": "Preamble",
+          "text": "EFFECTIVE AS OF (EFFECTIVE DATE)"
+        },
+        {
+          "clauseId": "Signature block",
+          "text": "MMI\n\\s\\ John Dick General Manager\n- -------------------------------------------------------\n19 Jan. 1998\nDRAGON SYSTEMS, INC.\n\n\\s\\ Janet M. Baker, President\n- -----------------------------------------------------\n12 Jan. 1998"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The preamble states \"EFFECTIVE AS OF (EFFECTIVE DATE)\" but does not fill in the date; the signature block has different signing dates for MMI and Dragon Systems, but neither is identified as the effective date."
+      ]
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "Indefinite period",
+      "quotes": [
+        {
+          "clauseId": "12. TERM AND TERMINATION",
+          "text": "This Agreement shall be valid for an indefinite period."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "No fixed end date; indefinite period",
+      "quotes": [
+        {
+          "clauseId": "12. TERM AND TERMINATION",
+          "text": "This Agreement shall be valid for an indefinite period."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "No renewal mechanism; agreement is valid for an indefinite period until terminated",
+      "quotes": [
+        {
+          "clauseId": "12. TERM AND TERMINATION",
+          "text": "This Agreement shall be valid for an indefinite period."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Dragon may terminate without cause on 60 days' written notice to MMI",
+      "quotes": [
+        {
+          "clauseId": "12. TERM AND TERMINATION",
+          "text": "Dragon may terminate this agreement without cause by giving sixty (60) days\nwritten notice to MMI."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Both parties may terminate with immediate effect for material breach, merger or change of key management/control, bankruptcy or similar",
+      "quotes": [
+        {
+          "clauseId": "12. TERM AND TERMINATION",
+          "text": "Both parties may terminate the Agreement with immediate effect\n- - of either party breaches a material term of the Agreement\n- - in case of a merger or change of key management or control\n- - in case of bankruptcy or similar."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "Dragon Systems must compensate MMI for services at the rates in Annex \"Prices\"; MMI invoices based on actual shipments.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due within 30 days after delivery, or when agreed after delivery of installments or Dragon Systems' receipt of invoice, whichever is later; delivery and invoice dates are not fixed in the document.",
+      "quotes": [
+        {
+          "clauseId": "5. PAYMENT AND PRICING",
+          "text": "Dragon Systems will compensate MMI for all Services rendered in accordance with\nthe rates specified in the Annex \"Prices.\" Unless otherwise agreed, prices shall\nexclude transport, insurance, VAT and Import duties (outside EC countries) to\nDragon Systems' designated delivery address."
+        },
+        {
+          "clauseId": "5. PAYMENT AND PRICING",
+          "text": "MMI will invoice Dragon Systems based on actual shipments that have been\nperformed."
+        },
+        {
+          "clauseId": "5. PAYMENT AND PRICING",
+          "text": "Payments will be due in US dollars within 30 days after delivery, or when agreed\nafter delivery of installments or the receipt of invoice by Dragon Systems,\nwhich ever is later. MMI shall invoice Dragon Systems indicating the performed\nservices in US$ with reference to this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "Clause 5 refers to rates in Annex \"Prices,\" but the attached price sheets are redacted as [**], so no fixed amount can be extracted."
+      ]
+    },
+    {
+      "description": "Dragon Systems must pay an Inventory Carriage Charge for materials in stock older than 90 days.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only for materials in stock older than 90 days; amount depends on the materials' value and the redacted percentage rate.",
+      "quotes": [
+        {
+          "clauseId": "5. PAYMENT AND PRICING",
+          "text": "For all materials in stock, older than 90 days, MMI will charge Dragon Systems\nwith an Inventory Carriage Charge of [**] of its value per month."
+        },
+        {
+          "clauseId": "5. PAYMENT AND PRICING",
+          "text": "Payments will be due in US dollars within 30 days after delivery, or when agreed\nafter delivery of installments or the receipt of invoice by Dragon Systems,\nwhich ever is later. MMI shall invoice Dragon Systems indicating the performed\nservices in US$ with reference to this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "Clause 5 redacts the Inventory Carriage Charge rate as [**], so no fixed amount can be calculated."
+      ]
+    },
+    {
+      "description": "Dragon Systems is responsible for transport, insurance, VAT and import duties (outside EC countries) excluded from prices, unless otherwise agreed.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only where such charges apply and unless otherwise agreed; the document does not fix amounts or dates for those charges.",
+      "quotes": [
+        {
+          "clauseId": "5. PAYMENT AND PRICING",
+          "text": "Dragon Systems will compensate MMI for all Services rendered in accordance with\nthe rates specified in the Annex \"Prices.\" Unless otherwise agreed, prices shall\nexclude transport, insurance, VAT and Import duties (outside EC countries) to\nDragon Systems' designated delivery address."
+        }
+      ],
+      "ambiguities": [
+        "Clause 5 says prices exclude transport, insurance, VAT and Import duties, but does not state the amounts, currency, or specific invoicing mechanics for those excluded items."
+      ]
+    },
+    {
+      "description": "MMI must reimburse Dragon Systems and hold Dragon Systems harmless from liabilities or obligations resulting from MMI's or its employees' or agents' activities under the Agreement.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies if liabilities or obligations are imposed on Dragon Systems as a result of MMI's or its employees' or agents' activities under the Agreement.",
+      "quotes": [
+        {
+          "clauseId": "7. INDEMNITY",
+          "text": "MMI shall reimburse Dragon Systems and hold Dragon Systems harmless from any\nliabilities or obligations imposed upon Dragon Systems resulting directly or\nindirectly from MMI's or its employees or agents activities under this\nAgreement."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "MMI must defend and indemnify Dragon Systems against qualifying patent or copyright infringement claims and pay resulting costs and damages.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies if a covered infringement claim is made and Dragon Systems promptly informs MMI in writing and gives MMI sole control of the defense and settlement negotiations.",
+      "quotes": [
+        {
+          "clauseId": "10. PATENTS AND COPYRIGHT",
+          "text": "MMI will defend and indemnity\nDragon Systems against a claim that the Services supplied hereunder infringe a\npatent or copyright and will pay resulting costs and damages provided that\nDragon Systems (i) promptly informs MMI in writing of the claim and (ii) gives\nMMI sole control of the defense and all related settlement negotiations."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "MMI must indemnify Dragon Systems for theft, loss or damage to Dragon Systems property under MMI's care, custody or control.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies if there is theft, loss or damage to Dragon Systems property under MMI's care, custody or control.",
+      "quotes": [
+        {
+          "clauseId": "14. INSURANCE",
+          "text": "MMI shall immediately notify Dragon Systems in\nwriting of any theft, loss or damage to any Dragon Systems property and shall\nindemnify Dragon Systems in respect of the same."
+        }
+      ],
+      "ambiguities": []
+    }
+  ],
+  "grants": []
+}
