@@ -10,17 +10,33 @@
  * that an unfindable quote destroys the field — which makes copying exactly the
  * cheapest strategy available to it, rather than tidying as it goes.
  *
+ * Extraction is embarrassingly parallel — no contract depends on another — so
+ * documents run concurrently. The ceiling is the token-per-minute rate limit
+ * rather than latency: at roughly 15k tokens a contract against a 500k TPM
+ * allowance, ~30 can be in flight before the tier is the binding constraint,
+ * and a modest limit keeps well clear of 429s.
+ *
+ * Two properties matter more than speed, and both come from the cache. Every
+ * completed call is written to disk before anything else runs, so a failure at
+ * document 63 of 80 resumes at 63 rather than restarting. And because the cache
+ * key hashes the document text, an unchanged file costs nothing on a re-run —
+ * which is what makes iterating on the eval affordable.
+ *
  *   npm run extract
- *   npm run extract -- --corpus ./some-folder
+ *   npm run extract -- --corpus ./some-folder --concurrency 12
  */
 
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { parseArgs } from "node:util";
 import path from "node:path";
+import pLimit from "p-limit";
 
 import { callStructured } from "../lib/llm.ts";
 import { EXTRACTION_SCHEMA, EXTRACTION_SCHEMA_NAME, type RawExtraction } from "../lib/schema.ts";
 import type { ParsedDoc, StageOpts } from "../lib/types.ts";
+
+/** Well clear of a 500k TPM tier at ~15k tokens a contract, and of 500 RPM. */
+export const DEFAULT_CONCURRENCY = 8;
 
 const SYSTEM_PROMPT = `You extract contractual terms from a single agreement and return them as structured data.
 
@@ -80,7 +96,7 @@ ${doc.fullText}
 --- END DOCUMENT TEXT ---`;
 }
 
-export async function run(opts: StageOpts): Promise<Map<string, RawExtraction>> {
+export async function run(opts: StageOpts, concurrency = DEFAULT_CONCURRENCY): Promise<Map<string, RawExtraction>> {
   const parsedDir = path.join(opts.dataDir, "parsed");
   const outDir = path.join(opts.dataDir, "extractions");
   const cacheDir = path.join(opts.dataDir, "cache");
@@ -93,31 +109,62 @@ export async function run(opts: StageOpts): Promise<Map<string, RawExtraction>> 
   }
 
   const results = new Map<string, RawExtraction>();
+  const failures: { docId: string; reason: string }[] = [];
+  const limit = pLimit(concurrency);
+  const started = Date.now();
 
-  for (const file of files) {
-    const doc = JSON.parse(await readFile(path.join(parsedDir, file), "utf8")) as ParsedDoc;
-    const started = Date.now();
+  await Promise.all(
+    files.map((file) =>
+      limit(async () => {
+        const doc = JSON.parse(await readFile(path.join(parsedDir, file), "utf8")) as ParsedDoc;
+        const began = Date.now();
 
-    const { data, cached, model } = await callStructured<RawExtraction>({
-      system: SYSTEM_PROMPT,
-      user: userPrompt(doc),
-      schemaName: EXTRACTION_SCHEMA_NAME,
-      schema: EXTRACTION_SCHEMA,
-      cacheDir,
-      label: doc.docId,
-    });
+        try {
+          const { data, cached, model } = await callStructured<RawExtraction>({
+            system: SYSTEM_PROMPT,
+            user: userPrompt(doc),
+            schemaName: EXTRACTION_SCHEMA_NAME,
+            schema: EXTRACTION_SCHEMA,
+            cacheDir,
+            label: doc.docId,
+          });
 
-    await writeFile(path.join(outDir, `${doc.docId}.json`), `${JSON.stringify(data, null, 2)}\n`);
-    results.set(doc.docId, data);
+          await writeFile(path.join(outDir, `${doc.docId}.json`), `${JSON.stringify(data, null, 2)}
+`);
+          results.set(doc.docId, data);
 
-    const absent = data.fields.filter((f) => f.evidenceType === "absent").length;
-    const ambiguous = data.fields.filter((f) => f.ambiguities.length > 0).length;
-    const quotes = data.fields.reduce((n, f) => n + f.quotes.length, 0);
+          const absent = data.fields.filter((f) => f.evidenceType === "absent").length;
+          const ambiguous = data.fields.filter((f) => f.ambiguities.length > 0).length;
+          const quotes = data.fields.reduce((n, f) => n + f.quotes.length, 0);
+          console.log(
+            `${doc.docId.padEnd(30)} ${cached ? "cached " : "called "} ` +
+              `${String(data.fields.length).padStart(2)} fields, ${String(quotes).padStart(3)} quotes, ` +
+              `${absent} absent, ${ambiguous} ambiguous, ${data.payments.length} payments, ${data.grants.length} grants` +
+              `${cached ? "" : `  (${((Date.now() - began) / 1000).toFixed(1)}s, ${model})`}`,
+          );
+        } catch (error) {
+          // One document failing must not lose the other seventy-nine. The
+          // failure is recorded and compute reports the contract as unavailable
+          // rather than quietly omitting it.
+          const reason = error instanceof Error ? error.message : String(error);
+          failures.push({ docId: doc.docId, reason });
+          console.error(`${doc.docId.padEnd(30)} FAILED  ${reason}`);
+        }
+      }),
+    ),
+  );
+
+  if (files.length > 1) {
     console.log(
-      `${doc.docId.padEnd(30)} ${cached ? "cached " : "called "} ` +
-        `${String(data.fields.length).padStart(2)} fields, ${String(quotes).padStart(3)} quotes, ` +
-        `${absent} absent, ${ambiguous} ambiguous, ${data.payments.length} payments, ${data.grants.length} grants` +
-        `${cached ? "" : `  (${((Date.now() - started) / 1000).toFixed(1)}s, ${model})`}`,
+      `
+${results.size}/${files.length} extracted in ${((Date.now() - started) / 1000).toFixed(1)}s ` +
+        `at concurrency ${concurrency}`,
+    );
+  }
+  if (failures.length > 0) {
+    console.error(
+      `${failures.length} document(s) failed and have no extraction. Re-run to retry just those; ` +
+        `everything that succeeded is cached.`,
     );
   }
 
@@ -130,6 +177,7 @@ if (import.meta.filename === process.argv[1]) {
     options: {
       corpus: { type: "string", default: path.join(ROOT, "data", "corpus") },
       data: { type: "string", default: path.join(ROOT, "data") },
+      concurrency: { type: "string", default: String(DEFAULT_CONCURRENCY) },
     },
   });
   await run({
@@ -137,5 +185,5 @@ if (import.meta.filename === process.argv[1]) {
     dataDir: path.resolve(values.data!),
     asOf: new Date(),
     windowDays: 90,
-  });
+  }, Number(values.concurrency));
 }
