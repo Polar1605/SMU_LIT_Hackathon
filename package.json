@@ -17,7 +17,7 @@
     "typecheck": "tsc --noEmit",
     "inspect": "tsx scripts/inspect-corpus.ts",
     "publish-assets": "tsx scripts/publish-assets.ts",
-    "prebuild": "tsx scripts/publish-assets.ts",
+    "prebuild": "tsx scripts/publish-assets.ts && tsx scripts/ingest.ts --corpus data/cuad/corpus --data data/cuad && tsx scripts/extract.ts --corpus data/cuad/corpus --data data/cuad && tsx scripts/compute.ts --corpus data/cuad/corpus --data data/cuad",
     "exports": "tsx scripts/export-originals.ts",
     "demo:live": "tsx scripts/demo-live.ts",
     "cuad:select": "tsx scripts/cuad/select.ts",

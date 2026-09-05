@@ -17,6 +17,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Citation, ContractResult } from "@/lib/types";
 import { citationRef, matchNote } from "@/lib/display";
+import { useUploadedDocument } from "@/lib/portfolio-source";
 
 interface SlimDoc {
   fullText: string;
@@ -38,6 +39,7 @@ export function EvidenceViewer({
   const [slim, setSlim] = useState<SlimDoc | null>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const layerRef = useRef<HTMLDivElement>(null);
+  const uploaded = useUploadedDocument(contract.docId);
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
@@ -51,6 +53,14 @@ export function EvidenceViewer({
 
   useEffect(() => {
     if (contract.paginated) return;
+
+    // An uploaded document's text is already in memory — nothing to fetch.
+    if (uploaded) {
+      setSlim({ fullText: uploaded.parsedDoc.fullText, html: uploaded.parsedDoc.html ?? null });
+      setStatus("ready");
+      return;
+    }
+
     let cancelled = false;
     (async () => {
       try {
@@ -74,7 +84,7 @@ export function EvidenceViewer({
     return () => {
       cancelled = true;
     };
-  }, [contract.docId, contract.fileName, contract.paginated]);
+  }, [contract.docId, contract.fileName, contract.paginated, uploaded]);
 
   /* ---- PDFs: render the page, then draw the verified span over it ---- */
 
@@ -85,7 +95,12 @@ export function EvidenceViewer({
       const pdfjs = await import("pdfjs-dist");
       pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.mjs";
 
-      const doc = await pdfjs.getDocument({ url: `/corpus/${contract.fileName}` }).promise;
+      // An uploaded PDF's bytes are already in memory — pdfjs takes them
+      // directly, with no server round trip, exactly as it does for the
+      // static corpora except reading from memory instead of a URL.
+      const doc = uploaded
+        ? await pdfjs.getDocument({ data: new Uint8Array(uploaded.bytes) }).promise
+        : await pdfjs.getDocument({ url: `/corpus/${contract.fileName}` }).promise;
       const pdfPage = await doc.getPage(page);
 
       // Render at device resolution so the scan stays legible when zoomed.
@@ -118,7 +133,7 @@ export function EvidenceViewer({
         }`,
       );
     }
-  }, [contract.fileName, contract.paginated, page]);
+  }, [contract.fileName, contract.paginated, page, uploaded]);
 
   useEffect(() => {
     void renderPage();
