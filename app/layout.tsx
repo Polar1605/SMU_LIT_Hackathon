@@ -4,7 +4,7 @@ import "./globals.css";
 
 const newsreader = Newsreader({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["300", "400", "500", "600"],
   style: ["normal", "italic"],
   variable: "--font-newsreader",
   display: "swap",
@@ -25,9 +25,9 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AITHENA — contract obligations",
+  title: "CLARA — contract obligations",
   description:
-    "What a business is committed to across its signed contracts, with every field traced to the clause it came from.",
+    "Contract Liability & Agreement Risk Assistant. What a business is committed to across its signed contracts, with every field traced to the clause it came from.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -1,113 +1,166 @@
 @import "tailwindcss";
 
 /*
- * AITHENA — product UI.
+ * CLARA — design tokens lifted pixel-for-pixel from the handoff
+ * (design_handoff_clara_app/CLARA App.dc.html and README.md).
  *
- * Colour is semantic before it is decorative: the four status hues below each
- * mean one specific thing about how much evidence stands behind a claim, and
- * nothing is tinted for mood. Surfaces are differentiated by role rather than
- * uniformly carded — the hero deadline, a contract sheet and an escalation
- * brief are three different kinds of object and are built to look like it.
+ * The confidence ladder is a deliberate departure from the previous build:
+ * FOUND/INFERRED/UNCERTAIN/NOT_FOUND are cyan/indigo/teal/muted-grey rather
+ * than green/blue/amber/grey. UNCERTAIN in particular is no longer an alarm
+ * color — teal reads as "unresolved," not "wrong." Follow the handoff's exact
+ * hex values rather than reusing the old semantic intuitions.
  */
 
 :root {
-  --app-bg: #e8e8e3;
-  --surface: #ffffff;
-  --surface-2: #f6f6f2;
-  --surface-sunk: #eeeee9;
-  --border: #dcdcd4;
-  --border-strong: #c2c2b8;
+  /* Chrome */
+  --header: #0e2236;
+  --header-disclaimer: #1b3c5c;
+  --header-muted: #9cb3cb;
+  --page: #e9eef5;
+  --app-bg: var(--page);
 
-  --header: #10242e;
-  --header-soft: #9fb3bd;
+  /* Surfaces */
+  --card: #fbfcfe;
+  --surface: var(--card);
+  --wash: #f3f7fc;
+  --surface-2: var(--wash);
+  --wash-alt: #eef3f8;
+  --surface-sunk: var(--wash-alt);
+  --selected: #d9e4f1;
+  --selected-cal: #e8eef7;
 
-  --ink: #15242d;
-  --ink-soft: #566873;
-  --ink-faint: #8496a1;
+  /* Rules and borders */
+  --rule: #d2deec;
+  --border: var(--rule);
+  --input-border: #bdcee2;
+  --border-strong: var(--input-border);
 
-  /* The confidence ladder. These four are the product. */
-  --found: #0f7b5f;
-  --found-bg: #e6f4ef;
-  --inferred: #1f6fb2;
-  --inferred-bg: #e6eff8;
-  --uncertain: #b8700c;
-  --uncertain-bg: #fbf0dd;
-  --silent: #64757f;
-  --silent-bg: #eef1f3;
+  /* Text */
+  --ink: #121e2d;
+  --muted: #44566d;
+  --ink-soft: var(--muted);
+  --muted-strong: #3d5270;
+  --ink-strong-label: var(--muted-strong);
+  --muted-light: #55647c;
+  --ink-faint: var(--muted-light);
+  --disabled: #aab8c9;
 
-  --alert: #b3261e;
-  --alert-bg: #fbe9e7;
-  --alert-strong: #8c1d17;
+  /* Confidence ladder */
+  --found: #1a7ab0;
+  --found-bg: #dfedf7;
+  --inferred: #4557a0;
+  --inferred-bg: #e5e8f7;
+  --uncertain: #0d6d74;
+  --uncertain-bg: #dcecee;
+  --silent: #55647c;
+  --silent-bg: #e7ebf1;
 
-  --shadow-card: 0 1px 2px rgba(21, 36, 45, 0.06);
-  --shadow-raised: 0 4px 14px -4px rgba(21, 36, 45, 0.18);
+  /* Accents */
+  --accent-blue: #1e3a8a;
+  --accent-indigo: #4557a0;
+  --accent-cyan: #1a7ab0;
+  --accent-teal: #0d6d74;
+  --accent-umber: #7a3b10;
+  --accent-umber-bg: #f5ece3;
+
+  /* Conflict banner — navy, not alarm-red, per the handoff */
+  --conflict: var(--accent-blue);
+  --conflict-bg: #e1e7f8;
+  --alert: var(--accent-blue);
+  --alert-bg: var(--conflict-bg);
+
+  /* Calendar event kinds */
+  --kind-notice: var(--accent-blue);
+  --kind-notice-bg: #e2e8f7;
+  --kind-renewal: var(--accent-indigo);
+  --kind-renewal-bg: #e6eaf6;
+  --kind-payment: var(--accent-teal);
+  --kind-payment-bg: #e2eff0;
+  --kind-mine: var(--muted-light);
+  --kind-mine-bg: #eef1f5;
+  --kind-expiry: var(--accent-umber);
+  --kind-expiry-bg: var(--accent-umber-bg);
+
+  --shadow-float: 0 12px 28px rgba(14, 34, 54, 0.16);
+  --shadow-float-sm: 0 10px 24px rgba(14, 34, 54, 0.14);
+  --shadow-modal: 0 26px 60px -22px rgba(18, 30, 45, 0.34);
 }
 
 html {
-  background: var(--app-bg);
+  background: var(--page);
   color-scheme: light;
 }
 
 body {
-  background: var(--app-bg);
+  background: var(--page);
   color: var(--ink);
   font-family: var(--font-plex), ui-sans-serif, system-ui, sans-serif;
-  font-size: 14.5px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   font-variant-numeric: tabular-nums;
 }
 
-/* Headings keep the serif: this is a tool for reading contracts, and the legal
-   register belongs in its voice. The sans face carries the interface chrome —
-   labels, controls, data — so the thing reads as software written for law
-   rather than as a document pretending to be an app. */
 h1,
 h2,
 h3,
 h4 {
   font-family: var(--font-newsreader), Georgia, serif;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -0.008em;
   line-height: 1.25;
 }
 
-/* Interface furniture: labels, column heads, controls. */
+/* Interface furniture: labels, column heads, controls, dates. */
+.ui,
+.ref {
+  font-family: var(--font-plex-mono), ui-monospace, monospace;
+}
+
 .ui {
-  font-family: var(--font-plex), ui-sans-serif, system-ui, sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.01em;
+  font-weight: 500;
 }
 
 .ref {
-  font-family: var(--font-plex-mono), ui-monospace, monospace;
   font-size: 0.72rem;
   letter-spacing: -0.01em;
 }
 
-/* Surfaces, differentiated by role rather than all identical. */
+a {
+  color: var(--accent-indigo);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: var(--header);
+}
+
+::selection {
+  background: #ccdef2;
+}
+
+/* Surfaces, differentiated by role. */
 .card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  box-shadow: var(--shadow-card);
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
 }
 
 .card-head {
-  border-bottom: 1px solid var(--border);
-  background: var(--surface-2);
-  border-radius: 8px 8px 0 0;
+  border-bottom: 1px solid var(--rule);
+  background: var(--wash);
+  border-radius: 3px 3px 0 0;
 }
 
-/* Interactive things must look interactive. */
 .btn {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  border: 1px solid var(--border-strong);
-  background: var(--surface);
-  border-radius: 6px;
-  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--input-border);
+  background: var(--card);
+  border-radius: 3px;
+  padding: 4px 10px;
   font-size: 0.82rem;
   font-weight: 500;
   color: var(--ink);
@@ -116,26 +169,26 @@ h4 {
 }
 
 .btn:hover {
-  background: var(--surface-sunk);
-  border-color: var(--ink-faint);
+  background: var(--selected);
+  border-color: var(--muted-strong);
 }
 
 .cite {
   display: inline-flex;
   align-items: center;
-  border: 1px solid var(--border);
-  background: var(--surface-2);
-  border-radius: 5px;
-  padding: 0.15rem 0.4rem;
-  color: var(--ink-soft);
+  border: 0;
+  border-bottom: 1px dotted var(--muted-strong);
+  background: transparent;
+  padding: 0 0 1px;
+  color: var(--muted);
   cursor: pointer;
-  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+  transition: color 0.12s ease, border-color 0.12s ease;
 }
 
 .cite:hover {
-  background: var(--surface);
-  border-color: var(--ink-faint);
   color: var(--ink);
+  border-bottom-color: var(--ink);
+  border-bottom-style: solid;
 }
 
 .row-hover {
@@ -143,17 +196,13 @@ h4 {
 }
 
 .row-hover:hover {
-  background: var(--surface-2);
+  background: var(--wash);
 }
 
 :where(a, button, summary, [tabindex]):focus-visible {
-  outline: 2px solid var(--inferred);
+  outline: 2px solid var(--accent-indigo);
   outline-offset: 2px;
-  border-radius: 4px;
-}
-
-::selection {
-  background: #cfe0ea;
+  border-radius: 2px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -168,7 +217,7 @@ h4 {
 /* The evidence highlight drawn over a rendered PDF page. */
 .evidence-box {
   position: absolute;
-  background: rgba(184, 112, 12, 0.22);
+  background: rgba(13, 109, 116, 0.18);
   border-bottom: 2px solid var(--uncertain);
   /* content-box, so the padding extends the box below the glyphs rather than
      eating into it — under border-box the rule lands on the baseline and reads
@@ -181,6 +230,6 @@ h4 {
 
 .evidence-box[data-kind="exact"],
 .evidence-box[data-kind="normalised"] {
-  background: rgba(15, 123, 95, 0.2);
+  background: rgba(26, 122, 176, 0.16);
   border-bottom-color: var(--found);
 }

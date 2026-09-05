@@ -25,8 +25,17 @@ const FREQUENCY_LABEL: Record<PaymentTerm["frequency"], string> = {
   "on-invoice": "on each invoice",
 };
 
-export function Workspace({ contracts }: { contracts: ContractResult[] }) {
-  const [selectedId, setSelectedId] = useState(contracts[0]?.docId ?? "");
+interface WorkspaceProps {
+  contracts: ContractResult[];
+  /** Lets the Calendar/Deadlines tabs route into a specific contract. Uncontrolled if omitted. */
+  selectedDocId?: string | null;
+  onSelectDocId?: (docId: string) => void;
+}
+
+export function Workspace({ contracts, selectedDocId, onSelectDocId }: WorkspaceProps) {
+  const [internalId, setInternalId] = useState(contracts[0]?.docId ?? "");
+  const selectedId = selectedDocId ?? internalId;
+  const setSelectedId = onSelectDocId ?? setInternalId;
   const [evidence, setEvidence] = useState<{ citation: Citation; contract: ContractResult } | null>(null);
 
   const selected = contracts.find((c) => c.docId === selectedId) ?? contracts[0];
