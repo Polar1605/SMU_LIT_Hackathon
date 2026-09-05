@@ -1,0 +1,406 @@
+{
+  "selectedAt": "2026-09-05T07:56:48.662Z",
+  "minCoverage": 5,
+  "contracts": [
+    {
+      "filename": "SECURIANFUNDSTRUST_05_01_2012-EX-99.28.H.9-NET INVESTMENT INCOME MAINTENANCE AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Maintenance/SECURIANFUNDSTRUST_05_01_2012-EX-99.28.H.9-NET INVESTMENT INCOME MAINTENANCE AGREEMENT.PDF",
+      "sizeBytes": 29212,
+      "fields": {
+        "parties": {
+          "spans": "['the \"Underwriter\"', 'Advantus Capital  Management, Inc.', 'the \"Investment Adviser\"', 'Securian Funds Trust', 'Securian Financial Services, Inc.', 'the \"Trust\"', \"Trust's Advantus Money Market Fund\", 'the \"Fund\"']",
+          "answer": "Advantus Capital  Management, Inc. (\"Investment Adviser”); Securian Financial Services, Inc. (“Underwriter”); Securian Funds Trust (“Trust”); \nTrust’s Advantus Money Market Fund (“Fund”)"
+        },
+        "commencementDate": {
+          "spans": "['May 1, 2012']",
+          "answer": "5/1/12"
+        },
+        "termEnd": {
+          "spans": "['This Agreement shall continue in effect for a period of one year from the date of its execution and from year to year thereafter provided such  continuance is specifically approved by a majority of the trustees of the Trust who (i) are not \"interested persons\" of the Trust or any other party  to this Agreement, as defined in the 1940 Act, and (ii) have no direct or indirect financial interest in the operation of this Agreement (\"Non- Interested Trustees\").']",
+          "answer": "5/1/13"
+        },
+        "renewalType": {
+          "spans": "['This Agreement shall continue in effect for a period of one year from the date of its execution and from year to year thereafter provided such  continuance is specifically approved by a majority of the trustees of the Trust who (i) are not \"interested persons\" of the Trust or any other party  to this Agreement, as defined in the 1940 Act, and (ii) have no direct or indirect financial interest in the operation of this Agreement (\"Non- Interested Trustees\")']",
+          "answer": "sucessive 1 year"
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 7
+    },
+    {
+      "filename": "CURAEGISTECHNOLOGIES,INC_05_26_2010-EX-1-CORPORATE SPONSORSHIP AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Sponsorship/CURAEGISTECHNOLOGIES,INC_05_26_2010-EX-1-CORPORATE SPONSORSHIP AGREEMENT.PDF",
+      "sizeBytes": 33182,
+      "fields": {
+        "parties": {
+          "spans": "['Torvec', 'Vendor', 'Phoenix Performance, LLC', 'Torvec Inc.']",
+          "answer": "Phoenix Performance, LLC (\"Vendor\"); Torevic Inc. (\"Torvec\")"
+        },
+        "commencementDate": {
+          "spans": "['May 18, 2010']",
+          "answer": "5/18/10"
+        },
+        "termEnd": {
+          "spans": "['The term of this Agreement (the \"Term\") shall commence on the Effective Date and conclude on October 31, 2010, unless renewed by  agreement or sooner terminated in accordance with this Agreement.']",
+          "answer": "10/31/10"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "['Upon termination of this Agreement, NEITHER PARTY SHALL BE LIABLE TO THE OTHER FOR ANY CONSEQUENTIAL,  EXEMPLARY, SPECIAL, INCIDENTAL OR PUNITIVE DAMAGES, EVEN IF IT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH  DAMAGES, WHICH ARE RELATED TO THE AGREEMENT OR ITS BREACH.']",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "LUCIDINC_04_15_2011-EX-10.9-DISTRIBUTOR AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Distributor/LUCIDINC_04_15_2011-EX-10.9-DISTRIBUTOR AGREEMENT.PDF",
+      "sizeBytes": 37875,
+      "fields": {
+        "parties": {
+          "spans": "['Lucid Inc.', \"'Distributor'\", '[*]']",
+          "answer": "Lucid Inc.; [*] (\"Distributor\")"
+        },
+        "commencementDate": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "termEnd": {
+          "spans": "['The initial term of this Agreement shall be three (3) calendar years from the Agreement date.']",
+          "answer": ""
+        },
+        "renewalType": {
+          "spans": "['After the initial term, unless terminated, this  Agreement will automatically renew for periods of one (1) calendar year each.']",
+          "answer": "successive 1 year"
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "['Either party may terminate this agreement by providing Ninety days Written Notice.']",
+          "answer": "Yes"
+        },
+        "liabilityCap": {
+          "spans": "[\"Lucid will not have any liability or responsibility to Distributor or any other person or entity for any consequential, indirect, special, punitive or  incidental damages or lost profits, whether foreseeable or unforeseeable, based on\\n\\n\\n\\n\\n\\n     claims of Distributor or Distributor's customers (including but not limited to, claims for loss of data, goodwill, profits, use of money or use of  product, interruption in use or availability of data stoppage or other work or impairment or assets) arising out of breach or failure of express or  implied warranty, breach of contract, misrepresentation, negligence, strict liability in tort or otherwise, except only in the case of death or personal  injury where and to the extent that applicable law requires such liability.\", 'If this Agreement is terminated Lucid shall not be liable for any incidental, indirect; special punitive of consequential damages of any kind,  including any perceived or real market development costs.', 'In no event will the aggregate liability incurred by Lucid in any action or  proceeding exceed the total amount actually paid to Lucid by Distributor for the purchase of the products that actually caused the damage or loss.', \"If Lucid accepts Distributor's order and fails to deliver ordered products,  Distributors sole remedy will be limited to refund of money paid to Lucid for any undelivered products.\"]",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "['The Distributor is appointed as an exclusive Distributor within the following territories: [*].', 'Lucid appoints the Distributor and the Distributor accepts appointment as an exclusive authorized Lucid Distributor.']",
+          "answer": "Yes"
+        }
+      },
+      "coverage": 5
+    },
+    {
+      "filename": "NETZEEINC_11_14_2002-EX-10.3-MAINTENANCE AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_II/Commercial Contracts (Part II-A)/Maintenance/NETZEEINC_11_14_2002-EX-10.3-MAINTENANCE AGREEMENT.PDF",
+      "sizeBytes": 41044,
+      "fields": {
+        "parties": {
+          "spans": "['Bankers Bank', 'Netzee', 'THE BANKERS BANK', 'NETZEE, INC.']",
+          "answer": "Netzee, inc. (\"Netzee\"); The Bankers Bank (\"Bankers Bank\")"
+        },
+        "commencementDate": {
+          "spans": "['COMMENCEMENT DATE FOR MAINTENANCE UNDER THIS ADDENDUM:  MARCH 1, 2001']",
+          "answer": "3/1/01"
+        },
+        "termEnd": {
+          "spans": "['The maintenance is for a period of one (1) year commencing upon expiration of the initial one (1) year term of the License/Services Schedule.']",
+          "answer": "3/1/02"
+        },
+        "renewalType": {
+          "spans": "['Following the completion of such maintenance term, Bankers Bank may, at its option, renew maintenance for subsequent periods of one (1) year each, subject to adjustments proposed by Netzee not to exceed 5% at least sixty (60) days in advance of the applicable renewal date.']",
+          "answer": "successive 1 year"
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 7
+    },
+    {
+      "filename": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement2.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_I/Co_Branding/PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement2.pdf",
+      "sizeBytes": 42174,
+      "fields": {
+        "parties": {
+          "spans": "['PC Quote, Inc.', 'A.B. Watley, Inc.', 'ABW', 'PCQ']",
+          "answer": "PC Quote, Inc. (\"PCQ\"); A.B. Watley, Inc. (\"ABW\")"
+        },
+        "commencementDate": {
+          "spans": "['December 9, 1996']",
+          "answer": "12/9/96"
+        },
+        "termEnd": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 5
+    },
+    {
+      "filename": "NETGEAR,INC_04_21_2003-EX-10.16-AMENDMENT TO THE DISTRIBUTOR AGREEMENT BETWEEN INGRAM MICRO AND NETGEAR-.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_II/Commercial Contracts (Part II-A)/Distributor/NETGEAR,INC_04_21_2003-EX-10.16-AMENDMENT TO THE DISTRIBUTOR AGREEMENT BETWEEN INGRAM MICRO AND NETGEAR-.pdf",
+      "sizeBytes": 43187,
+      "fields": {
+        "parties": {
+          "spans": "['Distributor', 'Ingram Micro', 'NETGEAR, Inc.', 'NETGEAR']",
+          "answer": "Ingram Micro (\"Distributor\"); NETGEAR, Inc. (\"NETGEAR\")"
+        },
+        "commencementDate": {
+          "spans": "['October 1,1996']",
+          "answer": "10/1/96"
+        },
+        "termEnd": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "['During the initial one year period beginning on the Amendment Date,          Distributor shall be the only distributor appointed by NETGEAR in [*],          subject to Distributor conducting mutually agreed to marketing          activities as described in the Marketing Plan for [*] to be developed          and agreed to by and between the parties and which shall be attached to          and made a part of this Agreement as Exhibit 4a.']",
+          "answer": "Yes"
+        }
+      },
+      "coverage": 5
+    },
+    {
+      "filename": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement3.pdf",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_I/Co_Branding/PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement3.pdf",
+      "sizeBytes": 43389,
+      "fields": {
+        "parties": {
+          "spans": "['ABW', 'A.B. Watley, Inc.', 'PC QUOTE, INC.', 'PCQ']",
+          "answer": "PC QUOTE, INC. (\"PCQ\"); A.B. Watley, Inc. (\"ABW\")"
+        },
+        "commencementDate": {
+          "spans": "['23rd day of February, 1998']",
+          "answer": "2/23/98"
+        },
+        "termEnd": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 5
+    },
+    {
+      "filename": "GAINSCOINC_01_21_2010-EX-10.41-SPONSORSHIP AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_II/Commercial Contracts (Part II-A)/Sponsorship/GAINSCOINC_01_21_2010-EX-10.41-SPONSORSHIP AGREEMENT.PDF",
+      "sizeBytes": 44454,
+      "fields": {
+        "parties": {
+          "spans": "['Sponsor', 'GAINSCO, INC.', 'Stallings Capital Group Consultants, Ltd.', 'Racing']",
+          "answer": "Stallings Capital Group  Consultants, Ltd. (\"Racing\"); GAINSCO, INC. (\"Sponser\")"
+        },
+        "commencementDate": {
+          "spans": "['January 1, 2010']",
+          "answer": "1/1/10"
+        },
+        "termEnd": {
+          "spans": "['Subject to the provisions of Section 14 hereof, the term of this Agreement and the sponsorship described herein shall commence on  January 1, 2010 and extend through December 31, 2010.']",
+          "answer": "12/31/10"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "['Notwithstanding the provisions of Section 1 hereof, the Sponsor shall have the right at any time prior to  December 31, 2010 to terminate this Agreement by giving written notice of such termination to Racing.']",
+          "answer": "Yes"
+        },
+        "liabilityCap": {
+          "spans": "['Racing represents to the Sponsor that the Sponsor\\'s aggregate obligation hereunder  will not exceed the amount of the sponsorship fee set forth in Section 3 hereof (or such lesser amount as is payable by the Sponsor in the event  that this Agreement is terminated pursuant to Section 14 hereof), plus, if applicable, collection costs that may be reasonably incurred by Racing in  a legal proceeding to collect all or any part thereof (the \"Maximum Obligation\").']",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "CANOPETROLEUM,INC_12_13_2007-EX-10.1-Sponsorship Agreement.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_II/Commercial Contracts (Part II-A)/Sponsorship/CANOPETROLEUM,INC_12_13_2007-EX-10.1-Sponsorship Agreement.PDF",
+      "sizeBytes": 44728,
+      "fields": {
+        "parties": {
+          "spans": "['Sponsor', 'R. C. Boyd Enterprises, LLC', '\"Cano', 'Cano Petroleum, Inc.', 'Boyd', 'Company']",
+          "answer": "R. C. Boyd Enterprises, LLC (\"Company\" or \"Boyd\"); Cano Petroleum, Inc. (\"Sponsor\" or \"Cano\")"
+        },
+        "commencementDate": {
+          "spans": "['This Agreement is executed in duplicate on the 5th day of December, 2007, in Fort Worth, Tarrant County, Texas, to be effective January 1, 2008.']",
+          "answer": "1/1/08"
+        },
+        "termEnd": {
+          "spans": "['The term of this Agreement shall be one (1) year, commencing January 1, 2008 and ending on December 31, 2008.']",
+          "answer": "12/31/08"
+        },
+        "renewalType": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "liabilityCap": {
+          "spans": "[]",
+          "answer": "No"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 6
+    },
+    {
+      "filename": "TICKETSCOMINC_06_22_1999-EX-10.22-SPONSORSHIP AGREEMENT.PDF",
+      "pdfPath": "CUAD_v1/full_contract_pdf/Part_III/Sponsorship/TICKETSCOMINC_06_22_1999-EX-10.22-SPONSORSHIP AGREEMENT.PDF",
+      "sizeBytes": 46496,
+      "fields": {
+        "parties": {
+          "spans": "['Tickets', 'MP3.com, Inc.,', 'MP3.com', 'Tickets.com, Inc.,']",
+          "answer": "Tickets.com Inc. \"Tickets\"; MP3.com Inc. \"MP3.com\""
+        },
+        "commencementDate": {
+          "spans": "['February 17, 1999']",
+          "answer": "2/17/99"
+        },
+        "termEnd": {
+          "spans": "[\"This Agreement shall commence on the Effective Date and shall remain in full force and effect until one (1) year subsequent to the Effective Date, provided however, that Tickets may terminate this Agreement for any reason upon thirty (30) days' notice to MP3. com at any time prior to the expiration of sixty (60) days subsequent to the Effective Date.\"]",
+          "answer": "2/17/00"
+        },
+        "renewalType": {
+          "spans": "['Furthermore, for a thirty (30) day period, beginning thirty (30) days prior to the first anniversary of this Agreement, Tickets shall have the right to renew the Agreement for another year with Sponsor Fees that do not exceed a [***] percent increase over the existing Sponsor Fees.']",
+          "answer": ""
+        },
+        "renewalNoticeDays": {
+          "spans": "[]",
+          "answer": ""
+        },
+        "terminationForConvenience": {
+          "spans": "[\"This Agreement shall commence on the Effective Date and shall remain in full force and effect until one (1) year subsequent to the Effective Date, provided however, that Tickets may terminate this Agreement for any reason upon thirty (30) days' notice to MP3. com at any time prior to the expiration of sixty (60) days subsequent to the Effective Date.\"]",
+          "answer": "Yes"
+        },
+        "liabilityCap": {
+          "spans": "['Except for claims arising under section 6, in no event will either party be liable for any special, indirect, incidental or consequential damages.']",
+          "answer": "Yes"
+        },
+        "exclusivity": {
+          "spans": "[]",
+          "answer": "No"
+        }
+      },
+      "coverage": 6
+    }
+  ]
+}

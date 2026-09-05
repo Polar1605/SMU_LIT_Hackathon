@@ -1,0 +1,403 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Tickets.com, Inc. (\"Tickets\") and MP3.com, Inc. (\"MP3.com\").",
+      "quotes": [
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "Tickets.com, Inc., a Delaware\ncorporation, located at 4061 Glencoe Ave., Marina del Rey, CA 90292 (\"Tickets\")\nand MP3.com, Inc., having an address at P.O. Box 910091, San Diego, CA\n92191-0091 (\"MP3.com\")"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "1999-02-17",
+      "quotes": [
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "This Sponsorship Agreement (\"Agreement\") is made an entered into on February 17,\n1999 (\"Effective Date\")"
+        },
+        {
+          "clauseId": "4. Term and Termination.",
+          "text": "This Agreement shall commence on the Effective Date"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "1 year",
+      "quotes": [
+        {
+          "clauseId": "4. Term and Termination.",
+          "text": "This Agreement shall commence on the Effective Date and\nshall remain in full force and effect until one (1) year subsequent to the\nEffective Date"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2000-02-17",
+      "quotes": [
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "This Sponsorship Agreement (\"Agreement\") is made an entered into on February 17,\n1999 (\"Effective Date\")"
+        },
+        {
+          "clauseId": "4. Term and Termination.",
+          "text": "This Agreement shall commence on the Effective Date and\nshall remain in full force and effect until one (1) year subsequent to the\nEffective Date"
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Not automatic; Tickets has the right to renew for another year during a 30-day period beginning 30 days before the first anniversary.",
+      "quotes": [
+        {
+          "clauseId": "4. Term and Termination.",
+          "text": "Furthermore, for\na thirty (30) day period, beginning thirty (30) days prior to the first\nanniversary of this Agreement, Tickets shall have the right to renew the\nAgreement for another year with Sponsor Fees that do not exceed a [***] percent\nincrease over the existing Sponsor Fees."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Tickets may terminate for any reason on 30 days' notice to MP3.com, but only before the expiration of 60 days after the Effective Date.",
+      "quotes": [
+        {
+          "clauseId": "4. Term and Termination.",
+          "text": "Tickets may terminate this Agreement for\nany reason upon thirty (30) days' notice to MP3. com at any time prior to the\nexpiration of sixty (60) days subsequent to the Effective Date"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "No monetary liability cap stated; special, indirect, incidental and consequential damages are excluded, except for claims arising under section 6.",
+      "quotes": [
+        {
+          "clauseId": "7. No Consequential Damages.",
+          "text": "Except for claims arising under section 6, in no\nevent will either party be liable for any special, indirect, incidental or\nconsequential damages."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "During the term, Tickets.com, Inc. is MP3.com, Inc.'s exclusive partner/source for sports, entertainment, and travel tickets on specified Website pages.",
+      "quotes": [
+        {
+          "clauseId": "1. Form of Sponsorship.",
+          "text": "During the term of this Agreement, Tickets shall be\nMP3.com's exclusive partner/source for sports, entertainment, and travel\ntickets, and MP3.com shall include a Tickets Portal on the \"Music\" page and the\n\"Pop,\" \"Rock\" and \"Alternative\" genre pages on the Website."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "First redacted sponsor fee installment payable by Tickets.com, Inc. to MP3.com, Inc. on the Effective Date.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": "1999-02-17",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "Tickets agrees to pay MP3.com, during the term of this\nAgreement, as follows"
+        },
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "(i) $[***] payable on the Effective Date"
+        },
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "This Sponsorship Agreement (\"Agreement\") is made an entered into on February 17,\n1999 (\"Effective Date\")"
+        }
+      ],
+      "ambiguities": [
+        "Clause 3 redacts the amount as \"$[***]\" and does not spell out the ISO currency, so amountMinor and currency cannot be determined from the text."
+      ]
+    },
+    {
+      "description": "Second redacted sponsor fee installment payable by Tickets.com, Inc. to MP3.com, Inc. on or before one month after the Effective Date.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": "1999-03-17",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "Tickets agrees to pay MP3.com, during the term of this\nAgreement, as follows"
+        },
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "(ii) $[***]\npayable on or before one month subsequent to the Effective Date"
+        },
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "This Sponsorship Agreement (\"Agreement\") is made an entered into on February 17,\n1999 (\"Effective Date\")"
+        }
+      ],
+      "ambiguities": [
+        "Clause 3 redacts the amount as \"$[***]\" and does not spell out the ISO currency, so amountMinor and currency cannot be determined from the text."
+      ]
+    },
+    {
+      "description": "Third redacted sponsor fee installment payable by Tickets.com, Inc. to MP3.com, Inc. on or before two months after the Effective Date.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": "1999-04-17",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "Tickets agrees to pay MP3.com, during the term of this\nAgreement, as follows"
+        },
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "(iii) $[***]\npayable on or before two months subsequent to the Effective Date"
+        },
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "This Sponsorship Agreement (\"Agreement\") is made an entered into on February 17,\n1999 (\"Effective Date\")"
+        }
+      ],
+      "ambiguities": [
+        "Clause 3 redacts the amount as \"$[***]\" and does not spell out the ISO currency, so amountMinor and currency cannot be determined from the text."
+      ]
+    },
+    {
+      "description": "Fourth redacted sponsor fee installment payable by Tickets.com, Inc. to MP3.com, Inc. on or before three months after the Effective Date.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": "1999-05-17",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "Tickets agrees to pay MP3.com, during the term of this\nAgreement, as follows"
+        },
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "(iv) $[***]\npayable on or before three months subsequent to the Effective Date"
+        },
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "This Sponsorship Agreement (\"Agreement\") is made an entered into on February 17,\n1999 (\"Effective Date\")"
+        }
+      ],
+      "ambiguities": [
+        "Clause 3 redacts the amount as \"$[***]\" and does not spell out the ISO currency, so amountMinor and currency cannot be determined from the text."
+      ]
+    },
+    {
+      "description": "Fifth redacted sponsor fee installment payable by Tickets.com, Inc. to MP3.com, Inc. on or before four months after the Effective Date.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": "1999-06-17",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "Tickets agrees to pay MP3.com, during the term of this\nAgreement, as follows"
+        },
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "(v) $[***]\npayable on or before four months subsequent to the Effective Date"
+        },
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "This Sponsorship Agreement (\"Agreement\") is made an entered into on February 17,\n1999 (\"Effective Date\")"
+        }
+      ],
+      "ambiguities": [
+        "Clause 3 redacts the amount as \"$[***]\" and does not spell out the ISO currency, so amountMinor and currency cannot be determined from the text."
+      ]
+    },
+    {
+      "description": "Sixth redacted sponsor fee installment payable by Tickets.com, Inc. to MP3.com, Inc. on or before five months after the Effective Date.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": "1999-07-17",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "Tickets agrees to pay MP3.com, during the term of this\nAgreement, as follows"
+        },
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "(vi) $[***]\npayable on or before five months subsequent to the Effective Date"
+        },
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "This Sponsorship Agreement (\"Agreement\") is made an entered into on February 17,\n1999 (\"Effective Date\")"
+        }
+      ],
+      "ambiguities": [
+        "Clause 3 redacts the amount as \"$[***]\" and does not spell out the ISO currency, so amountMinor and currency cannot be determined from the text."
+      ]
+    },
+    {
+      "description": "Late payment service fee of 1.5% per month on late payments under the Agreement.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if a payment under the Agreement is late, and only to the extent allowed by law.",
+      "quotes": [
+        {
+          "clauseId": "3. Sponsor Fees.",
+          "text": "Any late\npayments under this Agreement will be assessed a service fee of one and one-half\npercent (1.5%) per month, to the extent allowed by law."
+        }
+      ],
+      "ambiguities": [
+        "Clause 3 limits the service fee \"to the extent allowed by law,\" so the collectible fee may be less than 1.5% per month."
+      ]
+    },
+    {
+      "description": "If an audit shows MP3.com overstated Impressions by more than 5%, MP3.com must pay the audit cost and must refund Tickets.com, Inc. the overpaid difference or credit Impressions.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if, for an applicable period, the independent auditor determines that MP3.com overstated the Count by more than 5%.",
+      "quotes": [
+        {
+          "clauseId": "5. Measurement.",
+          "text": "If, for any applicable period, the independent auditor\ndetermines that MP3.com overstated the Count by more than five percent (5%),\nthan MP3.com shall pay the cost of the Audit and shall refund Tickets the\ndifference between the amount originally paid and the amount which should have\nbeen paid, or MP3.com shall credit the appropriate amount of Impressions to\nTickets' account."
+        }
+      ],
+      "ambiguities": [
+        "Clause 5 gives MP3.com an alternative between refunding the difference and crediting Impressions, so a cash refund is not the only possible remedy."
+      ]
+    },
+    {
+      "description": "Each party must defend, indemnify and hold harmless the other and specified related persons for covered losses, costs, liabilities and expenses.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only when covered losses, costs, liabilities or expenses are incurred or arise from the listed matters.",
+      "quotes": [
+        {
+          "clauseId": "6. Representations and Warranties.",
+          "text": "Each party agrees to defend, indemnify and hold harmless\nthe other and its shareholders, directors, officers, agents and employees for\nany and all losses, costs, liabilities or expenses (including without limitation\n\nreasonable attorneys' and expert witnesses' fees) incurred or arising from: (a)\nany breach of the foregoing representations or warranties; (b) any claim arising\nfrom the sale or license of either party's goods or services; or (c) any other\nact, omission or representation by either party."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "In an action to enforce the Agreement, the prevailing party is entitled to costs and attorneys' fees.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Applies only if there is an action to enforce the Agreement and a party prevails.",
+      "quotes": [
+        {
+          "clauseId": "8. Miscellaneous.",
+          "text": "In any action to enforce this Agreement the prevailing party will be\nentitled to costs and attorneys' fees."
+        }
+      ],
+      "ambiguities": []
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "Tickets.com, Inc.",
+      "grantor": "MP3.com, Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Website located at www.mp3.com; the \"Music\" page and the \"Pop,\" \"Rock\" and \"Alternative\" genre pages on the Website",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "sports, entertainment, and travel tickets",
+      "productCodes": [
+        "SPORTS_TICKETS",
+        "ENTERTAINMENT_TICKETS",
+        "TRAVEL_TICKETS"
+      ],
+      "start": "1999-02-17",
+      "end": "2000-02-17",
+      "quotes": [
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "Tickets.com, Inc., a Delaware\ncorporation, located at 4061 Glencoe Ave., Marina del Rey, CA 90292 (\"Tickets\")\nand MP3.com, Inc., having an address at P.O. Box 910091, San Diego, CA\n92191-0091 (\"MP3.com\")"
+        },
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "MP3.com owns and operates the website located at\nwww.mp3.com (the \"Website\")."
+        },
+        {
+          "clauseId": "1. Form of Sponsorship.",
+          "text": "During the term of this Agreement, Tickets shall be\nMP3.com's exclusive partner/source for sports, entertainment, and travel\ntickets, and MP3.com shall include a Tickets Portal on the \"Music\" page and the\n\"Pop,\" \"Rock\" and \"Alternative\" genre pages on the Website."
+        },
+        {
+          "clauseId": "SPONSORSHIP AGREEMENT",
+          "text": "This Sponsorship Agreement (\"Agreement\") is made an entered into on February 17,\n1999 (\"Effective Date\")"
+        },
+        {
+          "clauseId": "4. Term and Termination.",
+          "text": "This Agreement shall commence on the Effective Date and\nshall remain in full force and effect until one (1) year subsequent to the\nEffective Date"
+        }
+      ],
+      "ambiguities": [
+        "The document does not state an express geographic territory; the grant is tied to the Website, so territoryCodes uses WORLD as a normalisation for lack of a geographic limitation.",
+        "Clause 4 gives Tickets a right to renew for another year, so the exclusivity could continue if renewed; the end date above uses the initial term because the document does not state that the renewal right was exercised."
+      ]
+    }
+  ]
+}

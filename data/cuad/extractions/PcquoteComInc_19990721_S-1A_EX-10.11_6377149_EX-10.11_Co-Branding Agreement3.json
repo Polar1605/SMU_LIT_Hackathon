@@ -1,0 +1,142 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "PC QUOTE, INC. (\"PCQ\") and A.B. Watley, Inc. (\"ABW\")",
+      "quotes": [
+        {
+          "clauseId": "THIS SECOND AMENDMENT TO CO-BRANDING AGREEMENT",
+          "text": "THIS SECOND AMENDMENT TO CO-BRANDING AGREEMENT (this \"Amendment\") is\nmade and entered into, effective for all purposes and in all respects as of\nthe 23rd day of February, 1998, by and between PC QUOTE, INC., with its\nprincipal place of business at 300 South Wacker Drive, Chicago, Illinois\n60605 (\"PCQ\") and A.B. Watley, Inc., with its principal place of business at\n33 West 17th Street, New York, New York 10011 (\"ABW\")."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "1998-02-23",
+      "quotes": [
+        {
+          "clauseId": "THIS SECOND AMENDMENT TO CO-BRANDING AGREEMENT",
+          "text": "THIS SECOND AMENDMENT TO CO-BRANDING AGREEMENT (this \"Amendment\") is\nmade and entered into, effective for all purposes and in all respects as of\nthe 23rd day of February, 1998, by and between PC QUOTE, INC., with its\nprincipal place of business at 300 South Wacker Drive, Chicago, Illinois\n60605 (\"PCQ\") and A.B. Watley, Inc., with its principal place of business at\n33 West 17th Street, New York, New York 10011 (\"ABW\")."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The date 1998-02-23 is the effective date of this Second Amendment; the WHEREAS recital also refers to an underlying Co-Branding Agreement dated October 11, 1996."
+      ]
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "Not disclosed; replacement term text is redacted as [***]",
+      "quotes": [
+        {
+          "clauseId": "WHEREAS",
+          "text": "WHEREAS, the parties hereto desire to further amend the Agreement to\nmodify the provisions of the Agreement regarding [***] of the term thereof;"
+        },
+        {
+          "clauseId": "2.",
+          "text": "2. The text of Section 2. A. and B. of the Agreement is hereby\ndeleted in its entirety and the following language is inserted in its stead:\n[***]"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 2. replaces Section 2. A. and B. with redacted text, so the visible document does not disclose the duration of the term."
+      ]
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "Not disclosed; replacement term text is redacted as [***]",
+      "quotes": [
+        {
+          "clauseId": "WHEREAS",
+          "text": "WHEREAS, the parties hereto desire to further amend the Agreement to\nmodify the provisions of the Agreement regarding [***] of the term thereof;"
+        },
+        {
+          "clauseId": "2.",
+          "text": "2. The text of Section 2. A. and B. of the Agreement is hereby\ndeleted in its entirety and the following language is inserted in its stead:\n[***]"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 2. replaces Section 2. A. and B. with redacted text, so the visible document does not disclose a current term end date."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Not disclosed; potentially relevant term provisions are redacted as [***]",
+      "quotes": [
+        {
+          "clauseId": "WHEREAS",
+          "text": "WHEREAS, the parties hereto desire to further amend the Agreement to\nmodify the provisions of the Agreement regarding [***] of the term thereof;"
+        },
+        {
+          "clauseId": "2.",
+          "text": "2. The text of Section 2. A. and B. of the Agreement is hereby\ndeleted in its entirety and the following language is inserted in its stead:\n[***]"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The recital redacts the subject of the term amendment and Clause 2. redacts the replacement for Section 2. A. and B.; the visible text does not state whether renewal is automatic, by written agreement, or unavailable."
+      ]
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": true,
+      "value": "Not disclosed; potentially relevant term provisions are redacted as [***]",
+      "quotes": [
+        {
+          "clauseId": "WHEREAS",
+          "text": "WHEREAS, the parties hereto desire to further amend the Agreement to\nmodify the provisions of the Agreement regarding [***] of the term thereof;"
+        },
+        {
+          "clauseId": "2.",
+          "text": "2. The text of Section 2. A. and B. of the Agreement is hereby\ndeleted in its entirety and the following language is inserted in its stead:\n[***]"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Because Clause 2. redacts the replacement term provisions, the visible text does not establish whether there is automatic renewal or any notice period to stop renewal."
+      ]
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [],
+  "grants": []
+}

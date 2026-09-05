@@ -1,0 +1,268 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "R. C. Boyd Enterprises, LLC (\"Company\" or \"Boyd\") and Cano Petroleum, Inc. (\"Sponsor\" or \"Cano\")",
+      "quotes": [
+        {
+          "clauseId": "THIS AGREEMENT",
+          "text": "THIS AGREEMENT made this 5 th day of December, 2007, between R. C. Boyd Enterprises, LLC, a Texas limited liability company, whose principal\nplace of business is located at 2003 Navasota Cove, Westlake, Texas, referred to in this Agreement as \"Company\" or \"Boyd\", and Cano Petroleum,\nInc., a Delaware corporation qualified to transact business in Texas, whose principal place of business is located at 801 Cherry Street, Suite 3200,\nFort Worth, Texas 76102, referred to in this agreement as \"Sponsor\" or \"Cano\"."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2008-01-01",
+      "quotes": [
+        {
+          "clauseId": "9.",
+          "text": "The term of this Agreement shall be one (1) year, commencing January 1, 2008 and ending on December 31, 2008."
+        },
+        {
+          "clauseId": "This Agreement is executed",
+          "text": "This Agreement is executed in duplicate on the 5th day of December, 2007, in Fort Worth, Tarrant County, Texas, to be effective January 1, 2008."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "1 year",
+      "quotes": [
+        {
+          "clauseId": "9.",
+          "text": "The term of this Agreement shall be one (1) year, commencing January 1, 2008 and ending on December 31, 2008."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2008-12-31",
+      "quotes": [
+        {
+          "clauseId": "9.",
+          "text": "The term of this Agreement shall be one (1) year, commencing January 1, 2008 and ending on December 31, 2008."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "R. C. Boyd Enterprises, LLC may cancel if Cano Petroleum, Inc. fails to make a required payment, after 10 days following written notice of default.",
+      "quotes": [
+        {
+          "clauseId": "15.",
+          "text": "If Cano fails to make any\npayment when required by this Agreement, the Company shall have the option of canceling this Agreement following the passage of ten\n(10) days after having given Cano written notice of its default."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "No monetary cap stated; Cano is not liable to the Company or third parties for specified injury claims connected with production work.",
+      "quotes": [
+        {
+          "clauseId": "16.",
+          "text": "The parties agree that Cano will not be liable to the Company or any third party for any injury sustained by the\nCompany, its employees, independent contractors, invitees or any other third party while preparing for, filming or working on post\nproduction of any episode."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 16 is an exculpation for specified injury claims, not an aggregate monetary liability cap; the agreement does not state a general liability ceiling."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Cano Petroleum, Inc. has the exclusive right to be lead sponsor of the Show, but Cano does not have exclusive logo/vehicle rights and other sponsors' logos may appear.",
+      "quotes": [
+        {
+          "clauseId": "WHEREAS",
+          "text": "WHEREAS, Sponsor desires to acquire the exclusive right to be the lead sponsor of the Show at an agreed price and under specified terms and\nconditions;"
+        },
+        {
+          "clauseId": "2.",
+          "text": "The Company agrees that Cano shall be identified as the lead sponsor, by having a thirty second lead-in promotion\nat the beginning of each episode; a thirty second trailer promotion at the end of each episode; and two thirty second commercials during\neach episode."
+        },
+        {
+          "clauseId": "4.",
+          "text": "Cano recognizes and agrees that it does not and will not have exclusive rights and that other sponsor's logos may appear on the primary\nboat and vehicle."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The exclusive wording appears in the WHEREAS recital, while clause 2 identifies Cano as lead sponsor without repeating the word \"exclusive\"."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "Cano Petroleum, Inc. must pay R. C. Boyd Enterprises, LLC total compensation of $150,000.00 in four equal installments of $37,500.00 on January 1, April 1, July 1 and October 1, 2008.",
+      "amountMinor": 3750000,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "firstDueDate": "2008-01-01",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "15.",
+          "text": "In consideration of the services to be rendered under this Agreement as set forth above , the Company shall be\nentitled to compensation in the amount of $150,000.00 (One Hundred Fifty Thousand Dollars), to be paid in equal installments of $37,500.00\n(Thirty Seven Thousand Five Hundred Dollars) on January 1, 2008, April 1, 2008, July 1, 2008 and October 1, 2008."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "The Company will add applicable sales, excise and other taxes or surcharges to its invoices when legally obligated to collect and remit them.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Depends on whether such taxes or surcharges are owed and invoiced; the agreement does not state a fixed amount or invoice date.",
+      "quotes": [
+        {
+          "clauseId": "7.",
+          "text": "The Company will add sales, excise and any other tax or surcharge to its invoices which it is obligated to collect\nand remit under the laws of the State of Texas, the United States or any other jurisdiction."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "If the Company cancels after Cano's payment default, Cano remains liable for all unpaid installments for the then-current term, immediately due and payable.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Triggered only if Cano fails to pay, receives written default notice, 10 days pass, and the Company cancels; amount depends on unpaid installments then outstanding.",
+      "quotes": [
+        {
+          "clauseId": "15.",
+          "text": "While the Company shall have no further obligation to Cano following\ncancellation of the Agreement, Cano shall remain liable for all unpaid installments for the then current term of the Agreement, which\ninstallments shall be immediately due and payable."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "In any legal action between the parties, the prevailing party is entitled to recover reasonable attorney's fees from the other party.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Depends on a legal action and prevailing-party determination; amount is determined by the court.",
+      "quotes": [
+        {
+          "clauseId": "13.",
+          "text": "If any legal action is brought by either of the parties hereto, it is expressly agreed that the prevailing party in such legal\naction shall be entitled to recover from the other party reasonable attorney's fees in addition to any other relief that may be awarded."
+        },
+        {
+          "clauseId": "13.",
+          "text": "The\namount of reasonable attorney's fees shall be determined by the court, in the trial of such action or in a separate action brought for that\npurpose."
+        }
+      ],
+      "ambiguities": []
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "Cano Petroleum, Inc.",
+      "grantor": "R. C. Boyd Enterprises, LLC",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Not specified",
+      "territoryCodes": [],
+      "productLabel": "lead sponsorship of the television production known as Honey Hole",
+      "productCodes": [
+        "HONEYHOLE_LEADSPONSORSHIP"
+      ],
+      "start": "2008-01-01",
+      "end": "2008-12-31",
+      "quotes": [
+        {
+          "clauseId": "WHEREAS",
+          "text": "WHEREAS, the Company is the owner of the rights to the television production known as Honey Hole (hereinafter \"Honey Hole\" or \"Show\");"
+        },
+        {
+          "clauseId": "WHEREAS",
+          "text": "WHEREAS, Sponsor desires to acquire the exclusive right to be the lead sponsor of the Show at an agreed price and under specified terms and\nconditions;"
+        },
+        {
+          "clauseId": "2.",
+          "text": "The Company agrees that Cano shall be identified as the lead sponsor, by having a thirty second lead-in promotion\nat the beginning of each episode; a thirty second trailer promotion at the end of each episode; and two thirty second commercials during\neach episode."
+        },
+        {
+          "clauseId": "9.",
+          "text": "The term of this Agreement shall be one (1) year, commencing January 1, 2008 and ending on December 31, 2008."
+        }
+      ],
+      "ambiguities": [
+        "The exclusive wording appears in the WHEREAS recital, while clause 2 identifies Cano as lead sponsor without repeating the word \"exclusive\".",
+        "No territory is specified for the lead sponsorship grant."
+      ]
+    },
+    {
+      "grantee": "Cano Petroleum, Inc.",
+      "grantor": "R. C. Boyd Enterprises, LLC",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "primary boat and vehicle used in each episode",
+      "territoryCodes": [],
+      "productLabel": "appearance of Cano logo and slogan on the primary boat and vehicle used in each episode",
+      "productCodes": [
+        "HONEYHOLE_LOGO_BOAT_VEHICLE"
+      ],
+      "start": "2008-01-01",
+      "end": "2008-12-31",
+      "quotes": [
+        {
+          "clauseId": "4.",
+          "text": "The Company agrees that the Cano logo and slogan shall appear on the primary boat and vehicle used in each episode.\nCano recognizes and agrees that it does not and will not have exclusive rights and that other sponsor's logos may appear on the primary\nboat and vehicle."
+        },
+        {
+          "clauseId": "9.",
+          "text": "The term of this Agreement shall be one (1) year, commencing January 1, 2008 and ending on December 31, 2008."
+        }
+      ],
+      "ambiguities": [
+        "No geographic territory is specified for the logo and slogan appearance right."
+      ]
+    }
+  ]
+}

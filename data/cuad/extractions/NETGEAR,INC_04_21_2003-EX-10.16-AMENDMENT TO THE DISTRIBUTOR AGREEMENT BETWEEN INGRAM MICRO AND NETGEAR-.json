@@ -1,0 +1,197 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "NETGEAR, Inc. (\"NETGEAR\"; Amendment #2: \"Vendor\") and Ingram Micro / INGRAM MICRO INC. (\"Distributor\"; Amendment #2: \"Ingram\"), with Distributor acting on behalf of itself and affiliates",
+      "quotes": [
+        {
+          "clauseId": "AMENDMENT",
+          "text": "This Amendment is entered into effective October 1,1996 (\"Amendment Date\") by\nand between NETGEAR, Inc. (\"NETGEAR\"), a wholly owned subsidiary of Bay\nNetworks, Inc., and Ingram Micro (\"Distributor\") acting on behalf of itself and\nits affiliates."
+        },
+        {
+          "clauseId": "AMENDMENT #2 TO THE\nDISTRIBUTION AGREEMENT",
+          "text": "THIS AMENDMENT (the \"Amendment\") is entered into this 15th day of July 1998,\nby and between INGRAM MICRO INC. (\"Ingram\") and NETGEAR, INC. (\"Vendor\")."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "1996-03-01",
+      "quotes": [
+        {
+          "clauseId": "AMENDMENT",
+          "text": "NETGEAR and Distributor having previously entered into a Distributor Agreement\n(\"Agreement\") with an Effective Date of March 1,1996, now mutually agree to\namend that Agreement as follows:"
+        },
+        {
+          "clauseId": "AMENDMENT",
+          "text": "This Amendment is entered into effective October 1,1996 (\"Amendment Date\") by\nand between NETGEAR, Inc. (\"NETGEAR\"), a wholly owned subsidiary of Bay\nNetworks, Inc., and Ingram Micro (\"Distributor\") acting on behalf of itself and\nits affiliates."
+        },
+        {
+          "clauseId": "AMENDMENT #2 TO THE\nDISTRIBUTION AGREEMENT",
+          "text": "The parties have agreed to amend their Distribution Agreement (\"Agreement\")\ndated October 1,1996."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "AMENDMENT states the prior Distributor Agreement has an Effective Date of March 1,1996, but the same Amendment is effective October 1,1996 and AMENDMENT #2 describes the Distribution Agreement as dated October 1,1996."
+      ]
+    },
+    {
+      "fieldId": "termLength",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Renewal or extension terms are contemplated, but no automatic-renewal or written-renewal mechanism is stated in the supplied text.",
+      "quotes": [
+        {
+          "clauseId": "2.",
+          "text": "2. This Amendment shall remain in effect for the current term and any\nrenewal term of the Agreement."
+        },
+        {
+          "clauseId": "2.",
+          "text": "Following the [*],\nfor any extension or renewal term, Distributor's appointment as\nDistributor shall be non-exclusive and NETGEAR may appoint other\ndistributors in [*] at its sole discretion."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 2 of AMENDMENT #2 says the Amendment remains effective for the current term and any renewal term, and clause 2 of the AMENDMENT refers to any extension or renewal term, but neither clause states how a renewal occurs or whether it is automatic."
+      ]
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Initial one-year sole distributorship for Ingram Micro in redacted territory [*], subject to mutually agreed marketing activities; NETGEAR may sell or license Products to non-distributor customers; after the redacted period/any extension or renewal term, the appointment is non-exclusive.",
+      "quotes": [
+        {
+          "clauseId": "2.",
+          "text": "2. During the initial one year period beginning on the Amendment Date,\nDistributor shall be the only distributor appointed by NETGEAR in [*],\nsubject to Distributor conducting mutually agreed to marketing\nactivities as described in the Marketing Plan for [*] to be developed\nand agreed to by and between the parties and which shall be attached to\nand made a part of this Agreement as Exhibit 4a. For the purposes of\nthis provision, distributor shall mean a company acquiring products\ndirectly from NETGEAR for resale or license to dealers or other second\ntier resellers which in turn resell or license the products to end use\ncustomers. The foregoing notwithstanding, during the [*] and any\nsubsequent period, NETGEAR reserves the right to sell or license\nProducts in [*] to customers other than distributors such as, but not\nlimited to resellers who procure Products at centralized locations for\nresale to end-use customers solely through their wholly or majority\nowned retail outlets, both store-front and catalog. Following the [*],\nfor any extension or renewal term, Distributor's appointment as\nDistributor shall be non-exclusive and NETGEAR may appoint other\ndistributors in [*] at its sole discretion."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 2 redacts the territory as [*], so the country or region cannot be identified from the supplied text.",
+        "Clause 2 makes the initial sole-distributor status subject to Distributor conducting mutually agreed marketing activities in a Marketing Plan for [*] to be developed and agreed; that plan is not included in the supplied text.",
+        "Clause 2 redacts the period in the phrases 'during the [*]' and 'Following the [*]', so the exact trigger for the later non-exclusive period is not visible."
+      ]
+    }
+  ],
+  "payments": [],
+  "grants": [
+    {
+      "grantee": "Ingram Micro Inc.",
+      "grantor": "NETGEAR, Inc.",
+      "exclusivityType": "sole",
+      "territoryLabel": "[*]",
+      "territoryCodes": [
+        "REDACTED"
+      ],
+      "productLabel": "Products",
+      "productCodes": [
+        "PRODUCTS"
+      ],
+      "start": "1996-10-01",
+      "end": "1997-09-30",
+      "quotes": [
+        {
+          "clauseId": "AMENDMENT",
+          "text": "This Amendment is entered into effective October 1,1996 (\"Amendment Date\") by\nand between NETGEAR, Inc. (\"NETGEAR\"), a wholly owned subsidiary of Bay\nNetworks, Inc., and Ingram Micro (\"Distributor\") acting on behalf of itself and\nits affiliates."
+        },
+        {
+          "clauseId": "AMENDMENT #2 TO THE\nDISTRIBUTION AGREEMENT",
+          "text": "THIS AMENDMENT (the \"Amendment\") is entered into this 15th day of July 1998,\nby and between INGRAM MICRO INC. (\"Ingram\") and NETGEAR, INC. (\"Vendor\")."
+        },
+        {
+          "clauseId": "2.",
+          "text": "2. During the initial one year period beginning on the Amendment Date,\nDistributor shall be the only distributor appointed by NETGEAR in [*],\nsubject to Distributor conducting mutually agreed to marketing\nactivities as described in the Marketing Plan for [*] to be developed\nand agreed to by and between the parties and which shall be attached to\nand made a part of this Agreement as Exhibit 4a. For the purposes of\nthis provision, distributor shall mean a company acquiring products\ndirectly from NETGEAR for resale or license to dealers or other second\ntier resellers which in turn resell or license the products to end use\ncustomers. The foregoing notwithstanding, during the [*] and any\nsubsequent period, NETGEAR reserves the right to sell or license\nProducts in [*] to customers other than distributors such as, but not\nlimited to resellers who procure Products at centralized locations for\nresale to end-use customers solely through their wholly or majority\nowned retail outlets, both store-front and catalog. Following the [*],\nfor any extension or renewal term, Distributor's appointment as\nDistributor shall be non-exclusive and NETGEAR may appoint other\ndistributors in [*] at its sole discretion."
+        }
+      ],
+      "ambiguities": [
+        "The territory is redacted as [*], so it cannot be normalized to an ISO country code.",
+        "The grant is subject to Distributor conducting mutually agreed marketing activities in an Exhibit 4a Marketing Plan that is not included in the supplied text."
+      ]
+    },
+    {
+      "grantee": "Ingram Micro Inc.",
+      "grantor": "NETGEAR, Inc.",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "[*]",
+      "territoryCodes": [
+        "REDACTED"
+      ],
+      "productLabel": "Products",
+      "productCodes": [
+        "PRODUCTS"
+      ],
+      "start": null,
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "AMENDMENT",
+          "text": "This Amendment is entered into effective October 1,1996 (\"Amendment Date\") by\nand between NETGEAR, Inc. (\"NETGEAR\"), a wholly owned subsidiary of Bay\nNetworks, Inc., and Ingram Micro (\"Distributor\") acting on behalf of itself and\nits affiliates."
+        },
+        {
+          "clauseId": "AMENDMENT #2 TO THE\nDISTRIBUTION AGREEMENT",
+          "text": "THIS AMENDMENT (the \"Amendment\") is entered into this 15th day of July 1998,\nby and between INGRAM MICRO INC. (\"Ingram\") and NETGEAR, INC. (\"Vendor\")."
+        },
+        {
+          "clauseId": "2.",
+          "text": "Following the [*],\nfor any extension or renewal term, Distributor's appointment as\nDistributor shall be non-exclusive and NETGEAR may appoint other\ndistributors in [*] at its sole discretion."
+        }
+      ],
+      "ambiguities": [
+        "The territory is redacted as [*], so it cannot be normalized to an ISO country code.",
+        "The start trigger is redacted in 'Following the [*]', and the supplied text does not state the dates of any extension or renewal term."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Lucid Inc. (Lucid) and [*] (Distributor)",
+      "quotes": [
+        {
+          "clauseId": "DISTRIBUTOR AGREEMENT",
+          "text": "This Distributor Agreement (the ‘ Agreement ’ ) dated [*] is between\nLucid Inc., a New York corporation, having a principal place of business at 2320 Brighton Henrietta T/L Road, Rochester NY 14623 And [*]\n( ‘ Distributor ’ )"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The Distributor's legal name is redacted as [*] in the preamble."
+      ]
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "Agreement date is [*] (redacted; no YYYY-MM-DD date stated)",
+      "quotes": [
+        {
+          "clauseId": "DISTRIBUTOR AGREEMENT",
+          "text": "This Distributor Agreement (the ‘ Agreement ’ ) dated [*] is between\nLucid Inc., a New York corporation, having a principal place of business at 2320 Brighton Henrietta T/L Road, Rochester NY 14623 And [*]\n( ‘ Distributor ’ )"
+        },
+        {
+          "clauseId": "2. Term",
+          "text": "A) The initial term of this Agreement shall be three (3) calendar years from the Agreement date. After the initial term, unless terminated, this\nAgreement will automatically renew for periods of one (1) calendar year each."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The agreement date is redacted as [*], so the commencement date cannot be stated as a YYYY-MM-DD calendar date."
+      ]
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "3 calendar years",
+      "quotes": [
+        {
+          "clauseId": "2. Term",
+          "text": "A) The initial term of this Agreement shall be three (3) calendar years from the Agreement date. After the initial term, unless terminated, this\nAgreement will automatically renew for periods of one (1) calendar year each."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "Not determinable; three (3) calendar years from Agreement date ([*])",
+      "quotes": [
+        {
+          "clauseId": "DISTRIBUTOR AGREEMENT",
+          "text": "This Distributor Agreement (the ‘ Agreement ’ ) dated [*] is between\nLucid Inc., a New York corporation, having a principal place of business at 2320 Brighton Henrietta T/L Road, Rochester NY 14623 And [*]\n( ‘ Distributor ’ )"
+        },
+        {
+          "clauseId": "2. Term",
+          "text": "A) The initial term of this Agreement shall be three (3) calendar years from the Agreement date. After the initial term, unless terminated, this\nAgreement will automatically renew for periods of one (1) calendar year each."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": [
+        "Clause 2A fixes the initial term by reference to the Agreement date, but the preamble redacts that date as [*], so no YYYY-MM-DD term end can be computed."
+      ]
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Automatic renewal for successive 1 calendar year periods unless terminated",
+      "quotes": [
+        {
+          "clauseId": "2. Term",
+          "text": "A) The initial term of this Agreement shall be three (3) calendar years from the Agreement date. After the initial term, unless terminated, this\nAgreement will automatically renew for periods of one (1) calendar year each."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": true,
+      "value": "90 days",
+      "quotes": [
+        {
+          "clauseId": "2. Term",
+          "text": "A) The initial term of this Agreement shall be three (3) calendar years from the Agreement date. After the initial term, unless terminated, this\nAgreement will automatically renew for periods of one (1) calendar year each."
+        },
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "C) Either party may terminate this agreement by providing Ninety days Written Notice."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Either party may terminate by 90 days' written notice",
+      "quotes": [
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "C) Either party may terminate this agreement by providing Ninety days Written Notice."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate for the other party's failure to perform/satisfy agreement conditions, covenants or obligations, or for bankruptcy/insolvency-type filings; Lucid may also terminate on change of control, ownership or management of the Distributor.",
+      "quotes": [
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "A) Either party may terminate this agreement by giving written Notice to the other party if:\ni) The other party fails to perform or satisfy any of the conditions, covenants or obligations of this Agreement.\nii) The other party files or has filed against it, a petition seeking relief under any bankruptcy, insolvency, reorganisation, moratorium, liquidation or\nsimilar law affecting creditors ’ rights"
+        },
+        {
+          "clauseId": "16. TERMINATION",
+          "text": "B) In addition, Lucid may terminate this agreement by giving the Distributor Written Notice if there is any change of control, ownership or\nmanagement of the Distributor."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "Lucid's aggregate liability is capped at the total amount actually paid to Lucid by Distributor for the products that actually caused the damage or loss; for undelivered products, Distributor's sole remedy is refund of money paid for those undelivered products.",
+      "quotes": [
+        {
+          "clauseId": "19. LIMITATION OF LIABILITY",
+          "text": "A) Lucid does not guarantee delivery of Product by any particular date. If Lucid accepts Distributor ’ s order and fails to deliver ordered products,\nDistributors sole remedy will be limited to refund of money paid to Lucid for any undelivered products."
+        },
+        {
+          "clauseId": "19. LIMITATION OF LIABILITY",
+          "text": "In no event will the aggregate liability incurred by Lucid in any action or\nproceeding exceed the total amount actually paid to Lucid by Distributor for the purchase of the products that actually caused the damage or loss."
+        },
+        {
+          "clauseId": "13. Prices, Terms & Conditions of Sale",
+          "text": "B) All orders from the Distributor to Lucid will be subject to Lucid ’ s standard terms and conditions of sale."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 13B makes all orders subject to Lucid ’ s standard terms and conditions of sale, but those terms are not included in the supplied text, so their effect on order-related liability cannot be confirmed."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Distributor [*] is appointed as an exclusive authorized Lucid Distributor within [*] for the listed Lucid products and specified market segments. Distributor must not solicit sales outside the Territories, must not develop/manufacture/sell competitive equipment or services, and may not engage sub-distributors or sub-agents without Lucid's prior written approval.",
+      "quotes": [
+        {
+          "clauseId": "1. Appointment",
+          "text": "A) Lucid appoints the Distributor and the Distributor accepts appointment as an exclusive authorized Lucid Distributor. The Distributor will be\nentitled to purchase certain Lucid products and resell them to End User customers within the following market segments:- hospital and medical\nresearch centres, including but not limited to dermatology, pathology, plastic surgery and mohs surgery departments, clinical research centres,\nsmall animal research facilities, cosmetic and cosmeceutical companies."
+        },
+        {
+          "clauseId": "3. Products",
+          "text": "A) Lucid agrees to sell the following products to the Distributor: -\nVivaScope in-vivo Confocal Microscope Model VS1500\nVivaScope ex-vivo Confocal Microscope Model VS2500\nVivaSCOPE in-vivo Confocal Microscope Model VS3000"
+        },
+        {
+          "clauseId": "4. Territory",
+          "text": "A) The Distributor is appointed as an exclusive Distributor within the following territories: [*]."
+        },
+        {
+          "clauseId": "4. Territory",
+          "text": "B) The Distributor agrees to act as a Distributor for Lucid within the above Territories and not to solicit any sales of the Product(s) outside the\nabove Territories."
+        },
+        {
+          "clauseId": "5. Duties of The Distributor",
+          "text": "E) The Distributors will not develop, manufacture or sell any equipment or service, which in any way can be considered to be competitive to the\nequipment or service offered by Lucid to the Distributor as Product. Lucid reserves the right to inform the Distributor from time to time of specific\nproducts and companies that Lucid considers to be competitive. A competitive product includes, but is not limited to, any product that would\ninfringe any claim of any Lucid owned or licensed patent issued or pending worldwide, whether or not corresponding patent claims are in force in\nthe Distributors territory or the sale of which would restrict sale of Lucid product."
+        },
+        {
+          "clauseId": "10. Sub-Distribution",
+          "text": "The Distributor shall not be entitled to engage sub-distributors or any other third party as his sub-agent for sales of the Product, without having\nobtained Lucid ’ s prior written approval. Such approval shall not be unreasonably withheld."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The Distributor's legal name and the territories are redacted as [*] in the preamble and clause 4A, so the exact grantee identity and exclusive territory cannot be identified from the supplied text."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "Distributor must pay 100% of each Product order value to purchase Products at Lucid's published International Distributor price list less a 30% discount; all prices are in US Dollars and sold Ex Works; payment is by irrevocable letter of credit when the order is placed on Lucid.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Triggered by each order placed on Lucid; order value and order date are not fixed in the agreement.",
+      "quotes": [
+        {
+          "clauseId": "13. Prices, Terms & Conditions of Sale",
+          "text": "A) The Distributor may purchase Products from Lucid at the price published by Lucid, from time to time, in the International Distributor price list\n(attached). Lucid agrees to allow the Distributor a discount of thirty (30) per cent against the published International Distributor price list."
+        },
+        {
+          "clauseId": "13. Prices, Terms & Conditions of Sale",
+          "text": "C) All prices are quoted by Lucid in US Dollars and are sold Ex Works, becoming the Distributor ’ s property when despatched from the Lucid\nfacility."
+        },
+        {
+          "clauseId": "15. PAYMENT TERMS",
+          "text": "The Distributor agrees to abide by Lucid ’ s standard payment terms, which are as follows; One Hundred (100) per cent of order value by sixty ( 90 )\nday irrevocable letter of credit when order is placed on Lucid."
+        }
+      ],
+      "ambiguities": [
+        "Clause 15 is internally inconsistent as to the letter-of-credit tenor, stating “sixty ( 90 ) day”."
+      ]
+    },
+    {
+      "description": "Distributor must purchase demonstration products as new products are released, subject to special pricing, and must not resell that demonstration equipment to End Users.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Triggered by new product releases; release dates and special pricing are not fixed in the agreement.",
+      "quotes": [
+        {
+          "clauseId": "7. Demonstration Equipment",
+          "text": "A) The Distributor agrees to purchase demonstration products as new products are released subject to special pricing. The Distributor agrees to\nuse the demonstration equipment for the duties as noted in 5 A, B, C, D as above and not to re-sell this demonstration equipment to End Users."
+        },
+        {
+          "clauseId": "13. Prices, Terms & Conditions of Sale",
+          "text": "C) All prices are quoted by Lucid in US Dollars and are sold Ex Works, becoming the Distributor ’ s property when despatched from the Lucid\nfacility."
+        }
+      ],
+      "ambiguities": [
+        "Clause 7 states that demonstration products are subject to special pricing, but the special prices and release dates are not stated."
+      ]
+    },
+    {
+      "description": "Distributor must purchase from Lucid minimum agreed quantities of product in the first, second and third years of the Agreement, excluding demonstration product; quantities are to be agreed in the initial and subsequent annual sales plans.",
+      "amountMinor": null,
+      "currency": "USD",
+      "frequency": "annually",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Minimum quantities are to be agreed in sales plans; the agreement does not fix specific quantities, amounts, or purchase due dates.",
+      "quotes": [
+        {
+          "clauseId": "14. Minimum Purchase Obligation",
+          "text": "The Distributor agrees to purchase from Lucid minimum agreed quantity of product in the first, second and third years of the Agreement, excluding\ndemonstration product. These quantities to be agreed by both parties in the initial detailed sales plan noted in clause 9D and amended with further\nagreement in subsequent annual sales plans"
+        },
+        {
+          "clauseId": "13. Prices, Terms & Conditions of Sale",
+          "text": "C) All prices are quoted by Lucid in US Dollars and are sold Ex Works, becoming the Distributor ’ s property when despatched from the Lucid\nfacility."
+        }
+      ],
+      "ambiguities": [
+        "Clause 14 leaves the minimum quantities to later agreement in sales plans, so no fixed minimum purchase amount or due date can be extracted."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "[*]",
+      "grantor": "Lucid Inc.",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "[*]",
+      "territoryCodes": [],
+      "productLabel": "VivaScope in-vivo Confocal Microscope Model VS1500; VivaScope ex-vivo Confocal Microscope Model VS2500; VivaSCOPE in-vivo Confocal Microscope Model VS3000, within the listed market segments",
+      "productCodes": [
+        "VS1500",
+        "VS2500",
+        "VS3000"
+      ],
+      "start": null,
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "DISTRIBUTOR AGREEMENT",
+          "text": "This Distributor Agreement (the ‘ Agreement ’ ) dated [*] is between\nLucid Inc., a New York corporation, having a principal place of business at 2320 Brighton Henrietta T/L Road, Rochester NY 14623 And [*]\n( ‘ Distributor ’ )"
+        },
+        {
+          "clauseId": "1. Appointment",
+          "text": "A) Lucid appoints the Distributor and the Distributor accepts appointment as an exclusive authorized Lucid Distributor. The Distributor will be\nentitled to purchase certain Lucid products and resell them to End User customers within the following market segments:- hospital and medical\nresearch centres, including but not limited to dermatology, pathology, plastic surgery and mohs surgery departments, clinical research centres,\nsmall animal research facilities, cosmetic and cosmeceutical companies."
+        },
+        {
+          "clauseId": "3. Products",
+          "text": "A) Lucid agrees to sell the following products to the Distributor: -\nVivaScope in-vivo Confocal Microscope Model VS1500\nVivaScope ex-vivo Confocal Microscope Model VS2500\nVivaSCOPE in-vivo Confocal Microscope Model VS3000"
+        },
+        {
+          "clauseId": "4. Territory",
+          "text": "A) The Distributor is appointed as an exclusive Distributor within the following territories: [*]."
+        },
+        {
+          "clauseId": "2. Term",
+          "text": "A) The initial term of this Agreement shall be three (3) calendar years from the Agreement date. After the initial term, unless terminated, this\nAgreement will automatically renew for periods of one (1) calendar year each."
+        }
+      ],
+      "ambiguities": [
+        "The grantee legal name and exclusive territory are redacted as [*], so no normalized territory code can be supplied.",
+        "Start and end dates cannot be normalized because the Agreement date is redacted as [*] and the agreement automatically renews unless terminated."
+      ]
+    },
+    {
+      "grantee": "Lucid Inc.",
+      "grantor": "[*]",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "No express geographic limit",
+      "territoryCodes": [
+        "WORLD"
+      ],
+      "productLabel": "equipment or service competitive to equipment or service offered by Lucid to the Distributor as Product, including products Lucid identifies as competitive",
+      "productCodes": [
+        "COMPETITIVE_TO_LUCID_PRODUCT"
+      ],
+      "start": null,
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "DISTRIBUTOR AGREEMENT",
+          "text": "This Distributor Agreement (the ‘ Agreement ’ ) dated [*] is between\nLucid Inc., a New York corporation, having a principal place of business at 2320 Brighton Henrietta T/L Road, Rochester NY 14623 And [*]\n( ‘ Distributor ’ )"
+        },
+        {
+          "clauseId": "5. Duties of The Distributor",
+          "text": "E) The Distributors will not develop, manufacture or sell any equipment or service, which in any way can be considered to be competitive to the\nequipment or service offered by Lucid to the Distributor as Product. Lucid reserves the right to inform the Distributor from time to time of specific\nproducts and companies that Lucid considers to be competitive. A competitive product includes, but is not limited to, any product that would\ninfringe any claim of any Lucid owned or licensed patent issued or pending worldwide, whether or not corresponding patent claims are in force in\nthe Distributors territory or the sale of which would restrict sale of Lucid product."
+        },
+        {
+          "clauseId": "2. Term",
+          "text": "A) The initial term of this Agreement shall be three (3) calendar years from the Agreement date. After the initial term, unless terminated, this\nAgreement will automatically renew for periods of one (1) calendar year each."
+        }
+      ],
+      "ambiguities": [
+        "Clause 5E allows Lucid to identify specific competitive products and companies from time to time, so the precise competitive product scope can change and is not fully listed in the agreement.",
+        "Clause 5E contains no express geographic limit; territoryCodes uses WORLD because the covenant is phrased without a territorial limitation.",
+        "Start and end dates cannot be normalized because the Agreement date is redacted as [*] and the agreement automatically renews unless terminated."
+      ]
+    }
+  ]
+}

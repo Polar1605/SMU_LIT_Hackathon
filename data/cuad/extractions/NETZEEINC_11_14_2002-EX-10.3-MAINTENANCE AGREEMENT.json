@@ -1,0 +1,154 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Netzee, Inc. (maintenance provider) and The Bankers Bank, a Georgia banking corporation (paying customer/maintenance recipient).",
+      "quotes": [
+        {
+          "clauseId": "Signature block",
+          "text": "NETZEE, INC. THE BANKERS BANK, a Georgia\nbanking corporation"
+        },
+        {
+          "clauseId": "Opening paragraph",
+          "text": "This Agreement provides for Continued Service and for Netzee to provide basic\nmaintenance in support following expiration of the initial one (1) year term of\nthe License/Services Schedule."
+        },
+        {
+          "clauseId": "Fees paragraph",
+          "text": "Bankers Bank agrees to pay fees equal to $40 per month for all Participating\nBanks (original or added) for which maintenance is provided."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2001-03-01",
+      "quotes": [
+        {
+          "clauseId": "COMMENCEMENT DATE FOR MAINTENANCE UNDER THIS ADDENDUM",
+          "text": "COMMENCEMENT DATE FOR MAINTENANCE UNDER THIS ADDENDUM: MARCH 1, 2001"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "1 year",
+      "quotes": [
+        {
+          "clauseId": "Term paragraph",
+          "text": "The maintenance is for a period of one (1) year commencing upon expiration of\nthe initial one (1) year term of the License/Services Schedule."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2002-02-28",
+      "quotes": [
+        {
+          "clauseId": "Term paragraph",
+          "text": "The maintenance is for a period of one (1) year commencing upon expiration of\nthe initial one (1) year term of the License/Services Schedule."
+        },
+        {
+          "clauseId": "COMMENCEMENT DATE FOR MAINTENANCE UNDER THIS ADDENDUM",
+          "text": "COMMENCEMENT DATE FOR MAINTENANCE UNDER THIS ADDENDUM: MARCH 1, 2001"
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Bankers Bank may renew, at its option, for subsequent 1-year periods; not automatic.",
+      "quotes": [
+        {
+          "clauseId": "Term paragraph",
+          "text": "Following the\ncompletion of such maintenance term, Bankers Bank may, at its option, renew\nmaintenance for subsequent periods of one (1) year each, subject to adjustments\nproposed by Netzee not to exceed 5% at least sixty (60) days in advance of\nthe applicable renewal date."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "Subject to limitations of liability in the incorporated Master Agreement; cap amount not stated in this document.",
+      "quotes": [
+        {
+          "clauseId": "Master Agreement incorporation paragraph",
+          "text": "THIS MAINTENANCE AGREEMENT IS GOVERNED BY, AND SHALL BE SUBJECT TO, THE TERMS\nAND CONDITIONS OF THE MASTER AGREEMENT BETWEEN NETZEE AND BANKERS BANK,\nINCLUDING THE LIMITED WARRANTY AND DISCLAIMER AND LIMITATIONS OF LIABILITY\nPROVIDED THEREIN. SUCH TERMS AND CONDITIONS ARE HEREBY AFFIRMED BY BOTH PARTIES\nAND INCORPORATED BY REFERENCE IN THIS MAINTENANCE AGREEMENT, INCLUDING, WITHOUT\nLIMITATION, ALL LICENSES GRANTED OR EXERCISABLE THEREUNDER."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The incorporated Master Agreement is not included in the supplied text, so the liability ceiling and any carve-outs cannot be determined from the Master Agreement incorporation paragraph."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "Monthly maintenance fee stated as $40 per month for Participating Banks for which maintenance is provided, subject to possible renewal-period adjustments proposed by Netzee up to 5%.",
+      "amountMinor": 4000,
+      "currency": "USD",
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "The agreement does not state a payment due day within each month; the applicable amount may also depend on the Participating Banks for which maintenance is provided and, for renewal terms, any Netzee adjustment up to 5%.",
+      "quotes": [
+        {
+          "clauseId": "Fees paragraph",
+          "text": "Bankers Bank agrees to pay fees equal to $40 per month for all Participating\nBanks (original or added) for which maintenance is provided."
+        },
+        {
+          "clauseId": "Term paragraph",
+          "text": "Following the\ncompletion of such maintenance term, Bankers Bank may, at its option, renew\nmaintenance for subsequent periods of one (1) year each, subject to adjustments\nproposed by Netzee not to exceed 5% at least sixty (60) days in advance of\nthe applicable renewal date."
+        }
+      ],
+      "ambiguities": [
+        "The Fees paragraph does not state whether \"$40 per month for all Participating Banks\" means $40 per Participating Bank per month or a single $40 monthly fee covering all Participating Banks.",
+        "The agreement does not state the due day for monthly payment."
+      ]
+    }
+  ],
+  "grants": []
+}

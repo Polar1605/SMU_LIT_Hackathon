@@ -1,0 +1,102 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "PC Quote, Inc. (\"PCQ\") and A.B. Watley, Inc. (\"ABW\"); the amendment also states it applies to their subsidiaries and related companies.",
+      "quotes": [
+        {
+          "clauseId": "AMENDMENT TO SECTION 2, PART B OF THE CO-BRANDING AGREEMENT",
+          "text": "by and between PC Quote, Inc.\n(hereinafter referred to as \"PCQ\") and A.B. Watley, Inc. (hereinafter\nreferred to as \"ABW\")"
+        },
+        {
+          "clauseId": "AMENDMENT TO SECTION 2, PART B OF THE CO-BRANDING AGREEMENT",
+          "text": "This Amendment shall apply to said PCQ\nand ABW and all of their subsidiaries and related companies."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "The amendment says it applies to \"all of their subsidiaries and related companies,\" but those entities are not named or individually identified."
+      ]
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "1996-12-09",
+      "quotes": [
+        {
+          "clauseId": "AMENDMENT TO SECTION 2, PART B OF THE CO-BRANDING AGREEMENT",
+          "text": "This amendment to Section 2 (titled \"Term\"), Part B of the Co-Branding\nAgreement is made effective December 9, 1996"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [],
+  "grants": []
+}

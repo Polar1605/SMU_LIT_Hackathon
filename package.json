@@ -19,7 +19,10 @@
     "publish-assets": "tsx scripts/publish-assets.ts",
     "prebuild": "tsx scripts/publish-assets.ts",
     "exports": "tsx scripts/export-originals.ts",
-    "demo:live": "tsx scripts/demo-live.ts"
+    "demo:live": "tsx scripts/demo-live.ts",
+    "cuad:select": "tsx scripts/cuad/select.ts",
+    "cuad:eval": "tsx scripts/cuad/eval.ts",
+    "cuad:pipeline": "tsx scripts/ingest.ts --corpus data/cuad/corpus --data data/cuad && tsx scripts/extract.ts --corpus data/cuad/corpus --data data/cuad && tsx scripts/compute.ts --corpus data/cuad/corpus --data data/cuad && tsx scripts/cuad/eval.ts"
   },
   "dependencies": {
     "@napi-rs/canvas": "^1.0.8",

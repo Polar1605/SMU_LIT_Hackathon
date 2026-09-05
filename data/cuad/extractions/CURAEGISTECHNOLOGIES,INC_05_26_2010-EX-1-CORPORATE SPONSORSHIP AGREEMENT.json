@@ -1,0 +1,347 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Phoenix Performance, LLC as “Vendor”; Torvec Inc.. as “Torvec”.",
+      "quotes": [
+        {
+          "clauseId": "Parties",
+          "text": "This agreement (the “ Agreement ” ) is entered into as of May 18, 2010, (the “ Effective Date ” ) by and between Phoenix Performance, LLC, 481\nSchuylkill Road, Phoenixville, PA 19460 ( “ Vendor ” ) and Torvec Inc.., a New York corporation with its principal place of business located at 1999\nMt Read Blvd, Building 3, Rochester, NY. 14615 (Torvec)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2010-05-18",
+      "quotes": [
+        {
+          "clauseId": "Parties",
+          "text": "This agreement (the “ Agreement ” ) is entered into as of May 18, 2010, (the “ Effective Date ” )"
+        },
+        {
+          "clauseId": "1. Term",
+          "text": "The term of this Agreement (the “ Term ” ) shall commence on the Effective Date and conclude on October 31, 2010, unless renewed by\nagreement or sooner terminated in accordance with this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "From 2010-05-18 through 2010-10-31",
+      "quotes": [
+        {
+          "clauseId": "Parties",
+          "text": "This agreement (the “ Agreement ” ) is entered into as of May 18, 2010, (the “ Effective Date ” )"
+        },
+        {
+          "clauseId": "1. Term",
+          "text": "The term of this Agreement (the “ Term ” ) shall commence on the Effective Date and conclude on October 31, 2010, unless renewed by\nagreement or sooner terminated in accordance with this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2010-10-31",
+      "quotes": [
+        {
+          "clauseId": "1. Term",
+          "text": "The term of this Agreement (the “ Term ” ) shall commence on the Effective Date and conclude on October 31, 2010, unless renewed by\nagreement or sooner terminated in accordance with this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Only by agreement; amendments/alterations must be by written agreement. No automatic renewal is stated.",
+      "quotes": [
+        {
+          "clauseId": "1. Term",
+          "text": "The term of this Agreement (the “ Term ” ) shall commence on the Effective Date and conclude on October 31, 2010, unless renewed by\nagreement or sooner terminated in accordance with this Agreement."
+        },
+        {
+          "clauseId": "11. Amendments",
+          "text": "This Agreement shall not be altered or amended, nor any rights hereunder waived, except by written agreement between both parties."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Torvec may cancel participation in referenced events in its sole discretion by notifying Vendor at least two weeks before the payment due date(s); no general termination-for-convenience right is stated.",
+      "quotes": [
+        {
+          "clauseId": "5. Payment and Other Consideration",
+          "text": "The schedule set forth in Exhibit A will constitute invoicing for the events. Notwithstanding the above, Torvec may, in its sole\ndiscretion, cancel its participation in any of the above-referenced events by notifying Vendor of such cancellation not later than two weeks\nprior to the due date(s) for payment hereunder. All checks shall be made payabe to: Phoenix Performance, LLC and mailed to 481, Schuylkill\nRd, Phoenixville, Pa. 19460."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 5 permits Torvec to cancel participation in events, not expressly to terminate the entire Agreement.",
+        "Clause 5 measures the notice period from payment due date(s), but Exhibit A with those due dates is not included in the supplied text."
+      ]
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate immediately for specified bankruptcy/insolvency-related events; the non-assigning party may immediately cancel and terminate for an attempted assignment without consent.",
+      "quotes": [
+        {
+          "clauseId": "2. Termination",
+          "text": "Either party may terminate this Agreement immediately if the other party (i) files a petition commencing a voluntary case under the\nBankruptcy Code; (ii) makes a general assignment for the benefit of creditors; (iii) admits in writing its inability to pay its debts as they become\ndue; (iv) seeks, consents to or acquiesces in the appointment of any trustee, receiver or liquidator of it or any part of its property; or (v) has\ncommenced against it an involuntary case under the Bankruptcy Code or a proceeding under any receivership, composition, readjustment,\nliquidation, insolvency, dissolution or like law or statute, which case or proceeding is not dismissed or vacated within sixty (60) days."
+        },
+        {
+          "clauseId": "12. Assignment",
+          "text": "Any attempt to assign without the other party ’ s consent will be null and void and will afford the non-assigning\nparty the right to immediately cancel and terminate this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "No stated monetary cap; upon termination, consequential, exemplary, special, incidental and punitive damages are excluded.",
+      "quotes": [
+        {
+          "clauseId": "2. Termination",
+          "text": "Upon termination of this Agreement, NEITHER PARTY SHALL BE LIABLE TO THE OTHER FOR ANY CONSEQUENTIAL,\nEXEMPLARY, SPECIAL, INCIDENTAL OR PUNITIVE DAMAGES, EVEN IF IT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH\nDAMAGES, WHICH ARE RELATED TO THE AGREEMENT OR ITS BREACH."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 2(b) is a damages exclusion and does not state an aggregate or monetary ceiling on liability.",
+        "Clause 2(b) is phrased as applying “Upon termination of this Agreement,” so its application outside termination is not stated."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Torvec has primary sponsorship rights for all Vendor participation efforts in listed race events and the sole right to disapprove drivers; Vendor warrants no other person/entity has exclusive automotive sponsor rights for those activities/events. Trademark license rights are non-exclusive.",
+      "quotes": [
+        {
+          "clauseId": "4. Torvec Benefits",
+          "text": "During the Term of this Agreement, Torvec shall be entitled to the following sponsorship benefits:\na) Primary sponsorship rights to all of Vendor ’ s participation efforts in the above race events.\nb) The right to specify and approve all team sponsorship identification markings, logos, graphics, etc. for vehicle livery, team\nequipment and uniforms.\nc) Sole right to disapprove any driver selected by Vendor for any reason. The driver for these events will be John Heinricy."
+        },
+        {
+          "clauseId": "9. Representations",
+          "text": "Vendor represents and warrants to Torvec the following: (i) it has the authority to enter into this Agreement and to perform hereunder in\naccordance with its provisions; (ii) no other person or entity has the right to be the exclusive automotive sponsor of the activities and the events\nset forth in this Agreement; and (iii) it will perform its obligations under this Agreement in compliance with all applicable laws, rules and\nregulations."
+        },
+        {
+          "clauseId": "6. Grant of License",
+          "text": "Each party shall have a non-exclusive, royalty free, non-transferable license to use the name, logo, any item used in connection with that\nname or logo, and the registered symbols and trademarks of the other party (the “ Trademarks ” ) only for the purposes set forth in this Agreement."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 4(a) grants “Primary sponsorship rights” but does not expressly state that Torvec is the exclusive automotive sponsor or that other non-primary sponsors are barred.",
+        "Clause 9(ii) is framed as Vendor's representation about third-party rights, not as a separate affirmative exclusivity grant."
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "description": "Torvec payment/consideration to Phoenix Performance, LLC per Exhibit A; the Exhibit A schedule constitutes invoicing for events.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "The supplied text references Exhibit A for the payment schedule, amounts and due date(s), but Exhibit A is not included; Torvec may cancel participation at least two weeks before the due date(s).",
+      "quotes": [
+        {
+          "clauseId": "5. Payment and Other Consideration",
+          "text": "As consideration for the benefits it receives under this Agreement, Torvec shall provide the following to Vendor:\nSee Exhibit A"
+        },
+        {
+          "clauseId": "5. Payment and Other Consideration",
+          "text": "The schedule set forth in Exhibit A will constitute invoicing for the events. Notwithstanding the above, Torvec may, in its sole\ndiscretion, cancel its participation in any of the above-referenced events by notifying Vendor of such cancellation not later than two weeks\nprior to the due date(s) for payment hereunder. All checks shall be made payabe to: Phoenix Performance, LLC and mailed to 481, Schuylkill\nRd, Phoenixville, Pa. 19460."
+        }
+      ],
+      "ambiguities": [
+        "Amounts and payment due dates depend on Exhibit A, which is referenced but absent from the supplied text.",
+        "Clause 5 permits Torvec to cancel event participation by notice at least two weeks before payment due date(s), so the payment obligation may not arise for cancelled events."
+      ]
+    },
+    {
+      "description": "Torvec must provide Phoenix Performance, LLC the use of up to 2 Differential units for testing, evaluation and racing in the T-1 C5 Corvette.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "No delivery/use date is fixed, and the quantity is stated as “up to 2” units.",
+      "quotes": [
+        {
+          "clauseId": "5. Payment and Other Consideration",
+          "text": "Torvec will provide to Vendor the use of up to 2 Differential units to be used in the T-1 C5 Corvette for testing, evaluation and racing\npurposes.."
+        }
+      ],
+      "ambiguities": [
+        "Clause 5(b) states “up to 2 Differential units” and does not fix the exact number or timing."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "Torvec Inc..",
+      "grantor": "Phoenix Performance, LLC",
+      "exclusivityType": "sole",
+      "territoryLabel": "above race events",
+      "territoryCodes": [],
+      "productLabel": "Primary sponsorship rights to all of Vendor ’ s participation efforts in the above race events",
+      "productCodes": [
+        "PRIMARYSPONSORSHIP",
+        "VENDORPARTICIPATIONEFFORTS"
+      ],
+      "start": "2010-05-18",
+      "end": "2010-10-31",
+      "quotes": [
+        {
+          "clauseId": "Parties",
+          "text": "This agreement (the “ Agreement ” ) is entered into as of May 18, 2010, (the “ Effective Date ” ) by and between Phoenix Performance, LLC, 481\nSchuylkill Road, Phoenixville, PA 19460 ( “ Vendor ” ) and Torvec Inc.., a New York corporation with its principal place of business located at 1999\nMt Read Blvd, Building 3, Rochester, NY. 14615 (Torvec)."
+        },
+        {
+          "clauseId": "1. Term",
+          "text": "The term of this Agreement (the “ Term ” ) shall commence on the Effective Date and conclude on October 31, 2010, unless renewed by\nagreement or sooner terminated in accordance with this Agreement."
+        },
+        {
+          "clauseId": "3. Responsibilities and Benefits",
+          "text": "Preparation, maintenance and running of one (1) T-1 C5 Corvette race vehicle to race in:\na. 1 round of the World Challenge series in the GTS class (Mosport Double);\nb. 4 rounds of SCCA National Racing (events to be finalized but at this time expected to be NJMP, Road America, Watkins Glen\nDouble);\nc. the SCCA runoffs at Road America.\n."
+        },
+        {
+          "clauseId": "4. Torvec Benefits",
+          "text": "During the Term of this Agreement, Torvec shall be entitled to the following sponsorship benefits:\na) Primary sponsorship rights to all of Vendor ’ s participation efforts in the above race events.\nb) The right to specify and approve all team sponsorship identification markings, logos, graphics, etc. for vehicle livery, team\nequipment and uniforms.\nc) Sole right to disapprove any driver selected by Vendor for any reason. The driver for these events will be John Heinricy."
+        },
+        {
+          "clauseId": "9. Representations",
+          "text": "Vendor represents and warrants to Torvec the following: (i) it has the authority to enter into this Agreement and to perform hereunder in\naccordance with its provisions; (ii) no other person or entity has the right to be the exclusive automotive sponsor of the activities and the events\nset forth in this Agreement; and (iii) it will perform its obligations under this Agreement in compliance with all applicable laws, rules and\nregulations."
+        }
+      ],
+      "ambiguities": [
+        "Clause 4(a) uses “Primary sponsorship rights,” not “exclusive” or “sole,” and does not state whether other non-primary sponsors are barred.",
+        "The scope is event-based rather than a stated geographic territory.",
+        "The listed SCCA National Racing events are described as “events to be finalized,” so the final event scope may differ from the expected venues listed."
+      ]
+    },
+    {
+      "grantee": "Torvec Inc..",
+      "grantor": "Phoenix Performance, LLC",
+      "exclusivityType": "sole",
+      "territoryLabel": "above race events",
+      "territoryCodes": [],
+      "productLabel": "Sole right to disapprove any driver selected by Vendor for the above race events",
+      "productCodes": [
+        "DRIVERDISAPPROVAL"
+      ],
+      "start": "2010-05-18",
+      "end": "2010-10-31",
+      "quotes": [
+        {
+          "clauseId": "Parties",
+          "text": "This agreement (the “ Agreement ” ) is entered into as of May 18, 2010, (the “ Effective Date ” ) by and between Phoenix Performance, LLC, 481\nSchuylkill Road, Phoenixville, PA 19460 ( “ Vendor ” ) and Torvec Inc.., a New York corporation with its principal place of business located at 1999\nMt Read Blvd, Building 3, Rochester, NY. 14615 (Torvec)."
+        },
+        {
+          "clauseId": "1. Term",
+          "text": "The term of this Agreement (the “ Term ” ) shall commence on the Effective Date and conclude on October 31, 2010, unless renewed by\nagreement or sooner terminated in accordance with this Agreement."
+        },
+        {
+          "clauseId": "4. Torvec Benefits",
+          "text": "During the Term of this Agreement, Torvec shall be entitled to the following sponsorship benefits:\na) Primary sponsorship rights to all of Vendor ’ s participation efforts in the above race events.\nb) The right to specify and approve all team sponsorship identification markings, logos, graphics, etc. for vehicle livery, team\nequipment and uniforms.\nc) Sole right to disapprove any driver selected by Vendor for any reason. The driver for these events will be John Heinricy."
+        }
+      ],
+      "ambiguities": [
+        "The right is expressly a sole right to disapprove drivers selected by Vendor, not a right to select drivers.",
+        "The scope is event-based rather than a stated geographic territory."
+      ]
+    },
+    {
+      "grantee": "Torvec Inc..",
+      "grantor": "Phoenix Performance, LLC",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "not stated; only for the purposes set forth in this Agreement",
+      "territoryCodes": [],
+      "productLabel": "Phoenix Performance, LLC name, logo, related items, registered symbols and trademarks",
+      "productCodes": [
+        "TRADEMARKS"
+      ],
+      "start": "2010-05-18",
+      "end": "2010-10-31",
+      "quotes": [
+        {
+          "clauseId": "Parties",
+          "text": "This agreement (the “ Agreement ” ) is entered into as of May 18, 2010, (the “ Effective Date ” ) by and between Phoenix Performance, LLC, 481\nSchuylkill Road, Phoenixville, PA 19460 ( “ Vendor ” ) and Torvec Inc.., a New York corporation with its principal place of business located at 1999\nMt Read Blvd, Building 3, Rochester, NY. 14615 (Torvec)."
+        },
+        {
+          "clauseId": "6. Grant of License",
+          "text": "Each party shall have a non-exclusive, royalty free, non-transferable license to use the name, logo, any item used in connection with that\nname or logo, and the registered symbols and trademarks of the other party (the “ Trademarks ” ) only for the purposes set forth in this Agreement."
+        },
+        {
+          "clauseId": "6. Grant of License",
+          "text": "The rights granted under this Section 6 cease upon the expiration or termination of this Agreement."
+        },
+        {
+          "clauseId": "1. Term",
+          "text": "The term of this Agreement (the “ Term ” ) shall commence on the Effective Date and conclude on October 31, 2010, unless renewed by\nagreement or sooner terminated in accordance with this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "Section 6 states no geographic territory for the trademark license."
+      ]
+    },
+    {
+      "grantee": "Phoenix Performance, LLC",
+      "grantor": "Torvec Inc..",
+      "exclusivityType": "non-exclusive",
+      "territoryLabel": "not stated; only for the purposes set forth in this Agreement",
+      "territoryCodes": [],
+      "productLabel": "Torvec Inc.. name, logo, related items, registered symbols and trademarks",
+      "productCodes": [
+        "TRADEMARKS"
+      ],
+      "start": "2010-05-18",
+      "end": "2010-10-31",
+      "quotes": [
+        {
+          "clauseId": "Parties",
+          "text": "This agreement (the “ Agreement ” ) is entered into as of May 18, 2010, (the “ Effective Date ” ) by and between Phoenix Performance, LLC, 481\nSchuylkill Road, Phoenixville, PA 19460 ( “ Vendor ” ) and Torvec Inc.., a New York corporation with its principal place of business located at 1999\nMt Read Blvd, Building 3, Rochester, NY. 14615 (Torvec)."
+        },
+        {
+          "clauseId": "6. Grant of License",
+          "text": "Each party shall have a non-exclusive, royalty free, non-transferable license to use the name, logo, any item used in connection with that\nname or logo, and the registered symbols and trademarks of the other party (the “ Trademarks ” ) only for the purposes set forth in this Agreement."
+        },
+        {
+          "clauseId": "6. Grant of License",
+          "text": "The rights granted under this Section 6 cease upon the expiration or termination of this Agreement."
+        },
+        {
+          "clauseId": "1. Term",
+          "text": "The term of this Agreement (the “ Term ” ) shall commence on the Effective Date and conclude on October 31, 2010, unless renewed by\nagreement or sooner terminated in accordance with this Agreement."
+        }
+      ],
+      "ambiguities": [
+        "Section 6 states no geographic territory for the trademark license."
+      ]
+    }
+  ]
+}

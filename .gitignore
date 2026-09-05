@@ -12,3 +12,9 @@ eng.traineddata
 *.traineddata
 .playwright-mcp/
 *.png
+
+# CUAD derived output — regenerate with: npm run cuad:pipeline (no API calls, cache is committed)
+data/cuad/parsed/
+data/cuad/results.json
+data/cuad/_pdftree.json
+data/cuad/_pdfs.json

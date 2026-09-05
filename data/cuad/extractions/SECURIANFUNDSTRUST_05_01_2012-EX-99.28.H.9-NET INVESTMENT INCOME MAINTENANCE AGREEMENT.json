@@ -1,0 +1,195 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Advantus Capital Management, Inc. (Investment Adviser); Securian Financial Services, Inc. (Underwriter); Securian Funds Trust, a Delaware statutory trust, on behalf of the Trust’s Advantus Money Market Fund (Trust/Fund).",
+      "quotes": [
+        {
+          "clauseId": "RESTATED NET INVESTMENT INCOME MAINTENANCE AGREEMENT",
+          "text": "RESTATED NET INVESTMENT INCOME MAINTENANCE AGREEMENT, effective as of May 1, 2012, by and between Advantus Capital\nManagement, Inc. (the “ Investment Adviser ” ), Securian Financial Services, Inc. (the “ Underwriter ” ) and Securian Funds Trust (the “ Trust ” ), a\nDelaware statutory trust, on behalf of the Trust ’ s Advantus Money Market Fund (the “ Fund ” )."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2012-05-01",
+      "quotes": [
+        {
+          "clauseId": "RESTATED NET INVESTMENT INCOME MAINTENANCE AGREEMENT",
+          "text": "RESTATED NET INVESTMENT INCOME MAINTENANCE AGREEMENT, effective as of May 1, 2012, by and between Advantus Capital"
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "1 year",
+      "quotes": [
+        {
+          "clauseId": "3. Term and Termination of Agreement.",
+          "text": "This Agreement shall continue in effect for a period of one year from the date of its execution and from year to year thereafter provided such\ncontinuance is specifically approved by a majority of the trustees of the Trust who (i) are not “ interested persons ” of the Trust or any other party\nto this Agreement, as defined in the 1940 Act, and (ii) have no direct or indirect financial interest in the operation of this Agreement ( “ Non-\nInterested Trustees ” )."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2013-05-01",
+      "quotes": [
+        {
+          "clauseId": "RESTATED NET INVESTMENT INCOME MAINTENANCE AGREEMENT",
+          "text": "RESTATED NET INVESTMENT INCOME MAINTENANCE AGREEMENT, effective as of May 1, 2012, by and between Advantus Capital"
+        },
+        {
+          "clauseId": "3. Term and Termination of Agreement.",
+          "text": "This Agreement shall continue in effect for a period of one year from the date of its execution and from year to year thereafter provided such\ncontinuance is specifically approved by a majority of the trustees of the Trust who (i) are not “ interested persons ” of the Trust or any other party\nto this Agreement, as defined in the 1940 Act, and (ii) have no direct or indirect financial interest in the operation of this Agreement ( “ Non-\nInterested Trustees ” )."
+        },
+        {
+          "clauseId": "IN WITNESS WHEREOF",
+          "text": "IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be duly executed as of the day and year first above written."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Continues from year to year only if continuance is specifically approved by a majority of Non-Interested Trustees.",
+      "quotes": [
+        {
+          "clauseId": "3. Term and Termination of Agreement.",
+          "text": "This Agreement shall continue in effect for a period of one year from the date of its execution and from year to year thereafter provided such\ncontinuance is specifically approved by a majority of the trustees of the Trust who (i) are not “ interested persons ” of the Trust or any other party\nto this Agreement, as defined in the 1940 Act, and (ii) have no direct or indirect financial interest in the operation of this Agreement ( “ Non-\nInterested Trustees ” )."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Terminates upon termination of the Advisory Agreement, except the Investment Adviser’s section 1.5 Right of Recovery survives.",
+      "quotes": [
+        {
+          "clauseId": "3. Term and Termination of Agreement.",
+          "text": "This Agreement will terminate upon the termination of the Advisory Agreement except the Investment Adviser ’ s Right of\nRecovery set forth in section 1.5 herein."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 3 cross-refers to termination of the Advisory Agreement, but this document does not state the grounds or notice for terminating the Advisory Agreement."
+      ]
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "If the Fund’s daily Net Investment Income is below zero, Advantus Capital Management, Inc. must waive or reduce its advisory fee and, if that is insufficient, pay Fund expenses or reimburse the Fund enough to bring Net Investment Income to zero. Payment is due within 30 days after each month-end for the amount due as of that month.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Triggered only if the Fund’s Net Investment Income is below zero and an amount is due for the month; the amount depends on Fund Investment Income and Fund Operating Expenses.",
+      "quotes": [
+        {
+          "clauseId": "1.1",
+          "text": "If the Fund ’ s Net Investment Income on any day is below zero, the Investment\nAdviser shall waive its Advisory Fee or reimburse the Fund an amount (defined as “ Expense Waiver ” ) sufficient to produce a Net\nInvestment Income of zero."
+        },
+        {
+          "clauseId": "1.4",
+          "text": "If the daily Net\nInvestment Income is below zero for any day, the Investment Adviser shall first waive or reduce its advisory fee for such day by an\namount sufficient to bring the Net Investment Income to zero. If the amount of the waived or reduced advisory fee for any such day is\ninsufficient to bring the Net Investment Income to zero , the Investment Adviser shall also pay Fund expenses or reimburse the Fund\nan amount that, together with the waived or reduced advisory fee, is sufficient to bring the Net Investment Income to zero."
+        },
+        {
+          "clauseId": "1.6",
+          "text": "If the Investment Adviser is required to reimburse the Fund, the Investment Adviser shall make such payment within 30 days\nafter each month-end in the amount due the Fund as of each month."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "If Advantus Capital Management, Inc. exercises its recovery right on a day when the Fund’s Net Investment Income exceeds zero, the Fund must pay the elected Expense Waiver amount, subject to the agreement’s stated conditions and monthly payment timing.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only arises if the Investment Adviser expressly exercises its recovery right and Fund Net Investment Income conditions permit recovery; the amount depends on prior waived, paid or reimbursed Expense Waiver amounts.",
+      "quotes": [
+        {
+          "clauseId": "1.5",
+          "text": "The Investment Adviser shall have the option to recover the full amount waived, paid or reimbursed (the Expense\nWaiver) by the Investment Adviser on any day on which the Fund ’ s Net Investment Income exceeds zero. In no event, however, shall\nthe Expense Waiver, or any portion thereof, constitute an obligation of the Fund to the Investment Adviser on any such day unless\nthe Investment Adviser has expressly exercised its right to recover all or a portion of the Expense Waiver on that day, in which case\nsuch portion of the Expense Waiver elected by the Investment Adviser for recovery that day shall then be due and payable."
+        },
+        {
+          "clauseId": "1.6",
+          "text": "If the Fund is required to pay the Investment Adviser the Expense\nWaiver, the Fund shall make such payment within 30 days after each month-end."
+        },
+        {
+          "clauseId": "1.7",
+          "text": "Any Expense Waiver recovery payment by the Fund to the Investment Adviser shall not cause the Operating\nExpense for the Fund ’ s full year of operations to exceed 1.25% of the Fund ’ s average daily net assets."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "If Securian Financial Services, Inc. waives Rule 12b-1 fees, it has the same reimbursement rights from the Fund as the Investment Adviser, to the extent the Investment Adviser has not already been reimbursed for its payment of Rule 12b-1 fees.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only arises if the Underwriter waives Rule 12b-1 fees; reimbursement is subject to the same Section 1 recovery conditions and to the extent the Investment Adviser has not already been reimbursed.",
+      "quotes": [
+        {
+          "clauseId": "2. The Underwriter.",
+          "text": "In connection with the obligation of the Investment Adviser to maintain the Fund ’ s Net Investment Income as set forth in section 1 herein,\nthe Underwriter may waive its Rule 12b-1 fees contemplated by the Underwriting Agreement, and shall have the same rights to be reimbursed\nby the Fund as the Investment Adviser, as set forth in Section 1 herein, to the extent the Investment Adviser has not already been\nreimbursed by the Fund for its payment of Rule 12b-1 fees."
+        },
+        {
+          "clauseId": "1.6",
+          "text": "If the Fund is required to pay the Investment Adviser the Expense\nWaiver, the Fund shall make such payment within 30 days after each month-end."
+        }
+      ],
+      "ambiguities": []
+    }
+  ],
+  "grants": []
+}
