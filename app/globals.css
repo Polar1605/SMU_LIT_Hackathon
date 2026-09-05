@@ -1,1 +1,116 @@
 @import "tailwindcss";
+
+/*
+ * AITHENA — "the annotated file".
+ *
+ * The organising idea: confidence is structure, not decoration. Colour here is
+ * semantic before it is aesthetic — every hue in the palette below means one
+ * specific thing about how much evidence stands behind a claim, and nothing is
+ * tinted for mood. Uncertain rows are deliberately the largest rows on the page,
+ * because a reason you can act on is worth more space than a fact you can't
+ * question.
+ */
+
+:root {
+  /* Cool legal bond paper rather than warm cream. */
+  --paper: #e4e7e1;
+  --sheet: #f6f7f3;
+  --sheet-sunk: #eceee8;
+  --ink: #16262b;
+  --ink-soft: #55655f;
+  --ink-faint: #7d8a85;
+  --rule: #c8cec6;
+  --rule-strong: #a9b2aa;
+
+  /* The confidence ladder. These four are the product. */
+  --found: #1f5d4c;
+  --found-wash: #e2ebe6;
+  --inferred: #2c5a86;
+  --inferred-wash: #e2e9f0;
+  --uncertain: #9a5b14;
+  --uncertain-wash: #f3e9d9;
+  --silent: #5f6b66;
+  --silent-wash: #e8eae6;
+
+  --alert: #8c2f26;
+  --alert-wash: #f2e3e1;
+
+  --measure: 68ch;
+}
+
+html {
+  background: var(--paper);
+  color-scheme: light;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-plex), ui-sans-serif, system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-newsreader), Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.011em;
+  line-height: 1.2;
+}
+
+/* Clause references: the one place a mono face earns its keep, because clause
+   numbers and page numbers are data that should align down a column. */
+.ref {
+  font-family: var(--font-plex-mono), ui-monospace, monospace;
+  font-size: 0.76rem;
+  letter-spacing: -0.01em;
+}
+
+.sheet {
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+}
+
+.rule-t {
+  border-top: 1px solid var(--rule);
+}
+
+/* Focus that stays visible on every ground we use. */
+:where(a, button, [tabindex]):focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: #cfd9d3;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* The evidence highlight drawn over a rendered PDF page. Kept as a wash with a
+   solid underline rather than a block fill, so the words stay readable. */
+.evidence-box {
+  position: absolute;
+  background: rgba(154, 91, 20, 0.18);
+  border-bottom: 2px solid var(--uncertain);
+  pointer-events: none;
+}
+
+.evidence-box[data-kind="exact"],
+.evidence-box[data-kind="normalised"] {
+  background: rgba(31, 93, 76, 0.16);
+  border-bottom-color: var(--found);
+}
