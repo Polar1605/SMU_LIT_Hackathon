@@ -1,4 +1,9 @@
-# AITHENA — MVP
+# CLARA — MVP
+
+> This is the spec as it stood before the build, kept as a record of the
+> reasoning. Where the shipped system has since moved on, see **Amendments
+> since build** at the end.
+
 
 ## What we are building
 
@@ -9,7 +14,7 @@ honest confidence signal.
 The user is not a lawyer and will not verify anything. A dashboard that is 80% right and presented
 with total confidence is worse than useless.
 
-**Prime directive: AITHENA is never more confident than its evidence.**
+**Prime directive: CLARA is never more confident than its evidence.**
 
 - **R1** — no quote reaches the user unless we located it in the source text ourselves
 - **R2** — no claim without a citation
@@ -51,10 +56,11 @@ These amend the stack line above. Recorded here so the reasoning survives the bu
 key is. Nothing in the six judged requirements depends on the provider. The call sits behind
 `lib/llm.ts` so a provider swap is a single file.
 
-**Model: `gpt-5.5-2026-04-23`, pinned snapshot, `reasoning.effort: "high"`.** Chosen for the
+**Model: a `gpt-5`-family reasoning model, `reasoning.effort: "high"`.** Chosen for the
 judgment calls that are the showcase — deciding that the indemnity schedule *might* sit outside the
 liability cap, and returning `UNCERTAIN` rather than a confident figure, is a reasoning task. Model
-id is env-overridable via `AITHENA_MODEL`.
+id is env-overridable via `CLARA_MODEL`. (Built and evaluated on `gpt-5.5-2026-04-23`; the default
+is now `gpt-5` — see Amendments.)
 
 **Determinism comes from the cache, not from `temperature`.** Verified against the live API:
 `gpt-5.5` returns HTTP 400 `Unsupported parameter: 'temperature' is not supported with this model`.
@@ -262,3 +268,26 @@ CUAD validation · any real client documents.
 - Tests only for: quote verification, date math, overlap logic. Fixtures, no live API calls.
 - If you are about to write code that lets an unverified quote or an uncited claim reach the user,
   stop and tell me.
+
+## Amendments since build
+
+The spec above is unchanged from before the build. These are the deliberate departures from it in
+the shipped system:
+
+- **Rebrand to CLARA** (Contract Liability & Agreement Risk Assistant). The `AITHENA_MODEL` env var
+  became `CLARA_MODEL`; the old name is still read as a fallback.
+- **CUAD validation was added**, against the "Do not build" list. 30 real lawyer-annotated
+  contracts, scored in `eval-cuad.md`. It is the more honest signal than the 6-doc generated corpus
+  and the README now leads with both.
+- **A second conflict class was added**, against the "Do not build" list: *same-parties
+  contradictory terms* (`lib/party-conflicts.ts`) — two contracts between the same parties that
+  state a different liability cap, or disagree on whether termination for convenience exists, or on
+  whether the arrangement is exclusive. Deterministic, deduped against the exclusivity detector, and
+  every statement it makes carries the clause it rests on.
+- **Clause references are derived structurally.** `verify.ts` reads the clause number or heading out
+  of the document's own numbering next to the located span; the model's `clauseId` is now only a
+  fallback label, and a citation records which of the two it used (`clauseSource`).
+- **Conflicts expose a `claims` list** — the argument split into individual statements, each with its
+  own citations — so no assertion in a conflict finding is shown without a source.
+- **Model default moved to `gpt-5`.** The committed `results.json` and both eval reports were still
+  produced on `gpt-5.5-2026-04-23`; a re-extraction on `gpt-5` is pending.

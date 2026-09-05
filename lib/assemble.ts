@@ -19,6 +19,7 @@
 import { computeConfidence, hasCandidateClause } from "./confidence.ts";
 import { buildCalendar } from "./deadlines.ts";
 import { detectExclusivityConflicts } from "./conflicts.ts";
+import { detectPartyTermConflicts } from "./party-conflicts.ts";
 import { buildEscalations } from "./escalate.ts";
 import { classifyRefusal, type CorpusKnowledge } from "./refusal.ts";
 import { verifyQuote } from "./verify.ts";
@@ -69,10 +70,15 @@ function verifyAll(quotes: RawQuote[], doc: ParsedDoc): VerificationOutcome {
     }
 
     matchKinds.push(result.matchKind);
+    // Prefer the clause reference we read out of the document's own numbering.
+    // The model's label is the fallback, kept only when no marker was found,
+    // and flagged so the UI can say the label — not the location — is its word.
+    const clauseId = result.clauseRef ?? quote.clauseId;
     citations.push({
       docId: doc.docId,
       docTitle: doc.title,
-      clauseId: quote.clauseId,
+      clauseId,
+      clauseSource: result.clauseRef ? "structure" : "extraction",
       pageNum: result.pageNum,
       charStart: result.charStart,
       charEnd: result.charEnd,
@@ -326,6 +332,7 @@ export interface AssembledPortfolio {
   contracts: ContractResult[];
   calendar: ReturnType<typeof buildCalendar>;
   conflicts: ReturnType<typeof detectExclusivityConflicts>;
+  partyConflicts: ReturnType<typeof detectPartyTermConflicts>;
   escalations: ReturnType<typeof buildEscalations>;
   refusals: RefusedQuestion[];
 }
@@ -343,7 +350,8 @@ export function assembleResults(params: AssembleResultsParams): AssembledPortfol
 
   const calendar = buildCalendar(contracts, asOf, windowDays);
   const conflicts = detectExclusivityConflicts(contracts);
-  const escalations = buildEscalations(contracts, conflicts);
+  const partyConflicts = detectPartyTermConflicts(contracts, conflicts);
+  const escalations = buildEscalations(contracts, conflicts, partyConflicts);
 
   const refusals: RefusedQuestion[] = [];
   if (questions && questions.length > 0) {
@@ -364,6 +372,7 @@ export function assembleResults(params: AssembleResultsParams): AssembledPortfol
     contracts,
     calendar,
     conflicts,
+    partyConflicts,
     escalations,
     refusals,
   };

@@ -1,10 +1,13 @@
 import type { Results } from "@/lib/types";
-import { ConflictBanner, EscalationBriefCard } from "@/components/panels";
+import { ConflictBanner, EscalationBriefCard, PartyConflictBanner } from "@/components/panels";
 
 export function EscalationsTab({ results }: { results: Results }) {
+  const partyConflicts = results.partyConflicts ?? [];
+
   return (
     <div style={{ maxWidth: "60rem" }}>
       <ConflictBanner conflicts={results.conflicts} />
+      <PartyConflictBanner conflicts={partyConflicts} />
 
       <div>
         <h2 style={{ margin: "0 0 4px", fontSize: "1.34rem", letterSpacing: "-0.008em" }}>Where CLARA stops</h2>

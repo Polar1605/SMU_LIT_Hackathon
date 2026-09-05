@@ -66,7 +66,7 @@ export async function run(opts: StageOpts): Promise<Results> {
     contracts,
     asOf: opts.asOf,
     windowDays: opts.windowDays,
-    model: process.env.AITHENA_MODEL ?? DEFAULT_MODEL,
+    model: process.env.CLARA_MODEL ?? process.env.AITHENA_MODEL ?? DEFAULT_MODEL,
     questions,
   });
 

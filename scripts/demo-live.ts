@@ -45,7 +45,7 @@ async function main(): Promise<void> {
 
   // A scratch directory with no cache, so this is genuinely a live call and the
   // demo's warm cache is left exactly as it was.
-  const scratch = await mkdtemp(path.join(tmpdir(), "aithena-live-"));
+  const scratch = await mkdtemp(path.join(tmpdir(), "clara-live-"));
   await mkdir(path.join(scratch, "parsed"), { recursive: true });
   await copyFile(parsedFile, path.join(scratch, "parsed", `${values.doc}.json`));
 

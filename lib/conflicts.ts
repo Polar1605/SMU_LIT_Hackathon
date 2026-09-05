@@ -20,6 +20,8 @@ import { isValid, parseISO } from "date-fns";
 import { weakest } from "./confidence.ts";
 import { formatDate } from "./display.ts";
 import type {
+  Citation,
+  CitedClaim,
   Confidence,
   ContractResult,
   ExclusivityConflict,
@@ -211,6 +213,53 @@ function explain(
   );
 }
 
+/** One shared citation list is one row of evidence, however many inputs point at it. */
+function dedupeCitations(citations: Citation[]): Citation[] {
+  const seen = new Set<string>();
+  return citations.filter((c) => {
+    const key = `${c.docId}|${c.charStart}|${c.charEnd}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+/**
+ * The same argument as `explain`, but split into its steps with each one tied to
+ * the clause it rests on. Every statement here can be opened to its source: the
+ * grant statements to their own grant's citations, the overlap and the
+ * inconsistency to both. Nothing the conflict asserts is left unsourced.
+ */
+function buildClaims(
+  a: Grant,
+  b: Grant,
+  territories: string[],
+  products: string[],
+  from: string | null,
+  to: string | null,
+): CitedClaim[] {
+  const scope = `product ${products.join(", ")} in territory ${territories.join(", ")}`;
+  const both = dedupeCitations([...a.citations, ...b.citations]);
+  return [
+    {
+      statement: `"${a.docTitle}" grants ${a.grantee} ${MEANING[a.exclusivityType]} over ${scope}.`,
+      citations: a.citations,
+    },
+    {
+      statement: `"${b.docTitle}" grants ${b.grantee} ${MEANING[b.exclusivityType]} over the same ${scope}.`,
+      citations: b.citations,
+    },
+    {
+      statement: `The two grants overlap ${periodPhrase(from, to)}.`,
+      citations: both,
+    },
+    {
+      statement: whyInconsistent(a, b),
+      citations: both,
+    },
+  ];
+}
+
 /**
  * Reasons carry the confidence story forward. A conflict is a claim built on two
  * other claims, and if either was shaky the conflict is shaky — we say which one
@@ -288,6 +337,7 @@ export function detectExclusivityConflicts(contracts: ContractResult[]): Exclusi
             confidence,
             reasons: buildReasons(a, b, confidence),
             explanation: explain(a, b, overlap.territories, overlap.products, overlap.from, overlap.to),
+            claims: buildClaims(a, b, overlap.territories, overlap.products, overlap.from, overlap.to),
           });
         }
       }

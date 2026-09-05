@@ -1,8 +1,8 @@
-# AITHENA against CUAD
+# CLARA against CUAD
 
 30 real commercial contracts from the Contract Understanding Atticus Dataset, annotated by lawyers. Scored on 8 of our 10 fields — `termLength` and `terminationForCause` have no CUAD equivalent and mapping them onto an approximate category would be worse than leaving them out.
 
-Generated 2026-09-05T09:03:40.076Z · model gpt-5.5-2026-04-23
+Generated 2026-09-05T17:31:04.828Z · model gpt-5.5-2026-04-23
 
 ## What this sample is, and is not
 

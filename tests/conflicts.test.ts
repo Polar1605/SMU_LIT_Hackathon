@@ -13,7 +13,25 @@
 
 import { describe, expect, it } from "vitest";
 import { detectExclusivityConflicts, grantsOverlap } from "../lib/conflicts.ts";
-import type { ContractResult, Grant } from "../lib/types.ts";
+import type { Citation, ContractResult, Grant } from "../lib/types.ts";
+
+function cite(docId: string, clauseId: string): Citation {
+  return {
+    docId,
+    docTitle: `Document ${docId}`,
+    clauseId,
+    clauseSource: "structure",
+    pageNum: 1,
+    charStart: 0,
+    charEnd: 10,
+    quotedText: "…",
+    matchKind: "exact",
+    bboxes: [],
+    spansPages: false,
+    ocrConfidenceMean: null,
+    ocrConfidenceMin: null,
+  };
+}
 
 function grant(over: Partial<Grant> & Pick<Grant, "id" | "docId">): Grant {
   return {
@@ -371,6 +389,44 @@ describe("confidence propagates and never launders", () => {
     expect(conflicts[0].reasons).toContain(
       "Agreement A: The territory schedule was unreadable on the scan.",
     );
+  });
+});
+
+describe("every claim in a conflict carries its source", () => {
+  const a = contract("dist-a", [
+    grant({ id: "g-apex", docId: "dist-a", citations: [cite("dist-a", "2.1")] }),
+  ]);
+  const b = contract("dist-b", [
+    grant({
+      id: "g-lion",
+      docId: "dist-b",
+      grantee: "Lionbridge Distribution Pte Ltd",
+      exclusivityType: "sole",
+      citations: [cite("dist-b", "3.4")],
+    }),
+  ]);
+  const conflict = detectExclusivityConflicts([a, b])[0];
+
+  it("breaks the argument into cited claims", () => {
+    expect(conflict.claims).toHaveLength(4);
+    for (const claim of conflict.claims) {
+      expect(claim.statement.length).toBeGreaterThan(0);
+      expect(claim.citations.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("ties each grant statement to that grant's own clause", () => {
+    expect(conflict.claims[0].citations.map((c) => c.clauseId)).toEqual(["2.1"]);
+    expect(conflict.claims[1].citations.map((c) => c.clauseId)).toEqual(["3.4"]);
+  });
+
+  it("supports the overlap and the inconsistency with both clauses", () => {
+    expect(conflict.claims[2].citations.map((c) => c.clauseId).sort()).toEqual(["2.1", "3.4"]);
+    expect(conflict.claims[3].citations.map((c) => c.clauseId).sort()).toEqual(["2.1", "3.4"]);
+  });
+
+  it("says the same thing as the prose explanation", () => {
+    expect(conflict.claims.map((c) => c.statement).join(" ")).toBe(conflict.explanation);
   });
 });
 

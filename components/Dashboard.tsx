@@ -95,8 +95,11 @@ export function Dashboard({ cuadResults }: { cuadResults: Results }) {
       setResults(outcome.results);
       setUploadedDocs(outcome.documents);
       setSource("uploaded");
-      setActiveTab("summary");
-      setDocId(null);
+      // Land on the contracts themselves, not the portfolio summary: after an
+      // upload the thing the user wants to see is what was read out of their
+      // documents. Open the contract directly when only one was submitted.
+      setActiveTab("contracts");
+      setDocId(outcome.results.contracts.length === 1 ? outcome.results.contracts[0].docId : null);
       setQueuedDocuments([]);
       setPhase("idle");
     } catch (error) {

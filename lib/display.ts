@@ -84,6 +84,27 @@ export function citationRef(citation: Citation): string {
     : `${clauseLabel}, page ${citation.pageNum}`;
 }
 
+/**
+ * A one-line note on how much of the citation is our own work versus the
+ * model's. Returned only when there is something worth saying — the location is
+ * always ours; the clause *label* sometimes is not, and the reader is entitled
+ * to know which.
+ */
+export function clauseSourceNote(citation: Citation): string | null {
+  if (citation.clauseSource === "extraction") {
+    return "Clause label supplied by the extraction step; the quote and its page location were verified against the document.";
+  }
+  if (citation.pageNum === null) {
+    return "Reflowable document: located by clause and text span, with no page to anchor to.";
+  }
+  return null;
+}
+
+/** Short badge text for a citation whose location cannot be a page number. */
+export function pageAnchorBadge(citation: Citation): string | null {
+  return citation.pageNum === null ? "No page anchor" : null;
+}
+
 const MATCH_NOTE: Record<Citation["matchKind"], string> = {
   exact: "Quote matched the document exactly.",
   normalised: "Quote matched after reconciling spacing, quotation marks and hyphenation.",

@@ -1,6 +1,6 @@
-# AITHENA evaluation
+# CLARA evaluation
 
-Generated 2026-09-05T09:04:01.746Z · model gpt-5.5-2026-04-23 · as of 2026-09-05
+Generated 2026-09-05T17:31:02.274Z · model gpt-5.5-2026-04-23 · as of 2026-09-05
 
 ## Citations
 
@@ -70,9 +70,7 @@ Expected 1, detected 1, matched 1.
 
 ## Escalations
 
-3 brief(s) produced; 2 expected.
-- [high] msa-liabilityCap — Master Services Agreement states liability cap as Consultant’s total aggregate liability to Client is capped at S$100,000., but the position is not settled by the document.
-- [high] supplier-agreement-scanned-liabilityCap — Supply Agreement (scanned) states liability cap as Supplier's total liability to Buyer is capped at S$75,000, except liability for death or personal injury caused by negligence or for fraud., but the position is not settled by the document.
+1 brief(s) produced; 1 expected.
 - [high] conflict-conflict:distribution-a::distribution-a-grant-0|distribution-b::distribution-b-grant-0:SG+CATX — "Exclusive Distribution Agreement" grants Apex Scientific Pte Ltd exclusive rights (nobody else may act in that scope, normally including the grantor itself) over product CATX in territory SG. "Distribution Agreement" grants Lionbridge Distribution Pte Ltd sole rights (the grantor may still act itself, but promises to appoint nobody else) over the same product CATX in territory SG. The two grants overlap between 8 May 2026 and 1 Aug 2028. The exclusive grant to Apex Scientific Pte Ltd forbids any other appointment in that scope, yet Lionbridge Distribution Pte Ltd has been appointed for the same territory, product and period — and a sole appointment is still an appointment. Honouring the second breaches the first.
 
 ## Refusals

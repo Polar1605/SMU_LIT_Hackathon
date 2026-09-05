@@ -445,13 +445,8 @@
 
   "expectedEscalations": [
     {
-      "id": "msa-liability-cap",
-      "reason": "liabilityCap is UNCERTAIN on the MSA because of the indemnity carve-out",
-      "severity": "high"
-    },
-    {
       "id": "apex-vs-lionbridge-sg-catx",
-      "reason": "a detected exclusivity conflict must always escalate",
+      "reason": "a detected cross-contract conflict must always escalate; single-field uncertainty (e.g. the MSA liability cap) is surfaced in Uncertainties, not as a brief",
       "severity": "high"
     }
   ]

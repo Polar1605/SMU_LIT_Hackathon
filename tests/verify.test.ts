@@ -11,7 +11,7 @@
 
 import { describe, expect, it } from "vitest";
 import { normalise, similarity } from "../lib/normalise.ts";
-import { FUZZY_THRESHOLD, verifyQuote } from "../lib/verify.ts";
+import { deriveClauseRef, FUZZY_THRESHOLD, verifyQuote } from "../lib/verify.ts";
 import { FIXTURE_TEXT, makeFixtureDoc, makeFixtureDocx } from "./fixtures/parsed-doc.ts";
 
 const doc = makeFixtureDoc();
@@ -231,6 +231,41 @@ describe("verifyQuote — bounding boxes", () => {
     const docx = makeFixtureDocx();
     const result = verifyQuote("Alpha Pte Ltd and Beta Pte Ltd", docx);
     expect(result!.bboxes).toEqual([]);
+  });
+});
+
+describe("deriveClauseRef — the clause label comes from the document, not the model", () => {
+  const doc = makeFixtureDoc();
+
+  it("returns the numbered clause the span sits under", () => {
+    const at = doc.fullText.indexOf("Subscription Fee");
+    expect(deriveClauseRef(doc.fullText, at)).toBe("1.2");
+  });
+
+  it("reads the nearest preceding marker, not the first in the document", () => {
+    const at = doc.fullText.indexOf("shall not exceed");
+    expect(deriveClauseRef(doc.fullText, at)).toBe("2.1");
+  });
+
+  it("picks a heading when that is what the document uses", () => {
+    const docx = makeFixtureDocx();
+    const at = docx.fullText.indexOf("made between");
+    expect(deriveClauseRef(docx.fullText, at)).toBe("PARTIES");
+  });
+
+  it("prefers a numbered marker over a bare heading before it", () => {
+    const docx = makeFixtureDocx();
+    const at = docx.fullText.indexOf("twenty-four");
+    expect(deriveClauseRef(docx.fullText, at)).toBe("6");
+  });
+
+  it("returns null when no marker is close enough to stand behind", () => {
+    expect(deriveClauseRef("a plain sentence with no clause numbering at all anywhere", 40)).toBeNull();
+  });
+
+  it("is wired into verifyQuote as clauseRef", () => {
+    const result = verifyQuote("exclusive of GST", doc);
+    expect(result!.clauseRef).toBe("1.2");
   });
 });
 

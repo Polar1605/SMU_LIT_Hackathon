@@ -1,4 +1,4 @@
-# AITHENA MVP Implementation Plan
+# CLARA MVP Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
@@ -16,7 +16,7 @@
 - **R1** — no quote reaches the UI unless `verify.ts` located it in our own extracted text.
 - **R2** — no claim renders without a citation.
 - **R3** — `UNCERTAIN` and `NOT_FOUND` render as full rows stating why, never as blanks.
-- Model: `gpt-5.5-2026-04-23`, `reasoning.effort: "high"`, env-overridable via `AITHENA_MODEL`. **No `temperature` parameter** — the model returns HTTP 400 for it.
+- Model: `gpt-5.5-2026-04-23`, `reasoning.effort: "high"`, env-overridable via `CLARA_MODEL`. **No `temperature` parameter** — the model returns HTTP 400 for it.
 - Determinism from disk cache keyed `sha256(prompt + model + schemaJson)`, written on the first call.
 - Money as integer minor units; currency stored separately as an ISO code.
 - Page numbers derived from matched span offsets only. Never from the model.

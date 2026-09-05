@@ -45,6 +45,63 @@ export interface VerifyResult {
   ocrConfidenceMin: number | null;
   /** Our text at the span. Never the model's version of it. */
   quotedText: string;
+  /**
+   * The clause number or heading the span sits under, read out of the document's
+   * own numbering just before the span. null when no marker was found close
+   * enough to stand behind — the caller then falls back to the model's label.
+   */
+  clauseRef: string | null;
+}
+
+/* ------------------------------------------------------------------ */
+/* Deriving the clause label from the document's own numbering         */
+/* ------------------------------------------------------------------ */
+
+/** How far back from a span we will look for the clause marker that governs it. */
+const CLAUSE_LOOKBACK = 900;
+/** Longest clause heading we will quote back; longer matches are prose, not a label. */
+const CLAUSE_LABEL_MAX = 48;
+
+/** "12", "12.3", "12.3.1", optionally introduced by Article/Clause/Section. */
+const NUMBERED_MARKER =
+  /(?:^|\n)[ \t]*(?:(?:ARTICLE|Article|CLAUSE|Clause|SECTION|Section)\s+)?(\d+(?:\.\d+){0,3})[.)]?[ \t]+(?=[A-Za-z"“'(])/g;
+/** A line that is entirely a short upper-case heading, e.g. "TERMINATION". */
+const HEADING_MARKER = /(?:^|\n)[ \t]*([A-Z][A-Z0-9 ,.'\/&()-]{2,44}[A-Z)])[ \t]*(?=\n)/g;
+
+/**
+ * The clause the span belongs to, taken from the text itself rather than from
+ * anything the model said. We scan the window immediately before the span for a
+ * clause marker at the start of a line and take the closest one; a numbered
+ * marker wins over a bare heading at the same distance because it is the more
+ * precise reference. Returns null when nothing suitable is close enough, which
+ * is the honest answer — better a fallback to the model's label, flagged as
+ * such, than a structural reference we cannot actually see in the document.
+ */
+export function deriveClauseRef(fullText: string, charStart: number): string | null {
+  const from = Math.max(0, charStart - CLAUSE_LOOKBACK);
+  const window = fullText.slice(from, charStart);
+
+  let best: { index: number; label: string; numbered: boolean } | null = null;
+
+  for (const [pattern, numbered] of [
+    [NUMBERED_MARKER, true],
+    [HEADING_MARKER, false],
+  ] as const) {
+    pattern.lastIndex = 0;
+    for (let m = pattern.exec(window); m; m = pattern.exec(window)) {
+      const label = m[1].trim().replace(/\s+/g, " ");
+      if (label.length === 0 || label.length > CLAUSE_LABEL_MAX) continue;
+      // A heading in Title/UPPER case that is really a sentence fragment tends
+      // to end without a letter; the trailing-char guard in the pattern handles
+      // most of it, this drops the rest.
+      if (!numbered && !/[A-Z)]$/.test(label)) continue;
+      if (!best || m.index > best.index || (m.index === best.index && numbered && !best.numbered)) {
+        best = { index: m.index, label, numbered };
+      }
+    }
+  }
+
+  return best ? best.label : null;
 }
 
 /* ------------------------------------------------------------------ */
@@ -98,6 +155,7 @@ function buildResult(
     ocrConfidenceMean: weight > 0 ? weighted / weight : null,
     ocrConfidenceMin: min,
     quotedText: doc.fullText.slice(charStart, charEnd),
+    clauseRef: deriveClauseRef(doc.fullText, charStart),
   };
 }
 

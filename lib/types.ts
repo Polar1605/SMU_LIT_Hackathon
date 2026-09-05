@@ -1,5 +1,5 @@
 /**
- * Shared types for the AITHENA pipeline. No logic lives here.
+ * Shared types for the CLARA pipeline. No logic lives here.
  *
  * The load-bearing invariant of the whole system: every citation is a character
  * span into `ParsedDoc.fullText`. Page numbers, bounding boxes and OCR
@@ -57,10 +57,21 @@ export interface ParsedDoc {
   html?: string;
 }
 
+export type ClauseSource = "structure" | "extraction";
+
 export interface Citation {
   docId: string;
   docTitle: string;
   clauseId: string;
+  /**
+   * Where `clauseId` came from. "structure" means we derived it ourselves from
+   * the document's own numbering, near the verified span. "extraction" means we
+   * fell back to the label the model supplied because no structural marker was
+   * found — the quote and its page are still verified, only the clause *label*
+   * is the model's word. Absent on citations produced before this was tracked;
+   * treat as "extraction".
+   */
+  clauseSource?: ClauseSource;
   /** null when the document is not paginated. */
   pageNum: number | null;
   charStart: number;
@@ -72,6 +83,16 @@ export interface Citation {
   spansPages: boolean;
   ocrConfidenceMean: number | null;
   ocrConfidenceMin: number | null;
+}
+
+/**
+ * A single factual statement plus the clause(s) it rests on. Every argument the
+ * system makes in a conflict finding is expressed as one of these, so nothing
+ * asserted about a conflict is ever left without a source the reader can open.
+ */
+export interface CitedClaim {
+  statement: string;
+  citations: Citation[];
 }
 
 export interface FieldResult {
@@ -183,6 +204,44 @@ export interface ExclusivityConflict {
   confidence: Confidence;
   reasons: string[];
   explanation: string;
+  /**
+   * The argument broken into its individual factual steps, each tied to the
+   * clause it rests on. `explanation` is the same argument as running prose;
+   * this is the version where every claim can be opened to its source.
+   */
+  claims: CitedClaim[];
+}
+
+/** The kinds of single-field contradiction the party-term detector recognises. */
+export type PartyTermConflictKind =
+  | "liability-cap"
+  | "termination-for-convenience"
+  | "exclusivity";
+
+/**
+ * Two contracts between the same parties whose terms cannot both be true of that
+ * one relationship — a different liability cap in each, one allowing termination
+ * for convenience where the other forbids it, and so on. Distinct from an
+ * ExclusivityConflict, which is about a grant to a third party.
+ */
+export interface PartyTermConflict {
+  id: string;
+  kind: PartyTermConflictKind;
+  fieldId: FieldId;
+  fieldLabel: string;
+  /** The two contracts, in a stable order. */
+  contracts: [
+    { docId: string; docTitle: string; value: string },
+    { docId: string; docTitle: string; value: string },
+  ];
+  /** The party names both contracts have in common. */
+  sharedParties: string[];
+  overlapFrom: string | null;
+  overlapTo: string | null;
+  confidence: Confidence;
+  reasons: string[];
+  explanation: string;
+  claims: CitedClaim[];
 }
 
 export interface EscalationBrief {
@@ -219,6 +278,8 @@ export interface Results {
   contracts: ContractResult[];
   calendar: CalendarEvent[];
   conflicts: ExclusivityConflict[];
+  /** Same-parties contradictory-terms conflicts. Distinct class from `conflicts`. */
+  partyConflicts: PartyTermConflict[];
   escalations: EscalationBrief[];
   refusals: RefusedQuestion[];
   /** Anything that could not be produced, and why. Never a silent stub. */

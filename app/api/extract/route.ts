@@ -44,7 +44,7 @@ export async function POST(request: Request): Promise<Response> {
       return NextResponse.json({ error: "Request body is not a ParsedDoc." }, { status: 400 });
     }
 
-    scratch = await mkdtemp(path.join(tmpdir(), "aithena-extract-"));
+    scratch = await mkdtemp(path.join(tmpdir(), "clara-extract-"));
 
     const { data } = await callStructured<RawExtraction>({
       system: SYSTEM_PROMPT,

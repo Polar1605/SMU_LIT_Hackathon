@@ -110,7 +110,7 @@ export function classifyRefusal(
       id,
       question,
       category: "document-not-ingested",
-      reason: `This asks about the ${missing}, which is not among the documents provided. AITHENA only reports what is written in the contracts it has read, and it has not read that one — anything it said about the contents would be a guess about what such documents usually contain.`,
+      reason: `This asks about the ${missing}, which is not among the documents provided. CLARA only reports what is written in the contracts it has read, and it has not read that one — anything it said about the contents would be a guess about what such documents usually contain.`,
       nextStep: `Add the ${missing} to the folder and run the analysis again, or confirm which of the loaded documents you meant.`,
     };
   }
@@ -121,7 +121,7 @@ export function classifyRefusal(
       question,
       category: "legal-advice",
       reason:
-        "This asks for a recommendation and a conclusion about legal consequence. AITHENA reports what the contracts say and by when you must act; whether you should take that action, and what you would be liable for if you did, is legal advice and depends on facts outside these documents.",
+        "This asks for a recommendation and a conclusion about legal consequence. CLARA reports what the contracts say and by when you must act; whether you should take that action, and what you would be liable for if you did, is legal advice and depends on facts outside these documents.",
       nextStep:
         "Take the relevant clauses and their deadlines to a qualified adviser. The escalation brief for this contract is written to be handed over directly.",
     };
@@ -133,9 +133,9 @@ export function classifyRefusal(
       question,
       category: "outcome-prediction",
       reason:
-        "This asks how a dispute would be decided. Nothing in these documents determines that, and AITHENA makes no claim it cannot anchor to a clause it has read.",
+        "This asks how a dispute would be decided. Nothing in these documents determines that, and CLARA makes no claim it cannot anchor to a clause it has read.",
       nextStep:
-        "AITHENA can set out what each contract requires and by when. Assessing how that would play out needs a qualified adviser.",
+        "CLARA can set out what each contract requires and by when. Assessing how that would play out needs a qualified adviser.",
     };
   }
 

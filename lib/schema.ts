@@ -25,7 +25,7 @@ const quoteSchema = {
     clauseId: {
       type: "string",
       description:
-        "The clause number or heading this quote comes from, exactly as the document writes it, e.g. \"12.3\" or \"Parties\".",
+        "The clause number or heading this quote comes from, exactly as the document writes it, e.g. \"12.3\" or \"Parties\". Used only as a fallback label: the pipeline derives the clause reference from the document's own numbering next to the located quote, and falls back to this string only when it finds no marker.",
     },
     text: {
       type: "string",

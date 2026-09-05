@@ -6,9 +6,49 @@
  * around them is interface.
  */
 
-import type { EscalationBrief, ExclusivityConflict, RefusedQuestion } from "@/lib/types";
+import type {
+  CitedClaim,
+  EscalationBrief,
+  ExclusivityConflict,
+  PartyTermConflict,
+  RefusedQuestion,
+} from "@/lib/types";
 import { citationRef } from "@/lib/display";
 import { ConfidenceMark } from "./ConfidenceMark";
+
+/**
+ * The argument for a conflict, one step per line, each tied to the clauses it
+ * rests on. Nothing asserted here is left without a source: if a step has no
+ * citation it is not shown as established.
+ */
+function ClaimList({ claims }: { claims: CitedClaim[] }) {
+  return (
+    <ol
+      className="mt-3"
+      style={{ margin: "12px 0 0", padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: "8px", counterReset: "claim" }}
+    >
+      {claims.map((claim, i) => (
+        <li key={i} style={{ fontSize: "0.85rem", lineHeight: 1.5 }}>
+          <span>{claim.statement}</span>{" "}
+          {claim.citations.length > 0 ? (
+            <span className="ref" style={{ color: "var(--muted-strong)", whiteSpace: "nowrap" }}>
+              {claim.citations.map((c, j) => (
+                <span key={j}>
+                  {j > 0 ? "; " : ""}
+                  {citationRef(c)}
+                </span>
+              ))}
+            </span>
+          ) : (
+            <span className="ref" style={{ color: "var(--uncertain)" }}>
+              no locatable source — not relied on
+            </span>
+          )}
+        </li>
+      ))}
+    </ol>
+  );
+}
 
 /**
  * A punchy one-line heading computed from the actual conflict, not a fixed
@@ -54,13 +94,65 @@ export function ConflictBanner({ conflicts }: { conflicts: ExclusivityConflict[]
             <p style={{ margin: 0, maxWidth: "84ch", fontFamily: "var(--font-newsreader)", fontSize: "1.02rem", lineHeight: 1.6 }}>
               {conflict.explanation}
             </p>
+            {conflict.claims?.length > 0 && <ClaimList claims={conflict.claims} />}
             {conflict.confidence !== "FOUND" && (
-              <p style={{ margin: "8px 0 0", maxWidth: "88ch", fontSize: "0.8rem", color: "var(--muted)" }}>
+              <p style={{ margin: "10px 0 0", maxWidth: "88ch", fontSize: "0.8rem", color: "var(--muted)" }}>
                 Reported as {conflict.confidence.toLowerCase().replace("_", " ")} because a conflict is never
                 more certain than the grants it rests on. The brief below sets out what is established and
                 what is not.
               </p>
             )}
+          </div>
+        </div>
+      ))}
+    </section>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+
+function partyConflictHeading(conflict: PartyTermConflict): string {
+  const label: Record<PartyTermConflict["kind"], string> = {
+    "liability-cap": "Two different liability caps for one relationship",
+    "termination-for-convenience": "One agreement allows exit for convenience, the other does not",
+    exclusivity: "One agreement is exclusive, the other is not",
+  };
+  return label[conflict.kind];
+}
+
+export function PartyConflictBanner({ conflicts }: { conflicts: PartyTermConflict[] }) {
+  if (conflicts.length === 0) return null;
+
+  return (
+    <section aria-label="Same-parties conflicts" className="mb-5" style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+      {conflicts.map((conflict) => (
+        <div
+          key={conflict.id}
+          style={{
+            overflow: "hidden",
+            background: "var(--card)",
+            border: "1px solid var(--accent-indigo)",
+            borderRadius: "3px",
+            boxShadow: "var(--shadow-modal)",
+          }}
+        >
+          <div
+            className="flex flex-wrap items-center gap-x-3.5 gap-y-1"
+            style={{ padding: "12px 20px", background: "var(--accent-indigo)", color: "#fbfcfe" }}
+          >
+            <span className="ui" style={{ fontSize: "0.68rem", textTransform: "uppercase", letterSpacing: "0.12em", opacity: 0.85 }}>
+              Same parties, conflicting terms
+            </span>
+            <h2 style={{ margin: 0, fontSize: "1.14rem" }}>{partyConflictHeading(conflict)}</h2>
+            <span className="ml-auto">
+              <ConfidenceMark level={conflict.confidence} size="small" />
+            </span>
+          </div>
+          <div style={{ padding: "16px 20px", background: "var(--conflict-bg)" }}>
+            <p style={{ margin: 0, fontSize: "0.82rem", color: "var(--muted-strong)" }}>
+              Between {conflict.sharedParties.join(" and ")}
+            </p>
+            <ClaimList claims={conflict.claims} />
           </div>
         </div>
       ))}

@@ -1,12 +1,12 @@
 /**
  * Writes a folder of the source contracts under readable names, for handing to
- * someone who wants to read the originals before looking at what AITHENA made
+ * someone who wants to read the originals before looking at what CLARA made
  * of them.
  *
  * The NDA is rendered to PDF here so the whole set opens the same way. That is a
  * COPY for reading — the corpus keeps the .docx as the ingested original,
  * because a word-processor file having no fixed pagination is the case that
- * makes AITHENA say "no page numbering" instead of inventing a page number. If
+ * makes CLARA say "no page numbering" instead of inventing a page number. If
  * the DOCX were replaced, that behaviour would quietly disappear.
  *
  *   npm run exports
@@ -56,7 +56,7 @@ async function ndaToPdf(contract: ResolvedContract): Promise<Uint8Array> {
   return renderPdf({
     docId: contract.docId,
     title: nda.title,
-    subtitle: "Reading copy. The original ingested by AITHENA is a Word file with no fixed pagination.",
+    subtitle: "Reading copy. The original ingested by CLARA is a Word file with no fixed pagination.",
     font: "helvetica",
     clauses,
   });
@@ -84,10 +84,10 @@ async function main(): Promise<void> {
   );
 
   const index: string[] = [
-    "# The six contracts AITHENA read",
+    "# The six contracts CLARA read",
     "",
     "Synthetic documents between invented companies — no real client material appears anywhere in",
-    "this project. Read them first, then open AITHENA and click any clause reference to see the",
+    "this project. Read them first, then open CLARA and click any clause reference to see the",
     "same passage highlighted in the source.",
     "",
   ];

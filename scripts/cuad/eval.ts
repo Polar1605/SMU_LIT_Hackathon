@@ -1,5 +1,5 @@
 /**
- * Scores AITHENA against CUAD — real commercial contracts annotated by lawyers.
+ * Scores CLARA against CUAD — real commercial contracts annotated by lawyers.
  *
  * This exists because our own corpus is one we generated from an answer key we
  * wrote, which makes every number it produces circular. This eval is the answer
@@ -172,7 +172,7 @@ async function main(): Promise<void> {
     lines.push(text);
   };
 
-  say(`# AITHENA against CUAD`);
+  say(`# CLARA against CUAD`);
   say();
   say(
     `${results.contracts.length} real commercial contracts from the Contract Understanding Atticus ` +

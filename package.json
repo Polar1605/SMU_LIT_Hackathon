@@ -1,8 +1,11 @@
 {
-  "name": "aithena",
+  "name": "clara",
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=20.9"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -237,7 +237,7 @@ export async function run(opts: StageOpts): Promise<void> {
     lines.push(text);
   };
 
-  say(`# AITHENA evaluation`);
+  say(`# CLARA evaluation`);
   say();
   say(`Generated ${new Date().toISOString()} · model ${results.model} · as of ${results.asOf}`);
   say();

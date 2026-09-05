@@ -11,7 +11,7 @@
 import type { CalendarEvent, Confidence, Results } from "@/lib/types";
 import { CONFIDENCE_LABEL, CONFIDENCE_MEANING, CONFIDENCE_VAR, formatDate, formatMoney } from "@/lib/display";
 import { kindOfEvent } from "@/lib/event-kind";
-import { ConflictBanner } from "@/components/panels";
+import { ConflictBanner, PartyConflictBanner } from "@/components/panels";
 import { NextDeadlineCard } from "@/components/NextDeadlineCard";
 
 const LEVELS: Confidence[] = ["FOUND", "INFERRED", "UNCERTAIN", "NOT_FOUND"];
@@ -51,12 +51,14 @@ export function SummaryTab({ results, onOpenContract }: { results: Results; onOp
   const tally = (level: Confidence) => fields.filter((f) => f.confidence === level).length;
   const readFromSource = tally("FOUND") + tally("INFERRED");
   const undatedCount = results.calendar.filter((e) => e.actionDeadline === null).length;
+  const partyConflicts = results.partyConflicts ?? [];
+  const conflictCount = results.conflicts.length + partyConflicts.length;
 
   return (
     <div>
       <p style={{ margin: "18px 0 0", maxWidth: "64ch", fontSize: "0.95rem", lineHeight: 1.65, color: "var(--muted)" }}>
-        {results.conflicts.length > 0
-          ? `${results.conflicts.length} cross-contract conflict${results.conflicts.length === 1 ? " was" : "s were"} identified from the documents.`
+        {conflictCount > 0
+          ? `${conflictCount} cross-contract conflict${conflictCount === 1 ? " was" : "s were"} identified from the documents.`
           : `No cross-contract conflicts were identified in these ${results.contracts.length} contracts.`}
       </p>
 
@@ -74,7 +76,7 @@ export function SummaryTab({ results, onOpenContract }: { results: Results; onOp
       >
         <Stat label="Next action" labelColor="var(--accent-blue)" value={leadDays === null ? "—" : String(leadDays)} unit={leadDays === null ? "no deadline" : "days"} />
         <Stat label="Committed a year" value={annualCommitment(results)} unit="" />
-        <Stat label="Cross-contract conflicts" value={String(results.conflicts.length)} unit={results.conflicts.length === 1 ? "conflict" : "conflicts"} />
+        <Stat label="Cross-contract conflicts" value={String(conflictCount)} unit={conflictCount === 1 ? "conflict" : "conflicts"} />
         <Stat label="Read from source" value={String(readFromSource)} unit={`of ${fields.length} fields`} />
       </dl>
 
@@ -103,6 +105,7 @@ export function SummaryTab({ results, onOpenContract }: { results: Results; onOp
         <div style={{ flex: "1 1 22rem", minWidth: "min(22rem, 100%)", display: "flex", flexDirection: "column", gap: "22px" }}>
           <NextDeadlineCard events={results.calendar} />
           <ConflictBanner conflicts={results.conflicts} />
+          <PartyConflictBanner conflicts={partyConflicts} />
         </div>
       </div>
 

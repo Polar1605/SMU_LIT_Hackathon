@@ -52,7 +52,7 @@ export async function POST(request: Request): Promise<Response> {
       );
     }
 
-    scratch = await mkdtemp(path.join(tmpdir(), "aithena-ingest-"));
+    scratch = await mkdtemp(path.join(tmpdir(), "clara-ingest-"));
     // The directory only exists at runtime (mkdtemp), so Turbopack's build-time
     // tracer cannot resolve this path and — left unmarked — falls back to
     // bundling the ENTIRE project (public/corpus, all of data/cuad) into this

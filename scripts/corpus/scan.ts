@@ -46,8 +46,8 @@ export function stampFixedMetadata(doc: PDFDocument): void {
   const epoch = new Date(Date.UTC(2020, 0, 1));
   doc.setCreationDate(epoch);
   doc.setModificationDate(epoch);
-  doc.setProducer("AITHENA corpus generator");
-  doc.setCreator("AITHENA corpus generator");
+  doc.setProducer("CLARA corpus generator");
+  doc.setCreator("CLARA corpus generator");
 }
 
 interface RasterPage {

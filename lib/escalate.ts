@@ -14,9 +14,11 @@
  */
 
 import type {
+  Citation,
   ContractResult,
   EscalationBrief,
   ExclusivityConflict,
+  PartyTermConflict,
   PaymentTerm,
 } from "./types.ts";
 
@@ -66,9 +68,30 @@ function exposureLine(payments: PaymentTerm[]): string {
   return `Known contract value is ${parts.join(" plus ")} per year.${caveat}`;
 }
 
+/** One row of evidence per distinct span, however many claims point at it. */
+function dedupeCitations(citations: Citation[]): Citation[] {
+  const seen = new Set<string>();
+  return citations.filter((c) => {
+    const key = `${c.docId}|${c.charStart}|${c.charEnd}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+const PARTY_CONFLICT_QUESTION: Record<PartyTermConflict["kind"], string> = {
+  "liability-cap":
+    "Which of the two agreements caps liability for a dispute of this kind, and does either one expressly override the other?",
+  "termination-for-convenience":
+    "For this relationship, is there a right to terminate for convenience or not, and which agreement settles it?",
+  exclusivity:
+    "Is the arrangement between these parties exclusive or not, and which agreement controls where the two disagree?",
+};
+
 export function buildEscalations(
   contracts: ContractResult[],
   conflicts: ExclusivityConflict[],
+  partyConflicts: PartyTermConflict[] = [],
 ): EscalationBrief[] {
   const briefs: EscalationBrief[] = [];
 
@@ -96,6 +119,31 @@ export function buildEscalations(
         ...conflict.reasons,
       ],
       question: `Do the ${a.exclusivityType} rights granted to ${a.grantee} prevent the appointment of ${b.grantee} over the same territory and product category?`,
+      exposure: exposureLine(involved.flatMap((c) => c.payments)),
+    });
+  }
+
+  for (const pc of partyConflicts) {
+    const involved = contracts.filter(
+      (c) => c.docId === pc.contracts[0].docId || c.docId === pc.contracts[1].docId,
+    );
+
+    briefs.push({
+      id: `conflict-${pc.id}`,
+      severity: pc.kind === "termination-for-convenience" ? "medium" : "high",
+      issue: pc.explanation,
+      documents: dedupeCitations(pc.claims.flatMap((claim) => claim.citations)),
+      // Every step of the argument except the closing inconsistency is a settled
+      // fact with a clause behind it; that is exactly what belongs here.
+      established: pc.claims
+        .slice(0, -1)
+        .filter((claim) => claim.citations.length > 0)
+        .map((claim) => ({ statement: claim.statement, citation: claim.citations[0] })),
+      unresolved: [
+        `Which agreement governs this term for the relationship, and whether either one supersedes the other.`,
+        ...pc.reasons,
+      ],
+      question: PARTY_CONFLICT_QUESTION[pc.kind],
       exposure: exposureLine(involved.flatMap((c) => c.payments)),
     });
   }

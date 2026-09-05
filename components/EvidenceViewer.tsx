@@ -16,7 +16,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Citation, ContractResult } from "@/lib/types";
-import { citationRef, matchNote } from "@/lib/display";
+import { citationRef, clauseSourceNote, matchNote, pageAnchorBadge } from "@/lib/display";
 import { useUploadedDocument } from "@/lib/portfolio-source";
 
 interface SlimDoc {
@@ -160,8 +160,40 @@ export function EvidenceViewer({
         >
           <div className="min-w-0">
             <h2 style={{ margin: 0, fontSize: "1.2rem", letterSpacing: "-0.008em" }}>{citation.docTitle}</h2>
-            <p className="ref" style={{ margin: "2px 0 0", color: "var(--muted-strong)" }}>
-              {citationRef(citation)}
+            <p className="ref flex flex-wrap items-center gap-x-2 gap-y-1" style={{ margin: "3px 0 0", color: "var(--muted-strong)" }}>
+              <span>{citationRef(citation)}</span>
+              {pageAnchorBadge(citation) && (
+                <span
+                  className="ui"
+                  style={{
+                    fontSize: "0.6rem",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.1em",
+                    padding: "1px 6px",
+                    borderRadius: "999px",
+                    color: "var(--uncertain)",
+                    background: "var(--uncertain-bg)",
+                  }}
+                >
+                  {pageAnchorBadge(citation)}
+                </span>
+              )}
+              {citation.clauseSource === "extraction" && (
+                <span
+                  className="ui"
+                  style={{
+                    fontSize: "0.6rem",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.1em",
+                    padding: "1px 6px",
+                    borderRadius: "999px",
+                    color: "var(--muted-strong)",
+                    background: "var(--wash-alt)",
+                  }}
+                >
+                  clause label: extraction
+                </span>
+              )}
             </p>
           </div>
           <button
@@ -263,6 +295,11 @@ export function EvidenceViewer({
           <p className="mt-4 text-[0.82rem]" style={{ color: "var(--muted)" }}>
             {matchNote(citation)}
           </p>
+          {clauseSourceNote(citation) && (
+            <p className="mt-1.5 text-[0.82rem]" style={{ color: "var(--muted)" }}>
+              {clauseSourceNote(citation)}
+            </p>
+          )}
         </div>
       </div>
     </div>
