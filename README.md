@@ -68,6 +68,42 @@ npm run inspect    # what the corpus looks like to a reader
 `OPENAI_API_KEY` is needed only to extract documents not already in the cache. A cache miss without
 a key throws rather than inventing an extraction.
 
+## Scale
+
+This is a batch job, not a request. Nobody watches a spinner: an SME drops their
+contracts in during onboarding, and the dashboard is populated once and then read for
+free. Every day after that costs one call per contract they add.
+
+Extraction is embarrassingly parallel — no contract depends on another — so documents run
+concurrently, defaulting to 8 and set with `--concurrency`. Measured on the six-contract
+corpus:
+
+| | 6 contracts |
+| --- | --- |
+| sequential | 582.4s |
+| concurrency 8 | 208.8s |
+
+That 2.8x is the floor rather than the ceiling: with fewer documents than the limit,
+everything launches at once and wall time collapses to the single slowest document. The
+ratio approaches the concurrency setting as the batch grows.
+
+The binding constraint is the token-per-minute allowance rather than latency. At roughly
+15k tokens a contract against a measured 500k TPM tier, 80 contracts is ~1.2M input tokens
+— a floor of about 2.4 minutes — so latency dominates until roughly concurrency 30, and
+~20 is the sweet spot. Below that ceiling, 80 contracts lands in single-digit minutes.
+
+Two properties matter more than speed, and both fall out of the cache. Every completed
+call is written to disk before anything else runs, so a failure at document 63 of 80
+resumes at 63 instead of restarting. And because the cache key hashes the document text,
+an unchanged file costs nothing on a re-run — which is what makes iterating on the eval
+affordable. A document that fails is reported as unavailable rather than quietly omitted,
+and never takes the rest of the batch down with it.
+
+If a larger corpus ever became token-bound, the lever is retrieval — sending a handful of
+targeted clauses instead of forty pages cuts input by 5-10x. That was cut from the MVP
+because at six contracts it is dead weight, and the measurements above say it is still not
+needed at 80.
+
 ## How it works
 
 ```

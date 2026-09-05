@@ -18,7 +18,8 @@
     "inspect": "tsx scripts/inspect-corpus.ts",
     "publish-assets": "tsx scripts/publish-assets.ts",
     "prebuild": "tsx scripts/publish-assets.ts",
-    "exports": "tsx scripts/export-originals.ts"
+    "exports": "tsx scripts/export-originals.ts",
+    "demo:live": "tsx scripts/demo-live.ts"
   },
   "dependencies": {
     "@napi-rs/canvas": "^1.0.8",
