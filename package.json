@@ -14,7 +14,8 @@
     "eval": "tsx scripts/eval.ts",
     "pipeline": "tsx scripts/pipeline.ts",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "inspect": "tsx scripts/inspect-corpus.ts"
   },
   "dependencies": {
     "@napi-rs/canvas": "^1.0.8",

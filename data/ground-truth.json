@@ -1,0 +1,759 @@
+{
+  "asOf": "2026-09-05",
+  "generatedAt": "2026-09-05T05:08:10.276Z",
+  "contracts": [
+    {
+      "docId": "saas-subscription",
+      "title": "Cloud Subscription Agreement",
+      "fileName": "saas-subscription.pdf",
+      "format": "pdf",
+      "scanned": false,
+      "voice": "crisp modern SaaS drafting, defined terms in bold, short numbered clauses",
+      "notes": "HERO. Notice period sits in cl. 12.3 (Termination), deliberately away from the renewal clause 3.2, so both must be joined. Contains the phrase 'exclusive of GST' in cl. 5.1 as a trap for a naive exclusivity keyword probe — the true answer is NOT_FOUND.",
+      "fields": {
+        "parties": {
+          "value": "Meridian Retail Pte Ltd (Customer) and Northwind Cloud Systems Pte Ltd (Supplier)",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "Parties",
+          "note": null,
+          "isDate": false
+        },
+        "commencementDate": {
+          "value": "2025-11-18",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "3.1",
+          "note": null,
+          "isDate": true
+        },
+        "termLength": {
+          "value": "12 months",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "3.1",
+          "note": null,
+          "isDate": false
+        },
+        "termEnd": {
+          "value": "2026-11-18",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "INFERRED",
+          "clauseId": "3.1",
+          "note": "Not stated as a date. Must be computed from commencement + 12 months, so INFERRED is the correct label, not FOUND.",
+          "isDate": true
+        },
+        "renewalType": {
+          "value": "Automatically renews for successive periods of 12 months unless notice is given",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "3.2",
+          "note": null,
+          "isDate": false
+        },
+        "renewalNoticeDays": {
+          "value": "60 days",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "12.3",
+          "note": null,
+          "isDate": false
+        },
+        "terminationForConvenience": {
+          "value": "Customer may terminate on 90 days written notice, effective only at the end of a Subscription Period",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "12.1",
+          "note": null,
+          "isDate": false
+        },
+        "terminationForCause": {
+          "value": "Either party on 30 days written notice for material breach not remedied within that period",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "12.2",
+          "note": null,
+          "isDate": false
+        },
+        "liabilityCap": {
+          "value": "S$120,000",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "10.2",
+          "note": null,
+          "isDate": false
+        },
+        "exclusivity": {
+          "value": null,
+          "absent": true,
+          "ambiguous": false,
+          "expectedConfidence": "NOT_FOUND",
+          "clauseId": null,
+          "note": "No exclusivity or restrictive covenant. The phrase 'exclusive of GST' in cl. 5.1 must not be mistaken for one.",
+          "isDate": false
+        }
+      },
+      "payments": [
+        {
+          "description": "Annual subscription fee, payable in advance on each anniversary of the Commencement Date",
+          "amountMinor": 4000000,
+          "currency": "SGD",
+          "frequency": "annually",
+          "conditional": false,
+          "clauseId": "5.1",
+          "expectedConfidence": "FOUND",
+          "firstDueDate": "2026-11-18"
+        }
+      ],
+      "grants": []
+    },
+    {
+      "docId": "distribution-a",
+      "title": "Exclusive Distribution Agreement (Apex)",
+      "fileName": "distribution-a.pdf",
+      "format": "pdf",
+      "scanned": false,
+      "voice": "traditional commercial drafting, long sentences, heavy defined terms, Schedule 1 reference",
+      "notes": "Grants EXCLUSIVE rights. Product scope defined by reference to Schedule 1 rather than inline, so the scope must be resolved across a cross-reference.",
+      "fields": {
+        "parties": {
+          "value": "Kestrel Instruments Limited (Supplier) and Apex Scientific Pte Ltd (Distributor)",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "Parties",
+          "note": null,
+          "isDate": false
+        },
+        "commencementDate": {
+          "value": "2025-08-01",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "2.1",
+          "note": null,
+          "isDate": true
+        },
+        "termLength": {
+          "value": "36 months",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "2.1",
+          "note": null,
+          "isDate": false
+        },
+        "termEnd": {
+          "value": "2028-08-01",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "2.1",
+          "note": "Stated explicitly as a date in the document, so FOUND rather than INFERRED.",
+          "isDate": true
+        },
+        "renewalType": {
+          "value": "Does not renew automatically; renewal only by written agreement of the parties",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "2.2",
+          "note": null,
+          "isDate": false
+        },
+        "renewalNoticeDays": {
+          "value": null,
+          "absent": true,
+          "ambiguous": false,
+          "expectedConfidence": "NOT_FOUND",
+          "clauseId": null,
+          "note": "There is no notice period to prevent renewal because the agreement does not renew automatically. Silence, not a gap in our reading.",
+          "isDate": false
+        },
+        "terminationForConvenience": {
+          "value": "Either party on 6 months written notice",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "14.1",
+          "note": null,
+          "isDate": false
+        },
+        "terminationForCause": {
+          "value": "Either party immediately on insolvency, or on 30 days notice for material breach not remedied",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "14.2",
+          "note": null,
+          "isDate": false
+        },
+        "liabilityCap": {
+          "value": "S$500,000",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "13.3",
+          "note": null,
+          "isDate": false
+        },
+        "exclusivity": {
+          "value": "Exclusive distributor for Singapore in respect of Product Category X",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "3.1",
+          "note": null,
+          "isDate": false
+        }
+      },
+      "payments": [
+        {
+          "description": "Annual marketing contribution",
+          "amountMinor": 2500000,
+          "currency": "SGD",
+          "frequency": "annually",
+          "fixedMonthDay": "04-01",
+          "conditional": false,
+          "clauseId": "8.4",
+          "expectedConfidence": "FOUND",
+          "firstDueDate": "2027-04-01"
+        }
+      ],
+      "grants": [
+        {
+          "grantee": "Apex Scientific Pte Ltd",
+          "grantor": "Kestrel Instruments Limited",
+          "exclusivityType": "exclusive",
+          "territoryLabel": "Singapore",
+          "territoryCodes": [
+            "SG"
+          ],
+          "productLabel": "Product Category X",
+          "productCodes": [
+            "CATX"
+          ],
+          "clauseId": "3.1",
+          "expectedConfidence": "FOUND",
+          "start": "2025-08-01",
+          "end": "2028-08-01"
+        }
+      ]
+    },
+    {
+      "docId": "distribution-b",
+      "title": "Distribution Agreement (Lionbridge)",
+      "fileName": "distribution-b.pdf",
+      "format": "pdf",
+      "scanned": false,
+      "voice": "plainer drafting, tabular schedule, uses the phrase 'sole distributor'",
+      "notes": "THE PLANTED CONFLICT. Same grantor, same territory, same product category, overlapping term, different grantee. Uses 'sole' rather than 'exclusive' so the distinction has to be encoded and explained.",
+      "fields": {
+        "parties": {
+          "value": "Kestrel Instruments Limited (Supplier) and Lionbridge Distribution Pte Ltd (Distributor)",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "Parties",
+          "note": null,
+          "isDate": false
+        },
+        "commencementDate": {
+          "value": "2026-05-08",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "2.1",
+          "note": null,
+          "isDate": true
+        },
+        "termLength": {
+          "value": "24 months",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "2.1",
+          "note": null,
+          "isDate": false
+        },
+        "termEnd": {
+          "value": "2028-05-08",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "2.1",
+          "note": null,
+          "isDate": true
+        },
+        "renewalType": {
+          "value": "Automatically renews for successive periods of 12 months unless notice is given",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "2.3",
+          "note": null,
+          "isDate": false
+        },
+        "renewalNoticeDays": {
+          "value": "90 days",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "2.3",
+          "note": null,
+          "isDate": false
+        },
+        "terminationForConvenience": {
+          "value": "Supplier may terminate on 3 months written notice; Distributor on 6 months written notice",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "11.1",
+          "note": null,
+          "isDate": false
+        },
+        "terminationForCause": {
+          "value": "Either party on 14 days notice for material breach not remedied",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "11.2",
+          "note": null,
+          "isDate": false
+        },
+        "liabilityCap": {
+          "value": "S$250,000",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "10.1",
+          "note": null,
+          "isDate": false
+        },
+        "exclusivity": {
+          "value": "Sole distributor for Singapore in respect of Product Category X; the Supplier may continue to sell directly but will appoint no other distributor",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "3.1",
+          "note": null,
+          "isDate": false
+        }
+      },
+      "payments": [
+        {
+          "description": "Annual licence fee",
+          "amountMinor": 1000000,
+          "currency": "SGD",
+          "frequency": "annually",
+          "fixedMonthDay": "01-01",
+          "conditional": false,
+          "clauseId": "6.2",
+          "expectedConfidence": "FOUND",
+          "firstDueDate": "2027-01-01"
+        }
+      ],
+      "grants": [
+        {
+          "grantee": "Lionbridge Distribution Pte Ltd",
+          "grantor": "Kestrel Instruments Limited",
+          "exclusivityType": "sole",
+          "territoryLabel": "Singapore",
+          "territoryCodes": [
+            "SG"
+          ],
+          "productLabel": "Product Category X",
+          "productCodes": [
+            "CATX"
+          ],
+          "clauseId": "3.1",
+          "expectedConfidence": "FOUND",
+          "start": "2026-05-08",
+          "end": "2028-05-08"
+        }
+      ]
+    },
+    {
+      "docId": "msa",
+      "title": "Master Services Agreement (Halcyon)",
+      "fileName": "msa.pdf",
+      "format": "pdf",
+      "scanned": false,
+      "voice": "formal professional-services drafting with a separate Indemnity Schedule appended",
+      "notes": "THE UNCERTAIN CAP. cl. 11.2 caps liability at S$100,000. cl. 12.4 of the Indemnity Schedule makes IP infringement an indemnified matter and does NOT say whether it sits inside or outside the cap. Correct answer is UNCERTAIN, which must trigger an escalation brief. cl. 11.2 is deliberately split across a page break to exercise cross-page span handling.",
+      "fields": {
+        "parties": {
+          "value": "Meridian Retail Pte Ltd (Client) and Halcyon Consulting Pte Ltd (Consultant)",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "Parties",
+          "note": null,
+          "isDate": false
+        },
+        "commencementDate": {
+          "value": "2026-02-17",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "4.1",
+          "note": null,
+          "isDate": true
+        },
+        "termLength": {
+          "value": "24 months",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "4.1",
+          "note": null,
+          "isDate": false
+        },
+        "termEnd": {
+          "value": "2028-02-17",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "4.1",
+          "note": null,
+          "isDate": true
+        },
+        "renewalType": {
+          "value": "No automatic renewal; the term may be extended only by a written change order",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "4.2",
+          "note": null,
+          "isDate": false
+        },
+        "renewalNoticeDays": {
+          "value": null,
+          "absent": true,
+          "ambiguous": false,
+          "expectedConfidence": "NOT_FOUND",
+          "clauseId": null,
+          "note": "No automatic renewal, therefore no notice period to prevent one.",
+          "isDate": false
+        },
+        "terminationForConvenience": {
+          "value": "Client may terminate this Agreement or any Statement of Work on 30 days written notice",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "15.1",
+          "note": null,
+          "isDate": false
+        },
+        "terminationForCause": {
+          "value": "Either party on 30 days notice for material breach not remedied, or immediately on insolvency",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "15.2",
+          "note": null,
+          "isDate": false
+        },
+        "liabilityCap": {
+          "value": "S$100,000",
+          "absent": false,
+          "ambiguous": true,
+          "expectedConfidence": "UNCERTAIN",
+          "clauseId": "11.2",
+          "note": "The figure is stated, but cl. 12.4 of the Indemnity Schedule may place IP infringement outside it. A system that reports FOUND S$100,000 is confidently wrong, because the real exposure may be uncapped.",
+          "isDate": false
+        },
+        "exclusivity": {
+          "value": null,
+          "absent": true,
+          "ambiguous": false,
+          "expectedConfidence": "NOT_FOUND",
+          "clauseId": null,
+          "note": null,
+          "isDate": false
+        }
+      },
+      "payments": [
+        {
+          "description": "Monthly retainer, payable on the first business day of each month",
+          "amountMinor": 1800000,
+          "currency": "SGD",
+          "frequency": "monthly",
+          "fixedDayOfMonth": 1,
+          "conditional": false,
+          "clauseId": "6.1",
+          "expectedConfidence": "FOUND",
+          "firstDueDate": "2026-10-01"
+        }
+      ],
+      "grants": []
+    },
+    {
+      "docId": "mutual-nda",
+      "title": "Mutual Non-Disclosure Agreement (Vantage)",
+      "fileName": "mutual-nda.docx",
+      "format": "docx",
+      "scanned": false,
+      "voice": "short, plain, two-page NDA with lettered sub-paragraphs",
+      "notes": "THE SILENCE CASE. Genuinely contains no exclusivity provision, no liability cap and no renewal mechanics. Correct answers are NOT_FOUND, never UNCERTAIN. DOCX, so it has no fixed pagination and every citation must say so rather than invent a page number.",
+      "fields": {
+        "parties": {
+          "value": "Meridian Retail Pte Ltd and Vantage Logistics Pte Ltd",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "Parties",
+          "note": null,
+          "isDate": false
+        },
+        "commencementDate": {
+          "value": "2026-08-06",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "1",
+          "note": null,
+          "isDate": true
+        },
+        "termLength": {
+          "value": "24 months",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "6",
+          "note": null,
+          "isDate": false
+        },
+        "termEnd": {
+          "value": "2028-08-06",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "INFERRED",
+          "clauseId": "6",
+          "note": "Only the duration is stated, so the end date must be computed.",
+          "isDate": true
+        },
+        "renewalType": {
+          "value": null,
+          "absent": true,
+          "ambiguous": false,
+          "expectedConfidence": "NOT_FOUND",
+          "clauseId": null,
+          "note": null,
+          "isDate": false
+        },
+        "renewalNoticeDays": {
+          "value": null,
+          "absent": true,
+          "ambiguous": false,
+          "expectedConfidence": "NOT_FOUND",
+          "clauseId": null,
+          "note": null,
+          "isDate": false
+        },
+        "terminationForConvenience": {
+          "value": "Either party on 30 days written notice",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "6",
+          "note": null,
+          "isDate": false
+        },
+        "terminationForCause": {
+          "value": null,
+          "absent": true,
+          "ambiguous": false,
+          "expectedConfidence": "NOT_FOUND",
+          "clauseId": null,
+          "note": null,
+          "isDate": false
+        },
+        "liabilityCap": {
+          "value": null,
+          "absent": true,
+          "ambiguous": false,
+          "expectedConfidence": "NOT_FOUND",
+          "clauseId": null,
+          "note": null,
+          "isDate": false
+        },
+        "exclusivity": {
+          "value": null,
+          "absent": true,
+          "ambiguous": false,
+          "expectedConfidence": "NOT_FOUND",
+          "clauseId": null,
+          "note": "The headline silence case. A system that says UNCERTAIN here is hedging blindly rather than discriminating, and hedge precision will show it.",
+          "isDate": false
+        }
+      },
+      "payments": [],
+      "grants": []
+    },
+    {
+      "docId": "supplier-agreement",
+      "title": "Supply Agreement (Foundry)",
+      "fileName": "supplier-agreement-scanned.pdf",
+      "format": "pdf",
+      "scanned": true,
+      "voice": "older purchase-order style drafting, ALL-CAPS clause headings, typewriter feel",
+      "notes": "THE SCANNED ONE, and the CONDITIONAL OBLIGATION. Quarterly payments give hard dates; the net-30-from-invoice term has no invoice date in the contract, so no certain due date exists and it must render as conditional with a caveat rather than as a deadline. The notice period is expressed in BUSINESS DAYS, which must force UNCERTAIN with a stated reason since we apply no public-holiday calendar. Fields read off low-confidence OCR spans cannot be FOUND.",
+      "fields": {
+        "parties": {
+          "value": "Meridian Retail Pte Ltd (Buyer) and Foundry Components Pte Ltd (Supplier)",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "Parties",
+          "note": null,
+          "isDate": false
+        },
+        "commencementDate": {
+          "value": "2026-07-07",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "2",
+          "note": null,
+          "isDate": true
+        },
+        "termLength": {
+          "value": "36 months",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "2",
+          "note": null,
+          "isDate": false
+        },
+        "termEnd": {
+          "value": "2029-07-07",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "INFERRED",
+          "clauseId": "2",
+          "note": null,
+          "isDate": true
+        },
+        "renewalType": {
+          "value": "Automatically renews for successive periods of 12 months unless notice is given",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "3",
+          "note": null,
+          "isDate": false
+        },
+        "renewalNoticeDays": {
+          "value": "90 business days",
+          "absent": false,
+          "ambiguous": true,
+          "expectedConfidence": "UNCERTAIN",
+          "clauseId": "3",
+          "note": "Stated in business days. We apply no public-holiday calendar, so the exact deadline cannot be given. Saying UNCERTAIN and explaining why is the correct behaviour, not a gap.",
+          "isDate": false
+        },
+        "terminationForConvenience": {
+          "value": "Buyer may terminate on 60 days written notice",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "12",
+          "note": null,
+          "isDate": false
+        },
+        "terminationForCause": {
+          "value": "Either party on 30 days notice for material breach not remedied",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "12",
+          "note": null,
+          "isDate": false
+        },
+        "liabilityCap": {
+          "value": "S$75,000",
+          "absent": false,
+          "ambiguous": false,
+          "expectedConfidence": "FOUND",
+          "clauseId": "10",
+          "note": null,
+          "isDate": false
+        },
+        "exclusivity": {
+          "value": null,
+          "absent": true,
+          "ambiguous": false,
+          "expectedConfidence": "NOT_FOUND",
+          "clauseId": null,
+          "note": null,
+          "isDate": false
+        }
+      },
+      "payments": [
+        {
+          "description": "Quarterly service charge, payable in arrears on the last day of each calendar quarter",
+          "amountMinor": 2250000,
+          "currency": "SGD",
+          "frequency": "quarterly",
+          "quarterEnd": true,
+          "conditional": false,
+          "clauseId": "7",
+          "expectedConfidence": "FOUND",
+          "firstDueDate": "2026-09-30"
+        },
+        {
+          "description": "Invoiced amounts for goods supplied, payable 30 days from date of invoice",
+          "amountMinor": null,
+          "currency": "SGD",
+          "frequency": "on-invoice",
+          "conditional": true,
+          "conditionNote": "Payable 30 days from the date of invoice. The contract states no invoice date, so no certain due date can be given.",
+          "clauseId": "7",
+          "expectedConfidence": "UNCERTAIN",
+          "firstDueDate": null
+        }
+      ],
+      "grants": []
+    }
+  ],
+  "expectedConflicts": [
+    {
+      "id": "apex-vs-lionbridge-sg-catx",
+      "docIds": [
+        "distribution-a",
+        "distribution-b"
+      ],
+      "territoryCodes": [
+        "SG"
+      ],
+      "productCodes": [
+        "CATX"
+      ],
+      "expectedConfidence": "FOUND",
+      "note": "Kestrel granted exclusive rights to Apex and then appointed Lionbridge as sole distributor over the same territory and category with overlapping terms."
+    }
+  ],
+  "expectedEscalations": [
+    {
+      "id": "msa-liability-cap",
+      "reason": "liabilityCap is UNCERTAIN on the MSA because of the indemnity carve-out",
+      "severity": "high"
+    },
+    {
+      "id": "apex-vs-lionbridge-sg-catx",
+      "reason": "a detected exclusivity conflict must always escalate",
+      "severity": "high"
+    }
+  ]
+}
