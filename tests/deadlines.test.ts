@@ -591,9 +591,9 @@ describe("amounts", () => {
       ASOF,
     );
     expect(byKind(events, "payment").map((e) => e.title)).toEqual([
-      "SGD 40,000.00 — Subscription fee",
-      "SGD 1.23 — Subscription fee",
-      "SGD 0.01 — Subscription fee",
+      "S$40,000 — Subscription fee",
+      "S$1.23 — Subscription fee",
+      "S$0.01 — Subscription fee",
     ]);
   });
 

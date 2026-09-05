@@ -301,6 +301,16 @@ async function ingestPdf(filePath: string, fileName: string): Promise<ParsedDoc>
   };
 }
 
+/** The first line, when it reads like a heading rather than a paragraph. */
+function docxTitle(text: string): string | null {
+  const first = text
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .find(Boolean);
+  if (!first || first.length > 90 || /[.;]$/.test(first)) return null;
+  return first;
+}
+
 async function ingestDocx(filePath: string, fileName: string): Promise<ParsedDoc> {
   const buffer = await readFile(filePath);
   const [raw, html] = await Promise.all([
@@ -316,7 +326,10 @@ async function ingestDocx(filePath: string, fileName: string): Promise<ParsedDoc
   return {
     docId,
     fileName,
-    title: titleFromFileName(fileName),
+    // A word-processor file carries no title metadata, but its first line is
+    // almost always the document's own name — better than guessing from a
+    // filename, which turns "mutual-nda" into "Mutual Nda".
+    title: docxTitle(text) ?? titleFromFileName(fileName),
     format: "docx",
     // A reflowable format has no fixed pages, so we will never cite one.
     paginated: false,

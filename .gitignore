@@ -10,3 +10,5 @@ public/corpus/
 data/build/
 eng.traineddata
 *.traineddata
+.playwright-mcp/
+*.png

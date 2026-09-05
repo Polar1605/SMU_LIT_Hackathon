@@ -18,6 +18,7 @@
 
 import { isValid, parseISO } from "date-fns";
 import { weakest } from "./confidence.ts";
+import { formatDate } from "./display.ts";
 import type {
   Confidence,
   ContractResult,
@@ -130,9 +131,11 @@ export function grantsOverlap(
 
 /** Plain-English window, used in the explanation a non-lawyer reads. */
 function periodPhrase(from: string | null, to: string | null): string {
-  if (from !== null && to !== null) return `between ${from} and ${to}`;
-  if (from !== null) return `from ${from} onwards, with no fixed end date in either document`;
-  if (to !== null) return `up to ${to}, with no start date fixed in either document`;
+  const f = from === null ? null : formatDate(from);
+  const t = to === null ? null : formatDate(to);
+  if (f !== null && t !== null) return `between ${f} and ${t}`;
+  if (f !== null) return `from ${f} onwards, with no fixed end date in either document`;
+  if (t !== null) return `up to ${t}, with no start date fixed in either document`;
   return "over a period that neither document bounds";
 }
 

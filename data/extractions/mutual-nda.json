@@ -3,7 +3,7 @@
     {
       "fieldId": "parties",
       "found": true,
-      "value": "Meridian Retail Pte Ltd and Vantage Logistics Pte Ltd; each is Discloser when disclosing and Recipient when receiving.",
+      "value": "Meridian Retail Pte Ltd and Vantage Logistics Pte Ltd; each is Discloser when it discloses and Recipient when it receives.",
       "quotes": [
         {
           "clauseId": "PARTIES",
@@ -75,7 +75,7 @@
     {
       "fieldId": "terminationForConvenience",
       "found": true,
-      "value": "Either party may terminate at any time on 30 days' written notice.",
+      "value": "Either party may terminate at any time on 30 days’ written notice to the other.",
       "quotes": [
         {
           "clauseId": "6. Term and termination",

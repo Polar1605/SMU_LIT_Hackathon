@@ -14,6 +14,7 @@
 
 import { copyFile, mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { parseArgs } from "node:util";
+import { createRequire } from "node:module";
 import path from "node:path";
 
 import { computeConfidence, hasCandidateClause } from "../lib/confidence.ts";
@@ -119,7 +120,14 @@ function ocrMinForValue(value: string, citations: Citation[], doc: ParsedDoc): n
   const valueTokens = new Set(
     value.toLowerCase().split(/[^a-z0-9$.,]+/).filter((t) => t.length > 1),
   );
-  if (valueTokens.size === 0) return null;
+  // Figures matter more than words and are matched separately, by their digits.
+  // Matching a figure by exact token would be self-defeating: when the scan
+  // garbles "S$75,000" into "S$$75,000.", the strings stop matching, and the one
+  // word optical recognition struggled with would be the single word excluded
+  // from the check that exists to catch it. Digits survive that damage.
+  const valueFigures = new Set((value.match(/\d[\d,]*(?:\.\d+)?/g) ?? []).map((f) => f.replace(/,/g, "")));
+
+  if (valueTokens.size === 0 && valueFigures.size === 0) return null;
 
   let min: number | null = null;
   let matched = false;
@@ -129,8 +137,14 @@ function ocrMinForValue(value: string, citations: Citation[], doc: ParsedDoc): n
       for (const word of page.words) {
         if (word.ocrConfidence === null) continue;
         if (word.charEnd <= citation.charStart || word.charStart >= citation.charEnd) continue;
+
         const normalised = word.text.toLowerCase().replace(/^[^a-z0-9$]+|[^a-z0-9$.,]+$/g, "");
-        if (!valueTokens.has(normalised)) continue;
+        const digits = (word.text.match(/\d[\d,]*(?:\.\d+)?/g) ?? []).map((f) => f.replace(/,/g, ""));
+
+        const carriesValue =
+          valueTokens.has(normalised) || digits.some((figure) => valueFigures.has(figure));
+        if (!carriesValue) continue;
+
         matched = true;
         min = min === null ? word.ocrConfidence : Math.min(min, word.ocrConfidence);
       }
@@ -339,8 +353,12 @@ export async function run(opts: StageOpts): Promise<Results> {
   }
 
   // The viewer fetches source documents over HTTP, so they have to be served.
-  const publicCorpus = path.resolve(import.meta.dirname, "..", "public", "corpus");
+  const publicDir = path.resolve(import.meta.dirname, "..", "public");
+  const publicCorpus = path.join(publicDir, "corpus");
+  const publicParsed = path.join(publicDir, "parsed");
   await mkdir(publicCorpus, { recursive: true });
+  await mkdir(publicParsed, { recursive: true });
+
   for (const contract of contracts) {
     await copyFile(
       path.join(opts.corpusDir, contract.fileName),
@@ -351,7 +369,29 @@ export async function run(opts: StageOpts): Promise<Results> {
         reason: `${contract.fileName} could not be copied for the evidence viewer, so its clauses cannot be shown in context.`,
       });
     });
+
+    // An unpaginated document has no page to render, so the viewer shows the
+    // cited span in its surrounding text instead. Only the text is published —
+    // the full parsed record carries per-word geometry the browser never needs.
+    if (!contract.paginated) {
+      const doc = JSON.parse(
+        await readFile(path.join(parsedDir, `${contract.docId}.json`), "utf8"),
+      ) as ParsedDoc;
+      await writeFile(
+        path.join(publicParsed, `${contract.docId}.json`),
+        JSON.stringify({ fullText: doc.fullText, html: doc.html ?? null }),
+      );
+    }
   }
+
+  // pdfjs runs its parser in a worker, which has to be served from our origin.
+  const workerSource = createRequire(import.meta.url).resolve("pdfjs-dist/build/pdf.worker.min.mjs");
+  await copyFile(workerSource, path.join(publicDir, "pdf.worker.min.mjs")).catch(() => {
+    unavailable.push({
+      stage: "viewer",
+      reason: "The pdfjs worker could not be published, so PDF pages cannot be rendered in the browser.",
+    });
+  });
 
   const results: Results = {
     generatedAt: new Date().toISOString(),

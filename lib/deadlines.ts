@@ -33,6 +33,7 @@ import {
   parseISO,
 } from "date-fns";
 import { weakest } from "./confidence.ts";
+import { formatMoney } from "./display.ts";
 import type {
   CalendarEvent,
   Citation,
@@ -101,11 +102,9 @@ function parseDayCount(value: string): number | null {
  * display string.
  */
 function formatMinor(amountMinor: number, currency: string | null): string {
-  const digits = String(Math.abs(amountMinor)).padStart(3, "0");
-  const major = digits.slice(0, -2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-  const minor = digits.slice(-2);
-  const sign = amountMinor < 0 ? "-" : "";
-  return `${sign}${currency ? `${currency} ` : ""}${major}.${minor}`;
+  // Delegates to the shared formatter so a figure reads the same in the calendar
+  // as it does on the contract it came from.
+  return `${amountMinor < 0 ? "-" : ""}${formatMoney(Math.abs(amountMinor), currency)}`;
 }
 
 /** Same clause cited by two inputs is one row of evidence, not two. */

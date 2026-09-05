@@ -104,8 +104,17 @@ h3 {
    solid underline rather than a block fill, so the words stay readable. */
 .evidence-box {
   position: absolute;
-  background: rgba(154, 91, 20, 0.18);
+  background: rgba(154, 91, 20, 0.2);
+  /* Drawn a little below the glyph box: character-recognition boxes hug the
+     letterforms tightly, so an underline placed at the box edge reads as a
+     strikethrough straight through the words it is meant to point at. */
   border-bottom: 2px solid var(--uncertain);
+  /* content-box, so the padding extends the box below the glyphs rather than
+     eating into it — under border-box the rule lands on the baseline and reads
+     as a strikethrough through the very words it is pointing at. */
+  box-sizing: content-box;
+  padding-bottom: 2px;
+  border-radius: 1px;
   pointer-events: none;
 }
 

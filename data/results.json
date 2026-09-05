@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T06:03:15.156Z",
+  "generatedAt": "2026-09-05T06:21:06.237Z",
   "asOf": "2026-09-05",
   "model": "gpt-5.5-2026-04-23",
   "windowDays": 90,
@@ -21511,7 +21511,7 @@
     },
     {
       "docId": "mutual-nda",
-      "title": "Mutual Nda",
+      "title": "Mutual Non-Disclosure Agreement",
       "fileName": "mutual-nda.docx",
       "format": "docx",
       "paginated": false,
@@ -21520,7 +21520,7 @@
         {
           "fieldId": "parties",
           "label": "Parties",
-          "value": "Meridian Retail Pte Ltd and Vantage Logistics Pte Ltd; each is Discloser when disclosing and Recipient when receiving.",
+          "value": "Meridian Retail Pte Ltd and Vantage Logistics Pte Ltd; each is Discloser when it discloses and Recipient when it receives.",
           "confidence": "FOUND",
           "reasons": [
             "Stated explicitly in the contract, and every supporting quote was located in the source."
@@ -21528,7 +21528,7 @@
           "citations": [
             {
               "docId": "mutual-nda",
-              "docTitle": "Mutual Nda",
+              "docTitle": "Mutual Non-Disclosure Agreement",
               "clauseId": "PARTIES",
               "pageNum": null,
               "charStart": 42,
@@ -21556,7 +21556,7 @@
           "citations": [
             {
               "docId": "mutual-nda",
-              "docTitle": "Mutual Nda",
+              "docTitle": "Mutual Non-Disclosure Agreement",
               "clauseId": "1. Effective date",
               "pageNum": null,
               "charStart": 441,
@@ -21584,7 +21584,7 @@
           "citations": [
             {
               "docId": "mutual-nda",
-              "docTitle": "Mutual Nda",
+              "docTitle": "Mutual Non-Disclosure Agreement",
               "clauseId": "6. Term and termination",
               "pageNum": null,
               "charStart": 2467,
@@ -21612,7 +21612,7 @@
           "citations": [
             {
               "docId": "mutual-nda",
-              "docTitle": "Mutual Nda",
+              "docTitle": "Mutual Non-Disclosure Agreement",
               "clauseId": "1. Effective date",
               "pageNum": null,
               "charStart": 441,
@@ -21626,7 +21626,7 @@
             },
             {
               "docId": "mutual-nda",
-              "docTitle": "Mutual Nda",
+              "docTitle": "Mutual Non-Disclosure Agreement",
               "clauseId": "6. Term and termination",
               "pageNum": null,
               "charStart": 2467,
@@ -21672,7 +21672,7 @@
         {
           "fieldId": "terminationForConvenience",
           "label": "Termination for convenience",
-          "value": "Either party may terminate at any time on 30 days' written notice.",
+          "value": "Either party may terminate at any time on 30 days’ written notice to the other.",
           "confidence": "FOUND",
           "reasons": [
             "Stated explicitly in the contract, and every supporting quote was located in the source."
@@ -21680,7 +21680,7 @@
           "citations": [
             {
               "docId": "mutual-nda",
-              "docTitle": "Mutual Nda",
+              "docTitle": "Mutual Non-Disclosure Agreement",
               "clauseId": "6. Term and termination",
               "pageNum": null,
               "charStart": 2557,
@@ -27671,9 +27671,9 @@
           "fieldId": "liabilityCap",
           "label": "Liability cap",
           "value": "Supplier's total liability to Buyer is capped at S$75,000, except liability for death or personal injury caused by negligence or for fraud.",
-          "confidence": "FOUND",
+          "confidence": "UNCERTAIN",
           "reasons": [
-            "Stated explicitly in the contract, and every supporting quote was located in the source."
+            "At least one word in this clause was poorly recognised on the scan (confidence 40 out of 100), and it may be one that carries the meaning. Check the original document."
           ],
           "citations": [
             {
@@ -29330,7 +29330,7 @@
       "docId": "supplier-agreement-scanned",
       "docTitle": "Supply Agreement (scanned)",
       "kind": "payment",
-      "title": "SGD 22,500.00 — Buyer must pay Supplier a quarterly service charge in arrears on the last day of each calendar quarter.",
+      "title": "S$22,500 — Buyer must pay Supplier a quarterly service charge in arrears on the last day of each calendar quarter.",
       "eventDate": "2026-09-30",
       "actionDeadline": "2026-09-30",
       "daysUntilDeadline": 25,
@@ -30025,7 +30025,7 @@
       "docId": "saas-subscription",
       "docTitle": "Cloud Subscription Agreement",
       "kind": "payment",
-      "title": "SGD 40,000.00 — Annual Subscription Fee for access to the Platform, exclusive of GST.",
+      "title": "S$40,000 — Annual Subscription Fee for access to the Platform, exclusive of GST.",
       "eventDate": "2026-11-18",
       "actionDeadline": "2026-11-18",
       "daysUntilDeadline": 74,
@@ -32230,7 +32230,7 @@
     {
       "id": "mutual-nda:term-end",
       "docId": "mutual-nda",
-      "docTitle": "Mutual Nda",
+      "docTitle": "Mutual Non-Disclosure Agreement",
       "kind": "term-end",
       "title": "Current term ends",
       "eventDate": "2028-08-06",
@@ -32246,7 +32246,7 @@
       "citations": [
         {
           "docId": "mutual-nda",
-          "docTitle": "Mutual Nda",
+          "docTitle": "Mutual Non-Disclosure Agreement",
           "clauseId": "1. Effective date",
           "pageNum": null,
           "charStart": 441,
@@ -32260,7 +32260,7 @@
         },
         {
           "docId": "mutual-nda",
-          "docTitle": "Mutual Nda",
+          "docTitle": "Mutual Non-Disclosure Agreement",
           "clauseId": "6. Term and termination",
           "pageNum": null,
           "charStart": 2467,
@@ -32993,7 +32993,7 @@
       "docId": "distribution-b",
       "docTitle": "Distribution Agreement",
       "kind": "payment",
-      "title": "SGD 180,000.00 — Minimum annual purchase commitment for the Products.",
+      "title": "S$180,000 — Minimum annual purchase commitment for the Products.",
       "eventDate": null,
       "actionDeadline": null,
       "daysUntilDeadline": null,
@@ -33117,7 +33117,7 @@
       "docId": "msa",
       "docTitle": "Master Services Agreement",
       "kind": "payment",
-      "title": "SGD 18,000.00 — Monthly retainer payable by the Client to the Consultant.",
+      "title": "S$18,000 — Monthly retainer payable by the Client to the Consultant.",
       "eventDate": null,
       "actionDeadline": null,
       "daysUntilDeadline": null,
@@ -39687,7 +39687,7 @@
         "Exclusive Distribution Agreement: Stated explicitly in the contract, and every supporting quote was located in the source.",
         "Distribution Agreement: Clause 3.1 Appointment limits the sole appointment to the Term, but clause 2.3 Renewal automatically renews the Agreement for further periods unless notice is given, so the final end date of the grant is not fixed."
       ],
-      "explanation": "\"Exclusive Distribution Agreement\" grants Apex Scientific Pte Ltd exclusive rights (nobody else may act in that scope, normally including the grantor itself) over product CATX in territory SG. \"Distribution Agreement\" grants Lionbridge Distribution Pte Ltd sole rights (the grantor may still act itself, but promises to appoint nobody else) over the same product CATX in territory SG. The two grants overlap between 2026-05-08 and 2028-08-01. The exclusive grant to Apex Scientific Pte Ltd forbids any other appointment in that scope, yet Lionbridge Distribution Pte Ltd has been appointed for the same territory, product and period — and a sole appointment is still an appointment. Honouring the second breaches the first."
+      "explanation": "\"Exclusive Distribution Agreement\" grants Apex Scientific Pte Ltd exclusive rights (nobody else may act in that scope, normally including the grantor itself) over product CATX in territory SG. \"Distribution Agreement\" grants Lionbridge Distribution Pte Ltd sole rights (the grantor may still act itself, but promises to appoint nobody else) over the same product CATX in territory SG. The two grants overlap between 8 May 2026 and 1 Aug 2028. The exclusive grant to Apex Scientific Pte Ltd forbids any other appointment in that scope, yet Lionbridge Distribution Pte Ltd has been appointed for the same territory, product and period — and a sole appointment is still an appointment. Honouring the second breaches the first."
     }
   ],
   "escalations": [
@@ -41698,9 +41698,1205 @@
       "exposure": "Known contract value is S$216,000 per year. Excludes 3 obligations the contract does not put a figure on."
     },
     {
+      "id": "supplier-agreement-scanned-liabilityCap",
+      "severity": "high",
+      "issue": "Supply Agreement (scanned) states liability cap as Supplier's total liability to Buyer is capped at S$75,000, except liability for death or personal injury caused by negligence or for fraud., but the position is not settled by the document.",
+      "documents": [
+        {
+          "docId": "supplier-agreement-scanned",
+          "docTitle": "Supply Agreement (scanned)",
+          "clauseId": "10 LIMITATION OF LIABILITY",
+          "pageNum": 1,
+          "charStart": 1422,
+          "charEnd": 1573,
+          "quotedText": "The total liability of the Supplier to the Buyer under this Agreement,\nwhether in contract, tort or otherwise, shall not in any event exceed\nS$$75,000.",
+          "matchKind": "exact",
+          "bboxes": [
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 76,
+                "y": 603,
+                "w": 18,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 101.5,
+                "y": 603.5,
+                "w": 30,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 139.5,
+                "y": 604,
+                "w": 56,
+                "h": 9
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 202,
+                "y": 604.5,
+                "w": 11.5,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 221.5,
+                "y": 605,
+                "w": 17.5,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 246.5,
+                "y": 605.5,
+                "w": 49,
+                "h": 8.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 303,
+                "y": 606.5,
+                "w": 11.5,
+                "h": 6.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 322,
+                "y": 606,
+                "w": 17.5,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 347,
+                "y": 607,
+                "w": 30.5,
+                "h": 8
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 384.5,
+                "y": 607,
+                "w": 31,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 423,
+                "y": 607.5,
+                "w": 23.5,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 453.5,
+                "y": 608.5,
+                "w": 60.5,
+                "h": 7.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 76,
+                "y": 618,
+                "w": 43,
+                "h": 7.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 127,
+                "y": 618,
+                "w": 11.5,
+                "h": 7.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 145.5,
+                "y": 619.5,
+                "w": 53.5,
+                "h": 8
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 208.5,
+                "y": 620,
+                "w": 23.5,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 240,
+                "y": 621.5,
+                "w": 11.5,
+                "h": 5.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 258.5,
+                "y": 620,
+                "w": 60,
+                "h": 9
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 328.5,
+                "y": 621,
+                "w": 29.5,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 365.5,
+                "y": 622,
+                "w": 18,
+                "h": 6.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 391.5,
+                "y": 621,
+                "w": 11.5,
+                "h": 8
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 410,
+                "y": 624,
+                "w": 18,
+                "h": 6.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 435,
+                "y": 623,
+                "w": 30.5,
+                "h": 6.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 473,
+                "y": 623,
+                "w": 37,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 76,
+                "y": 632.5,
+                "w": 53.5,
+                "h": 8.5
+              }
+            }
+          ],
+          "spansPages": false,
+          "ocrConfidenceMean": 91.36220472440945,
+          "ocrConfidenceMin": 40
+        },
+        {
+          "docId": "supplier-agreement-scanned",
+          "docTitle": "Supply Agreement (scanned)",
+          "clauseId": "10 LIMITATION OF LIABILITY",
+          "pageNum": 1,
+          "charStart": 1574,
+          "charEnd": 1677,
+          "quotedText": "Nothing in this clause limits liability for death or personal injury\ncaused by negligence or for fraud.",
+          "matchKind": "exact",
+          "bboxes": [
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 75,
+                "y": 652,
+                "w": 44,
+                "h": 9
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 126.5,
+                "y": 652.5,
+                "w": 11.5,
+                "h": 7.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 145.5,
+                "y": 653,
+                "w": 23,
+                "h": 7.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 176.5,
+                "y": 653.5,
+                "w": 36.5,
+                "h": 7.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 221,
+                "y": 654,
+                "w": 36,
+                "h": 7.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 265,
+                "y": 654.5,
+                "w": 55.5,
+                "h": 9.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 328,
+                "y": 655.5,
+                "w": 17.5,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 352.5,
+                "y": 655.5,
+                "w": 31,
+                "h": 7.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 390.5,
+                "y": 658,
+                "w": 11.5,
+                "h": 5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 409,
+                "y": 657,
+                "w": 49.5,
+                "h": 8
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 466.5,
+                "y": 656.5,
+                "w": 37,
+                "h": 9.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 75.5,
+                "y": 667.5,
+                "w": 37,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 119,
+                "y": 667.5,
+                "w": 12.5,
+                "h": 8.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 138,
+                "y": 668,
+                "w": 62,
+                "h": 8.5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 208,
+                "y": 670.5,
+                "w": 11.5,
+                "h": 5
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 227,
+                "y": 669,
+                "w": 17.5,
+                "h": 7
+              }
+            },
+            {
+              "pageNum": 1,
+              "box": {
+                "x": 252.5,
+                "y": 669,
+                "w": 34.5,
+                "h": 7.5
+              }
+            }
+          ],
+          "spansPages": false,
+          "ocrConfidenceMean": 95.83908045977012,
+          "ocrConfidenceMin": 95
+        }
+      ],
+      "established": [
+        {
+          "statement": "Commencement date: 2026-07-07",
+          "citation": {
+            "docId": "supplier-agreement-scanned",
+            "docTitle": "Supply Agreement (scanned)",
+            "clauseId": "2 TERM",
+            "pageNum": 1,
+            "charStart": 529,
+            "charEnd": 640,
+            "quotedText": "This Agreement takes effect on 7 July 2026 and continues for a period\nof thirty-six (36) months from that date.",
+            "matchKind": "exact",
+            "bboxes": [
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 80,
+                  "y": 284.5,
+                  "w": 24,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 111,
+                  "y": 285.5,
+                  "w": 56,
+                  "h": 8
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 174.5,
+                  "y": 285.5,
+                  "w": 30,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 212.5,
+                  "y": 286,
+                  "w": 36.5,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 256.5,
+                  "y": 288.5,
+                  "w": 11.5,
+                  "h": 5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 276,
+                  "y": 287,
+                  "w": 4,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 288,
+                  "y": 287,
+                  "w": 24.5,
+                  "h": 8.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 320,
+                  "y": 287.5,
+                  "w": 23,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 351,
+                  "y": 288,
+                  "w": 18,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 376.5,
+                  "y": 288,
+                  "w": 55,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 439.5,
+                  "y": 289,
+                  "w": 17.5,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 464,
+                  "y": 291,
+                  "w": 5.5,
+                  "h": 5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 476.5,
+                  "y": 289.5,
+                  "w": 37.5,
+                  "h": 8.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 80,
+                  "y": 299.5,
+                  "w": 11,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 99,
+                  "y": 299.5,
+                  "w": 62,
+                  "h": 9
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 170,
+                  "y": 300.5,
+                  "w": 20.5,
+                  "h": 8
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 199,
+                  "y": 301,
+                  "w": 37,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 244,
+                  "y": 301.5,
+                  "w": 24.5,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 275.5,
+                  "y": 301.5,
+                  "w": 23.5,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 306.5,
+                  "y": 302,
+                  "w": 29,
+                  "h": 7.5
+                }
+              }
+            ],
+            "spansPages": false,
+            "ocrConfidenceMean": 95.8586956521739,
+            "ocrConfidenceMin": 95
+          }
+        },
+        {
+          "statement": "Term length: 36 months",
+          "citation": {
+            "docId": "supplier-agreement-scanned",
+            "docTitle": "Supply Agreement (scanned)",
+            "clauseId": "2 TERM",
+            "pageNum": 1,
+            "charStart": 529,
+            "charEnd": 640,
+            "quotedText": "This Agreement takes effect on 7 July 2026 and continues for a period\nof thirty-six (36) months from that date.",
+            "matchKind": "exact",
+            "bboxes": [
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 80,
+                  "y": 284.5,
+                  "w": 24,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 111,
+                  "y": 285.5,
+                  "w": 56,
+                  "h": 8
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 174.5,
+                  "y": 285.5,
+                  "w": 30,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 212.5,
+                  "y": 286,
+                  "w": 36.5,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 256.5,
+                  "y": 288.5,
+                  "w": 11.5,
+                  "h": 5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 276,
+                  "y": 287,
+                  "w": 4,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 288,
+                  "y": 287,
+                  "w": 24.5,
+                  "h": 8.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 320,
+                  "y": 287.5,
+                  "w": 23,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 351,
+                  "y": 288,
+                  "w": 18,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 376.5,
+                  "y": 288,
+                  "w": 55,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 439.5,
+                  "y": 289,
+                  "w": 17.5,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 464,
+                  "y": 291,
+                  "w": 5.5,
+                  "h": 5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 476.5,
+                  "y": 289.5,
+                  "w": 37.5,
+                  "h": 8.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 80,
+                  "y": 299.5,
+                  "w": 11,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 99,
+                  "y": 299.5,
+                  "w": 62,
+                  "h": 9
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 170,
+                  "y": 300.5,
+                  "w": 20.5,
+                  "h": 8
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 199,
+                  "y": 301,
+                  "w": 37,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 244,
+                  "y": 301.5,
+                  "w": 24.5,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 275.5,
+                  "y": 301.5,
+                  "w": 23.5,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 306.5,
+                  "y": 302,
+                  "w": 29,
+                  "h": 7.5
+                }
+              }
+            ],
+            "spansPages": false,
+            "ocrConfidenceMean": 95.8586956521739,
+            "ocrConfidenceMin": 95
+          }
+        },
+        {
+          "statement": "Term end: 2029-07-06",
+          "citation": {
+            "docId": "supplier-agreement-scanned",
+            "docTitle": "Supply Agreement (scanned)",
+            "clauseId": "2 TERM",
+            "pageNum": 1,
+            "charStart": 529,
+            "charEnd": 640,
+            "quotedText": "This Agreement takes effect on 7 July 2026 and continues for a period\nof thirty-six (36) months from that date.",
+            "matchKind": "exact",
+            "bboxes": [
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 80,
+                  "y": 284.5,
+                  "w": 24,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 111,
+                  "y": 285.5,
+                  "w": 56,
+                  "h": 8
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 174.5,
+                  "y": 285.5,
+                  "w": 30,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 212.5,
+                  "y": 286,
+                  "w": 36.5,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 256.5,
+                  "y": 288.5,
+                  "w": 11.5,
+                  "h": 5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 276,
+                  "y": 287,
+                  "w": 4,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 288,
+                  "y": 287,
+                  "w": 24.5,
+                  "h": 8.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 320,
+                  "y": 287.5,
+                  "w": 23,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 351,
+                  "y": 288,
+                  "w": 18,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 376.5,
+                  "y": 288,
+                  "w": 55,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 439.5,
+                  "y": 289,
+                  "w": 17.5,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 464,
+                  "y": 291,
+                  "w": 5.5,
+                  "h": 5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 476.5,
+                  "y": 289.5,
+                  "w": 37.5,
+                  "h": 8.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 80,
+                  "y": 299.5,
+                  "w": 11,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 99,
+                  "y": 299.5,
+                  "w": 62,
+                  "h": 9
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 170,
+                  "y": 300.5,
+                  "w": 20.5,
+                  "h": 8
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 199,
+                  "y": 301,
+                  "w": 37,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 244,
+                  "y": 301.5,
+                  "w": 24.5,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 275.5,
+                  "y": 301.5,
+                  "w": 23.5,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 306.5,
+                  "y": 302,
+                  "w": 29,
+                  "h": 7.5
+                }
+              }
+            ],
+            "spansPages": false,
+            "ocrConfidenceMean": 95.8586956521739,
+            "ocrConfidenceMin": 95
+          }
+        },
+        {
+          "statement": "Renewal mechanics: Automatically renews for further 12-month periods.",
+          "citation": {
+            "docId": "supplier-agreement-scanned",
+            "docTitle": "Supply Agreement (scanned)",
+            "clauseId": "3 RENEWAL",
+            "pageNum": 1,
+            "charStart": 651,
+            "charEnd": 766,
+            "quotedText": "On expiry of the initial period this Agreement shall renew\nautomatically for further periods of twelve (12) months.",
+            "matchKind": "exact",
+            "bboxes": [
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 79.5,
+                  "y": 340,
+                  "w": 12,
+                  "h": 6.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 98.5,
+                  "y": 340,
+                  "w": 37,
+                  "h": 8.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 142.5,
+                  "y": 340.5,
+                  "w": 11,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 161.5,
+                  "y": 340.5,
+                  "w": 17.5,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 187,
+                  "y": 340.5,
+                  "w": 42,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 236.5,
+                  "y": 341.5,
+                  "w": 37.5,
+                  "h": 8.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 281.5,
+                  "y": 342,
+                  "w": 23.5,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 312,
+                  "y": 343,
+                  "w": 56,
+                  "h": 8
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 376,
+                  "y": 343.5,
+                  "w": 29.5,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 413.5,
+                  "y": 345.5,
+                  "w": 30.5,
+                  "h": 5.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 79,
+                  "y": 354.5,
+                  "w": 81.5,
+                  "h": 9.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 168,
+                  "y": 355.5,
+                  "w": 17.5,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 193,
+                  "y": 355.5,
+                  "w": 42.5,
+                  "h": 7.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 243,
+                  "y": 356.5,
+                  "w": 43,
+                  "h": 8.5
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 293.5,
+                  "y": 357,
+                  "w": 11,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 313,
+                  "y": 357.5,
+                  "w": 36,
+                  "h": 7
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 358,
+                  "y": 358,
+                  "w": 21,
+                  "h": 8
+                }
+              },
+              {
+                "pageNum": 1,
+                "box": {
+                  "x": 387.5,
+                  "y": 358.5,
+                  "w": 41.5,
+                  "h": 7
+                }
+              }
+            ],
+            "spansPages": false,
+            "ocrConfidenceMean": 95.76530612244898,
+            "ocrConfidenceMin": 94
+          }
+        }
+      ],
+      "unresolved": [
+        "At least one word in this clause was poorly recognised on the scan (confidence 40 out of 100), and it may be one that carries the meaning. Check the original document."
+      ],
+      "question": "In Supply Agreement (scanned), does the stated liability cap actually limit every head of loss, or do the indemnities and carve-outs leave exposure uncapped?",
+      "exposure": "Known contract value is S$90,000 per year. Excludes 1 obligation the contract does not put a figure on."
+    },
+    {
       "id": "conflict-conflict:distribution-a::distribution-a-grant-0|distribution-b::distribution-b-grant-0:SG+CATX",
       "severity": "high",
-      "issue": "\"Exclusive Distribution Agreement\" grants Apex Scientific Pte Ltd exclusive rights (nobody else may act in that scope, normally including the grantor itself) over product CATX in territory SG. \"Distribution Agreement\" grants Lionbridge Distribution Pte Ltd sole rights (the grantor may still act itself, but promises to appoint nobody else) over the same product CATX in territory SG. The two grants overlap between 2026-05-08 and 2028-08-01. The exclusive grant to Apex Scientific Pte Ltd forbids any other appointment in that scope, yet Lionbridge Distribution Pte Ltd has been appointed for the same territory, product and period — and a sole appointment is still an appointment. Honouring the second breaches the first.",
+      "issue": "\"Exclusive Distribution Agreement\" grants Apex Scientific Pte Ltd exclusive rights (nobody else may act in that scope, normally including the grantor itself) over product CATX in territory SG. \"Distribution Agreement\" grants Lionbridge Distribution Pte Ltd sole rights (the grantor may still act itself, but promises to appoint nobody else) over the same product CATX in territory SG. The two grants overlap between 8 May 2026 and 1 Aug 2028. The exclusive grant to Apex Scientific Pte Ltd forbids any other appointment in that scope, yet Lionbridge Distribution Pte Ltd has been appointed for the same territory, product and period — and a sole appointment is still an appointment. Honouring the second breaches the first.",
       "documents": [
         {
           "docId": "distribution-a",
