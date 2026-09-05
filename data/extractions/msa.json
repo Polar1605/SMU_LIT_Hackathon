@@ -1,0 +1,209 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Meridian Retail Pte Ltd as Client; Halcyon Consulting Pte Ltd as Consultant.",
+      "quotes": [
+        {
+          "clauseId": "PARTIES",
+          "text": "THIS MASTER SERVICES AGREEMENT is made between Meridian Retail Pte Ltd (UEN 201812345K)\nof 8 Cross Street, Singapore 048424 (the “Client”) and Halcyon Consulting Pte Ltd (UEN 201722114B) of\n60 Anson Road, Singapore 079914 (the “Consultant”)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2026-02-17",
+      "quotes": [
+        {
+          "clauseId": "4.1 Term",
+          "text": "This Agreement commences on 17 February 2026 and shall continue for a period of twenty-four (24)\nmonths, expiring on 17 February 2028, unless terminated earlier in accordance with clause 15."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "24 months",
+      "quotes": [
+        {
+          "clauseId": "4.1 Term",
+          "text": "This Agreement commences on 17 February 2026 and shall continue for a period of twenty-four (24)\nmonths, expiring on 17 February 2028, unless terminated earlier in accordance with clause 15."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2028-02-17",
+      "quotes": [
+        {
+          "clauseId": "4.1 Term",
+          "text": "This Agreement commences on 17 February 2026 and shall continue for a period of twenty-four (24)\nmonths, expiring on 17 February 2028, unless terminated earlier in accordance with clause 15."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "No automatic renewal; extension only by written change order signed by both parties before expiry.",
+      "quotes": [
+        {
+          "clauseId": "4.2 Extension",
+          "text": "This Agreement does not renew automatically. The Term may be extended only by a written change order\nsigned by both parties and executed before the expiry of the Term."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Client may terminate the Agreement or any individual Statement of Work on at least 30 days’ written notice to the Consultant.",
+      "quotes": [
+        {
+          "clauseId": "15.1 Termination for convenience",
+          "text": "The Client may terminate this Agreement, or any individual Statement of Work, by giving the Consultant\nnot less than thirty (30) days’ written notice."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate for uncured material breach after 30 days’ written notice, or immediately on insolvency/receiver/judicial manager/liquidator appointment.",
+      "quotes": [
+        {
+          "clauseId": "15.2 Termination for cause",
+          "text": "Either party may terminate this Agreement by written notice where the other party commits a material\nbreach and fails to remedy it within thirty (30) days of written notice requiring it to do so, or immediately\nwhere the other party becomes insolvent or has a receiver, judicial manager or liquidator appointed over\nany of its assets."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "Consultant’s total aggregate liability to Client is capped at S$100,000.",
+      "quotes": [
+        {
+          "clauseId": "11.2 Limitation of liability",
+          "text": "Subject to clause 11.1, the total aggregate liability of the Consultant to the Client in respect of all claims\nMaster Services Agreement · page 2 of 4\n\narising under or in connection with this Agreement, whether in contract, tort (including negligence), for\nbreach of statutory duty or otherwise, shall not exceed S$100,000."
+        },
+        {
+          "clauseId": "12.1 Application of this Schedule",
+          "text": "The indemnities set out in this Schedule are given in addition to the Consultant’s other obligations under\nthe Agreement and are not intended to restrict any other remedy available to the Client."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 12.1 states that the indemnities are given in addition to the Consultant’s other obligations and are not intended to restrict other remedies, so the relationship between the Indemnity Schedule indemnities and the S$100,000 cap in clause 11.2 is unclear."
+      ]
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "Monthly retainer payable by the Client to the Consultant.",
+      "amountMinor": 1800000,
+      "currency": "SGD",
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "The retainer is payable on the first business day of each calendar month, but the Agreement commences mid-month and does not state how the first payment is handled or define business day.",
+      "quotes": [
+        {
+          "clauseId": "6.1 Fees",
+          "text": "The Client shall pay the Consultant a retainer of S$18,000 per month, payable on the first business day of\neach calendar month, together with such additional fees as may be agreed in a Statement of Work."
+        },
+        {
+          "clauseId": "4.1 Term",
+          "text": "This Agreement commences on 17 February 2026 and shall continue for a period of twenty-four (24)\nmonths, expiring on 17 February 2028, unless terminated earlier in accordance with clause 15."
+        }
+      ],
+      "ambiguities": [
+        "Clause 6.1 sets payment by reference to the “first business day” of each calendar month, but the Agreement does not define business day or state whether any retainer is payable for the initial partial month beginning on 17 February 2026."
+      ]
+    },
+    {
+      "description": "Additional fees agreed in a Statement of Work.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only payable if additional fees are agreed in a Statement of Work; the amount, frequency and due date are not stated in this Agreement.",
+      "quotes": [
+        {
+          "clauseId": "6.1 Fees",
+          "text": "The Client shall pay the Consultant a retainer of S$18,000 per month, payable on the first business day of\neach calendar month, together with such additional fees as may be agreed in a Statement of Work."
+        }
+      ],
+      "ambiguities": [
+        "Clause 6.1 leaves the amount, frequency and timing of additional fees to a future Statement of Work."
+      ]
+    },
+    {
+      "description": "Excess consultant hours above 80 hours per month charged at rates in the relevant Statement of Work.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "monthly",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Only payable if hours worked exceed 80 consultant hours in a month; the rates and due date depend on the relevant Statement of Work or are otherwise not stated.",
+      "quotes": [
+        {
+          "clauseId": "6.1 Fees",
+          "text": "The retainer covers up to eighty (80) consultant hours per month. Hours worked in excess of that allowance\nshall be charged at the rates set out in the relevant Statement of Work."
+        }
+      ],
+      "ambiguities": [
+        "Clause 6.1 states excess hours are charged at rates set out in the relevant Statement of Work, so the amount and payment timing are not fixed in this Agreement."
+      ]
+    },
+    {
+      "description": "Reimbursement of reasonable travel and subsistence expenses properly incurred by the Consultant, with prior written approval required for expenses exceeding S$500 in aggregate in any month.",
+      "amountMinor": null,
+      "currency": "SGD",
+      "frequency": "one-off",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Payable only for reasonable travel and subsistence expenses properly incurred; expenses over S$500 per month require prior written approval, and no reimbursement due date is stated.",
+      "quotes": [
+        {
+          "clauseId": "7 Expenses",
+          "text": "The Client shall reimburse the Consultant’s reasonable travel and subsistence expenses properly incurred in\nperforming the Services, provided that expenses exceeding five hundred Singapore dollars (S$500) in\naggregate in any month shall require the Client’s prior written approval."
+        }
+      ],
+      "ambiguities": [
+        "Clause 7 does not state a fixed reimbursement amount or due date, and expenses exceeding S$500 in aggregate in any month require the Client’s prior written approval."
+      ]
+    }
+  ],
+  "grants": []
+}

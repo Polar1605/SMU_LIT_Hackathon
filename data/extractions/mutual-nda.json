@@ -1,0 +1,115 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Meridian Retail Pte Ltd and Vantage Logistics Pte Ltd; each is Discloser when disclosing and Recipient when receiving.",
+      "quotes": [
+        {
+          "clauseId": "PARTIES",
+          "text": "This Mutual Non-Disclosure Agreement is made between Meridian Retail Pte Ltd (UEN 201812345K) of 8 Cross Street, Singapore 048424, and Vantage Logistics Pte Ltd (UEN 201599887G) of 5 Toh Guan Road East, Singapore 608831. Each party may disclose Confidential Information to the other, and each is referred to as the Discloser when it discloses and the Recipient when it receives."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2026-08-06",
+      "quotes": [
+        {
+          "clauseId": "1. Effective date",
+          "text": "This Agreement takes effect on 6 August 2026 (the Effective Date)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "24 months",
+      "quotes": [
+        {
+          "clauseId": "6. Term and termination",
+          "text": "This Agreement continues for a period of twenty-four (24) months from the Effective Date."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2028-08-06",
+      "quotes": [
+        {
+          "clauseId": "1. Effective date",
+          "text": "This Agreement takes effect on 6 August 2026 (the Effective Date)."
+        },
+        {
+          "clauseId": "6. Term and termination",
+          "text": "This Agreement continues for a period of twenty-four (24) months from the Effective Date."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Either party may terminate at any time on 30 days' written notice.",
+      "quotes": [
+        {
+          "clauseId": "6. Term and termination",
+          "text": "Either party may terminate it at any time by giving the other thirty (30) days written notice."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [],
+  "grants": []
+}

@@ -1,0 +1,234 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Kestrel Instruments Limited (Supplier) and Lionbridge Distribution Pte Ltd (Distributor).",
+      "quotes": [
+        {
+          "clauseId": "PARTIES",
+          "text": "This Distribution Agreement is made between Kestrel Instruments Limited, a company\nincorporated in England and Wales (company number 09182773) whose registered office is at 14\nWellington Court, Reading RG1 8DB, United Kingdom (the “Supplier”), and Lionbridge\nDistribution Pte Ltd (UEN 202033445D), whose registered office is at 25 Tai Seng Avenue,\nSingapore 534104 (the “Distributor”)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2026-05-08",
+      "quotes": [
+        {
+          "clauseId": "2.1 Term",
+          "text": "This Agreement starts on 8 May 2026 and runs for twenty-four (24) months, ending on 8 May\n2028 unless it is terminated earlier under clause 11."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "24 months",
+      "quotes": [
+        {
+          "clauseId": "2.1 Term",
+          "text": "This Agreement starts on 8 May 2026 and runs for twenty-four (24) months, ending on 8 May\n2028 unless it is terminated earlier under clause 11."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2028-05-08",
+      "quotes": [
+        {
+          "clauseId": "2.1 Term",
+          "text": "This Agreement starts on 8 May 2026 and runs for twenty-four (24) months, ending on 8 May\n2028 unless it is terminated earlier under clause 11."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Automatic renewal for further 12-month periods unless either party gives non-renewal notice.",
+      "quotes": [
+        {
+          "clauseId": "2.3 Renewal",
+          "text": "At the end of the Term this Agreement renews automatically for further periods of twelve (12)\nmonths each, unless either party gives the other written notice not less than ninety (90) days\nbefore the end of the then-current period that it does not wish the Agreement to renew."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": true,
+      "value": "90 days",
+      "quotes": [
+        {
+          "clauseId": "2.3 Renewal",
+          "text": "At the end of the Term this Agreement renews automatically for further periods of twelve (12)\nmonths each, unless either party gives the other written notice not less than ninety (90) days\nbefore the end of the then-current period that it does not wish the Agreement to renew."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Supplier may terminate on 3 months’ written notice; Distributor may terminate on 6 months’ written notice.",
+      "quotes": [
+        {
+          "clauseId": "11.1 Termination for convenience",
+          "text": "The Supplier may terminate this Agreement by giving three (3) months’ written notice. The\nDistributor may terminate this Agreement by giving six (6) months’ written notice."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate by written notice for material breach not remedied within 14 days after written request.",
+      "quotes": [
+        {
+          "clauseId": "11.2 Termination for cause",
+          "text": "Either party may terminate this Agreement by written notice if the other party is in material breach\nof it and has not put the breach right within fourteen (14) days of being asked in writing to do so."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "Neither party’s total liability under the Agreement shall exceed S$250,000 in aggregate.",
+      "quotes": [
+        {
+          "clauseId": "10.1 Limitation of liability",
+          "text": "Except for liability which cannot lawfully be excluded, neither party’s total liability under this\nAgreement shall exceed S$250,000 in aggregate."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Sole distributorship: Kestrel Instruments Limited appoints Lionbridge Distribution Pte Ltd as sole distributor of the Products in Singapore; the Supplier will not appoint others but may sell directly to end customers.",
+      "quotes": [
+        {
+          "clauseId": "3.1 Appointment",
+          "text": "The Supplier appoints the Distributor as its sole distributor of the Products in the Territory.\nThe Supplier will not appoint any other distributor, reseller or agent for the Products in the\nTerritory during the Term. The Supplier reserves the right to continue to supply the Products\ndirectly to end customers in the Territory, and any such direct sales shall not be a breach of this\nclause."
+        },
+        {
+          "clauseId": "1 Definitions",
+          "text": "“Products” means the Supplier’s benchtop analytical instruments and dedicated consumables\nwithin Product Category X, as listed in the Schedule."
+        },
+        {
+          "clauseId": "1 Definitions",
+          "text": "“Territory” means Singapore."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "Annual trade mark licence fee payable by the Distributor.",
+      "amountMinor": 1000000,
+      "currency": "SGD",
+      "frequency": "annually",
+      "firstDueDate": "2027-01-01",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "6.2 Annual licence fee",
+          "text": "The Distributor shall pay an annual licence fee of S$10,000 on 1 January in each year of the\nTerm, in consideration of the trade mark licence granted under clause 6.1."
+        },
+        {
+          "clauseId": "2.1 Term",
+          "text": "This Agreement starts on 8 May 2026 and runs for twenty-four (24) months, ending on 8 May\n2028 unless it is terminated earlier under clause 11."
+        }
+      ],
+      "ambiguities": [
+        "Clause 6.2 Annual licence fee says the fee is payable on 1 January in each year of the Term, but clause 2.1 Term says the Term starts on 8 May 2026; it does not state whether or when a 2026 fee is payable."
+      ]
+    },
+    {
+      "description": "Minimum annual purchase commitment for the Products.",
+      "amountMinor": 18000000,
+      "currency": "SGD",
+      "frequency": "annually",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "The schedule states an annual purchase commitment but does not fix purchase order, invoice, or payment dates.",
+      "quotes": [
+        {
+          "clauseId": "SCHEDULE — PRODUCTS AND TERRITORY",
+          "text": "Minimum annual purchase commitment: S$180,000 per year of the Term."
+        }
+      ],
+      "ambiguities": [
+        "SCHEDULE — PRODUCTS AND TERRITORY states a minimum annual purchase commitment but does not state when purchases must be placed or paid for within each year of the Term."
+      ]
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "Lionbridge Distribution Pte Ltd",
+      "grantor": "Kestrel Instruments Limited",
+      "exclusivityType": "sole",
+      "territoryLabel": "Singapore",
+      "territoryCodes": [
+        "SG"
+      ],
+      "productLabel": "Product Category X — benchtop analytical instruments and dedicated consumables (KI-400 series spectrophotometers, KI-650 series chromatography modules, and associated calibration standards, sample cells and reagent cartridges)",
+      "productCodes": [
+        "CATX"
+      ],
+      "start": "2026-05-08",
+      "end": null,
+      "quotes": [
+        {
+          "clauseId": "PARTIES",
+          "text": "This Distribution Agreement is made between Kestrel Instruments Limited, a company\nincorporated in England and Wales (company number 09182773) whose registered office is at 14\nWellington Court, Reading RG1 8DB, United Kingdom (the “Supplier”), and Lionbridge\nDistribution Pte Ltd (UEN 202033445D), whose registered office is at 25 Tai Seng Avenue,\nSingapore 534104 (the “Distributor”)."
+        },
+        {
+          "clauseId": "3.1 Appointment",
+          "text": "The Supplier appoints the Distributor as its sole distributor of the Products in the Territory.\nThe Supplier will not appoint any other distributor, reseller or agent for the Products in the\nTerritory during the Term. The Supplier reserves the right to continue to supply the Products\ndirectly to end customers in the Territory, and any such direct sales shall not be a breach of this\nclause."
+        },
+        {
+          "clauseId": "1 Definitions",
+          "text": "“Products” means the Supplier’s benchtop analytical instruments and dedicated consumables\nwithin Product Category X, as listed in the Schedule."
+        },
+        {
+          "clauseId": "SCHEDULE — PRODUCTS AND TERRITORY",
+          "text": "Product category: Product Category X — benchtop analytical instruments and dedicated\nconsumables (KI-400 series spectrophotometers, KI-650 series chromatography modules, and\nassociated calibration standards, sample cells and reagent cartridges)."
+        },
+        {
+          "clauseId": "1 Definitions",
+          "text": "“Territory” means Singapore."
+        },
+        {
+          "clauseId": "2.1 Term",
+          "text": "This Agreement starts on 8 May 2026 and runs for twenty-four (24) months, ending on 8 May\n2028 unless it is terminated earlier under clause 11."
+        },
+        {
+          "clauseId": "2.3 Renewal",
+          "text": "At the end of the Term this Agreement renews automatically for further periods of twelve (12)\nmonths each, unless either party gives the other written notice not less than ninety (90) days\nbefore the end of the then-current period that it does not wish the Agreement to renew."
+        }
+      ],
+      "ambiguities": [
+        "Clause 3.1 Appointment limits the sole appointment to the Term, but clause 2.3 Renewal automatically renews the Agreement for further periods unless notice is given, so the final end date of the grant is not fixed."
+      ]
+    }
+  ]
+}

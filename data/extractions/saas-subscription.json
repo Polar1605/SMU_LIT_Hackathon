@@ -1,0 +1,158 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Meridian Retail Pte Ltd (Customer); Northwind Cloud Systems Pte Ltd (Supplier).",
+      "quotes": [
+        {
+          "clauseId": "PARTIES",
+          "text": "This Cloud Subscription Agreement is made between Meridian Retail Pte Ltd (UEN\n201812345K), a company incorporated in Singapore whose registered office is at 8 Cross Street,\nSingapore 048424 (the “Customer”), and Northwind Cloud Systems Pte Ltd (UEN 201655321H),\nwhose registered office is at 71 Robinson Road, Singapore 068895 (the “Supplier”)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2025-11-18",
+      "quotes": [
+        {
+          "clauseId": "3.1 Term",
+          "text": "This Agreement commences on 18 November 2025 (the “Commencement Date”) and continues\nfor an initial period of twelve (12) months (the “Initial Subscription Period”)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "12 months",
+      "quotes": [
+        {
+          "clauseId": "3.1 Term",
+          "text": "This Agreement commences on 18 November 2025 (the “Commencement Date”) and continues\nfor an initial period of twelve (12) months (the “Initial Subscription Period”)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2026-11-17",
+      "quotes": [
+        {
+          "clauseId": "3.1 Term",
+          "text": "This Agreement commences on 18 November 2025 (the “Commencement Date”) and continues\nfor an initial period of twelve (12) months (the “Initial Subscription Period”)."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Automatic renewal for successive 12-month Renewal Periods unless notice is given under clause 12.3.",
+      "quotes": [
+        {
+          "clauseId": "3.2 Renewal",
+          "text": "On expiry of the Initial Subscription Period this Agreement shall automatically renew for\nsuccessive periods of twelve (12) months (each a “Renewal Period”), unless a party gives notice\nto prevent renewal in accordance with clause 12.3."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": true,
+      "value": "At least 60 days before the end of the then-current Subscription Period.",
+      "quotes": [
+        {
+          "clauseId": "12.3 Notice to prevent renewal",
+          "text": "A party which does not wish this Agreement to renew must give written notice to that effect not\nless than sixty (60) days before the end of the then-current Subscription Period."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Customer may terminate for convenience on at least 90 days’ written notice to the Supplier, effective only at the end of the then-current Subscription Period.",
+      "quotes": [
+        {
+          "clauseId": "12.1 Termination for convenience",
+          "text": "The Customer may terminate this Agreement for convenience by giving the Supplier not less than\nninety (90) days’ written notice, provided that such termination shall take effect only at the end of\nthe then-current Subscription Period."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate immediately by written notice for the other party’s material breach if not remedied within 30 days after written requirement to do so.",
+      "quotes": [
+        {
+          "clauseId": "12.2 Termination for cause",
+          "text": "Either party may terminate this Agreement by written notice with immediate effect where the other\nparty is in material breach of it and has failed to remedy that breach within thirty (30) days of\nbeing required in writing to do so."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "S$120,000 total aggregate liability cap for either party, subject to clause 10.1.",
+      "quotes": [
+        {
+          "clauseId": "10.2 Limitation of liability",
+          "text": "Subject to clause 10.1, the total aggregate liability of either party under or in connection with this\nAgreement, whether arising in contract, tort (including negligence) or otherwise, shall not exceed\nS$120,000."
+        },
+        {
+          "clauseId": "10.1 Exclusions",
+          "text": "Neither party excludes or limits its liability for death or personal injury caused by its negligence,\nfor fraud or fraudulent misrepresentation, or for any other liability which cannot lawfully be limited."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "Annual Subscription Fee for access to the Platform, exclusive of GST.",
+      "amountMinor": 4000000,
+      "currency": "SGD",
+      "frequency": "annually",
+      "firstDueDate": "2025-11-18",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "5.1 Fees",
+          "text": "The Subscription Fee is S$40,000 per annum, exclusive of GST, payable annually in advance on\nthe Commencement Date and on each anniversary of the Commencement Date."
+        },
+        {
+          "clauseId": "5.1 Fees",
+          "text": "Invoices are payable within thirty (30) days of the date of invoice. The Supplier may suspend\naccess to the Platform where an invoice remains unpaid for more than sixty (60) days after its due\ndate."
+        }
+      ],
+      "ambiguities": [
+        "Clause 5.1 states that the Subscription Fee is payable on the Commencement Date and anniversaries, but also states that invoices are payable within thirty (30) days of the date of invoice; if an invoice is dated differently, the precise due date is not a single unambiguous date."
+      ]
+    }
+  ],
+  "grants": []
+}

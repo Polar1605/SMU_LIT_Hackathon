@@ -1,0 +1,178 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "MERIDIAN RETAIL PTE LTD (Buyer) and FOUNDRY COMPONENTS PTE LTD (Supplier).",
+      "quotes": [
+        {
+          "clauseId": "PARTIES",
+          "text": "THIS SUPPLY AGREEMENT is made between MERIDIAN RETAIL PTE LTD (UEN\n201812345K) of 8 Cross Street, Singapore 048424 (the \"Buyer\") and\nFOUNDRY COMPONENTS PTE LTD (UEN 200811223C) of 12 Kaki Bukit Road 1,\nSingapore 416181 (the \"Supplier\")."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2026-07-07",
+      "quotes": [
+        {
+          "clauseId": "2 TERM",
+          "text": "This Agreement takes effect on 7 July 2026 and continues for a period\nof thirty-six (36) months from that date."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "36 months",
+      "quotes": [
+        {
+          "clauseId": "2 TERM",
+          "text": "This Agreement takes effect on 7 July 2026 and continues for a period\nof thirty-six (36) months from that date."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2029-07-06",
+      "quotes": [
+        {
+          "clauseId": "2 TERM",
+          "text": "This Agreement takes effect on 7 July 2026 and continues for a period\nof thirty-six (36) months from that date."
+        }
+      ],
+      "evidenceType": "derived",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "Automatically renews for further 12-month periods.",
+      "quotes": [
+        {
+          "clauseId": "3 RENEWAL",
+          "text": "On expiry of the initial period this Agreement shall renew\nautomatically for further periods of twelve (12) months."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": true,
+      "value": "90 business days before expiry of the then current period",
+      "quotes": [
+        {
+          "clauseId": "3 RENEWAL",
+          "text": "A party wishing to prevent such renewal must serve written notice on\nthe other party not less than ninety (90) business days before the\nexpiry of the then current period."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": [
+        "Clause 3 RENEWAL uses business days but the Agreement contains no definition of business days or holiday calendar for calculating the deadline."
+      ]
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Buyer may terminate for convenience on not less than 60 days' written notice to Supplier.",
+      "quotes": [
+        {
+          "clauseId": "12 TERMINATION",
+          "text": "The Buyer may terminate this Agreement for convenience by giving not\nless than sixty (60) days written notice to the Supplier."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate by written notice for the other party's material breach if not remedied within 30 days after written notice requiring remedy.",
+      "quotes": [
+        {
+          "clauseId": "12 TERMINATION",
+          "text": "Either party may terminate this Agreement by written notice where the\nother is in material breach of it and has not remedied that breach"
+        },
+        {
+          "clauseId": "12 TERMINATION",
+          "text": "within thirty (30) days of written notice requiring it to do so."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "Supplier's total liability to Buyer is capped at S$75,000, except liability for death or personal injury caused by negligence or for fraud.",
+      "quotes": [
+        {
+          "clauseId": "10 LIMITATION OF LIABILITY",
+          "text": "The total liability of the Supplier to the Buyer under this Agreement,\nwhether in contract, tort or otherwise, shall not in any event exceed\nS$$75,000."
+        },
+        {
+          "clauseId": "10 LIMITATION OF LIABILITY",
+          "text": "Nothing in this clause limits liability for death or personal injury\ncaused by negligence or for fraud."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "Buyer must pay Supplier a quarterly service charge in arrears on the last day of each calendar quarter.",
+      "amountMinor": 2250000,
+      "currency": "SGD",
+      "frequency": "quarterly",
+      "firstDueDate": "2026-09-30",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "2 TERM",
+          "text": "This Agreement takes effect on 7 July 2026 and continues for a period\nof thirty-six (36) months from that date."
+        },
+        {
+          "clauseId": "7 PAYMENT",
+          "text": "The Buyer shall pay to the Supplier a quarterly service charge of\nS$$22,500, payable in arrears on the last day of each calendar quarter."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "description": "Buyer must pay other invoiced amounts for goods supplied within 30 days from the invoice date.",
+      "amountMinor": null,
+      "currency": null,
+      "frequency": "on-invoice",
+      "firstDueDate": null,
+      "conditional": true,
+      "conditionNote": "Due date and amount depend on Supplier invoices for goods supplied; invoice dates and amounts are not fixed in the Agreement.",
+      "quotes": [
+        {
+          "clauseId": "7 PAYMENT",
+          "text": "All other amounts invoiced by the Supplier for goods supplied shall be\npaid within thirty (30) days from the date of invoice."
+        }
+      ],
+      "ambiguities": []
+    }
+  ],
+  "grants": []
+}

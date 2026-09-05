@@ -1,0 +1,263 @@
+{
+  "fields": [
+    {
+      "fieldId": "parties",
+      "found": true,
+      "value": "Kestrel Instruments Limited (Supplier) and Apex Scientific Pte Ltd (Distributor).",
+      "quotes": [
+        {
+          "clauseId": "PARTIES",
+          "text": "THIS AGREEMENT is made between Kestrel Instruments Limited, a company incorporated in England\nand Wales (company number 09182773) whose registered office is at 14 Wellington Court, Reading RG1\n8DB, United Kingdom (the “Supplier”), and Apex Scientific Pte Ltd (UEN 201409876M), whose registered\noffice is at 3 Science Park Drive, Singapore 118223 (the “Distributor”)."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "commencementDate",
+      "found": true,
+      "value": "2025-08-01",
+      "quotes": [
+        {
+          "clauseId": "2.1 Term",
+          "text": "This Agreement shall commence on 1 August 2025 and shall continue, subject to earlier termination in\naccordance with clause 14, for a period of thirty-six (36) months, expiring on 1 August 2028."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termLength",
+      "found": true,
+      "value": "36 months",
+      "quotes": [
+        {
+          "clauseId": "2.1 Term",
+          "text": "This Agreement shall commence on 1 August 2025 and shall continue, subject to earlier termination in\naccordance with clause 14, for a period of thirty-six (36) months, expiring on 1 August 2028."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "termEnd",
+      "found": true,
+      "value": "2028-08-01",
+      "quotes": [
+        {
+          "clauseId": "2.1 Term",
+          "text": "This Agreement shall commence on 1 August 2025 and shall continue, subject to earlier termination in\naccordance with clause 14, for a period of thirty-six (36) months, expiring on 1 August 2028."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalType",
+      "found": true,
+      "value": "No automatic renewal; any extension or renewal requires written agreement signed by authorised signatories of both parties.",
+      "quotes": [
+        {
+          "clauseId": "2.2 Renewal",
+          "text": "This Agreement shall not renew automatically. Any extension or renewal of the Term shall be effective only\nif agreed by the parties in writing and signed by an authorised signatory of each of them."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "renewalNoticeDays",
+      "found": false,
+      "value": "",
+      "quotes": [],
+      "evidenceType": "absent",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForConvenience",
+      "found": true,
+      "value": "Either party may terminate at any time on not less than six (6) months’ written notice, expiring at any time.",
+      "quotes": [
+        {
+          "clauseId": "14.1 Termination for convenience",
+          "text": "Either party may terminate this Agreement at any time by giving to the other not less than six (6) months’\nwritten notice, such notice to expire at any time."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "terminationForCause",
+      "found": true,
+      "value": "Either party may terminate immediately by written notice for the other party’s insolvency-type events, or by written notice for material breach not remedied within thirty (30) days after notice requiring remedy.",
+      "quotes": [
+        {
+          "clauseId": "14.2 Termination for cause",
+          "text": "Either party may terminate this Agreement immediately by written notice where the other party enters into\nliquidation, has a receiver or administrator appointed over any of its assets, or is otherwise unable to pay its\ndebts as they fall due."
+        },
+        {
+          "clauseId": "14.2 Termination for cause",
+          "text": "Either party may also terminate this Agreement by written notice where the other party commits a material\nbreach of it and fails to remedy that breach within thirty (30) days of written notice requiring it to do so."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "liabilityCap",
+      "found": true,
+      "value": "S$500,000 aggregate liability cap for each party to the other.",
+      "quotes": [
+        {
+          "clauseId": "13.3 Limitation of liability",
+          "text": "Save in respect of liability which cannot lawfully be limited, the aggregate liability of each party to the\nother under or in connection with this Agreement, whether in contract, tort (including negligence), for\nbreach of statutory duty or otherwise, shall in no event exceed S$500,000."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    },
+    {
+      "fieldId": "exclusivity",
+      "found": true,
+      "value": "Apex Scientific Pte Ltd is appointed as exclusive distributor for the Products in Singapore during the Term; Kestrel Instruments Limited must not appoint others or sell/supply Products in Singapore except through Apex. Apex must not sell Products outside Singapore without Kestrel’s prior written consent.",
+      "quotes": [
+        {
+          "clauseId": "1 Definitions and interpretation",
+          "text": "“Products” means those goods of the Supplier falling within Product Category X, as that category is more\nparticularly described in Schedule 1 to this Agreement."
+        },
+        {
+          "clauseId": "1 Definitions and interpretation",
+          "text": "“Territory” means the Republic of Singapore."
+        },
+        {
+          "clauseId": "3.1 Appointment",
+          "text": "The Supplier hereby appoints the Distributor as its exclusive distributor for the sale of the Products in the\nTerritory, and the Distributor accepts that appointment."
+        },
+        {
+          "clauseId": "3.1 Appointment",
+          "text": "During the Term the Supplier shall not appoint any other person, firm or company as a distributor, agent or\nreseller of the Products in the Territory, and shall not itself sell or supply the Products to any customer in\nthe Territory otherwise than through the Distributor."
+        },
+        {
+          "clauseId": "3.2 Distributor’s undertakings",
+          "text": "The Distributor shall use all reasonable endeavours to promote and increase the sale of the Products in the\nTerritory, shall maintain sufficient stocks to meet anticipated demand, and shall not, without the prior\nwritten consent of the Supplier, sell the Products to any person outside the Territory."
+        }
+      ],
+      "evidenceType": "explicit",
+      "ambiguities": []
+    }
+  ],
+  "payments": [
+    {
+      "description": "Apex Scientific Pte Ltd must pay Kestrel Instruments Limited an annual marketing contribution of S$25,000 on 1 April in each year of the Term.",
+      "amountMinor": 2500000,
+      "currency": "SGD",
+      "frequency": "annually",
+      "firstDueDate": "2026-04-01",
+      "conditional": false,
+      "conditionNote": null,
+      "quotes": [
+        {
+          "clauseId": "8.4 Marketing contribution",
+          "text": "The Distributor shall pay to the Supplier an annual marketing contribution of S$25,000 on 1 April in each\nyear of the Term, against which the Supplier shall apply co-operative advertising expenditure in the\nTerritory."
+        },
+        {
+          "clauseId": "2.1 Term",
+          "text": "This Agreement shall commence on 1 August 2025 and shall continue, subject to earlier termination in\naccordance with clause 14, for a period of thirty-six (36) months, expiring on 1 August 2028."
+        }
+      ],
+      "ambiguities": []
+    }
+  ],
+  "grants": [
+    {
+      "grantee": "Apex Scientific Pte Ltd",
+      "grantor": "Kestrel Instruments Limited",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "Republic of Singapore",
+      "territoryCodes": [
+        "SG"
+      ],
+      "productLabel": "Product Category X: the Supplier’s benchtop analytical instruments and their dedicated consumables, namely the KI-400 series spectrophotometers, KI-650 series chromatography modules, and calibration standards, sample cells and reagent cartridges supplied for use with either of them; excluding field-portable instruments.",
+      "productCodes": [
+        "CATX"
+      ],
+      "start": "2025-08-01",
+      "end": "2028-08-01",
+      "quotes": [
+        {
+          "clauseId": "PARTIES",
+          "text": "THIS AGREEMENT is made between Kestrel Instruments Limited, a company incorporated in England\nand Wales (company number 09182773) whose registered office is at 14 Wellington Court, Reading RG1\n8DB, United Kingdom (the “Supplier”), and Apex Scientific Pte Ltd (UEN 201409876M), whose registered\noffice is at 3 Science Park Drive, Singapore 118223 (the “Distributor”)."
+        },
+        {
+          "clauseId": "1 Definitions and interpretation",
+          "text": "“Products” means those goods of the Supplier falling within Product Category X, as that category is more\nparticularly described in Schedule 1 to this Agreement."
+        },
+        {
+          "clauseId": "1 Definitions and interpretation",
+          "text": "“Territory” means the Republic of Singapore."
+        },
+        {
+          "clauseId": "2.1 Term",
+          "text": "This Agreement shall commence on 1 August 2025 and shall continue, subject to earlier termination in\naccordance with clause 14, for a period of thirty-six (36) months, expiring on 1 August 2028."
+        },
+        {
+          "clauseId": "3.1 Appointment",
+          "text": "The Supplier hereby appoints the Distributor as its exclusive distributor for the sale of the Products in the\nTerritory, and the Distributor accepts that appointment."
+        },
+        {
+          "clauseId": "3.1 Appointment",
+          "text": "During the Term the Supplier shall not appoint any other person, firm or company as a distributor, agent or\nreseller of the Products in the Territory, and shall not itself sell or supply the Products to any customer in\nthe Territory otherwise than through the Distributor."
+        },
+        {
+          "clauseId": "SCHEDULE 1 — PRODUCT CATEGORY X",
+          "text": "Product Category X comprises the Supplier’s benchtop analytical instruments and their dedicated\nconsumables, namely: the KI-400 series spectrophotometers; the KI-650 series chromatography modules;\nand calibration standards, sample cells and reagent cartridges supplied for use with either of them.\nProduct Category X does not include the Supplier’s field-portable instruments, which are distributed under\nseparate arrangements."
+        }
+      ],
+      "ambiguities": []
+    },
+    {
+      "grantee": "Kestrel Instruments Limited",
+      "grantor": "Apex Scientific Pte Ltd",
+      "exclusivityType": "exclusive",
+      "territoryLabel": "outside the Territory",
+      "territoryCodes": [
+        "WORLD-EXCEPT-SG"
+      ],
+      "productLabel": "Product Category X: the Supplier’s benchtop analytical instruments and their dedicated consumables, namely the KI-400 series spectrophotometers, KI-650 series chromatography modules, and calibration standards, sample cells and reagent cartridges supplied for use with either of them; excluding field-portable instruments.",
+      "productCodes": [
+        "CATX"
+      ],
+      "start": "2025-08-01",
+      "end": "2028-08-01",
+      "quotes": [
+        {
+          "clauseId": "PARTIES",
+          "text": "THIS AGREEMENT is made between Kestrel Instruments Limited, a company incorporated in England\nand Wales (company number 09182773) whose registered office is at 14 Wellington Court, Reading RG1\n8DB, United Kingdom (the “Supplier”), and Apex Scientific Pte Ltd (UEN 201409876M), whose registered\noffice is at 3 Science Park Drive, Singapore 118223 (the “Distributor”)."
+        },
+        {
+          "clauseId": "1 Definitions and interpretation",
+          "text": "“Products” means those goods of the Supplier falling within Product Category X, as that category is more\nparticularly described in Schedule 1 to this Agreement."
+        },
+        {
+          "clauseId": "1 Definitions and interpretation",
+          "text": "“Territory” means the Republic of Singapore."
+        },
+        {
+          "clauseId": "2.1 Term",
+          "text": "This Agreement shall commence on 1 August 2025 and shall continue, subject to earlier termination in\naccordance with clause 14, for a period of thirty-six (36) months, expiring on 1 August 2028."
+        },
+        {
+          "clauseId": "3.2 Distributor’s undertakings",
+          "text": "The Distributor shall use all reasonable endeavours to promote and increase the sale of the Products in the\nTerritory, shall maintain sufficient stocks to meet anticipated demand, and shall not, without the prior\nwritten consent of the Supplier, sell the Products to any person outside the Territory."
+        },
+        {
+          "clauseId": "SCHEDULE 1 — PRODUCT CATEGORY X",
+          "text": "Product Category X comprises the Supplier’s benchtop analytical instruments and their dedicated\nconsumables, namely: the KI-400 series spectrophotometers; the KI-650 series chromatography modules;\nand calibration standards, sample cells and reagent cartridges supplied for use with either of them.\nProduct Category X does not include the Supplier’s field-portable instruments, which are distributed under\nseparate arrangements."
+        }
+      ],
+      "ambiguities": [
+        "Clause 3.2 Distributor’s undertakings is a restrictive covenant requiring the Supplier’s prior written consent for sales outside the Territory, rather than a conventional exclusive or sole appointment; the exclusivityType field is therefore an approximation."
+      ]
+    }
+  ]
+}
