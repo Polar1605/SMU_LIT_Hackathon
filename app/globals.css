@@ -1,94 +1,159 @@
 @import "tailwindcss";
 
 /*
- * AITHENA — "the annotated file".
+ * AITHENA — product UI.
  *
- * The organising idea: confidence is structure, not decoration. Colour here is
- * semantic before it is aesthetic — every hue in the palette below means one
- * specific thing about how much evidence stands behind a claim, and nothing is
- * tinted for mood. Uncertain rows are deliberately the largest rows on the page,
- * because a reason you can act on is worth more space than a fact you can't
- * question.
+ * Colour is semantic before it is decorative: the four status hues below each
+ * mean one specific thing about how much evidence stands behind a claim, and
+ * nothing is tinted for mood. Surfaces are differentiated by role rather than
+ * uniformly carded — the hero deadline, a contract sheet and an escalation
+ * brief are three different kinds of object and are built to look like it.
  */
 
 :root {
-  /* Cool legal bond paper rather than warm cream. */
-  --paper: #e4e7e1;
-  --sheet: #f6f7f3;
-  --sheet-sunk: #eceee8;
-  --ink: #16262b;
-  --ink-soft: #55655f;
-  --ink-faint: #7d8a85;
-  --rule: #c8cec6;
-  --rule-strong: #a9b2aa;
+  --app-bg: #e8e8e3;
+  --surface: #ffffff;
+  --surface-2: #f6f6f2;
+  --surface-sunk: #eeeee9;
+  --border: #dcdcd4;
+  --border-strong: #c2c2b8;
+
+  --header: #10242e;
+  --header-soft: #9fb3bd;
+
+  --ink: #15242d;
+  --ink-soft: #566873;
+  --ink-faint: #8496a1;
 
   /* The confidence ladder. These four are the product. */
-  --found: #1f5d4c;
-  --found-wash: #e2ebe6;
-  --inferred: #2c5a86;
-  --inferred-wash: #e2e9f0;
-  --uncertain: #9a5b14;
-  --uncertain-wash: #f3e9d9;
-  --silent: #5f6b66;
-  --silent-wash: #e8eae6;
+  --found: #0f7b5f;
+  --found-bg: #e6f4ef;
+  --inferred: #1f6fb2;
+  --inferred-bg: #e6eff8;
+  --uncertain: #b8700c;
+  --uncertain-bg: #fbf0dd;
+  --silent: #64757f;
+  --silent-bg: #eef1f3;
 
-  --alert: #8c2f26;
-  --alert-wash: #f2e3e1;
+  --alert: #b3261e;
+  --alert-bg: #fbe9e7;
+  --alert-strong: #8c1d17;
 
-  --measure: 68ch;
+  --shadow-card: 0 1px 2px rgba(21, 36, 45, 0.06);
+  --shadow-raised: 0 4px 14px -4px rgba(21, 36, 45, 0.18);
 }
 
 html {
-  background: var(--paper);
+  background: var(--app-bg);
   color-scheme: light;
 }
 
 body {
-  background: var(--paper);
+  background: var(--app-bg);
   color: var(--ink);
   font-family: var(--font-plex), ui-sans-serif, system-ui, sans-serif;
-  font-size: 15px;
-  line-height: 1.55;
+  font-size: 14.5px;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-variant-numeric: tabular-nums;
 }
 
+/* Headings keep the serif: this is a tool for reading contracts, and the legal
+   register belongs in its voice. The sans face carries the interface chrome —
+   labels, controls, data — so the thing reads as software written for law
+   rather than as a document pretending to be an app. */
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--font-newsreader), Georgia, serif;
   font-weight: 500;
-  letter-spacing: -0.011em;
-  line-height: 1.2;
+  letter-spacing: -0.008em;
+  line-height: 1.25;
 }
 
-/* Clause references: the one place a mono face earns its keep, because clause
-   numbers and page numbers are data that should align down a column. */
+/* Interface furniture: labels, column heads, controls. */
+.ui {
+  font-family: var(--font-plex), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
 .ref {
   font-family: var(--font-plex-mono), ui-monospace, monospace;
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   letter-spacing: -0.01em;
 }
 
-.sheet {
-  background: var(--sheet);
-  border: 1px solid var(--rule);
-  border-radius: 3px;
+/* Surfaces, differentiated by role rather than all identical. */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
 }
 
-.rule-t {
-  border-top: 1px solid var(--rule);
+.card-head {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+  border-radius: 8px 8px 0 0;
 }
 
-/* Focus that stays visible on every ground we use. */
-:where(a, button, [tabindex]):focus-visible {
-  outline: 2px solid var(--ink);
+/* Interactive things must look interactive. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  border-radius: 6px;
+  padding: 0.3rem 0.65rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--ink);
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+
+.btn:hover {
+  background: var(--surface-sunk);
+  border-color: var(--ink-faint);
+}
+
+.cite {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  border-radius: 5px;
+  padding: 0.15rem 0.4rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+
+.cite:hover {
+  background: var(--surface);
+  border-color: var(--ink-faint);
+  color: var(--ink);
+}
+
+.row-hover {
+  transition: background 0.12s ease;
+}
+
+.row-hover:hover {
+  background: var(--surface-2);
+}
+
+:where(a, button, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--inferred);
   outline-offset: 2px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 ::selection {
-  background: #cfd9d3;
+  background: #cfe0ea;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -100,26 +165,22 @@ h3 {
   }
 }
 
-/* The evidence highlight drawn over a rendered PDF page. Kept as a wash with a
-   solid underline rather than a block fill, so the words stay readable. */
+/* The evidence highlight drawn over a rendered PDF page. */
 .evidence-box {
   position: absolute;
-  background: rgba(154, 91, 20, 0.2);
-  /* Drawn a little below the glyph box: character-recognition boxes hug the
-     letterforms tightly, so an underline placed at the box edge reads as a
-     strikethrough straight through the words it is meant to point at. */
+  background: rgba(184, 112, 12, 0.22);
   border-bottom: 2px solid var(--uncertain);
   /* content-box, so the padding extends the box below the glyphs rather than
      eating into it — under border-box the rule lands on the baseline and reads
      as a strikethrough through the very words it is pointing at. */
   box-sizing: content-box;
   padding-bottom: 2px;
-  border-radius: 1px;
+  border-radius: 2px;
   pointer-events: none;
 }
 
 .evidence-box[data-kind="exact"],
 .evidence-box[data-kind="normalised"] {
-  background: rgba(31, 93, 76, 0.16);
+  background: rgba(15, 123, 95, 0.2);
   border-bottom-color: var(--found);
 }

@@ -36,9 +36,9 @@ export function Workspace({ contracts }: { contracts: ContractResult[] }) {
 
   return (
     <div className="flex flex-col gap-6 lg:flex-row">
-      <nav aria-label="Contracts" className="lg:w-56 lg:shrink-0">
-        <h2 className="mb-3 text-[1.15rem]">Contracts</h2>
-        <ul className="space-y-px">
+      <nav aria-label="Contracts" className="lg:w-60 lg:shrink-0">
+        <h2 className="mb-2.5 text-[1.1rem]">Contracts</h2>
+        <ul className="card divide-y overflow-hidden" style={{ borderColor: "var(--border)" }}>
           {contracts.map((contract) => {
             const active = contract.docId === selected.docId;
             const unsettled = contract.fields.filter((f) => f.confidence === "UNCERTAIN").length;
@@ -48,17 +48,30 @@ export function Workspace({ contracts }: { contracts: ContractResult[] }) {
                   type="button"
                   onClick={() => setSelectedId(contract.docId)}
                   aria-current={active ? "true" : undefined}
-                  className="w-full border-l-2 px-3 py-2.5 text-left transition-colors"
+                  className="row-hover w-full cursor-pointer border-l-[3px] px-3 py-2.5 text-left"
                   style={{
-                    borderColor: active ? "var(--ink)" : "var(--rule)",
-                    background: active ? "var(--sheet)" : "transparent",
+                    borderLeftColor: active ? "var(--header)" : "transparent",
+                    background: active ? "var(--surface-sunk)" : "var(--surface)",
                   }}
                 >
-                  <span className="block text-[0.88rem] leading-snug">{contract.title}</span>
-                  <span className="ref mt-1 block" style={{ color: "var(--ink-faint)" }}>
-                    {contract.format.toUpperCase()}
-                    {contract.ocrPages.length > 0 && " · scanned"}
-                    {unsettled > 0 && ` · ${unsettled} unsettled`}
+                  <span
+                    className="block text-[0.87rem] leading-snug"
+                    style={{ fontWeight: active ? 600 : 400 }}
+                  >
+                    {contract.title}
+                  </span>
+                  <span className="ui mt-1 flex flex-wrap items-center gap-1.5 text-[0.68rem] uppercase tracking-wide">
+                    <span style={{ color: "var(--ink-faint)" }}>{contract.format}</span>
+                    {contract.ocrPages.length > 0 && (
+                      <span className="rounded px-1" style={{ color: "var(--inferred)", background: "var(--inferred-bg)" }}>
+                        scanned
+                      </span>
+                    )}
+                    {unsettled > 0 && (
+                      <span className="rounded px-1" style={{ color: "var(--uncertain)", background: "var(--uncertain-bg)" }}>
+                        {unsettled} unsettled
+                      </span>
+                    )}
                   </span>
                 </button>
               </li>
@@ -68,16 +81,15 @@ export function Workspace({ contracts }: { contracts: ContractResult[] }) {
       </nav>
 
       <section aria-label={`${selected.title} details`} className="min-w-0 flex-1">
-        <header className="mb-4">
-          <h2 className="text-[1.3rem]">{selected.title}</h2>
-          <p className="ref mt-1" style={{ color: "var(--ink-faint)" }}>
-            {selected.fileName}
-            {!selected.paginated && " · no fixed pagination"}
-            {selected.ocrPages.length > 0 && ` · read by character recognition, pages ${selected.ocrPages.join(", ")}`}
-          </p>
-        </header>
-
-        <div className="sheet">
+        <div className="card overflow-hidden">
+          <header className="card-head px-4 py-3">
+            <h2 className="text-[1.2rem]">{selected.title}</h2>
+            <p className="ref mt-1" style={{ color: "var(--ink-faint)" }}>
+              {selected.fileName}
+              {!selected.paginated && " · no fixed pagination"}
+              {selected.ocrPages.length > 0 && ` · read by character recognition, pages ${selected.ocrPages.join(", ")}`}
+            </p>
+          </header>
           {selected.fields.map((field) => (
             <FieldRow key={field.fieldId} field={field} onCite={show} />
           ))}
@@ -85,8 +97,8 @@ export function Workspace({ contracts }: { contracts: ContractResult[] }) {
 
         {selected.payments.length > 0 && (
           <>
-            <h3 className="mb-2 mt-7 text-[1.05rem]">What has to be paid</h3>
-            <div className="sheet">
+            <h3 className="mb-2 mt-6 text-[1.05rem]">What has to be paid</h3>
+            <div className="card overflow-hidden">
               {selected.payments.map((payment) => (
                 <PaymentRow key={payment.id} payment={payment} onCite={show} />
               ))}
@@ -96,8 +108,8 @@ export function Workspace({ contracts }: { contracts: ContractResult[] }) {
 
         {selected.grants.length > 0 && (
           <>
-            <h3 className="mb-2 mt-7 text-[1.05rem]">Exclusivity granted</h3>
-            <div className="sheet">
+            <h3 className="mb-2 mt-6 text-[1.05rem]">Exclusivity granted</h3>
+            <div className="card overflow-hidden">
               {selected.grants.map((grant) => (
                 <GrantRow key={grant.id} grant={grant} onCite={show} />
               ))}
@@ -124,13 +136,7 @@ function CitationButtons({ citations, onCite }: { citations: Citation[]; onCite:
   return (
     <div className="mt-1.5 flex flex-wrap gap-1.5">
       {citations.map((citation, i) => (
-        <button
-          key={i}
-          type="button"
-          onClick={() => onCite(citation)}
-          className="ref border px-1.5 py-0.5 transition-colors hover:border-current"
-          style={{ borderColor: "var(--rule)", color: "var(--ink-soft)" }}
-        >
+        <button key={i} type="button" onClick={() => onCite(citation)} className="cite ref">
           {citationRef(citation)}
         </button>
       ))}
@@ -149,13 +155,13 @@ function Row({
 }) {
   return (
     <div
-      className="grid gap-x-5 gap-y-1.5 border-b px-4 py-3.5 last:border-b-0 sm:grid-cols-[13rem_1fr]"
+      className="row-hover grid gap-x-5 gap-y-1.5 border-b px-4 py-3 last:border-b-0 sm:grid-cols-[12rem_1fr]"
       style={{
-        borderColor: "var(--rule)",
-        background: emphasis ? "var(--sheet-sunk)" : "transparent",
+        borderColor: "var(--border)",
+        background: emphasis ? "var(--uncertain-bg)" : "transparent",
       }}
     >
-      <div className="text-[0.86rem] font-medium" style={{ color: "var(--ink-soft)" }}>
+      <div className="ui text-[0.78rem] uppercase tracking-wide" style={{ color: "var(--ink-faint)" }}>
         {label}
       </div>
       <div className="min-w-0">{children}</div>

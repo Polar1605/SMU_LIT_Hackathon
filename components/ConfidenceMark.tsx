@@ -1,26 +1,36 @@
 import type { Confidence } from "@/lib/types";
-import { CONFIDENCE_LABEL, CONFIDENCE_VAR, CONFIDENCE_WASH } from "@/lib/display";
+import { CONFIDENCE_LABEL, CONFIDENCE_VAR } from "@/lib/display";
+
+const BG: Record<Confidence, string> = {
+  FOUND: "var(--found-bg)",
+  INFERRED: "var(--inferred-bg)",
+  UNCERTAIN: "var(--uncertain-bg)",
+  NOT_FOUND: "var(--silent-bg)",
+};
 
 /**
- * The confidence marker, always visible and never behind a hover.
+ * The status pill, always visible and never behind a hover.
  *
- * Deliberately a flat tinted label rather than a coloured pill floating on a
- * card: it reads as an annotation on the row it belongs to, which is what it is.
- * The colour is carried by the text and a solid left edge, so it survives being
- * printed or screenshotted in greyscale — where the word still says everything.
+ * A filled dot alongside the word, so the state survives greyscale and
+ * colour-blindness — the word carries the meaning and the colour only
+ * reinforces it.
  */
 export function ConfidenceMark({ level, size = "normal" }: { level: Confidence; size?: "normal" | "small" }) {
   return (
     <span
-      className={`inline-flex shrink-0 items-center gap-1.5 border-l-2 font-medium ${
-        size === "small" ? "px-1.5 py-px text-[11px]" : "px-2 py-0.5 text-xs"
+      className={`inline-flex shrink-0 items-center gap-1.5 rounded-full font-semibold uppercase tracking-wide ${
+        size === "small" ? "px-1.5 py-px text-[10px]" : "px-2 py-0.5 text-[10.5px]"
       }`}
-      style={{
-        color: CONFIDENCE_VAR[level],
-        background: CONFIDENCE_WASH[level],
-        borderColor: CONFIDENCE_VAR[level],
-      }}
+      style={{ color: CONFIDENCE_VAR[level], background: BG[level] }}
     >
+      <span
+        aria-hidden
+        className="inline-block h-1.5 w-1.5 rounded-full"
+        style={{
+          background: level === "NOT_FOUND" ? "transparent" : CONFIDENCE_VAR[level],
+          boxShadow: level === "NOT_FOUND" ? `inset 0 0 0 1.5px ${CONFIDENCE_VAR[level]}` : undefined,
+        }}
+      />
       {CONFIDENCE_LABEL[level]}
     </span>
   );
