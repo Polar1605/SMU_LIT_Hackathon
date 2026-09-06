@@ -83,6 +83,12 @@ describe("OCR-limited spans", () => {
   it("allows FOUND on a clean scan", () => {
     expect(verdict({ ocrMean: 96, ocrMin: 95 }).level).toBe("FOUND");
   });
+
+  it("allows FOUND on an ordinary scan averaging in the mid-80s", () => {
+    // A typical Tesseract read of a legible page. The old floor of 90 hedged
+    // on this; the value-carrying words are still clean (ocrMin 84).
+    expect(verdict({ ocrMean: 85, ocrMin: 84 }).level).toBe("FOUND");
+  });
 });
 
 describe("fuzzy citations cost a level", () => {

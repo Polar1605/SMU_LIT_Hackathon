@@ -25,8 +25,17 @@ import { bigramCounts, bigramDice, normalise, similarity } from "./normalise.ts"
 import type { BBox, MatchKind, ParsedDoc, Word } from "./types.ts";
 
 export const FUZZY_THRESHOLD = 0.92;
-/** Below this mean OCR confidence over a span, a field cannot be FOUND. */
-export const OCR_MEAN_FLOOR = 90;
+/**
+ * Below this mean OCR confidence over a span, a field cannot be FOUND.
+ *
+ * A clean scan run through Tesseract typically averages in the mid-80s, not the
+ * high 90s, so a floor of 90 marked ordinary scanned contracts UNCERTAIN across
+ * the board — the over-hedging this system exists to avoid. 82 still catches a
+ * genuinely degraded page while leaving a legible scan alone; the per-word floor
+ * below, scoped to the words that carry the answer, is what guards the figure
+ * itself.
+ */
+export const OCR_MEAN_FLOOR = 82;
 /** Or below this for any single word in the span — one garbled figure is enough. */
 export const OCR_MIN_FLOOR = 60;
 
