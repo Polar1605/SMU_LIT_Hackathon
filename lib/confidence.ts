@@ -26,6 +26,19 @@ export interface ConfidenceInput {
   ambiguities: string[];
   ocrMean: number | null;
   ocrMin: number | null;
+  /**
+   * True when `ocrMin` is scoped to the words that carry the answer rather than
+   * the whole clause. A single sub-threshold word then hedges the field, because
+   * it is by construction a word the answer depends on. Across a full span,
+   * `ocrPoorWordCount` decides instead.
+   */
+  ocrMinIsValueScoped?: boolean;
+  /**
+   * Substantive words (>= 3 letters or digits) across the supporting span(s)
+   * recognised below the OCR floor. Two are required before the scan quality
+   * alone hedges a field; one poorly recognised word on a scan is normal.
+   */
+  ocrPoorWordCount?: number;
   /** Whether our own keyword probe finds a plausibly relevant clause. */
   hasCandidateClause: boolean;
   /** A money field that could not be reduced to one figure. */
@@ -109,12 +122,25 @@ export function computeConfidence(input: ConfidenceInput): ConfidenceVerdict {
     };
   }
   if (input.ocrMin !== null && input.ocrMin < OCR_MIN_FLOOR) {
-    return {
-      level: "UNCERTAIN",
-      reasons: [
-        `At least one word in this clause was poorly recognised on the scan (confidence ${input.ocrMin.toFixed(0)} out of 100), and it may be one that carries the meaning. Check the original document.`,
-      ],
-    };
+    // One poorly recognised word in a span is not enough on its own — on a real
+    // scan there is nearly always one, and it is usually a stray mark. We hedge
+    // when that word is one carrying the answer, or when it is not alone.
+    if (input.ocrMinIsValueScoped) {
+      return {
+        level: "UNCERTAIN",
+        reasons: [
+          `A word carrying this value was poorly recognised on the scan (confidence ${input.ocrMin.toFixed(0)} out of 100). Check the original document.`,
+        ],
+      };
+    }
+    if ((input.ocrPoorWordCount ?? 0) >= 2) {
+      return {
+        level: "UNCERTAIN",
+        reasons: [
+          `Several words in this clause were poorly recognised on the scan (lowest confidence ${input.ocrMin.toFixed(0)} out of 100). Check the original document.`,
+        ],
+      };
+    }
   }
 
   // 6. A cap that will not reduce to a single figure.

@@ -36,8 +36,26 @@ export const FUZZY_THRESHOLD = 0.92;
  * itself.
  */
 export const OCR_MEAN_FLOOR = 82;
-/** Or below this for any single word in the span — one garbled figure is enough. */
+/**
+ * A word recognised below this is "poorly recognised". One such word in a span
+ * is not, on its own, enough to distrust the answer — on a real scan there is
+ * almost always one, and it is usually a stray mark or an edge glyph rather than
+ * the text that carries the meaning. The caller hedges only when the poor word
+ * is one carrying the value, or when two or more substantive words in the span
+ * fall below the floor.
+ */
 export const OCR_MIN_FLOOR = 60;
+
+/**
+ * Only a word with at least this many letters or digits counts toward the
+ * poor-recognition tally. Punctuation and one- or two-character tokens are
+ * recognised unreliably regardless and carry little meaning; letting one of them
+ * gate a field is the over-firing this guard is written to avoid.
+ */
+const SUBSTANTIVE_MIN_CHARS = 3;
+
+const isSubstantiveWord = (text: string): boolean =>
+  text.replace(/[^A-Za-z0-9]/g, "").length >= SUBSTANTIVE_MIN_CHARS;
 
 /** Shortlist size for the coarse pass before edit distance is paid for. */
 const FUZZY_CANDIDATES = 3;
@@ -52,6 +70,12 @@ export interface VerifyResult {
   bboxes: { pageNum: number; box: BBox }[];
   ocrConfidenceMean: number | null;
   ocrConfidenceMin: number | null;
+  /**
+   * How many substantive words in this span were recognised below OCR_MIN_FLOOR.
+   * The caller needs two before it hedges on span-wide grounds, so the count
+   * matters, not just the minimum.
+   */
+  ocrPoorWordCount: number;
   /** Our text at the span. Never the model's version of it. */
   quotedText: string;
 }
@@ -86,6 +110,7 @@ function buildResult(
   let weighted = 0;
   let weight = 0;
   let min: number | null = null;
+  let poorWordCount = 0;
   for (const { word } of hits) {
     if (word.ocrConfidence === null) continue;
     const overlap = Math.min(charEnd, word.charEnd) - Math.max(charStart, word.charStart);
@@ -93,6 +118,7 @@ function buildResult(
     weighted += word.ocrConfidence * overlap;
     weight += overlap;
     min = min === null ? word.ocrConfidence : Math.min(min, word.ocrConfidence);
+    if (word.ocrConfidence < OCR_MIN_FLOOR && isSubstantiveWord(word.text)) poorWordCount += 1;
   }
 
   return {
@@ -106,6 +132,7 @@ function buildResult(
       .map((h) => ({ pageNum: h.pageNum, box: h.word.bbox })),
     ocrConfidenceMean: weight > 0 ? weighted / weight : null,
     ocrConfidenceMin: min,
+    ocrPoorWordCount: poorWordCount,
     quotedText: doc.fullText.slice(charStart, charEnd),
   };
 }

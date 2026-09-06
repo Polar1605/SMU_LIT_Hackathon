@@ -76,8 +76,22 @@ describe("OCR-limited spans", () => {
     expect(verdict({ ocrMean: 74, ocrMin: 22 }).level).toBe("UNCERTAIN");
   });
 
-  it("cannot report FOUND when a single word was badly recognised", () => {
-    expect(verdict({ ocrMean: 94, ocrMin: 22 }).level).toBe("UNCERTAIN");
+  it("hedges when the word carrying the value was badly recognised", () => {
+    const result = verdict({ ocrMean: 94, ocrMin: 22, ocrMinIsValueScoped: true });
+    expect(result.level).toBe("UNCERTAIN");
+    expect(result.reasons.join(" ")).toMatch(/carrying this value/i);
+  });
+
+  it("hedges when two or more words across the span were badly recognised", () => {
+    const result = verdict({ ocrMean: 94, ocrMin: 22, ocrPoorWordCount: 2 });
+    expect(result.level).toBe("UNCERTAIN");
+    expect(result.reasons.join(" ")).toMatch(/several words/i);
+  });
+
+  it("does not hedge on one poorly recognised word away from the value", () => {
+    // A single low-confidence word on a scan is normal — usually a stray mark,
+    // not the text that carries the answer. One is not enough on its own.
+    expect(verdict({ ocrMean: 94, ocrMin: 22, ocrPoorWordCount: 1 }).level).toBe("FOUND");
   });
 
   it("allows FOUND on a clean scan", () => {

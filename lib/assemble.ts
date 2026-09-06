@@ -43,6 +43,8 @@ interface VerificationOutcome {
   discardedCount: number;
   ocrMean: number | null;
   ocrMin: number | null;
+  /** Substantive words below the OCR floor, summed across every supporting span. */
+  ocrPoorWordCount: number;
 }
 
 /**
@@ -51,7 +53,9 @@ interface VerificationOutcome {
  * OCR confidence is aggregated across all supporting spans: the mean is
  * length-weighted so a long clean quote is not dragged down by a short one,
  * while the minimum is kept unweighted because a single badly-recognised word
- * can be the one carrying the figure.
+ * can be the one carrying the figure. The count of poorly recognised words is
+ * carried alongside it: away from the value-carrying words, the caller wants two
+ * before it distrusts the scan.
  */
 function verifyAll(quotes: RawQuote[], doc: ParsedDoc): VerificationOutcome {
   const citations: Citation[] = [];
@@ -60,6 +64,7 @@ function verifyAll(quotes: RawQuote[], doc: ParsedDoc): VerificationOutcome {
   let ocrWeighted = 0;
   let ocrWeight = 0;
   let ocrMin: number | null = null;
+  let ocrPoorWordCount = 0;
 
   for (const quote of quotes) {
     const result = verifyQuote(quote.text, doc);
@@ -92,6 +97,7 @@ function verifyAll(quotes: RawQuote[], doc: ParsedDoc): VerificationOutcome {
     if (result.ocrConfidenceMin !== null) {
       ocrMin = ocrMin === null ? result.ocrConfidenceMin : Math.min(ocrMin, result.ocrConfidenceMin);
     }
+    ocrPoorWordCount += result.ocrPoorWordCount;
   }
 
   return {
@@ -100,6 +106,7 @@ function verifyAll(quotes: RawQuote[], doc: ParsedDoc): VerificationOutcome {
     discardedCount,
     ocrMean: ocrWeight > 0 ? ocrWeighted / ocrWeight : null,
     ocrMin,
+    ocrPoorWordCount,
   };
 }
 
@@ -186,6 +193,8 @@ function buildFields(extraction: RawExtraction, doc: ParsedDoc): FieldResult[] {
       ambiguities: raw.ambiguities,
       ocrMean: outcome.ocrMean,
       ocrMin: valueScopedMin ?? outcome.ocrMin,
+      ocrMinIsValueScoped: valueScopedMin !== null,
+      ocrPoorWordCount: outcome.ocrPoorWordCount,
       hasCandidateClause: hasCandidateClause(fieldId, doc.fullText),
       unresolvedAmount: looksUnresolved(fieldId, raw.value),
     });
@@ -222,6 +231,7 @@ function buildPayments(extraction: RawExtraction, doc: ParsedDoc): PaymentTerm[]
         : raw.ambiguities,
       ocrMean: outcome.ocrMean,
       ocrMin: outcome.ocrMin,
+      ocrPoorWordCount: outcome.ocrPoorWordCount,
       hasCandidateClause: true,
     });
 
@@ -253,6 +263,7 @@ function buildGrants(extraction: RawExtraction, doc: ParsedDoc): Grant[] {
       ambiguities: raw.ambiguities,
       ocrMean: outcome.ocrMean,
       ocrMin: outcome.ocrMin,
+      ocrPoorWordCount: outcome.ocrPoorWordCount,
       hasCandidateClause: true,
     });
 

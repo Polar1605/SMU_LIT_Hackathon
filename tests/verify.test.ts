@@ -212,6 +212,17 @@ describe("verifyQuote — OCR confidence over the span", () => {
     expect(result!.ocrConfidenceMin).toBe(96);
   });
 
+  it("counts a substantive poorly recognised word toward the poor-word tally", () => {
+    const result = verifyQuote("shall not exceed $$100,000. in aggregate", doc);
+    // "$$100,000." is the one damaged word; its digits are substantive.
+    expect(result!.ocrPoorWordCount).toBe(1);
+  });
+
+  it("does not count a clean span's words as poorly recognised", () => {
+    const result = verifyQuote("notice is required to prevent renewal", doc);
+    expect(result!.ocrPoorWordCount).toBe(0);
+  });
+
   it("reports null confidence for text that was never OCR'd", () => {
     const result = verifyQuote("This Agreement commences on 1 January 2026", doc);
     expect(result!.ocrConfidenceMin).toBeNull();
